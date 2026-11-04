@@ -1,6 +1,6 @@
 {
   "event": "schedule",
-  "run": "22",
+  "run": "23",
   "exit_code": 0,
-  "tail": "--- fetch ---\n@baipiaotg: 100 messages  id_range=75586..75685\n@wzxylh: 95 messages  id_range=473..596\n@pk_oa: 74 messages  id_range=212..318\n--- enrich ---\npending 28 forum urls (cached 271)\nenriched ok=25 fail=3\n--- analyze ---\nanalyzing 28/185 items via https://napi.luvz.top/v1 / deepseek-v4.1-flash-1017\n--- push ---\nevents by channel: @baipiaotg 130 · @wzxylh 14 · @pk_oa 2\nfresh by channel: @baipiaotg 23 · @wzxylh 1\npushed 1 messages to chat 6867015060 (24 events)"
+  "tail": "--- fetch ---\n@baipiaotg: 100 messages  id_range=75621..75720\n@wzxylh: 94 messages  id_range=476..598\n@pk_oa: 75 messages  id_range=212..320\n--- enrich ---\npending 36 forum urls (cached 298)\n  ! linux.do throttled, deferring 10 remaining urls\nenriched ok=23 fail=8\n--- analyze ---\nanalyzing 38/221 items via https://napi.luvz.top/v1 / deepseek-v4.1-flash-1017\n--- push ---\nevents by channel: @baipiaotg 155 · @wzxylh 14 · @pk_oa 3\nfresh by channel: @baipiaotg 29 · @wzxylh 2 · @pk_oa 1\npushed 2 messages to chat 6867015060 (32 events)"
 }
