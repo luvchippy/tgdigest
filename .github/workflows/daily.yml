@@ -99,8 +99,8 @@ jobs:
           python - <<'PY'
           import json, os, pathlib, re
           lines = open('/tmp/run.log', encoding='utf-8', errors='replace').read().splitlines()
-          keep = re.compile(r'^(@|config source|--- |fetched|pending|enrich|analyzing|llm |events |pushed|nothing|fresh by|!|  host |  time_range)|throttled')
-          tail = '\n'.join(l for l in lines if keep.search(l))[-2000:]
+          keep = re.compile(r'^(@[a-z_]+: |config source|--- (fetch|enrich|analyze|push)|enriched|pending|analyzing|events by|fresh by|pushed|nothing new)|throttled')
+          tail = '\n'.join(l for l in lines if keep.search(l))[-900:]
           os.makedirs('runs', exist_ok=True)
           pathlib.Path('runs/status.json').write_text(json.dumps({
               'event': os.environ.get('GITHUB_EVENT_NAME'),
