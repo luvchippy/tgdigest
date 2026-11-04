@@ -1,1 +1,4 @@
-cmVxdWVzdHMKY3VybF9jZmZpCmJlYXV0aWZ1bHNvdXA0Cmx4bWwK
+requests
+curl_cffi
+beautifulsoup4
+lxml

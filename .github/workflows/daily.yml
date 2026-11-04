@@ -1,0 +1,88 @@
+name: tgdigest
+
+on:
+  schedule:
+    # 北京时间 09:26 / 13:56 / 18:26（GitHub cron 走 UTC）
+    - cron: "26 1 * * *"
+    - cron: "56 5 * * *"
+    - cron: "26 10 * * *"
+  workflow_dispatch:
+    inputs:
+      hours:
+        description: "回看小时数"
+        default: "36"
+      reset:
+        description: "忽略推送水位，全部重推 (true/false)"
+        default: "false"
+
+concurrency:
+  group: tgdigest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Restore state
+        uses: actions/cache@v4
+        with:
+          path: data/tgdigest.db
+          key: tgdigest-db-${{ github.run_id }}
+          restore-keys: tgdigest-db-
+
+      - name: Resolve config
+        env:
+          S_LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          S_LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          S_LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          S_TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          S_TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+        run: |
+          set -a
+          if [ -f config.env ]; then . ./config.env; fi
+          if [ -n "$S_LLM_BASE_URL" ]; then LLM_BASE_URL="$S_LLM_BASE_URL"; fi
+          if [ -n "$S_LLM_MODEL" ]; then LLM_MODEL="$S_LLM_MODEL"; fi
+          if [ -n "$S_LLM_API_KEY" ]; then LLM_API_KEY="$S_LLM_API_KEY"; fi
+          if [ -n "$S_TG_BOT_TOKEN" ]; then TG_BOT_TOKEN="$S_TG_BOT_TOKEN"; fi
+          if [ -n "$S_TG_CHAT_ID" ]; then TG_CHAT_ID="$S_TG_CHAT_ID"; fi
+          set +a
+          echo "::add-mask::$LLM_API_KEY"
+          echo "::add-mask::$TG_BOT_TOKEN"
+          {
+            echo "LLM_BASE_URL=$LLM_BASE_URL"
+            echo "LLM_MODEL=$LLM_MODEL"
+            echo "LLM_API_KEY=$LLM_API_KEY"
+            echo "TG_BOT_TOKEN=$TG_BOT_TOKEN"
+            echo "TG_CHAT_ID=$TG_CHAT_ID"
+          } >> "$GITHUB_ENV"
+
+      - name: Run digest
+        run: |
+          mkdir -p data
+          ARGS="--channel baipiaotg --hours ${{ github.event.inputs.hours || '36' }} --pages 5 --limit 120"
+          if [ "${{ github.event.inputs.reset }}" = "true" ]; then
+            ARGS="$ARGS --reset"
+          fi
+          python -m tgdigest run $ARGS --out data/digest.md
+
+      - name: Upload digest
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest-${{ github.run_number }}
+          path: data/digest.md
+          if-no-files-found: warn
+          retention-days: 14
