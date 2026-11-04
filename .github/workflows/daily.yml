@@ -91,6 +91,9 @@ jobs:
           if [ "${{ github.event.inputs.reset }}" = "true" ]; then
             ARGS="$ARGS --reset"
           fi
+          if [ "${{ github.event_name }}" = "push" ]; then
+            ARGS="$ARGS --no-push"
+          fi
           set +e
           python -m tgdigest run $ARGS --out data/digest.md 2>&1 | tee /tmp/run.log
           RC=${PIPESTATUS[0]}
@@ -99,7 +102,7 @@ jobs:
           python - <<'PY'
           import json, os, pathlib, re
           lines = open('/tmp/run.log', encoding='utf-8', errors='replace').read().splitlines()
-          keep = re.compile(r'^(@|config source|--- |fetched|pending|enrich|analyzing|llm |events |pushed|nothing|fresh by|!|  host )|throttled')
+          keep = re.compile(r'^(@|config source|--- |fetched|pending|enrich|analyzing|llm |events |pushed|nothing|fresh by|!|  host |  time_range)|throttled')
           tail = '\n'.join(l for l in lines if keep.search(l))[-2000:]
           os.makedirs('runs', exist_ok=True)
           pathlib.Path('runs/status.json').write_text(json.dumps({
