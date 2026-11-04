@@ -1,7 +1,7 @@
 {
   "event": "push",
-  "run": "1",
-  "sha": "7e6d9faf76f481751180a70fb0eae37458698819",
+  "run": "3",
+  "sha": "86891b497b2bc51771ee8804ffdd9f9453a5b802",
   "exit_code": 0,
-  "tail": "pending 96 urls (cached 0)\n  25/96\n  50/96\n  75/96\nenriched ok=81 fail=15\n--- analyze ---\nanalyzing 100/100 items via https://napi.luvz.top/v1 / deepseek-v4.1-flash-1017\n  llm 12/100 ok=12/12\n  llm 24/100 ok=12/12\n  llm 36/100 ok=12/12\n  llm 48/100 ok=12/12\n  llm 60/100 ok=12/12\n  llm 72/100 ok=12/12\n  llm 84/100 ok=12/12\n  llm 96/100 ok=12/12\n  llm 100/100 ok=4/4\nllm verdicts 100/100 -> data/digest.md (81 events)\n  [ad] 卖TG号频道抽奖3个泰国注册老号，回复即参与，实为引流卖号\n  [ad] 机器人送muse账号10亿token，链接带邀请码返利，回复另推同类bot\n  [ad] 美团LongCat-2.5送1000万token，需实名，附AFF邀请码\n  [freebie] 免费香港KVM机硬件体检报告，配置一般，回复称延迟偏高\n  [noise] 仅标题称WorkBuddy国际版取消免费模型，无正文无回复\n  [freebie] 腾讯云国内机2c4g可免费升4c4g，+600可升2c8g\n  [noise] 仅一句提醒开车小心，无正文无回复，无实质信息\n  [freebie] 标题称河南用户支付1分钱可抽立减金，无正文细节\n"
+  "tail": "--- fetch ---\nfetched 100 messages  id_range=75517..75616\ntime_range=2026-11-03T01:53:43+00:00 .. 2026-11-04T02:15:46+00:00\ntotal in db: 100\n--- enrich ---\npending 8 urls (cached 96)\nenriched ok=0 fail=8\n--- analyze ---\nanalyzing 0/100 items via https://napi.luvz.top/v1 / deepseek-v4.1-flash-1017\nllm verdicts 0/100 -> data/digest.md (81 events)\n  [ad] 卖TG号频道抽奖3个泰国注册老号，回复即参与，实为引流卖号\n  [ad] 机器人送muse账号10亿token，链接带邀请码返利，回复另推同类bot\n  [ad] 美团LongCat-2.5送1000万token，需实名，附AFF邀请码\n  [freebie] 免费香港KVM机硬件体检报告，配置一般，回复称延迟偏高\n  [noise] 仅标题称WorkBuddy国际版取消免费模型，无正文无回复\n  [freebie] 腾讯云国内机2c4g可免费升4c4g，+600可升2c8g\n  [noise] 仅一句提醒开车小心，无正文无回复，无实质信息\n  [freebie] 标题称河南用户支付1分钱可抽立减金，无正文细节\n"
 }
