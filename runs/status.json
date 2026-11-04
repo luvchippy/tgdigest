@@ -1,6 +1,6 @@
 {
   "event": "push",
-  "run": "10",
-  "exit_code": 1,
-  "tail": ""
+  "run": "11",
+  "exit_code": 0,
+  "tail": "--- fetch ---\n@baipiaotg: 100 messages  id_range=75543..75642\n@wzxylh: 94 messages  id_range=473..595\n--- enrich ---\npending 20 forum urls (cached 191)\nenriched ok=0 fail=20\nenrich breakdown: http 429 18 · http 404 1 · http 200 1\n  host linux.do: 18 urls\n  host www.nodeseek.com: 2 urls\n--- analyze ---\nanalyzing 7/127 items via https://napi.luvz.top/v1 / deepseek-v4.1-flash-1017\nllm verdicts 7/127 -> data/digest.md (106 events)\n--- push ---\nevents 106 -> fresh 7 (already delivered 99)\npushed 1 messages to chat 6867015060 (7 events)"
 }
