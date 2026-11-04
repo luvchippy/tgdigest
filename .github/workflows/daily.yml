@@ -6,10 +6,6 @@ on:
     - cron: "26 1 * * *"
     - cron: "56 5 * * *"
     - cron: "26 10 * * *"
-  push:
-    branches: [main]
-    paths-ignore:
-      - "runs/**"
   workflow_dispatch:
     inputs:
       hours:
