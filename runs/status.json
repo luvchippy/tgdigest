@@ -1,6 +1,6 @@
 {
   "event": "push",
-  "run": "13",
+  "run": "14",
   "exit_code": 0,
-  "tail": "--- fetch ---\n@baipiaotg: 100 messages  id_range=75550..75649\n@wzxylh: 94 messages  id_range=473..595\n--- enrich ---\npending 23 forum urls (cached 198)\n  ! linux.do throttled, deferring 2 remaining urls\nenriched ok=4 fail=4\nenrich breakdown: ok 4 · http 200 2 · http 429 2\n  host linux.do: 17 urls\n  host www.nodeseek.com: 5 urls\n  host www.nodeloc.com: 1 urls\n--- analyze ---\nanalyzing 6/134 items via https://napi.luvz.top/v1 / deepseek-v4.1-flash-1017\nllm verdicts 6/134 -> data/digest.md (111 events)\n--- push ---\nevents 111 -> fresh 5 (already delivered 106)\npushed 1 messages to chat 6867015060 (5 events)"
+  "tail": "--- fetch ---\n@baipiaotg: 100 messages  id_range=75550..75649\n@wzxylh: 94 messages  id_range=473..595\n--- enrich ---\npending 18 forum urls (cached 204)\n  ! linux.do throttled, deferring 2 remaining urls\nenriched ok=0 fail=3\nenrich breakdown: http 429 2 · http 200 1\n  host linux.do: 17 urls\n  host www.nodeseek.com: 1 urls\n--- analyze ---\nanalyzing 0/134 items via https://napi.luvz.top/v1 / deepseek-v4.1-flash-1017\nllm verdicts 0/134 -> data/digest.md (111 events)\n--- push ---\nevents 111 -> fresh 0 (already delivered 111)\nnothing new to push"
 }
