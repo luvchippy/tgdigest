@@ -84,9 +84,6 @@ jobs:
           if [ "${{ github.event.inputs.reset }}" = "true" ]; then
             ARGS="$ARGS --reset"
           fi
-          if [ "${{ github.event_name }}" = "push" ]; then
-            ARGS="$ARGS --no-push"
-          fi
           set +e
           python -m tgdigest run $ARGS --out data/digest.md 2>&1 | tee /tmp/run.log
           RC=${PIPESTATUS[0]}
