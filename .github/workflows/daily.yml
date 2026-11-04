@@ -6,6 +6,10 @@ on:
     - cron: "26 1 * * *"
     - cron: "56 5 * * *"
     - cron: "26 10 * * *"
+  push:
+    branches: [main]
+    paths-ignore:
+      - "runs/**"
   workflow_dispatch:
     inputs:
       hours:
@@ -83,9 +87,12 @@ jobs:
       - name: Run digest
         run: |
           mkdir -p data runs
-          ARGS="--channel baipiaotg,wzxylh --hours ${{ github.event.inputs.hours || '36' }} --pages 5 --limit 120"
+          ARGS="--channel baipiaotg,wzxylh,pk_oa --hours ${{ github.event.inputs.hours || '36' }} --pages 5 --limit 120"
           if [ "${{ github.event.inputs.reset }}" = "true" ]; then
             ARGS="$ARGS --reset"
+          fi
+          if [ "${{ github.event_name }}" = "push" ]; then
+            ARGS="$ARGS --no-push"
           fi
           set +e
           python -m tgdigest run $ARGS --out data/digest.md 2>&1 | tee /tmp/run.log

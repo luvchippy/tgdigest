@@ -7,9 +7,10 @@ from .dedupe import group
 from .rules import classify_rule
 from .textutil import clean as clean_text
 
+# 这份简报的核心诉求是「值得薅的」，技术内容排在其后。
 BUCKETS = [
+    ("freebie", "💰 白嫖与薅羊毛"),
     ("tech", "🔥 技术与干货"),
-    ("freebie", "💰 白嫖与优惠"),
     ("maybe", "📌 待判断"),
     ("ad", "🗑 已过滤（广告与噪音）"),
 ]
@@ -179,7 +180,7 @@ def _channel_tally(entries) -> str:
 def render_md(entries, channels, since_iso: str, out_path: str | None = None) -> str:
     names = [channels] if isinstance(channels, str) else list(channels)
     total = sum(e["count"] for e in entries)
-    lines = [f"# Telegram 技术频道精简简报", "",
+    lines = [f"# 白嫖薅羊毛简报", "",
              f"频道：{_channel_tally(entries)}",
              f"数据起点 {since_iso[:16]} · 生成于 {datetime.datetime.now():%Y-%m-%d %H:%M}",
              f"原始 {total} 条 → 归并 {len(entries)} 条事件", ""]
@@ -210,7 +211,7 @@ def render_blocks(entries, channels, since_iso: str, stats: dict | None = None) 
     total = sum(e["count"] for e in entries)
     counts = {label: sum(1 for e in entries if e["label"] == label) for label, _ in BUCKETS}
     head = [
-        '<b>📰 Telegram 技术频道精简简报</b>',
+        '<b>📰 白嫖薅羊毛简报</b>',
         f'覆盖 {_esc(_channel_tally(entries))}',
         f'{_fmt_time(since_iso)} 起 · 原始 {total} 条 → {len(entries)} 条事件',
         f'技术 {counts["tech"]} · 羊毛 {counts["freebie"]} · 待判 {counts["maybe"]} · 过滤 {counts["ad"]}',
