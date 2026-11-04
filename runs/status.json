@@ -1,7 +1,7 @@
 {
   "event": "push",
-  "run": "5",
-  "sha": "0b5612a57f96ec8a50283501baa88333310a25f5",
+  "run": "6",
+  "sha": "af1350bc854c679c1162d6748664c505ed199acb",
   "exit_code": 0,
-  "tail": "@wzxylh: 94 messages  id_range=473..595\n  time_range=2026-07-22T15:41:55+00:00 .. 2026-11-03T13:26:51+00:00  total_in_db=94\n--- enrich ---\npending 102 urls (cached 97)\n  25/102\n  50/102\n  75/102\n  100/102\nenriched ok=44 fail=58\n--- analyze ---\nanalyzing 19/120 items via https://napi.luvz.top/v1 / deepseek-v4.1-flash-1017\n  llm 12/19 ok=12/12\n  llm 19/19 ok=7/7\nllm verdicts 19/120 -> data/digest.md (99 events)\n  [ad] 卖TG号频道抽奖3个泰国注册老号，回复即参与，实为引流卖号\n  [ad] 机器人送muse账号10亿token，链接带邀请码返利，回复另推同类bot\n  [ad] 美团LongCat-2.5送1000万token，需实名，附AFF邀请码\n  [freebie] 免费香港KVM机硬件体检报告，配置一般，回复称延迟偏高\n  [noise] 仅标题称WorkBuddy国际版取消免费模型，无正文无回复\n  [freebie] 腾讯云国内机2c4g可免费升4c4g，+600可升2c8g\n  [noise] 仅一句提醒开车小心，无正文无回复，无实质信息\n  [freebie] 标题称河南用户支付1分钱可抽立减金，无正文细节\n--- push ---\nevents 99 -> fresh 18 (already delivered 81)\npushed 1 messages to chat 6867015060 (18 events)\n"
+  "tail": "--- fetch ---\n@baipiaotg: 100 messages  id_range=75536..75635\n  time_range=2026-11-03T06:13:46+00:00 .. 2026-11-04T06:33:45+00:00  total_in_db=119\n@wzxylh: 94 messages  id_range=473..595\n  time_range=2026-07-22T15:41:55+00:00 .. 2026-11-03T13:26:51+00:00  total_in_db=94\n--- enrich ---\npending 58 urls (cached 191)\n  25/58\n  50/58\nenriched ok=0 fail=58\n--- analyze ---\nanalyzing 0/120 items via https://napi.luvz.top/v1 / deepseek-v4.1-flash-1017\nllm verdicts 0/120 -> data/digest.md (99 events)\n  [ad] 卖TG号频道抽奖3个泰国注册老号，回复即参与，实为引流卖号\n  [ad] 机器人送muse账号10亿token，链接带邀请码返利，回复另推同类bot\n  [ad] 美团LongCat-2.5送1000万token，需实名，附AFF邀请码\n  [freebie] 免费香港KVM机硬件体检报告，配置一般，回复称延迟偏高\n  [noise] 仅标题称WorkBuddy国际版取消免费模型，无正文无回复\n  [freebie] 腾讯云国内机2c4g可免费升4c4g，+600可升2c8g\n  [noise] 仅一句提醒开车小心，无正文无回复，无实质信息\n  [freebie] 标题称河南用户支付1分钱可抽立减金，无正文细节\n--- push ---\nevents 99 -> fresh 0 (already delivered 99)\nnothing new to push\n"
 }
