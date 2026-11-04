@@ -2,22 +2,29 @@ name: tgdigest
 
 on:
   schedule:
-    # 北京时间 09:26 / 13:56 / 18:26（GitHub cron 走 UTC）
+    # 北京时间 09:26 / 13:56 / 18:26（cron 走 UTC，实际会有数分钟延迟）
     - cron: "26 1 * * *"
     - cron: "56 5 * * *"
     - cron: "26 10 * * *"
+  push:
+    branches: [main]
+    paths-ignore:
+      - "runs/**"
   workflow_dispatch:
     inputs:
       hours:
         description: "回看小时数"
         default: "36"
       reset:
-        description: "忽略推送水位，全部重推 (true/false)"
+        description: "忽略推送水位，全部重推"
         default: "false"
 
 concurrency:
   group: tgdigest
   cancel-in-progress: false
+
+permissions:
+  contents: write
 
 jobs:
   digest:
@@ -71,12 +78,41 @@ jobs:
 
       - name: Run digest
         run: |
-          mkdir -p data
+          mkdir -p data runs
           ARGS="--channel baipiaotg --hours ${{ github.event.inputs.hours || '36' }} --pages 5 --limit 120"
           if [ "${{ github.event.inputs.reset }}" = "true" ]; then
             ARGS="$ARGS --reset"
           fi
-          python -m tgdigest run $ARGS --out data/digest.md
+          if [ "${{ github.event_name }}" = "push" ]; then
+            ARGS="$ARGS --no-push"
+          fi
+          set +e
+          python -m tgdigest run $ARGS --out data/digest.md 2>&1 | tee /tmp/run.log
+          RC=${PIPESTATUS[0]}
+          set -e
+          export RC
+          python - <<'PY'
+          import json, os, pathlib
+          tail = "".join(open("/tmp/run.log", encoding="utf-8", errors="replace").readlines()[-25:])
+          os.makedirs("runs", exist_ok=True)
+          pathlib.Path("runs/status.json").write_text(json.dumps({
+              "event": os.environ.get("GITHUB_EVENT_NAME"),
+              "run": os.environ.get("GITHUB_RUN_NUMBER"),
+              "sha": os.environ.get("GITHUB_SHA"),
+              "exit_code": int(os.environ.get("RC", "0")),
+              "tail": tail,
+          }, ensure_ascii=False, indent=2), encoding="utf-8")
+          PY
+          exit $RC
+
+      - name: Report status
+        if: always()
+        run: |
+          git config user.name "tgdigest-bot"
+          git config user.email "noreply@users.noreply.github.com"
+          git add runs/status.json || true
+          git commit -m "chore: run status [skip ci]" || true
+          git push || true
 
       - name: Upload digest
         if: always()
