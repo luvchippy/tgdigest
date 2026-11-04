@@ -18,32 +18,17 @@ HTML_PROFILES = {
     "www.v2ex.com": ("div.topic_content", ["div.reply_content"]),
 }
 
+# Only forums carry discussion worth summarizing. Vendor landing pages, cloud
+# consoles and short-link redirectors are noise: they 403, redirect, or return
+# JS shells, so fetching them only burns the workflow time budget.
+FORUM_HOSTS = DISCOURSE | set(HTML_PROFILES)
+
 MAX_COMMENTS = 8
 MAX_BODY = 6000
 
 
-@dataclass
-class Article:
-    url: str
-    status: int = 0
-    site: str = ""
-    title: str = ""
-    body: str = ""
-    author: str = ""
-    comments: list = field(default_factory=list)
-    reply_count: int = 0
-    error: str | None = None
-
-    @property
-    def ok(self) -> bool:
-        return self.error is None and (len(self.body) >= 30 or len(self.comments) >= 2)
-
-    def context(self, limit: int = MAX_BODY) -> str:
-        parts = [f"标题：{self.title}", f"主帖：{self.body}"]
-        if self.comments:
-            joined = "\n".join(f"- {c[0]}：{c[1]}" for c in self.comments[:MAX_COMMENTS])
-            parts.append(f"回复（共{self.reply_count}条）：\n{joined}")
-        return "\n".join(parts)[:limit]
+def is_forum_url(url: str) -> bool:
+    return urlparse(url).netloc.lower() in FORUM_HOSTS
 
 
 def _soup_text(fragment: str) -> str:

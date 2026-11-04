@@ -8,7 +8,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from . import llm, notifier
-from .article import fetch_article, make_session
+from .article import fetch_article, is_forum_url, make_session
 from .report import apply_verdicts, collect, finalize, render_blocks, render_md
 from .source_tg import fetch_channel
 from .store import Store
@@ -72,9 +72,14 @@ def cmd_enrich(args):
         prev = arts.get(url)
         if prev and (prev["body"] or prev["status"] == 404):
             continue
+        if not is_forum_url(url):
+            # Vendor pages and consoles never yield discussion; mark once, skip forever.
+            if not prev:
+                store.save_article(url, 0, "skipped", "", "", [], 0, "non-forum")
+            continue
         todo.append(url)
     todo = list(dict.fromkeys(todo))
-    print(f"pending {len(todo)} urls (cached {len(arts)})")
+    print(f"pending {len(todo)} forum urls (cached {len(arts)})")
     if not todo:
         return 0
 
