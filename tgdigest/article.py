@@ -136,19 +136,56 @@ def _from_html(session, url: str, host: str) -> Article:
                    reply_count=len(comments))
 
 
+JINA = "https://r.jina.ai/"
+
+
+def _via_jina(url: str, timeout: int = 45) -> Article:
+    """Fallback for Cloudflare-hardened forums that 429 shared CI IPs.
+
+    r.jina.ai renders the page server-side and returns markdown, so the runner
+    never has to satisfy the challenge itself.
+    """
+    r = creq.get(JINA + url, impersonate="chrome",
+                 headers={"Accept": "text/plain", **UA_LANG}, timeout=timeout)
+    if r.status_code != 200:
+        return Article(url=url, status=r.status_code, error=f"jina {r.status_code}")
+    text = clean_text(r.text or "")
+    if len(text) < 200:
+        return Article(url=url, status=r.status_code, error="jina empty")
+    title = ""
+    for line in text.splitlines():
+        if line.strip().startswith("Title:"):
+            title = line.split(":", 1)[1].strip()
+            break
+    return Article(url=url, status=200, site="jina", title=title, body=text[:3000],
+                   reply_count=0)
+
+
 def make_session(proxy: str | None = None):
     proxies = {"http": proxy, "https": proxy} if proxy else None
     return creq.Session(impersonate="chrome", proxies=proxies)
 
 
-def fetch_article(url: str, proxy: str | None = None, session=None) -> Article:
+def fetch_article(url: str, proxy: str | None = None, session=None,
+                  allow_jina: bool = False) -> Article:
     session = session or make_session(proxy)
     host = urlparse(url).netloc.lower()
+    art = None
     try:
         if host in DISCOURSE:
             art = _from_discourse_json(session, url)
             if art and art.ok:
                 return art
-        return _from_html(session, url, host)
+        art = _from_html(session, url, host)
     except Exception as exc:
-        return Article(url=url, error=f"{type(exc).__name__}: {exc}"[:200])
+        art = Article(url=url, error=f"{type(exc).__name__}: {exc}"[:200])
+
+    # Shared CI egress gets 429 from Cloudflare forums; let a renderer fetch it.
+    if allow_jina and not art.ok and art.status in (429, 403):
+        try:
+            fallback = _via_jina(url)
+            if fallback.ok:
+                return fallback
+        except Exception:
+            pass
+    return art

@@ -113,16 +113,18 @@ def cmd_enrich(args):
                 print(f"  ! {host} throttled, deferring {urls.index(u)} remaining urls")
                 break
             art = None
-            for attempt in range(3):
+            for attempt in range(2):
                 art = fetch_article(u, args.proxy, session=session)
                 if art.ok or art.status == 404:
                     break
-                if art.status == 429:
-                    time.sleep(6.0 + attempt * 6)
+                if art.status in (429, 403):
+                    time.sleep(4.0 + attempt * 4)
                     continue
                 if art.error and "Timeout" not in art.error:
                     break
                 time.sleep(2.0 + attempt * 2)
+            if not art.ok and art.status in (429, 403) and not args.no_jina:
+                art = fetch_article(u, args.proxy, session=session, allow_jina=True)
             with lock:
                 store.save_article(u, art.status, art.site, art.title, art.body,
                                    art.comments, art.reply_count, art.error)
@@ -210,6 +212,12 @@ def cmd_push(args):
     ok = sum(1 for i in items if i["article_ok"])
     stats = {"llm": sum(1 for i in items if i.get("cluster")), "enrich": f"{ok}/{len(items)}"}
     entries = finalize(items)
+    per_channel: dict[str, int] = {}
+    for e in entries:
+        ch = e["rep"].get("channel") or "?"
+        per_channel[ch] = per_channel.get(ch, 0) + 1
+    print("events by channel: " + " · ".join(
+        f"@{c} {n}" for c, n in sorted(per_channel.items(), key=lambda x: -x[1])))
     # Watermark: an event is only "delivered" once every member was delivered.
     # Comparing the whole member set survives clustering shifts between runs.
     sent = set() if args.reset else store.pushed_keys()
@@ -297,6 +305,7 @@ def main(argv=None):
     e.add_argument("--workers", type=int, default=4, help="concurrent hosts")
     e.add_argument("--delay", type=float, default=2.0, help="seconds between requests per host")
     e.add_argument("--proxy", default=None)
+    e.add_argument("--no-jina", action="store_true", help="disable r.jina.ai fallback")
     e.set_defaults(func=cmd_enrich)
 
     rp = sub.add_parser("report")
@@ -346,6 +355,7 @@ def main(argv=None):
     ru.add_argument("--reset", action="store_true", help="ignore the push watermark")
     ru.add_argument("--refresh", action="store_true")
     ru.add_argument("--no-push", action="store_true")
+    ru.add_argument("--no-jina", action="store_true")
     ru.add_argument("--dry-run", action="store_true")
     ru.set_defaults(func=cmd_run)
 
