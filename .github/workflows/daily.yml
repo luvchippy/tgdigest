@@ -97,16 +97,17 @@ jobs:
           set -e
           export RC
           python - <<'PY'
-          import json, os, pathlib
-          tail = "".join(open("/tmp/run.log", encoding="utf-8", errors="replace").readlines()[-25:])
-          os.makedirs("runs", exist_ok=True)
-          pathlib.Path("runs/status.json").write_text(json.dumps({
-              "event": os.environ.get("GITHUB_EVENT_NAME"),
-              "run": os.environ.get("GITHUB_RUN_NUMBER"),
-              "sha": os.environ.get("GITHUB_SHA"),
-              "exit_code": int(os.environ.get("RC", "0")),
-              "tail": tail,
-          }, ensure_ascii=False, indent=2), encoding="utf-8")
+          import json, os, pathlib, re
+          lines = open('/tmp/run.log', encoding='utf-8', errors='replace').read().splitlines()
+          keep = re.compile(r'^(@|config source|--- |fetched|pending|enriched|analyzing|llm |events |pushed|nothing|!)')
+          tail = '\n'.join(l for l in lines if keep.search(l))[-1500:]
+          os.makedirs('runs', exist_ok=True)
+          pathlib.Path('runs/status.json').write_text(json.dumps({
+              'event': os.environ.get('GITHUB_EVENT_NAME'),
+              'run': os.environ.get('GITHUB_RUN_NUMBER'),
+              'exit_code': int(os.environ.get('RC', '0')),
+              'tail': tail,
+          }, ensure_ascii=False, indent=2), encoding='utf-8')
           PY
           exit $RC
 
