@@ -99,7 +99,7 @@ jobs:
           python - <<'PY'
           import json, os, pathlib, re
           lines = open('/tmp/run.log', encoding='utf-8', errors='replace').read().splitlines()
-          keep = re.compile(r'^(@|config source|--- |fetched|pending|enrich|analyzing|llm |events |pushed|nothing|!|  host )')
+          keep = re.compile(r'^(@|config source|--- |fetched|pending|enrich|analyzing|llm |events |pushed|nothing|!|  host )|throttled')
           tail = '\n'.join(l for l in lines if keep.search(l))[-1500:]
           os.makedirs('runs', exist_ok=True)
           pathlib.Path('runs/status.json').write_text(json.dumps({

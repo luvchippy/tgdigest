@@ -105,26 +105,31 @@ def cmd_enrich(args):
 
     def work(host: str, urls: list[str]):
         session = make_session(args.proxy)
+        throttled = 0  # consecutive 429s for this host
         for u in urls:
+            if throttled >= 2:
+                # Circuit breaker: CI egress IPs are heavily rate limited by
+                # Cloudflare forums. Stop hammering, leave the rest for next run.
+                print(f"  ! {host} throttled, deferring {urls.index(u)} remaining urls")
+                break
             art = None
-            # Shared CI egress IPs get hit hard by Cloudflare-backed forums; a 429
-            # here is normal, so back off much longer than for a plain timeout.
-            for attempt in range(4):
+            for attempt in range(3):
                 art = fetch_article(u, args.proxy, session=session)
                 if art.ok or art.status == 404:
                     break
                 if art.status == 429:
-                    time.sleep(8.0 + attempt * 7)
+                    time.sleep(6.0 + attempt * 6)
                     continue
                 if art.error and "Timeout" not in art.error:
                     break
-                time.sleep(3.0 + attempt * 3)
+                time.sleep(2.0 + attempt * 2)
             with lock:
                 store.save_article(u, art.status, art.site, art.title, art.body,
                                    art.comments, art.reply_count, art.error)
                 note(art)
                 if stats["done"] % 25 == 0:
                     print(f'  {stats["done"]}/{len(todo)}')
+            throttled = throttled + 1 if art.status == 429 else 0
             time.sleep(args.delay)
 
     with ThreadPoolExecutor(max_workers=min(args.workers, len(by_host))) as ex:
