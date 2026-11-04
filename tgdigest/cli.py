@@ -107,11 +107,18 @@ def cmd_enrich(args):
         session = make_session(args.proxy)
         for u in urls:
             art = None
-            for attempt in range(3):
+            # Shared CI egress IPs get hit hard by Cloudflare-backed forums; a 429
+            # here is normal, so back off much longer than for a plain timeout.
+            for attempt in range(4):
                 art = fetch_article(u, args.proxy, session=session)
-                if art.ok or (art.status == 404) or (art.error and "Timeout" not in art.error):
+                if art.ok or art.status == 404:
                     break
-                time.sleep(2.0 + attempt * 2)
+                if art.status == 429:
+                    time.sleep(8.0 + attempt * 7)
+                    continue
+                if art.error and "Timeout" not in art.error:
+                    break
+                time.sleep(3.0 + attempt * 3)
             with lock:
                 store.save_article(u, art.status, art.site, art.title, art.body,
                                    art.comments, art.reply_count, art.error)
@@ -276,8 +283,8 @@ def main(argv=None):
     e = sub.add_parser("enrich")
     e.add_argument("--channel", required=True)
     e.add_argument("--limit", type=int, default=100)
-    e.add_argument("--workers", type=int, default=6, help="concurrent hosts")
-    e.add_argument("--delay", type=float, default=1.2, help="seconds between requests per host")
+    e.add_argument("--workers", type=int, default=4, help="concurrent hosts")
+    e.add_argument("--delay", type=float, default=2.0, help="seconds between requests per host")
     e.add_argument("--proxy", default=None)
     e.set_defaults(func=cmd_enrich)
 
@@ -315,8 +322,8 @@ def main(argv=None):
     _add_window(ru)
     ru.add_argument("--pages", type=int, default=5)
     ru.add_argument("--limit", type=int, default=120)
-    ru.add_argument("--workers", type=int, default=6)
-    ru.add_argument("--delay", type=float, default=1.2)
+    ru.add_argument("--workers", type=int, default=4)
+    ru.add_argument("--delay", type=float, default=2.0)
     ru.add_argument("--proxy", default=None)
     ru.add_argument("--base", default=llm.DEFAULT_BASE)
     ru.add_argument("--model", default=llm.DEFAULT_MODEL)
