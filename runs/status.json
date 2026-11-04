@@ -1,6 +1,6 @@
 {
   "event": "push",
-  "run": "7",
+  "run": "8",
   "exit_code": 0,
   "tail": "--- fetch ---\n@baipiaotg: 100 messages  id_range=75536..75635\n@wzxylh: 94 messages  id_range=473..595\n--- enrich ---\npending 58 urls (cached 191)\nenriched ok=0 fail=58\n--- analyze ---\nanalyzing 0/120 items via https://napi.luvz.top/v1 / deepseek-v4.1-flash-1017\nllm verdicts 0/120 -> data/digest.md (99 events)\n--- push ---\nevents 99 -> fresh 0 (already delivered 99)\nnothing new to push"
 }
