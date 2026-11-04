@@ -68,11 +68,14 @@ jobs:
           set +a
           echo "::add-mask::$LLM_API_KEY"
           echo "::add-mask::$TG_BOT_TOKEN"
-          echo "config sources -> LLM_BASE_URL:${S_LLM_BASE_URL:+secret}${S_LLM_BASE_URL:-file}"
-          echo "config sources -> LLM_MODEL:${S_LLM_MODEL:+secret}${S_LLM_MODEL:-file}"
-          echo "config sources -> LLM_API_KEY:${S_LLM_API_KEY:+secret}${S_LLM_API_KEY:-file}"
-          echo "config sources -> TG_BOT_TOKEN:${S_TG_BOT_TOKEN:+secret}${S_TG_BOT_TOKEN:-file}"
-          echo "config sources -> TG_CHAT_ID:${S_TG_CHAT_ID:+secret}${S_TG_CHAT_ID:-file}"
+          for pair in LLM_BASE_URL LLM_MODEL LLM_API_KEY TG_BOT_TOKEN TG_CHAT_ID; do
+            eval "sv=\${S_$pair}"
+            eval "fv=\$$pair"
+            src=file
+            if [ -n "$sv" ]; then src=secret; fi
+            if [ -z "$fv" ]; then src=MISSING; fi
+            echo "config source: $pair <- $src (len ${#fv})"
+          done
           {
             echo "LLM_BASE_URL=$LLM_BASE_URL"
             echo "LLM_MODEL=$LLM_MODEL"
