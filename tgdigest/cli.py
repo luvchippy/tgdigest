@@ -13,6 +13,10 @@ from .report import apply_verdicts, collect, finalize, render_blocks, render_md
 from .source_tg import fetch_channel
 from .store import Store
 
+# r.jina.ai renders one page in ~20-45s; cap the fallback so a throttled host
+# can never eat the whole job's time budget.
+JINA_BUDGET = 8
+
 
 def _since_iso(hours: float, since: str | None = None) -> str:
     if since:
@@ -124,7 +128,14 @@ def cmd_enrich(args):
                     break
                 time.sleep(2.0 + attempt * 2)
             if not art.ok and art.status in (429, 403) and not args.no_jina:
-                art = fetch_article(u, args.proxy, session=session, allow_jina=True)
+                # Each renderer call can take ~45s; cap them so one host's rate
+                # limiting cannot exhaust the job's time budget.
+                with lock:
+                    allowed = stats.setdefault("jina", 0) < JINA_BUDGET
+                    if allowed:
+                        stats["jina"] += 1
+                if allowed:
+                    art = fetch_article(u, args.proxy, session=session, allow_jina=True)
             with lock:
                 store.save_article(u, art.status, art.site, art.title, art.body,
                                    art.comments, art.reply_count, art.error)
