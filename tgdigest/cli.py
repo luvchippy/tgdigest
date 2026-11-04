@@ -84,6 +84,19 @@ def cmd_enrich(args):
 
     lock = threading.Lock()
     stats = {"ok": 0, "fail": 0, "done": 0}
+    reasons: dict[str, int] = {}
+
+    def note(art):
+        if art.ok:
+            key = "ok"
+        elif art.status:
+            key = f"http {art.status}"
+        else:
+            err = art.error or "unknown"
+            key = err.split(":")[0][:40]
+        stats["ok" if art.ok else "fail"] += 1
+        stats["done"] += 1
+        reasons[key] = reasons.get(key, 0) + 1
 
     def work(host: str, urls: list[str]):
         session = make_session(args.proxy)
@@ -97,8 +110,7 @@ def cmd_enrich(args):
             with lock:
                 store.save_article(u, art.status, art.site, art.title, art.body,
                                    art.comments, art.reply_count, art.error)
-                stats["ok" if art.ok else "fail"] += 1
-                stats["done"] += 1
+                note(art)
                 if stats["done"] % 25 == 0:
                     print(f'  {stats["done"]}/{len(todo)}')
             time.sleep(args.delay)
@@ -108,6 +120,9 @@ def cmd_enrich(args):
         for f in as_completed(futs):
             f.result()
     print(f'enriched ok={stats["ok"]} fail={stats["fail"]}')
+    print("enrich breakdown: " + " · ".join(f"{k} {v}" for k, v in sorted(reasons.items(), key=lambda x: -x[1])))
+    for host, n in sorted(((h, len(u)) for h, u in by_host.items()), key=lambda x: -x[1]):
+        print(f"  host {host}: {n} urls")
     return 0
 
 
