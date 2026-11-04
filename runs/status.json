@@ -1,6 +1,6 @@
 {
   "event": "push",
-  "run": "19",
+  "run": "20",
   "exit_code": 0,
-  "tail": "--- fetch ---\n@baipiaotg: 100 messages  id_range=75558..75657\n  time_range=2026-11-03T09:25:50+00:00 .. 2026-11-04T08:45:45+00:00  total_in_db=141\n@wzxylh: 94 messages  id_range=473..595\n  time_range=2026-07-22T15:41:55+00:00 .. 2026-11-03T13:26:51+00:00  total_in_db=94\n@pk_oa: 74 messages  id_range=212..318\n  time_range=2026-01-22T05:09:03+00:00 .. 2026-11-02T14:17:30+00:00  total_in_db=74\n--- enrich ---\npending 2 forum urls (cached 270)\nenriched ok=0 fail=2\nenrich breakdown: http 200 2\n  host www.nodeloc.com: 1 urls\n  host www.nodeseek.com: 1 urls\n--- analyze ---\nanalyzing 0/142 items via https://napi.luvz.top/v1 / deepseek-v4.1-flash-1017\nllm verdicts 0/142 -> data/digest.md (111 events)"
+  "tail": "--- fetch ---\n@baipiaotg: 100 messages  id_range=75558..75657\n  time_range=2026-11-03T09:25:50+00:00 .. 2026-11-04T08:45:45+00:00  total_in_db=141\n@wzxylh: 94 messages  id_range=473..595\n  time_range=2026-07-22T15:41:55+00:00 .. 2026-11-03T13:26:51+00:00  total_in_db=94\n@pk_oa: 74 messages  id_range=212..318\n  time_range=2026-01-22T05:09:03+00:00 .. 2026-11-02T14:17:30+00:00  total_in_db=74\n--- enrich ---\npending 2 forum urls (cached 270)\nenriched ok=0 fail=2\nenrich breakdown: http 200 2\n  host www.nodeloc.com: 1 urls\n  host www.nodeseek.com: 1 urls\n--- analyze ---\nanalyzing 15/157 items via https://napi.luvz.top/v1 / deepseek-v4.1-flash-1017\nllm verdicts 15/157 -> data/digest.md (125 events)\n--- push ---\nevents by channel: @baipiaotg 110 · @wzxylh 13 · @pk_oa 2\nevents 125 -> fresh 14 (already delivered 111)\nfresh by channel: @wzxylh 12 · @pk_oa 2\npushed 1 messages to chat 6867015060 (14 events)"
 }
