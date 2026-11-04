@@ -168,11 +168,11 @@ def _entry_md(e) -> list[str]:
 
 
 def _channel_tally(entries) -> str:
+    """Per-channel event count (not member count), so a quiet channel still shows up."""
     seen: dict[str, int] = {}
     for e in entries:
-        for m in e["members"]:
-            ch = m.get("channel") or "?"
-            seen[ch] = seen.get(ch, 0) + 1
+        ch = e["rep"].get("channel") or "?"
+        seen[ch] = seen.get(ch, 0) + 1
     return " · ".join(f"@{ch} {n}" for ch, n in sorted(seen.items(), key=lambda x: -x[1]))
 
 

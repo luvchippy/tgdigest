@@ -219,6 +219,12 @@ def cmd_push(args):
     if not fresh:
         print("nothing new to push")
         return 0
+    by_channel: dict[str, int] = {}
+    for e in fresh:
+        ch = e["rep"].get("channel") or "?"
+        by_channel[ch] = by_channel.get(ch, 0) + 1
+    print("fresh by channel: " + " · ".join(
+        f"@{c} {n}" for c, n in sorted(by_channel.items(), key=lambda x: -x[1])))
     blocks = render_blocks(fresh, channels_of(args), since, stats)
     if args.dry_run:
         print("\n\n---8<---\n\n".join(blocks)[:3000])
