@@ -1,6 +1,6 @@
 {
   "event": "push",
-  "run": "15",
+  "run": "16",
   "exit_code": 0,
-  "tail": "--- fetch ---\n@baipiaotg: 100 messages  id_range=75551..75650\n@wzxylh: 94 messages  id_range=473..595\n--- enrich ---\npending 19 forum urls (cached 204)\nenriched ok=18 fail=1\nenrich breakdown: ok 18 · http 200 1\n  host linux.do: 18 urls\n  host www.nodeseek.com: 1 urls\n--- analyze ---\nanalyzing 1/135 items via https://napi.luvz.top/v1 / deepseek-v4.1-flash-1017\nllm verdicts 1/135 -> data/digest.md (106 events)\n--- push ---\nevents by channel: @baipiaotg 105 · @wzxylh 1\nevents 106 -> fresh 1 (already delivered 105)\nfresh by channel: @baipiaotg 1\npushed 1 messages to chat 6867015060 (1 events)"
+  "tail": "--- fetch ---\n@baipiaotg: 100 messages  id_range=75552..75651\n@wzxylh: 94 messages  id_range=473..595\n--- enrich ---\npending 2 forum urls (cached 205)\nenriched ok=0 fail=2\nenrich breakdown: http 200 2\n  host www.nodeloc.com: 1 urls\n  host www.nodeseek.com: 1 urls\n--- analyze ---\nanalyzing 1/136 items via https://napi.luvz.top/v1 / deepseek-v4.1-flash-1017\nllm verdicts 1/136 -> data/digest.md (107 events)\n--- push ---\nevents by channel: @baipiaotg 106 · @wzxylh 1\nevents 107 -> fresh 1 (already delivered 106)\nfresh by channel: @baipiaotg 1\npushed 1 messages to chat 6867015060 (1 events)"
 }
