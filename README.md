@@ -2,9 +2,13 @@
 
 Telegram 技术频道的定时聚合简报：抓 `t.me/s/` 网页预览 → 跟进论坛原帖 → 规则过滤 → LLM 聚类与结论 → 私聊推送。
 
+当前覆盖频道：`@baipiaotg`（论坛转帖号）、`@wzxylh`（网络技术文章分享）。多频道合并成一份简报推送，跨频道同一事件会被聚成一条并列出各频道来源。
+
 ## 运行节奏
 
 GitHub Actions 每天三次（北京时间 09:26 / 13:56 / 18:26），也可在 Actions 页手动触发。
+
+`--channel` 支持逗号分隔多个频道，抓取、正文、聚类、水位全程按频道区分。
 
 三次运行互不重复：`pushed` 表按事件成员记录水位，只有**从未推送过的事件**才会发出。抓取窗口固定回看 36 小时，漏跑的时段会在下一次自动补齐。
 
@@ -28,7 +32,7 @@ tgdigest/
 ## 命令
 
 ```bash
-python -m tgdigest fetch   --channel baipiaotg --pages 5
+python -m tgdigest fetch   --channel baipiaotg,wzxylh --pages 5
 python -m tgdigest enrich  --channel baipiaotg --limit 120
 python -m tgdigest analyze --channel baipiaotg --hours 36
 python -m tgdigest report  --channel baipiaotg --hours 36

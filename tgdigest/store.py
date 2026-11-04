@@ -100,15 +100,26 @@ class Store:
         r = self.db.execute(sql, (channel,) if channel else ()).fetchone()
         return r["c"]
 
-    def recent(self, channel: str, limit: int = 20):
-        return self.db.execute(
-            "SELECT * FROM messages WHERE channel=? ORDER BY msg_id DESC LIMIT ?",
-            (channel, limit)).fetchall()
+    @staticmethod
+    def _as_list(channels) -> list[str]:
+        return [channels] if isinstance(channels, str) else list(channels)
 
-    def since(self, channel: str, since_iso: str, limit: int = 2000):
-        return self.db.execute(
-            "SELECT * FROM messages WHERE channel=? AND posted_at>=? ORDER BY msg_id ASC LIMIT ?",
-            (channel, since_iso, limit)).fetchall()
+    def recent(self, channels, limit: int = 20):
+        """Per-channel limit: a busy channel must not crowd out a quiet one."""
+        out = []
+        for ch in self._as_list(channels):
+            out.extend(self.db.execute(
+                "SELECT * FROM messages WHERE channel=? ORDER BY msg_id DESC LIMIT ?",
+                (ch, limit)).fetchall())
+        return out
+
+    def since(self, channels, since_iso: str, limit: int = 2000):
+        out = []
+        for ch in self._as_list(channels):
+            out.extend(self.db.execute(
+                "SELECT * FROM messages WHERE channel=? AND posted_at>=? ORDER BY msg_id ASC LIMIT ?",
+                (ch, since_iso, limit)).fetchall())
+        return sorted(out, key=lambda r: r["posted_at"])
 
     def article_map(self) -> dict:
         out = {}

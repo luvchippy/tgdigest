@@ -6,6 +6,10 @@ on:
     - cron: "26 1 * * *"
     - cron: "56 5 * * *"
     - cron: "26 10 * * *"
+  push:
+    branches: [main]
+    paths-ignore:
+      - "runs/**"
   workflow_dispatch:
     inputs:
       hours:
@@ -64,6 +68,11 @@ jobs:
           set +a
           echo "::add-mask::$LLM_API_KEY"
           echo "::add-mask::$TG_BOT_TOKEN"
+          echo "config sources -> LLM_BASE_URL:${S_LLM_BASE_URL:+secret}${S_LLM_BASE_URL:-file}"
+          echo "config sources -> LLM_MODEL:${S_LLM_MODEL:+secret}${S_LLM_MODEL:-file}"
+          echo "config sources -> LLM_API_KEY:${S_LLM_API_KEY:+secret}${S_LLM_API_KEY:-file}"
+          echo "config sources -> TG_BOT_TOKEN:${S_TG_BOT_TOKEN:+secret}${S_TG_BOT_TOKEN:-file}"
+          echo "config sources -> TG_CHAT_ID:${S_TG_CHAT_ID:+secret}${S_TG_CHAT_ID:-file}"
           {
             echo "LLM_BASE_URL=$LLM_BASE_URL"
             echo "LLM_MODEL=$LLM_MODEL"
@@ -75,7 +84,7 @@ jobs:
       - name: Run digest
         run: |
           mkdir -p data runs
-          ARGS="--channel baipiaotg --hours ${{ github.event.inputs.hours || '36' }} --pages 5 --limit 120"
+          ARGS="--channel baipiaotg,wzxylh --hours ${{ github.event.inputs.hours || '36' }} --pages 5 --limit 120"
           if [ "${{ github.event.inputs.reset }}" = "true" ]; then
             ARGS="$ARGS --reset"
           fi

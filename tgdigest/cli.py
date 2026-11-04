@@ -21,17 +21,38 @@ def _since_iso(hours: float, since: str | None = None) -> str:
             - datetime.timedelta(hours=hours)).isoformat(timespec="seconds")
 
 
+def channels_of(args) -> list[str]:
+    """--channel accepts "a,b,c" or repeated flags; "@" prefixes are tolerated."""
+    raw = getattr(args, "channel", None) or []
+    if isinstance(raw, str):
+        raw = [raw]
+    out = []
+    for chunk in raw:
+        for part in chunk.split(","):
+            name = part.strip().lstrip("@")
+            if name and name not in out:
+                out.append(name)
+    return out
+
+
 def cmd_fetch(args):
     store = Store(args.db)
-    msgs = fetch_channel(args.channel, pages=args.pages, proxy=args.proxy)
-    if not msgs:
-        print("no messages parsed")
-        return 2
-    store.upsert_messages(msgs)
-    print(f"fetched {len(msgs)} messages  id_range={msgs[0].msg_id}..{msgs[-1].msg_id}")
-    print(f"time_range={msgs[0].posted_at} .. {msgs[-1].posted_at}")
-    print(f"total in db: {store.count(args.channel)}")
-    return 0
+    total = 0
+    for channel in channels_of(args):
+        try:
+            msgs = fetch_channel(channel, pages=args.pages, proxy=args.proxy)
+        except Exception as exc:
+            print(f"! fetch @{channel} failed: {type(exc).__name__}: {exc}"[:200], file=sys.stderr)
+            continue
+        if not msgs:
+            print(f"! no messages parsed for @{channel}", file=sys.stderr)
+            continue
+        store.upsert_messages(msgs)
+        total += len(msgs)
+        print(f"@{channel}: {len(msgs)} messages  id_range={msgs[0].msg_id}..{msgs[-1].msg_id}")
+        print(f"  time_range={msgs[0].posted_at} .. {msgs[-1].posted_at}"
+              f"  total_in_db={store.count(channel)}")
+    return 0 if total else 2
 
 
 def _host_of(url: str) -> str:
@@ -40,7 +61,7 @@ def _host_of(url: str) -> str:
 
 def cmd_enrich(args):
     store = Store(args.db)
-    rows = store.recent(args.channel, args.limit)
+    rows = store.recent(channels_of(args), args.limit)
     arts = store.article_map()
     todo = []
     for r in rows:
@@ -92,7 +113,7 @@ def cmd_enrich(args):
 
 def _load_items(args, store, with_verdicts: bool = False):
     since = _since_iso(args.hours, args.since)
-    items = collect(store, args.channel, since)
+    items = collect(store, channels_of(args), since)
     if with_verdicts:
         apply_verdicts(items, store.load_verdicts([i["key"] for i in items]))
     return since, items
@@ -103,7 +124,7 @@ def cmd_report(args):
     since, items = _load_items(args, store, with_verdicts=True)
     entries = finalize(items)
     out = args.out or f"data/report-{datetime.datetime.now():%Y%m%d-%H%M}.md"
-    text = render_md(entries, args.channel, since, out)
+    text = render_md(entries, channels_of(args), since, out)
     print(f"wrote {out}  ({len(items)} messages → {len(entries)} events)")
     print()
     print(text[:1200])
@@ -127,7 +148,7 @@ def cmd_analyze(args):
     apply_verdicts(items, store.load_verdicts([i["key"] for i in items]))
     entries = finalize(items)
     out = args.out or f"data/digest-{datetime.datetime.now():%Y%m%d-%H%M}.md"
-    render_md(entries, args.channel, since, out)
+    render_md(entries, channels_of(args), since, out)
     print(f"llm verdicts {len(verdicts)}/{len(items)} -> {out} ({len(entries)} events)")
     for e in entries[:8]:
         print(f'  [{e["label"]}] {e["rep"]["summary"][:60]}')
@@ -166,7 +187,7 @@ def cmd_push(args):
     if not fresh:
         print("nothing new to push")
         return 0
-    blocks = render_blocks(fresh, args.channel, since, stats)
+    blocks = render_blocks(fresh, channels_of(args), since, stats)
     if args.dry_run:
         print("\n\n---8<---\n\n".join(blocks)[:3000])
         print(f"[dry-run] {len(notifier.chunk_blocks(blocks))} messages would be sent")
@@ -209,7 +230,7 @@ def cmd_run(args):
 
 def cmd_list(args):
     store = Store(args.db)
-    for row in store.recent(args.channel, args.limit):
+    for row in store.recent(channels_of(args), args.limit):
         links = [x for x in row["links"].split("\n") if x]
         print(f'{row["msg_id"]:>7} | {row["posted_at"][:19]} | {row["text"][:50]!r} | {links[0] if links else "-"}')
     return 0
@@ -227,7 +248,7 @@ def main(argv=None):
     sub = p.add_subparsers(dest="cmd", required=True)
 
     f = sub.add_parser("fetch")
-    f.add_argument("--channel", required=True)
+    f.add_argument("--channel", required=True, help="频道名，多个用逗号分隔")
     f.add_argument("--pages", type=int, default=1)
     f.add_argument("--proxy", default=None)
     f.set_defaults(func=cmd_fetch)
