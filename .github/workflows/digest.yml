@@ -43,7 +43,8 @@ jobs:
           MAX_CANDIDATES: ${{ vars.MAX_CANDIDATES || '600' }}
           WINDOW_HOURS: ${{ vars.WINDOW_HOURS || '1.5' }}
           INTEREST_PROFILE: ${{ vars.INTEREST_PROFILE }}
-          ENABLE_JINA_FALLBACK: ${{ vars.ENABLE_JINA_FALLBACK || '0' }}
+          # linux.do 对机房 IP 会抛 Cloudflare 挑战，默认开启 jina 兜底
+          ENABLE_JINA_FALLBACK: ${{ vars.ENABLE_JINA_FALLBACK || '1' }}
           PROXY_PREFIX: ${{ vars.PROXY_PREFIX }}
           DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
         run: node src/run.mjs
