@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "id": "nodeseek",
+      "name": "NodeSeek",
+      "adapter": "nodeseek",
+      "enabled": true,
+      "baseUrl": "https://www.nodeseek.com",
+      "pages": 4,
+      "detailLimit": 60,
+      "fetchDetail": true
+    },
+    {
+      "id": "nodeloc",
+      "name": "NodeLoc",
+      "adapter": "discourse",
+      "enabled": true,
+      "baseUrl": "https://www.nodeloc.com",
+      "pages": 2,
+      "fetchDetail": false
+    },
+    {
+      "id": "linuxdo",
+      "name": "LinuxDo",
+      "adapter": "discourse",
+      "enabled": true,
+      "baseUrl": "https://linux.do",
+      "pages": 2,
+      "fetchDetail": false
+    },
+    {
+      "id": "nht",
+      "name": "NHT",
+      "adapter": "nht",
+      "enabled": true,
+      "baseUrl": "https://n.ht",
+      "pages": 2
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+name: forum-digest
+
+on:
+  schedule:
+    # 每小时第 5 分钟：抓取 -> AI 审核 -> 推 Telegram，每轮必发一条消息
+    - cron: '5 * * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: '只预览不推送'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: forum-digest
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: 抓取 + 审核 + 推送
+        env:
+          # 复用仓库已有 secrets，零额外配置
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ vars.TG_CHAT_ID || '6867015060' }}
+          REVIEW_BASE_URL: ${{ vars.REVIEW_BASE_URL || 'https://napi.luvz.top/v1' }}
+          REVIEW_API_KEY: ${{ secrets.LLM_API_KEY }}
+          REVIEW_MODEL: ${{ vars.REVIEW_MODEL || 'deepseek-v4.1-flash-1017' }}
+          # 调参（可在 Settings -> Variables 覆盖）
+          MIN_SCORE: ${{ vars.MIN_SCORE || '6' }}
+          MAX_PER_SOURCE: ${{ vars.MAX_PER_SOURCE || '0' }}
+          MAX_CANDIDATES: ${{ vars.MAX_CANDIDATES || '600' }}
+          WINDOW_HOURS: ${{ vars.WINDOW_HOURS || '1.5' }}
+          INTEREST_PROFILE: ${{ vars.INTEREST_PROFILE }}
+          ENABLE_JINA_FALLBACK: ${{ vars.ENABLE_JINA_FALLBACK || '0' }}
+          PROXY_PREFIX: ${{ vars.PROXY_PREFIX }}
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+        run: node src/run.mjs
+
+      - name: 提交去重状态
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state
+          if git diff --staged --quiet; then
+            echo "state 无变化"
+          else
+            git commit -m "chore(state): update seen posts [skip ci]"
+            git pull --rebase --autostash || true
+            git push
+          fi

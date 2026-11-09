@@ -1,0 +1,15 @@
+{
+  "name": "forum-digest",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "run": "node src/run.mjs",
+    "dry-run": "DRY_RUN=1 node src/run.mjs",
+    "probe": "node src/probe.mjs"
+  },
+  "dependencies": {}
+}
