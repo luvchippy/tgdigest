@@ -36,6 +36,22 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: '22' }
 
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-curl-cffi-v1
+
+      - name: 抓 NodeSeek（curl_cffi 模拟 Chrome 指纹，目前唯一能拿到正文的通道）
+        env:
+          NODESEEK_PAGES: ${{ vars.NODESEEK_PAGES || '3' }}
+          NODESEEK_DETAIL: ${{ vars.NODESEEK_DETAIL || '20' }}
+        run: |
+          pip install --quiet curl_cffi
+          python scripts/fetch-nodeseek.py
+
       - name: 抓取新帖入队
         env:
           COLLECT_WINDOW_MINUTES: ${{ vars.COLLECT_WINDOW_MINUTES || '20' }}

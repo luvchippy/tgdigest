@@ -1,5 +1,23 @@
+import fs from 'node:fs';
 import { requestText } from '../lib/http.mjs';
 import { excerpt, stripHtml, toISO } from '../lib/parse.mjs';
+
+/**
+ * 读取 curl_cffi 脚本（scripts/fetch-nodeseek.py）产出的结果。
+ * 实测：impersonate="chrome" 能过 Cloudflare 并拿到 .post-content 正文，
+ * 这是目前唯一能取到 NodeSeek 正文的通道。文件不存在或过期就回落到 RSS。
+ */
+function loadCurlCffiResult() {
+  const rawPath = process.env.NODESEEK_RAW ?? '/tmp/nodeseek-raw.json';
+  try {
+    const st = fs.statSync(rawPath);
+    if (Date.now() - st.mtimeMs > 20 * 60_000) return [];
+    const arr = JSON.parse(fs.readFileSync(rawPath, 'utf8'));
+    return Array.isArray(arr) ? arr : [];
+  } catch {
+    return [];
+  }
+}
 
 /**
  * NodeSeek 适配器（2026-11 实测确认的接入方式）：
@@ -84,6 +102,27 @@ async function fetchBody(baseUrl, id) {
 
 export async function fetchNodeseek(source, ctx) {
   const baseUrl = source.baseUrl;
+
+  // 首选：curl_cffi 抓到的完整结果（带正文）
+  const cffi = loadCurlCffiResult();
+  if (cffi.length) {
+    const withBody = cffi.filter((p) => p.text && p.text.length > 20).length;
+    console.log(`  [nodeseek] curl_cffi 通道 ${cffi.length} 条，其中 ${withBody} 条带正文`);
+    return cffi.map((p) => ({
+      sourceId: source.id,
+      sourceName: source.name,
+      id: String(p.id),
+      title: p.title,
+      url: p.url,
+      createdAt: p.createdAt,
+      category: p.category,
+      stats: p.stats,
+      text: excerpt(p.text ?? '', 800),
+    }));
+  }
+
+  // 回退：RSS（只有标题，拿不到正文）
+  console.log('  [nodeseek] 未拿到 curl_cffi 结果，回落 RSS（仅标题）');
   const rss = parseRss(await requestText(`${baseUrl}/rss.xml`, { timeout: 25000 }));
   const byId = new Map(rss.map((p) => [p.id, p]));
 
