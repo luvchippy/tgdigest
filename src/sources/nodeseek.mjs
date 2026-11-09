@@ -40,17 +40,27 @@ export function parseRss(xml) {
   return out;
 }
 
-/** 分页 HTML 主列表：只认带 post-title 类名的锚点，避开侧边栏推荐的老帖 */
-export function parseListHtml(html) {
+/**
+ * 分页 HTML 主列表。
+ * 实测结构：主列表锚点是 <a href="https://www.nodeseek.com/post-N-1" target="">标题</a>，无 class；
+ * 同一帖还有一条 <a href=".../post-N-1#2" class="info-item info-last-comment-time">13min ago</a>。
+ * 所以：只要不带 # 锚点、不带 info-item 类、文本非空的第 1 页链接。主列表在页面最前面，取前 30 条避开侧栏推荐。
+ */
+export function parseListHtml(html, limit = 30) {
   const out = [];
+  const seen = new Set();
   for (const m of html.matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/g)) {
     const attrs = m[1];
-    if (!/post-title/i.test(attrs)) continue;
+    if (/class="[^"]*info-item/.test(attrs)) continue;
     const href = attrs.match(/href="([^"]+)"/)?.[1];
-    const id = href?.match(/post-(\d+)-/)?.[1];
+    if (!href || href.includes('#')) continue;
+    const id = href.match(/\/post-(\d+)-1$/)?.[1];
+    if (!id || seen.has(id)) continue;
     const title = decodeEntities(stripHtml(m[2]));
-    if (!id || !title) continue;
+    if (!title || /^\d+\s*(min|hour|day|month|year)s?\s*ago$/i.test(title)) continue;
+    seen.add(id);
     out.push({ id, title, url: `${'https://www.nodeseek.com'}/post-${id}-1` });
+    if (out.length >= limit) break;
   }
   return out;
 }
@@ -90,16 +100,19 @@ export async function fetchNodeseek(source, ctx) {
   const all = [...byId.values()];
   const fresh = all.filter((p) => ctx.withinWindow(p.createdAt));
 
-  // 只为配置了正文抓取的站点拉详情，控制请求量
-  const limit = source.detailLimit ?? 30;
-  let fetched = 0;
-  for (const p of fresh) {
-    if (fetched >= limit) break;
-    if (source.fetchDetail === false) break;
-    fetched += 1;
-    const body = await fetchBody(baseUrl, p.id);
-    p.text = excerpt(body);
-    if (fetched % 5 === 0) await new Promise((r) => setTimeout(r, 250));
+  // 正文抓取：限流 + 3 并发，40 条约 30 秒
+  if (source.fetchDetail !== false) {
+    const limit = source.detailLimit ?? 40;
+    const queue = fresh.slice(0, limit);
+    let cursor = 0;
+    const worker = async () => {
+      while (cursor < queue.length) {
+        const item = queue[cursor++];
+        item.text = excerpt(await fetchBody(baseUrl, item.id));
+        await new Promise((r) => setTimeout(r, 150));
+      }
+    };
+    await Promise.all([worker(), worker(), worker()]);
   }
 
   return fresh.map((p) => ({

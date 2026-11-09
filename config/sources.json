@@ -6,8 +6,8 @@
       "adapter": "nodeseek",
       "enabled": true,
       "baseUrl": "https://www.nodeseek.com",
-      "pages": 4,
-      "detailLimit": 60,
+      "pages": 6,
+      "detailLimit": 40,
       "fetchDetail": true
     },
     {
