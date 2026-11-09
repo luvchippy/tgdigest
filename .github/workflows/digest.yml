@@ -46,7 +46,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data state
+          git add -A data state 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "无变化"
           else
@@ -83,7 +83,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A data state
+          git add -A data state 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "无变化"
           else
