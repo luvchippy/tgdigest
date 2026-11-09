@@ -47,7 +47,7 @@ jobs:
       - name: 抓 NodeSeek（curl_cffi 模拟 Chrome 指纹，目前唯一能拿到正文的通道）
         env:
           NODESEEK_PAGES: ${{ vars.NODESEEK_PAGES || '3' }}
-          NODESEEK_DETAIL: ${{ vars.NODESEEK_DETAIL || '20' }}
+          NODESEEK_DETAIL: ${{ vars.NODESEEK_DETAIL || '45' }}
         run: |
           pip install --quiet curl_cffi
           python scripts/fetch-nodeseek.py

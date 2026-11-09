@@ -58,24 +58,24 @@
 
 改 `prompts/review.md`。里面用中文写清了什么算高分、什么算水贴，直接用大白话改就行，不用懂代码。
 
-## NodeSeek 的硬边界（全部实测，别再重复踩）
+## NodeSeek 怎么抓（踩坑记录，别再重复试）
 
-NodeSeek 只有 `/rss.xml` 对外放行，其余路径一律被 Cloudflare 拦。以下五种方式全部试过：
+NodeSeek 只在 **TLS 指纹正确**时才放行。下面每条都是实测结果：
 
 | 方式 | 列表页 | 帖子正文 | 结论 |
 | --- | --- | --- | --- |
-| Actions 直连 | 403 Just a moment | 403 | 机房 IP 信誉被判定为机器人 |
-| 直连 + 全套浏览器指纹头 | 403 | 403 | 判的是 IP 不是头 |
-| Cloudflare Worker 转发 | 返回「ipv6已关闭」提示页 | 同 | Worker 出口是 IPv6，被源站按协议版本拒；RSS 走缓存所以能过 |
-| Worker + 浏览器指纹头 + 重试 | 同上 | 同上 | 同上，改头无效 |
-| Playwright 真浏览器 | ✅ 6.8 秒过挑战，158 个帖子链接 | ❌ 等 45 秒仍是「请稍候…」 | 详情页有独立且更强的防护，带 cf_clearance 也过不去 |
-| **RSS** | ✅ 20 条标题 | 无正文 | 唯一稳定通道 |
+| Actions 直连（Node fetch） | 403 Just a moment | 403 | TLS 指纹是 undici，被判机器人 |
+| 直连 + 全套浏览器请求头 | 403 | 403 | 判的是 TLS 不是头 |
+| Cloudflare Worker 转发 | 「ipv6已关闭」提示页 | 同 | Worker 出口是 IPv6，被源站按协议版本拒 |
+| Playwright 真浏览器 | ✅ 6.8 秒过挑战 | ❌ 等 45 秒仍「请稍候…」 | 详情页有独立更强的防护 |
+| RSS | ✅ 20 条标题 | 无正文 | 能用但覆盖窄 |
+| **curl_cffi（impersonate=chrome）** | ✅ 3 页 90 条 | ✅ **拿得到 .post-content** | 当前生产方案 |
 
-所以本项目的实际能力边界是：**NodeSeek 只能拿到标题，拿不到正文**。这不影响筛选——NodeSeek 的标题信息密度很高（"黑五早鸟 VPS 整理：纽约独服、孟买小鸡和短促款，首月价和续费分开看"光看标题就能判 8 分），实测 AI 打分准确度与其他三站没有明显差距。
+关键点：**必须用 `impersonate="chrome"`**，`chrome131` 反而 403（指纹太新不在白名单），`safari` 也可以。
 
-为了弥补"一次 RSS 只给 20 条"，抓取频率定在每 10 分钟一轮——实测 20 条正好覆盖约 10 分钟，两轮刚好衔接，不会漏帖。
+所以 NodeSeek 走 Python 抓取器 `scripts/fetch-nodeseek.py`（curl_cffi），产出 `/tmp/nodeseek-raw.json`，Node 侧 `src/sources/nodeseek.mjs` 优先读它；文件缺失或超过 20 分钟就自动回落到 RSS（只有标题），保证永远不会因为 Python 挂掉而断更。
 
-如果哪天 NodeSeek 放开了正文访问，`src/sources/nodeseek.mjs` 里的 `fetchBody` 会自动生效，不用改架构。
+抓取量：默认翻 3 页（约 90 条），前 45 条抓正文。想调就改仓库变量 `NODESEEK_PAGES` / `NODESEEK_DETAIL`。
 
 ## 已知风险与对策
 
