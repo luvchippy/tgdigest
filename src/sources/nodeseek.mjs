@@ -88,13 +88,22 @@ export async function fetchNodeseek(source, ctx) {
   const byId = new Map(rss.map((p) => [p.id, p]));
 
   // 分页补更早的帖子（RSS 只覆盖最近 20 条）
+  // 注意：这里必须关掉 jina 兜底，它返回 markdown，HTML 解析器认不出来
   for (let page = 2; page <= (source.pages ?? 1); page += 1) {
     try {
-      const html = await requestText(`${baseUrl}/page-${page}`, { timeout: 20000 });
-      for (const p of parseListHtml(html)) {
-        if (!byId.has(p.id)) byId.set(p.id, { ...p, createdAt: undefined });
+      const html = await requestText(`${baseUrl}/page-${page}`, { timeout: 20000, allowJina: false });
+      const list = parseListHtml(html);
+      let added = 0;
+      for (const p of list) {
+        if (!byId.has(p.id)) {
+          byId.set(p.id, { ...p, createdAt: undefined });
+          added += 1;
+        }
       }
-    } catch { /* 分页失败不影响 RSS 主源 */ }
+      console.log(`  [nodeseek] page-${page}: 解析 ${list.length} 条, 新增 ${added} 条 (html ${html.length} 字节)`);
+    } catch (err) {
+      console.log(`  [nodeseek] page-${page} 失败: ${err.message.slice(0, 140)}`);
+    }
   }
 
   const all = [...byId.values()];
