@@ -1,0 +1,99 @@
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"832584","title":"iLatency公测，一个新的社区内Ping站，邀你共建","url":"https://www.nodeseek.com/post-832584-1","text":"之前预告过几次，要做一个社区内的ping站 经过一段时间的开发与打磨，现在可以进入公测了 网站由 @lcy0828 完整开发，非常感谢开发者，公测结束后会由开发者lcy0828发一个正式的功能介绍 感谢 @xy 想到的域名，综合对比较为不错故先用这个，后续可能会调整，先测试功能 需要大家参与节点池建设 网站地址是： https://ilatency.com/ 目前功能是完整的，节点是欠缺的，大家有国内节点可以贡献加入到节点池 国外节点也可以加入，但目前主要是需要国内节点 这里是 节点覆盖进度 加入方法 先通过cAuth一键登录，之后可以在 我的探针 里面生成添加命令，之后在国内的机器运行就好了，可以放到软路由里面。 为了保持架构简洁及兼容性，采用了golang开发，可以裸装也可以docker安装。 软件代码是开源的， 地址 基本功能 支持各种tcp/icmp/http等拨测手段 支持智能调度 支持用户设定屏蔽目标 支持查看被调用历史 积分策略 网站计划采取类似pt的积分策略，贡献节点被调用获得积分，测试消耗积分 不同等级的用户有不同的初始积分数额等 目前为了充分测试，积分消耗设定的非常少，正式版后会恢复 积分兑换机器等功能还在考虑，看一下测试期的表现再决定 第一批贡献节点的应该会有ns站内积分奖励，稍后闲一点再处理 bug反馈 遇到问题欢迎向开发者反馈 @lcy0828"}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041972","title":"想知道Claude，Gemini，GPT三家各自的强项是什么","url":"https://www.nodeseek.com/post-1041972-1","text":"取其精华，弃之糟粕"}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1039578","title":"剩1台 30元 [出] HKcloudx mini - v6 0.6刀 月付款 带宽500M 月1T流量 我包 push费用","url":"https://www.nodeseek.com/post-1039578-1","text":"买了3台，自己用一台，还有2台. 刚才有人买了1台，还剩1台。，30元出。 机子只能用VIP6，没有VIP4.移动快乐鸡。 2026-12-01到期 1 核 CPU 1GB 内存 5GB SSD 1 个独立 IPv6 带宽500M 双向流量1T 续费0.6刀一个月，你可以自己年付，我买的是月付， 移动快乐鸡。 ZFB红包口令，30元 我包push费用 没有ZFB的币安红包 4.5刀 这个其实不赚钱，买花0.6刀，转移给你要0.6刀手续费，我充值手续费，最低要充值1刀，充值一次单笔要2块手续费。来来回回我就花了快20元了。 我TG： @vkchen 点这打开我 TG 赚个几块也体验一下做基佬的乐趣，鸡是好鸡，看别的群的反馈。 还没注册HKC的进这里去注册： hkcloudx.com 500M带宽足足的。 人家3T的溢价130有人在收 好用确实好用，但是是移动快乐鸡，移动最好用，联通将就用。 已经出了1台了，还剩下1台："}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042091","title":"求教下，币安还有2w刀，怎么回国？没有香港za，只有工银和汇丰","url":"https://www.nodeseek.com/post-1042091-1","text":"求教下，币安还有2w刀，怎么回国？没有香港za，只有工银和汇丰"}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042020","title":"双11淘宝买东西太累了","url":"https://www.nodeseek.com/post-1042020-1","text":"一个东西会有N个优惠，淘金币，猫猫币，直播间补贴，限时立减，商品礼金 如果是猫超的还会有超级补贴，品牌金 最终还有满减券需要凑单 真的是千人千面"}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041942","title":"【慢讯】甲骨文春川联通又拉了","url":"https://www.nodeseek.com/post-1041942-1","text":"才高兴一会，又拉了"}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041457","title":"庆祝面包云跑路好死 抽五个8.88口令红包","url":"https://www.nodeseek.com/post-1041457-1","text":"大结局终迎来尾声，我说了撑不过一年，因为他们机器到期了。 明天中午12点开 https://www.nodeseek.com/lucky?post=1041457&time=1794283200000&count=5&start=1&duplicate=false&mode=view"}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042092","title":"大家muse都是怎么保号的？有没有什么好的玩法？","url":"https://www.nodeseek.com/post-1042092-1","text":"muse真是超级难注册啊。 怎么养号的啊 各位 另外还没有注册的可以用我的邀请码 04A6AE"}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042102","title":"「互助帖」助力muse词元，邀请码放评论","url":"https://www.nodeseek.com/post-1042102-1","text":"很多人都还没有注册muse 也有很多人没有刷满那个31B的词元 特开一帖，大家相互助力 04A6AE"}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041925","title":"【快讯】DMIT大妈 不会涨价。","url":"https://www.nodeseek.com/post-1041925-1","text":"https://t.me/DmitCloud/148"}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1040600","title":"【+900收】瓦工荷兰36.36刀 改邮","url":"https://www.nodeseek.com/post-1040600-1","text":"M我，哥们"}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042097","title":"TQ 汐云HK 开始没速度了","url":"https://www.nodeseek.com/post-1042097-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041157","title":"【车找人】美区GPT Pro200 340/月 周限500没有日限","url":"https://www.nodeseek.com/post-1041157-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041843","title":"muse 注册心得分享 及邀请码","url":"https://www.nodeseek.com/post-1041843-1","text":"网页上试了台湾、香港、美国等家宽都不行，一会儿直接禁止注册，一会儿要求信用卡，一会儿让我等待，都快放弃了。 然后看到了教程，说“不用换号，换个IP，可以改用APP试试” 于是，换上了吃灰的新加坡蜂窝数据，用已经被提示“等待加入”的号在安卓全局环境下，登录了一次，竟然直接成功了！ 所以， 1、美国、日本、新加坡三地目前开放注册，找到干净的IP，家宽最好，当然了机房小众或者原生干净也可以试试 2、尝试全局环境下手机muse app注册，成功率大大增加 3、成功之后，进入app，右上角有个“邀请”入口，点击“兑换”，可以填入“ OQKMLH ”（全大写字母），你我各获得10亿token"}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041812","title":"出 75 一个月的gpt business team席位，可以免费解接码，长期拼车，全程质保。","url":"https://www.nodeseek.com/post-1041812-1","text":"有需要的佬可以直接找我，免费接码，全程质保"}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042095","title":"谷歌解封效率真高。。","url":"https://www.nodeseek.com/post-1042095-1","text":"申诉只要写 自己在中国 要用机场多人共享一个IP 经常切换地区 就这套模板万试万灵。。。"}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1039113","title":"收 一个云悠洛杉矶C.Lite - Mini 8折 14.39 最好是161.144段的","url":"https://www.nodeseek.com/post-1039113-1","text":"收 一个云悠洛杉矶C.Lite - Mini 8折 14.39 最好是161.144段的"}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1038477","title":"溢价200 收RFC 老6折 JP CO ADV","url":"https://www.nodeseek.com/post-1038477-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041878","title":"乌龟卡突然没信号了怎么整？","url":"https://www.nodeseek.com/post-1041878-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042101","title":"科大讯飞的ai应用，注册送5000积分","url":"https://www.nodeseek.com/post-1042101-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042086","title":"【收】一个wawo HK-ipv6only-0.5G，年付17.5r。60收","url":"https://www.nodeseek.com/post-1042086-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1040529","title":"「情报」VMISS - US.LA.TRI.Basic 补货了-8CAD","url":"https://www.nodeseek.com/post-1040529-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"997276","title":"菲律宾maya出现这个,要不要管","url":"https://www.nodeseek.com/post-997276-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042099","title":"Claude pro是不是不管哪个区都是20美元？","url":"https://www.nodeseek.com/post-1042099-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042061","title":"水一贴，给大家测测日本航空和新干线上的ip","url":"https://www.nodeseek.com/post-1042061-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042100","title":"po0hk找租户","url":"https://www.nodeseek.com/post-1042100-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041990","title":"口腔溃疡用什么药好呢？","url":"https://www.nodeseek.com/post-1041990-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041911","title":"【已出】1500+ 出 DMIT LAX.AN4.EB.CORONA","url":"https://www.nodeseek.com/post-1041911-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041730","title":"抽奖一个美国telegram号优惠码（中奖私信找我要优惠码直接在我的发卡网0元领取）","url":"https://www.nodeseek.com/post-1041730-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042000","title":"ios27可以改地区强开ai了，有没有办法解决esim电子围栏？","url":"https://www.nodeseek.com/post-1042000-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041515","title":"佬们，目前kiro学生能用的在哪买的，binus用不了","url":"https://www.nodeseek.com/post-1041515-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042027","title":"建站在德国怎么解决中国大陆的访问问题？","url":"https://www.nodeseek.com/post-1042027-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042055","title":"[NQ]RakSmart NTT伪家宽2.25刀/月","url":"https://www.nodeseek.com/post-1042055-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041693","title":"发现我两个账号的MUSE不一样？","url":"https://www.nodeseek.com/post-1041693-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1031525","title":"VIrcs 耍猴呢？？？","url":"https://www.nodeseek.com/post-1031525-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"994969","title":"🔥 无限收八折优惠码 8r","url":"https://www.nodeseek.com/post-994969-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042009","title":"怎么样让opus5.5 指挥sol 6.1 干活呢？","url":"https://www.nodeseek.com/post-1042009-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"982968","title":"🔥【车找人】 GPT TEAM 拼车 65r，每天都会开新车，全程质保！","url":"https://www.nodeseek.com/post-982968-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1040588","title":"【收】收临期空间，10号11号都可以来","url":"https://www.nodeseek.com/post-1040588-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041778","title":"AI音乐真好玩","url":"https://www.nodeseek.com/post-1041778-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042070","title":"【人找车】找个百度网盘的车","url":"https://www.nodeseek.com/post-1042070-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041806","title":"【TQ】甲骨文春川arm","url":"https://www.nodeseek.com/post-1041806-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042052","title":"游戏服务器 VPS 组合对比","url":"https://www.nodeseek.com/post-1042052-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042057","title":"【出】15r 出 Hkcloudx-MiniV6-1000G 0.6$/月","url":"https://www.nodeseek.com/post-1042057-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041849","title":"币安预测市场 自动化交易","url":"https://www.nodeseek.com/post-1041849-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1032644","title":"出 DMIT 大妈 Corona 2T","url":"https://www.nodeseek.com/post-1032644-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1033586","title":"【出】破云 GGBOOM 4837","url":"https://www.nodeseek.com/post-1033586-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041888","title":"【收】最近是不是akko的账单日？看到好几个德国交易帖了、遂开一帖收个akko de 299/y","url":"https://www.nodeseek.com/post-1041888-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042033","title":"【收】收个taipei101 LAX1 价格随意","url":"https://www.nodeseek.com/post-1042033-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042034","title":"线路只用v6方便吗","url":"https://www.nodeseek.com/post-1042034-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042072","title":"精通aws的大佬 🈶场请教一下问题 麻烦私信下我","url":"https://www.nodeseek.com/post-1042072-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1040750","title":"【收】菲律宾家宽NAT","url":"https://www.nodeseek.com/post-1040750-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042029","title":"LEGENDVPS 假新老板，恶作剧一场","url":"https://www.nodeseek.com/post-1042029-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041835","title":"求联通线路机 大概流量4T/月","url":"https://www.nodeseek.com/post-1041835-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042049","title":"求推荐或者收一台32G内存的鸡","url":"https://www.nodeseek.com/post-1042049-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1028392","title":"【人找车】打包找英国 德国 加拿大家宽车","url":"https://www.nodeseek.com/post-1028392-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1028978","title":"【老车补一人】第二车找人 GPT pro 200刀 三人车 380/月 周限400刀。","url":"https://www.nodeseek.com/post-1028978-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041916","title":"raksmart这个年付$59.9的CN2是1M带宽？","url":"https://www.nodeseek.com/post-1041916-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042045","title":"Codex多席位的无缝切换程序，适合订阅多个workplace共享Group分组信息和project项目信息","url":"https://www.nodeseek.com/post-1042045-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042044","title":"[慢讯]HaloCloud闲时流量回馈","url":"https://www.nodeseek.com/post-1042044-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1039155","title":"溢价20收raksmart 2C2G，1.99款","url":"https://www.nodeseek.com/post-1039155-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1039510","title":"人找车 美区搬瓦工拼车","url":"https://www.nodeseek.com/post-1039510-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1040236","title":"surge iOS 两个🚗位，100 永久，到期 2027 年 11 月 8 日","url":"https://www.nodeseek.com/post-1040236-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041834","title":"有玩青龙的吗，都签什么平台？","url":"https://www.nodeseek.com/post-1041834-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041989","title":"【TQ/NQ】100tb JP 普通线路测试留档","url":"https://www.nodeseek.com/post-1041989-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041265","title":"大佬们求推荐vps","url":"https://www.nodeseek.com/post-1041265-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042041","title":"溢价收56idc 芬兰，德国max 顺带出15号team","url":"https://www.nodeseek.com/post-1042041-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041988","title":"七折收一台 绿云 2222 软银 年付或者三年都可以 三年的需要内存翻倍","url":"https://www.nodeseek.com/post-1041988-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041241","title":"Codex 20x 老车补 2 人｜300 元/月｜支持生图｜sub2api 交付","url":"https://www.nodeseek.com/post-1041241-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041995","title":"acck的sb日本被限速了?","url":"https://www.nodeseek.com/post-1041995-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1036428","title":"「出」总价200出HKCloudxX 老v6 5刀/Y 3T流量","url":"https://www.nodeseek.com/post-1036428-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1040389","title":"解决国行安卓「开定位谷歌送中」& 附赠 MuMu 模拟器默认「国内坐标」送中一键绝育脚本","url":"https://www.nodeseek.com/post-1040389-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041952","title":"Google Ultra 20X反代antigravity到底封不封？","url":"https://www.nodeseek.com/post-1041952-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1040631","title":"【溢价收】收 Legend SG和JP 折扣机各一台，Evo、lite都行，年付/三年付都行","url":"https://www.nodeseek.com/post-1040631-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041900","title":"封号不是传说，菲区真封了。","url":"https://www.nodeseek.com/post-1041900-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041954","title":"我的 RackNord 被封 IP 今天解封了","url":"https://www.nodeseek.com/post-1041954-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1039631","title":"【已解决】mac的系统更新 通知横幅有什么办法可以解决吗","url":"https://www.nodeseek.com/post-1039631-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1032486","title":"【8.8折出】绿云日本软银JP10GbpsStorage-1 (Softbank)，大盘鸡！","url":"https://www.nodeseek.com/post-1032486-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041991","title":"原来我家openwrt网络一直没调优","url":"https://www.nodeseek.com/post-1041991-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041982","title":"有人买小米2pro遥控器了？","url":"https://www.nodeseek.com/post-1041982-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042037","title":"光帆河南联通 落地台湾和拉美 选两台机器选什么","url":"https://www.nodeseek.com/post-1042037-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041979","title":"我发现个规律GPT每次大规模封号后都会伴随一个比较厉害的模型发布。","url":"https://www.nodeseek.com/post-1041979-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042024","title":"再出一台搬瓦工年付 18.79美元的机器","url":"https://www.nodeseek.com/post-1042024-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041933","title":"出 溢价260出台诺联 cox 新款","url":"https://www.nodeseek.com/post-1041933-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041473","title":"140收yuusei的一张ipv4卡","url":"https://www.nodeseek.com/post-1041473-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1041940","title":"谷歌24个月的ai pro不封禁了？","url":"https://www.nodeseek.com/post-1041940-1","text":""}
+{"sourceId":"nodeseek","sourceName":"NodeSeek","id":"1042011","title":"收韩国优化 带价pm","url":"https://www.nodeseek.com/post-1042011-1","text":""}
+{"sourceId":"linuxdo","sourceName":"LinuxDo","id":"3145962","title":"【ChatGPT订阅问题】使用邮储万事达信用卡订阅不成功","url":"https://linux.do/t/3145962","author":"abinabin2dd","createdAt":"2026-11-09T10:52:34.034Z","category":"快问快答","stats":"1 浏览 / 0 赞 / 1 回复","text":""}
+{"sourceId":"linuxdo","sourceName":"LinuxDo","id":"3145953","title":"opencode 这是逼着让升级吗","url":"https://linux.do/t/3145953","author":"GaussPrime","createdAt":"2026-11-09T10:48:59.396Z","category":"软件开发","stats":"51 浏览 / 0 赞 / 3 回复","text":""}
+{"sourceId":"linuxdo","sourceName":"LinuxDo","id":"3145948","title":"gpt的cyber方案靠谱吗🤔","url":"https://linux.do/t/3145948","author":"kagg886","createdAt":"2026-11-09T10:47:39.186Z","category":"软件开发,软件调试","stats":"70 浏览 / 0 赞 / 6 回复","text":""}
+{"sourceId":"linuxdo","sourceName":"LinuxDo","id":"3145914","title":"佬友们 求推荐一个较稳定国外的漫游流量卡 国内激活 偶尔用于接码","url":"https://linux.do/t/3145914","author":"slovercaca","createdAt":"2026-11-09T10:37:03.473Z","category":"纯水,快问快答,树洞,手机卡","stats":"45 浏览 / 0 赞 / 8 回复","text":""}
+{"sourceId":"linuxdo","sourceName":"LinuxDo","id":"3145922","title":"Apple发邮件提示我的grok订阅出现问题","url":"https://linux.do/t/3145922","author":"samuel_wyj","createdAt":"2026-11-09T10:39:10.670Z","category":"病友,supergrok","stats":"52 浏览 / 0 赞 / 5 回复","text":""}
+{"sourceId":"linuxdo","sourceName":"LinuxDo","id":"3145959","title":"重要文件数据备份方案，移动机械硬盘","url":"https://linux.do/t/3145959","author":"glalways","createdAt":"2026-11-09T10:51:40.676Z","category":"快问快答","stats":"6 浏览 / 0 赞 / 1 回复","text":""}
+{"sourceId":"linuxdo","sourceName":"LinuxDo","id":"3145910","title":"苏州宽带选择移动还是联通？","url":"https://linux.do/t/3145910","author":"rist","createdAt":"2026-11-09T10:35:57.183Z","category":"纯水","stats":"27 浏览 / 1 赞 / 4 回复","text":""}
+{"sourceId":"linuxdo","sourceName":"LinuxDo","id":"3145956","title":"网易云音乐推荐的歌怎么这么难听☹️。不能网抑云了","url":"https://linux.do/t/3145956","author":"yiwuyu","createdAt":"2026-11-09T10:50:49.766Z","category":"纯水","stats":"8 浏览 / 0 赞 / 1 回复","text":""}
+{"sourceId":"linuxdo","sourceName":"LinuxDo","id":"3145955","title":"下一堆Agent的养蛊，不知道用哪个。","url":"https://linux.do/t/3145955","author":"GTF","createdAt":"2026-11-09T10:50:15.645Z","category":"快问快答,人工智能","stats":"19 浏览 / 0 赞 / 1 回复","text":""}
+{"sourceId":"linuxdo","sourceName":"LinuxDo","id":"3145947","title":"GPT 赠送的 API 额度不能在 Codex 里使用吗？","url":"https://linux.do/t/3145947","author":"Tokinx","createdAt":"2026-11-09T10:46:56.242Z","category":"快问快答,ChatGPT,OpenAI","stats":"39 浏览 / 0 赞 / 3 回复","text":""}
+{"sourceId":"linuxdo","sourceName":"LinuxDo","id":"3145946","title":"最终选择哪一家？","url":"https://linux.do/t/3145946","author":"tmwl","createdAt":"2026-11-09T10:46:50.795Z","category":"快问快答,人工智能,ChatGPT,grok","stats":"54 浏览 / 0 赞 / 2 回复","text":""}
+{"sourceId":"linuxdo","sourceName":"LinuxDo","id":"3145940","title":"关于订阅claude之后","url":"https://linux.do/t/3145940","author":"TAO_MI","createdAt":"2026-11-09T10:44:45.456Z","category":"快问快答,人工智能,软件开发","stats":"57 浏览 / 0 赞 / 3 回复","text":""}
