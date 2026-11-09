@@ -20,10 +20,13 @@ export async function requestText(url, opts = {}) {
   } = opts;
 
   const targets = [{ url, headers: {} }];
-  // 自建 Worker 代理优先，比如 https://proxy.example/?url=
-  if (process.env.PROXY_PREFIX) {
+  // 自建 Cloudflare Worker 转发优先；只对 NodeSeek 用，避免把其它站塞进去白挨一次 403
+  if (process.env.PROXY_PREFIX && /nodeseek\.com/i.test(url)) {
+    const prefix = process.env.PROXY_PREFIX;
+    const sep = prefix.includes('?') ? (prefix.endsWith('?') || prefix.endsWith('=') ? '' : '&') : '?';
+    const token = process.env.PROXY_TOKEN ? `${sep}token=${encodeURIComponent(process.env.PROXY_TOKEN)}` : '';
     targets.unshift({
-      url: process.env.PROXY_PREFIX + encodeURIComponent(url),
+      url: prefix + encodeURIComponent(url) + token,
       headers: { 'x-target': url },
     });
   }
