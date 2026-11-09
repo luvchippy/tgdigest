@@ -27,18 +27,18 @@ async function visit(url, label) {
 
 await visit('https://www.nodeseek.com/page-2', 'page-2');
 
-// 详情页取正文
+// 详情页取正文：等元素出现，挑战页要几秒才放行
 const page = await ctx.newPage();
-try {
-  await page.goto('https://www.nodeseek.com/post-1041251-1', { waitUntil: 'domcontentloaded', timeout: 60000 });
-  await page.waitForTimeout(5000);
-  const body = await page.evaluate(() => {
-    const el = document.querySelector('.post-content');
-    return el ? el.innerText.slice(0, 300) : null;
-  });
-  console.log('[详情] title=' + (await page.title()));
-  console.log('[详情正文] ' + (body ? body.replace(/\s+/g, ' ') : '(未找到 .post-content)'));
-} catch (e) {
-  console.log('[详情] 失败: ' + e.message.slice(0, 120));
+for (const target of ['https://www.nodeseek.com/post-1041251-1', 'https://www.nodeseek.com/post-1041222-1']) {
+  const t0 = Date.now();
+  try {
+    await page.goto(target, { waitUntil: 'domcontentloaded', timeout: 60000 });
+    await page.waitForSelector('.post-content', { timeout: 30000 });
+    const body = await page.evaluate(() => document.querySelector('.post-content')?.innerText ?? '');
+    console.log(`[详情] ${target} 耗时=${Date.now() - t0}ms title="${await page.title()}"`);
+    console.log('[正文] ' + body.replace(/\s+/g, ' ').slice(0, 320));
+  } catch (e) {
+    console.log(`[详情] ${target} 失败: ${e.message.slice(0, 100)} 耗时=${Date.now() - t0}ms`);
+  }
 }
 await browser.close();
