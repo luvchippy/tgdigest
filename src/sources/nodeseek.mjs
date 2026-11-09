@@ -117,7 +117,8 @@ export async function fetchNodeseek(source, ctx) {
       createdAt: p.createdAt,
       category: p.category,
       stats: p.stats,
-      text: excerpt(p.text ?? '', 800),
+      text: excerpt(p.text ?? '', 1200),
+      replies: Array.isArray(p.replies) ? p.replies.slice(0, 5) : [],
     }));
   }
 

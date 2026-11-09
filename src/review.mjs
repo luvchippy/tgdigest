@@ -129,9 +129,18 @@ export function parseVerdicts(raw, expected) {
 
 function renderPrompt(template, profile, items) {
   const lines = items.map((it, i) => {
-    const head = `[${i + 1}] 来源=${it.sourceName} 标题=${it.title}`;
+    const parts = [`[${i + 1}] 来源=${it.sourceName} 标题=${it.title}`];
     const meta = [it.category && `板块=${it.category}`, it.stats && `数据=${it.stats}`].filter(Boolean).join(' ');
-    return `${head}\n${meta}\n摘要=${it.text || '(空)'}`;
+    if (meta) parts.push(meta);
+    parts.push(`正文=${it.text || '(无正文)'}`);
+    if (Array.isArray(it.replies) && it.replies.length) {
+      parts.push('热门评论=\n' + it.replies
+        .map((r) => `  - ${r.author}${r.likes ? `(${r.likes}赞)` : ''}：${r.text}`)
+        .join('\n'));
+    } else {
+      parts.push('热门评论=(暂无)');
+    }
+    return parts.join('\n');
   });
   return template
     .replace('{{PROFILE}}', profile)

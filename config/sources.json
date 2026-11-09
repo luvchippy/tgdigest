@@ -6,8 +6,8 @@
       "adapter": "nodeseek",
       "enabled": true,
       "baseUrl": "https://www.nodeseek.com",
-      "pages": 6,
-      "detailLimit": 40,
+      "pages": 3,
+      "detailLimit": 45,
       "fetchDetail": true
     },
     {
@@ -17,7 +17,8 @@
       "enabled": true,
       "baseUrl": "https://www.nodeloc.com",
       "pages": 2,
-      "fetchDetail": false
+      "fetchDetail": true,
+      "detailLimit": 30
     },
     {
       "id": "linuxdo",
@@ -26,7 +27,8 @@
       "enabled": true,
       "baseUrl": "https://linux.do",
       "pages": 2,
-      "fetchDetail": false
+      "fetchDetail": true,
+      "detailLimit": 15
     },
     {
       "id": "nht",
@@ -34,7 +36,8 @@
       "adapter": "nht",
       "enabled": true,
       "baseUrl": "https://n.ht",
-      "pages": 2
+      "pages": 2,
+      "fetchDetail": true
     }
   ]
 }

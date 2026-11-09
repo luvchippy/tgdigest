@@ -10,6 +10,7 @@ import re
 import sys
 import time
 
+from bs4 import BeautifulSoup
 from curl_cffi import requests as creq
 
 BASE = "https://www.nodeseek.com"
@@ -68,6 +69,41 @@ def extract_body(html: str) -> str:
     return strip_tags(m.group(1)) if m else ""
 
 
+def extract_comments(html: str, limit: int = 5) -> list:
+    """评论区结构：<div class="comment-container"> 内 <ul class="comments"> 的 <li class="content-item">。"""
+    try:
+        soup = BeautifulSoup(html, "lxml")
+    except Exception:
+        return []
+
+    out = []
+    for li in soup.select("ul.comments li.content-item"):
+        name_el = li.select_one(".author-name")
+        author = name_el.get_text(strip=True) if name_el else "?"
+        body_el = li.select_one(".content-content") or li.select_one(".comment-content") or li
+        text = re.sub(r"\s+", " ", body_el.get_text(" ", strip=True)).strip()
+        if author and text.startswith(author):
+            text = text[len(author):].strip()
+        if len(text) < 4:
+            continue
+        out.append({"author": author, "text": text[:220], "likes": 0})
+        if len(out) >= limit:
+            break
+    return out
+
+
+def extract_stats(html: str) -> str:
+    """浏览 / 点赞 / 回复。结构不稳，取不到就返回空串，不编造。"""
+    views = re.search(r'([\d,]+)\s*(?:次)?浏览', html)
+    likes = re.search(r'href="#star[^"]*"[^>]*>\s*</use>\s*</svg>\s*<span[^>]*>([\d,]+)</span>', html)
+    parts = []
+    if views:
+        parts.append(f"{views.group(1)} 浏览")
+    if likes:
+        parts.append(f"{likes.group(1)} 赞")
+    return " / ".join(parts)
+
+
 def main() -> int:
     session = creq.Session(impersonate=IMPERSONATE)
     posts = {}
@@ -96,7 +132,11 @@ def main() -> int:
         try:
             r = session.get(p["url"], timeout=45, allow_redirects=True)
             if r.status_code == 200 and not BLOCK_HINT.search(r.text[:4000]):
-                p["text"] = extract_body(r.text)[:800]
+                p["text"] = extract_body(r.text)[:1200]
+                p["replies"] = extract_comments(r.text)
+                stats = extract_stats(r.text)
+                if stats:
+                    p["stats"] = stats
         except Exception:
             pass
         if i % 5 == 4:
@@ -107,7 +147,8 @@ def main() -> int:
         json.dump(list(posts.values()), f, ensure_ascii=False)
 
     with_body = sum(1 for p in posts.values() if p.get("text"))
-    print(f"  [py] 共 {len(posts)} 条，其中 {with_body} 条拿到正文 -> {OUT}", file=sys.stderr)
+    with_replies = sum(1 for p in posts.values() if p.get("replies"))
+    print(f"  [py] 共 {len(posts)} 条，{with_body} 条有正文，{with_replies} 条有评论 -> {OUT}", file=sys.stderr)
     return 0
 
 

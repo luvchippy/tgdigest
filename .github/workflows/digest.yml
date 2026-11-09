@@ -30,7 +30,7 @@ jobs:
   collect:
     if: github.event.schedule == '2,12,22,32,42,52 * * * *' || inputs.mode == 'collect'
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -49,7 +49,7 @@ jobs:
           NODESEEK_PAGES: ${{ vars.NODESEEK_PAGES || '3' }}
           NODESEEK_DETAIL: ${{ vars.NODESEEK_DETAIL || '45' }}
         run: |
-          pip install --quiet curl_cffi
+          pip install --quiet curl_cffi beautifulsoup4 lxml
           python scripts/fetch-nodeseek.py
 
       - name: 抓取新帖入队
@@ -89,7 +89,7 @@ jobs:
           REVIEW_MODEL: ${{ vars.REVIEW_MODEL || 'deepseek-v4.1-flash-1017' }}
           MIN_SCORE: ${{ vars.MIN_SCORE || '6' }}
           MAX_PER_SOURCE: ${{ vars.MAX_PER_SOURCE || '0' }}
-          MAX_CANDIDATES: ${{ vars.MAX_CANDIDATES || '600' }}
+          MAX_CANDIDATES: ${{ vars.MAX_CANDIDATES || '2000' }}
           INTEREST_PROFILE: ${{ vars.INTEREST_PROFILE }}
           DRY_RUN: ${{ inputs.mode == 'dry-run' && '1' || '0' }}
         run: node src/digest.mjs
