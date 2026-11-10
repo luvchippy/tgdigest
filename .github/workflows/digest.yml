@@ -2,8 +2,12 @@ name: forum-digest
 
 on:
   schedule:
-    # GitHub cron 实测投递率约 5%，这里只当"心跳"用，真正节奏由 job 内长驻循环保证
-    - cron: '7 * * * *'
+    # GitHub 原生 cron 实测投递率约 3.5%，这里只当兜底心跳：
+    # 每 6 小时一次，一次 job 内跑满 24 轮（约 4.75 小时），由 concurrency 保证不叠跑。
+    # 真正的节奏由 Cloudflare Worker（worker/github-cron.js）调 workflow_dispatch 保证。
+    - cron: '7 */6 * * *'
+  repository_dispatch:
+    types: [loop]
   workflow_dispatch:
     inputs:
       mode:
@@ -40,7 +44,7 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
-          key: pip-curl-cffi-v2
+          key: pip-curl-cffi-v3
 
       - name: 安装依赖
         run: |
@@ -50,7 +54,7 @@ jobs:
 
       - name: 长驻抓取循环
         env:
-          LOOP_ROUNDS: ${{ inputs.rounds || '24' }}
+          LOOP_ROUNDS: ${{ github.event.inputs.rounds || github.event.client_payload.rounds || '24' }}
           LOOP_INTERVAL_MS: '600000'
           TELEGRAM_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ vars.TG_CHAT_ID || '6867015060' }}
@@ -62,8 +66,12 @@ jobs:
           MAX_CANDIDATES: ${{ vars.MAX_CANDIDATES || '2000' }}
           INTEREST_PROFILE: ${{ vars.INTEREST_PROFILE }}
           COLLECT_WINDOW_MINUTES: ${{ vars.COLLECT_WINDOW_MINUTES || '25' }}
-          NODESEEK_PAGES: ${{ vars.NODESEEK_PAGES || '3' }}
-          NODESEEK_DETAIL: ${{ vars.NODESEEK_DETAIL || '45' }}
+          # 4 页 ≈ 120 条；详情额度提到 110，覆盖率上限从 45/88≈51% 抬到 ~90%
+          NODESEEK_PAGES: ${{ vars.NODESEEK_PAGES || '4' }}
+          NODESEEK_DETAIL: ${{ vars.NODESEEK_DETAIL || '110' }}
           ENABLE_JINA_FALLBACK: ${{ vars.ENABLE_JINA_FALLBACK || '1' }}
-          DRY_RUN: ${{ inputs.mode == 'dry-run' && '1' || '0' }}
+          DRY_RUN: ${{ (github.event.inputs.mode || github.event.client_payload.mode) == 'dry-run' && '1' || '0' }}
+          # hourly = 每小时整点后推一次；daily = 只在 DIGEST_UTC_HOUR 指定小时推（1 = 北京 09:00）
+          DIGEST_MODE: ${{ vars.DIGEST_MODE || 'hourly' }}
+          DIGEST_UTC_HOUR: ${{ vars.DIGEST_UTC_HOUR || '1' }}
         run: node scripts/loop.mjs
