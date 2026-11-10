@@ -20,6 +20,28 @@ OUT = os.environ.get("NODESEEK_RAW", "/tmp/nodeseek-raw.json")
 IMPERSONATE = os.environ.get("NODESEEK_IMPERSONATE", "chrome")
 
 BLOCK_HINT = re.compile(r"Just a moment|ipv6\s*已关闭|请稍候|Verifying you are human", re.I)
+TITLE_RE = re.compile(r"<title>([^<]*)</title>", re.I)
+
+
+def is_blocked(html: str) -> bool:
+    """只看 <title>，避免正文里出现'请稍候'之类的词被误判成拦截页。"""
+    m = TITLE_RE.search(html[:4000])
+    if m and BLOCK_HINT.search(m.group(1)):
+        return True
+    return bool(BLOCK_HINT.search(html[:600]))
+
+
+def fetch_detail(session, url: str, retries: int = 2):
+    """详情页带退避重试。返回正常 HTML，被拦或失败返回 None。"""
+    for attempt in range(retries + 1):
+        try:
+            r = session.get(url, timeout=50, allow_redirects=True)
+            if r.status_code == 200 and not is_blocked(r.text):
+                return r.text
+            time.sleep(1.2 * (attempt + 1))
+        except Exception:
+            time.sleep(0.8 * (attempt + 1))
+    return None
 
 
 def strip_tags(fragment: str) -> str:
@@ -128,19 +150,23 @@ def main() -> int:
         except Exception as e:
             print(f"  [py] page-{page} 失败: {type(e).__name__}: {str(e)[:100]}", file=sys.stderr)
 
-    for i, p in enumerate(list(posts.values())[:DETAIL_LIMIT]):
-        try:
-            r = session.get(p["url"], timeout=45, allow_redirects=True)
-            if r.status_code == 200 and not BLOCK_HINT.search(r.text[:4000]):
-                p["text"] = extract_body(r.text)[:1200]
-                p["replies"] = extract_comments(r.text)
-                stats = extract_stats(r.text)
-                if stats:
-                    p["stats"] = stats
-        except Exception:
-            pass
-        if i % 5 == 4:
-            time.sleep(0.3)
+    detail_targets = list(posts.values())[:DETAIL_LIMIT]
+    ok = 0
+    for i, p in enumerate(detail_targets):
+        html = fetch_detail(session, p["url"])
+        if html:
+            p["text"] = extract_body(html)[:1200]
+            p["replies"] = extract_comments(html)
+            stats = extract_stats(html)
+            if stats:
+                p["stats"] = stats
+            if p["text"] or p.get("replies"):
+                ok += 1
+        time.sleep(0.35 + (0.15 * (i % 3)))
+        if (i + 1) % 10 == 0:
+            print(f"  [py] 详情进度 {i + 1}/{len(detail_targets)}，成功 {ok}", file=sys.stderr)
+
+    print(f"  [py] 详情抓取完成：{ok}/{len(detail_targets)} 成功", file=sys.stderr)
 
     os.makedirs(os.path.dirname(OUT) or ".", exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
