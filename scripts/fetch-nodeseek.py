@@ -44,17 +44,27 @@ def _alt_session_get():
     return _alt_session
 
 
+_fail_reasons = {}
+
+
+def _note_fail(reason: str):
+    _fail_reasons[reason] = _fail_reasons.get(reason, 0) + 1
+
+
 def fetch_detail(session, url: str, retries: int = 4):
     """详情页带退避与指纹轮换重试。返回正常 HTML，被拦或失败返回 None。"""
+    reason = "unknown"
     for attempt in range(retries + 1):
         sess = session if attempt < 2 else _alt_session_get()
         try:
             r = sess.get(url, timeout=50, allow_redirects=True)
             if r.status_code == 200 and not is_blocked(r.text):
                 return r.text
-        except Exception:
-            pass
+            reason = f"HTTP {r.status_code}" if r.status_code != 200 else "blocked"
+        except Exception as e:
+            reason = type(e).__name__
         time.sleep(0.7 + 0.6 * attempt + random.uniform(0, 0.6))
+    _note_fail(reason)
     return None
 
 
@@ -203,17 +213,20 @@ def main() -> int:
 
     # 补偿重扫：首轮被 Cloudflare 挡掉的，换 safari 指纹再打一遍，通常能捞回一半以上
     if failed:
-        time.sleep(2.0)
+        time.sleep(10.0)
         recovered = 0
         for p in failed:
             html = fetch_detail(_alt_session_get(), p["url"], retries=2)
             if html and absorb(p, html):
                 ok += 1
                 recovered += 1
-            time.sleep(0.5)
+            time.sleep(2.0)
         print(f"  [py] 补偿重扫：捞回 {recovered}/{len(failed)} 条", file=sys.stderr)
 
     print(f"  [py] 详情抓取完成：{ok}/{len(detail_targets)} 成功", file=sys.stderr)
+    if _fail_reasons:
+        detail = ", ".join(f"{k}×{v}" for k, v in sorted(_fail_reasons.items(), key=lambda kv: -kv[1]))
+        print(f"  [py] 详情失败原因：{detail}", file=sys.stderr)
 
     os.makedirs(os.path.dirname(OUT) or ".", exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
