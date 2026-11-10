@@ -189,7 +189,7 @@ def main() -> int:
 
     for i, p in enumerate(detail_targets):
         html = fetch_detail(session, p["url"])
-        if html and absorb(p):
+        if html and absorb(p, html):
             ok += 1
         elif html:
             pass  # 拿到了页面但正文为空，补扫也救不回来，不再进 failed
@@ -207,7 +207,7 @@ def main() -> int:
         recovered = 0
         for p in failed:
             html = fetch_detail(_alt_session_get(), p["url"], retries=2)
-            if html and absorb(p):
+            if html and absorb(p, html):
                 ok += 1
                 recovered += 1
             time.sleep(0.5)
