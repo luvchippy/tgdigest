@@ -1,17 +1,18 @@
 # forum-daily-digest
 
-四个论坛（NodeSeek / NodeLoc / LinuxDo / NHT）的公开新帖，每天自动收集一遍，交给 AI 逐条打分，只把值得看的推送到的 Telegram。**全部跑在 GitHub 的服务器上，你的电脑只需要用来上传一次代码，之后可以关掉。**
+四个论坛（NodeSeek / NodeLoc / LinuxDo / NHT）的公开新帖，每 10 分钟收集一轮，交给 AI 逐条打分，只把值得看的推送到的 Telegram。**全部跑在 GitHub 的服务器上，你的电脑只需要用来上传一次代码，之后可以关掉。**
 
 零依赖：不需要 npm install，只用 Node 自带的网络能力。
 
 ## 它是怎么工作的（白话版）
 
-每天有两个角色轮流上班：
+GitHub 自带的 cron 定时器在这个仓库上基本不工作——实测 24 小时里只有 3.5% 的 cron 槽位真的投递，连纯 echo 的心跳 workflow 一天也只跑 2 次。所以改成**一个 job 里长驻**：
 
-1. **收集工**（每小时一次）：去四个论坛的「最新帖子列表」转一圈，把没见过的帖子抄下来，丢进当天的篮子（`data/queue-日期.jsonl`）。
-2. **审核员**（每天早上 9:00 一次）：把篮子里的帖子一条条交给 AI 打分，挑出 6 分以上的，通过你的 Telegram Bot 发给你，然后把篮子倒空。
+1. **长驻循环**（`scripts/loop.mjs`）：一次 job 内跑 24 轮，每轮间隔 10 分钟。一轮 = 抓四个论坛 → 去重 → 追加进当天的篮子（`data/queue-日期.jsonl`）→ 提交。
+2. **审核推送**：每轮开始前检查一次，到了推送窗口就把篮子里还没推过的帖子交给 AI 打分，挑出 6 分以上的通过 Telegram Bot 发出，然后清空队列。
+3. **接续**：24 轮约 4.75 小时，Cloudflare Worker（`worker/github-cron.js`）每 6 小时通过 `workflow_dispatch` 拉起下一次，前后自然接上，等于 24/7 连续采集。Actions 自带的 `cron: '7 */6 * * *'` 只当兜底。
 
-为什么要分两步：NodeSeek 一天的帖子有上千条，而它的官方订阅源（RSS）一次只给最近 20 条——实测只覆盖 10 分钟。只跑一次必然漏掉绝大部分，所以收集工每小时跑一趟，攒够一天的量再统一审。
+为什么每 10 分钟一轮：NodeSeek 一天的帖子有上千条，而它的官方订阅源（RSS）一次只给最近 20 条——实测只覆盖 10 分钟。只跑一次必然漏掉绝大部分。
 
 ## 四个论坛各自怎么抓（全部实测过）
 
@@ -35,7 +36,7 @@
 3. **把两个值存进仓库**：Settings → Secrets and variables → Actions → New repository secret，分别建 `TELEGRAM_BOT_TOKEN` 和 `TELEGRAM_CHAT_ID`。
 4. **手动试跑**：Actions 页面 → 左侧 `forum-daily-digest` → Run workflow → mode 选 `dry-run` → 运行。结束后点开日志，能看到每个站抓了多少条、AI 挑中哪些、最终会发出去的正文（**不会真的发消息**）。
 5. **正式跑一次**：mode 选 `digest`，这次会真的发到你的 Telegram。
-6. 完事。之后每小时自动收集、每天北京时间 09:00 自动推送。
+6. 完事。之后由 Cloudflare Worker 每 6 小时拉起一次 24 轮长驻循环，每 10 分钟抓一轮、每个整点后推送一次。想要「每天只推一次」，把仓库变量 `DIGEST_MODE` 设成 `daily`（默认只在 UTC 01:00 = 北京 09:00 推）。
 
 想改推送时间：编辑 `.github/workflows/digest.yml` 里的 `cron: '0 1 * * *'`（UTC 时间，北京时间 = UTC+8，例如想改成早上 8 点就写 `0 0 * * *`）。
 
@@ -48,11 +49,15 @@
 | 变量 | 默认 | 作用 |
 | --- | --- | --- |
 | `MIN_SCORE` | 6 | 多少分以上才推送。调高更精简，调低更全 |
-| `MAX_PER_SOURCE` | 12 | 单个站点每天最多推几条，防刷屏 |
+| `MAX_PER_SOURCE` | 0（不限） | 单个站点每次推送最多几条，0 = 不限 |
 | `MAX_CANDIDATES` | 400 | 单轮最多送审多少条，控制 AI 用量 |
-| `COLLECT_WINDOW_HOURS` | 3 | 收集工每次只看最近几小时的帖子 |
+| `COLLECT_WINDOW_MINUTES` | 25 | 每轮只看最近几分钟的帖子 |
 | `INTEREST_PROFILE` | 内置 | 用一句话告诉 AI 你想看什么，它按这个打分 |
 | `REVIEW_MODEL` | 留空 | 指定模型，例如 `openai/gpt-4.1-mini` |
+| `NODESEEK_PAGES` | 4 | NodeSeek 列表翻页数，约 30 条/页 |
+| `NODESEEK_DETAIL` | 130 | 每轮抓多少条详情正文，应 ≥ 总抓取条数 |
+| `DIGEST_MODE` | hourly | `hourly` 每小时推一次，`daily` 每天只推一次 |
+| `DIGEST_UTC_HOUR` | 1 | `daily` 模式下的推送小时（UTC，1 = 北京 09:00） |
 
 ## 想调整筛选口味
 
@@ -75,7 +80,7 @@ NodeSeek 只在 **TLS 指纹正确**时才放行。下面每条都是实测结�
 
 所以 NodeSeek 走 Python 抓取器 `scripts/fetch-nodeseek.py`（curl_cffi），产出 `/tmp/nodeseek-raw.json`，Node 侧 `src/sources/nodeseek.mjs` 优先读它；文件缺失或超过 20 分钟就自动回落到 RSS（只有标题），保证永远不会因为 Python 挂掉而断更。
 
-抓取量：默认翻 3 页（约 90 条），前 45 条抓正文。想调就改仓库变量 `NODESEEK_PAGES` / `NODESEEK_DETAIL`。
+抓取量：默认翻 4 页（约 120 条），前 130 条全部抓正文——详情额度必须 ≥ 抓到的条数，否则后半段只有标题。实测这个配置下详情成功率约 92%、正文覆盖率约 91%。想调就改仓库变量 `NODESEEK_PAGES` / `NODESEEK_DETAIL`。
 
 ## 已知风险与对策
 
@@ -92,6 +97,7 @@ NodeSeek 只在 **TLS 指纹正确**时才放行。下面每条都是实测结�
 ## 目录
 
 ```
+scripts/loop.mjs       长驻循环：一次 job 内 24 轮，每轮抓取 + 按窗口推送
 src/collect.mjs        收集工：抓取 -> 去重 -> 追加进当天队列
 src/digest.mjs         审核员：读队列 -> AI 打分 -> 推 Telegram -> 清空队列
 src/review.mjs         AI 审核，多供应商、批处理、三次重试、脏 JSON 容错
