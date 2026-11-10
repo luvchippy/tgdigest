@@ -29,7 +29,7 @@ concurrency:
 jobs:
   loop:
     runs-on: ubuntu-latest
-    timeout-minutes: 350
+    timeout-minutes: 359
     steps:
       - uses: actions/checkout@v4
         with:
