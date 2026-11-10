@@ -177,19 +177,41 @@ def main() -> int:
 
     detail_targets = list(posts.values())[:DETAIL_LIMIT]
     ok = 0
+    failed = []
+
+    def absorb(p, html):
+        p["text"] = extract_body(html)[:1200]
+        p["replies"] = extract_comments(html)
+        stats = extract_stats(html)
+        if stats:
+            p["stats"] = stats
+        return bool(p["text"] or p.get("replies"))
+
     for i, p in enumerate(detail_targets):
         html = fetch_detail(session, p["url"])
-        if html:
-            p["text"] = extract_body(html)[:1200]
-            p["replies"] = extract_comments(html)
-            stats = extract_stats(html)
-            if stats:
-                p["stats"] = stats
-            if p["text"] or p.get("replies"):
-                ok += 1
+        if html and absorb(p):
+            ok += 1
+        elif html:
+            pass  # 拿到了页面但正文为空，补扫也救不回来，不再进 failed
+        else:
+            failed.append(p)
         time.sleep(0.35 + (0.15 * (i % 3)))
         if (i + 1) % 10 == 0:
             print(f"  [py] 详情进度 {i + 1}/{len(detail_targets)}，成功 {ok}", file=sys.stderr)
+
+    print(f"  [py] 首轮详情：{ok}/{len(detail_targets)} 成功，{len(failed)} 条待补扫", file=sys.stderr)
+
+    # 补偿重扫：首轮被 Cloudflare 挡掉的，换 safari 指纹再打一遍，通常能捞回一半以上
+    if failed:
+        time.sleep(2.0)
+        recovered = 0
+        for p in failed:
+            html = fetch_detail(_alt_session_get(), p["url"], retries=2)
+            if html and absorb(p):
+                ok += 1
+                recovered += 1
+            time.sleep(0.5)
+        print(f"  [py] 补偿重扫：捞回 {recovered}/{len(failed)} 条", file=sys.stderr)
 
     print(f"  [py] 详情抓取完成：{ok}/{len(detail_targets)} 成功", file=sys.stderr)
 
