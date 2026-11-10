@@ -36,3 +36,41 @@ GET https://<worker>/?url=<URL编码后的nodeseek地址>
 
 Worker 校验域名白名单和 token 后转发，把原始 HTML 原样吐回来。列表翻页、帖子正文都走这条路。
 Worker 只放行 `nodeseek.com` / `www.nodeseek.com` 两个域名，不会变成通用代理。
+
+---
+
+## 另一个 Worker：外部调度器（`worker/github-cron.js`）
+
+这个和上面的反代 Worker 是**两个独立的东西**，别混。
+
+反代 Worker（`nodeseek-proxy.js`）解决的是「抓不到 NodeSeek」，
+调度 Worker（`github-cron.js`）解决的是「GitHub Actions 定时器不跑」。
+
+### 为什么要它
+
+实测本仓库的原生 `schedule` 投递率只有 **3.5%**：24 小时里 40 多个 cron 槽位，
+真正触发 5 次；连只跑 `echo` 的 `heartbeat`（`*/5 * * * *`，理论 288 次/天）一天也只跑了 2 次。
+靠它根本撑不起「连续采集」，所以改由 Cloudflare 主动调 GitHub API。
+
+### 部署步骤
+
+1. 复用你已经有的 Cloudflare 账号，**新建一个** Worker（不要覆盖反代那个），名字例如 `forum-digest-cron`。
+2. 把 `worker/github-cron.js` 整段贴进去，Deploy。
+3. Settings → Variables and Secrets 添加三个变量：
+   - `GH_TOKEN`（Secret）：Fine-grained PAT，仓库选 `luvchippy/tgdigest`，权限只勾 **Actions: Read and write**（不要给 Contents，用不上）。
+   - `GH_REPO`（Text）：`luvchippy/tgdigest`
+   - `GH_WORKFLOW`（Text）：`digest.yml`
+4. Settings → **Triggers** → Cron Triggers → Add：填 `7 */6 * * *`（每 6 小时第 7 分钟）。
+5. 自测：浏览器打开 `https://forum-digest-cron.你的子域.workers.dev/?run=1`，
+   返回 `dispatch -> HTTP 204` 就成功了（204 是 GitHub dispatch 接口的正常返回）。
+   然后去 Actions 页面应该能看到一次新的 `forum-digest` 运行。
+
+### 时序
+
+```
+一次 job：24 轮 × 10 分钟 ≈ 4.75 小时
+Worker  ：每 6 小时拉起一次
+→ 前后两段重叠约 45 分钟，由 concurrency 保证不叠跑，形成 24/7 连续覆盖
+```
+
+靠 Actions 自己的 `cron: '7 */6 * * *'` 也行，但按 3.5% 的投递率，别指望它准点。
