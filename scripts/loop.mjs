@@ -9,9 +9,12 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const ROOT = process.cwd();
-const ROUNDS = Number(process.env.LOOP_ROUNDS ?? 27);
+const ROUNDS = Number(process.env.LOOP_ROUNDS ?? 24);
 const INTERVAL_MS = Number(process.env.LOOP_INTERVAL_MS ?? 600_000);
-const DIGEST_GUARD_MS = 55 * 60_000;
+const DIGEST_MODE = (process.env.DIGEST_MODE ?? 'hourly').trim().toLowerCase();
+const DIGEST_UTC_HOUR = Number(process.env.DIGEST_UTC_HOUR ?? 1);
+// hourly 模式下两次推送至少间隔 55 分钟；daily 模式下 20 小时，避免跨天重复推送
+const DIGEST_GUARD_MS = DIGEST_MODE === 'daily' ? 20 * 60 * 60_000 : 55 * 60_000;
 const stampFile = path.join(ROOT, 'data', 'last-digest.txt');
 
 const log = (...a) => console.log(`[${new Date().toISOString().slice(11, 19)}] ${a.join(' ')}`);
@@ -29,12 +32,15 @@ function run(cmd, opts = {}) {
 
 function shouldDigest() {
   const now = Date.now();
+  const dt = new Date(now);
+  // daily：只在指定 UTC 小时的整点后 12 分钟内触发（UTC 1 = 北京 09:00）
+  if (DIGEST_MODE === 'daily' && dt.getUTCHours() !== DIGEST_UTC_HOUR) return false;
   try {
     const last = Number(fs.readFileSync(stampFile, 'utf8').trim());
     if (last && now - last < DIGEST_GUARD_MS) return false;
   } catch { /* 首次 */ }
   // 整点后 12 分钟内触发一次
-  return new Date(now).getUTCMinutes() < 12;
+  return dt.getUTCMinutes() < 12;
 }
 
 function commit(msg) {
@@ -56,7 +62,7 @@ function commit(msg) {
   }
 }
 
-log(`长驻循环启动：${ROUNDS} 轮 × ${Math.round(INTERVAL_MS / 60000)} 分钟`);
+log(`长驻循环启动：${ROUNDS} 轮 × ${Math.round(INTERVAL_MS / 60000)} 分钟，推送模式 ${DIGEST_MODE}${DIGEST_MODE === 'daily' ? ` (UTC ${DIGEST_UTC_HOUR} 点)` : ''}`);
 
 for (let round = 1; round <= ROUNDS; round += 1) {
   log(`===== 第 ${round}/${ROUNDS} 轮 =====`);
