@@ -68,7 +68,7 @@ jobs:
           COLLECT_WINDOW_MINUTES: ${{ vars.COLLECT_WINDOW_MINUTES || '25' }}
           # 4 页 ≈ 120 条；详情额度提到 110，覆盖率上限从 45/88≈51% 抬到 ~90%
           NODESEEK_PAGES: ${{ vars.NODESEEK_PAGES || '4' }}
-          NODESEEK_DETAIL: ${{ vars.NODESEEK_DETAIL || '110' }}
+          NODESEEK_DETAIL: ${{ vars.NODESEEK_DETAIL || '130' }}
           ENABLE_JINA_FALLBACK: ${{ vars.ENABLE_JINA_FALLBACK || '1' }}
           DRY_RUN: ${{ (github.event.inputs.mode || github.event.client_payload.mode) == 'dry-run' && '1' || '0' }}
           # hourly = 每小时整点后推一次；daily = 只在 DIGEST_UTC_HOUR 指定小时推（1 = 北京 09:00）
