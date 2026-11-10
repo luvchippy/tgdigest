@@ -45,6 +45,7 @@ def _alt_session_get():
 
 
 _fail_reasons = {}
+_last_reason = None
 
 
 def _note_fail(reason: str):
@@ -53,6 +54,7 @@ def _note_fail(reason: str):
 
 def fetch_detail(session, url: str, retries: int = 4):
     """详情页带退避与指纹轮换重试。返回正常 HTML，被拦或失败返回 None。"""
+    global _last_reason
     reason = "unknown"
     for attempt in range(retries + 1):
         sess = session if attempt < 2 else _alt_session_get()
@@ -65,6 +67,7 @@ def fetch_detail(session, url: str, retries: int = 4):
             reason = type(e).__name__
         time.sleep(0.7 + 0.6 * attempt + random.uniform(0, 0.6))
     _note_fail(reason)
+    _last_reason = reason
     return None
 
 
@@ -203,6 +206,8 @@ def main() -> int:
             ok += 1
         elif html:
             pass  # 拿到了页面但正文为空，补扫也救不回来，不再进 failed
+        elif _last_reason == "HTTP 404":
+            p["dead"] = True  # 帖子已删/不存在，补扫也无意义，入队前剔除
         else:
             failed.append(p)
         time.sleep(0.35 + (0.15 * (i % 3)))
@@ -227,6 +232,12 @@ def main() -> int:
     if _fail_reasons:
         detail = ", ".join(f"{k}×{v}" for k, v in sorted(_fail_reasons.items(), key=lambda kv: -kv[1]))
         print(f"  [py] 详情失败原因：{detail}", file=sys.stderr)
+
+    dead = [k for k, v in posts.items() if v.get("dead")]
+    for k in dead:
+        posts.pop(k, None)
+    if dead:
+        print(f"  [py] 剔除失效帖 {len(dead)} 条（详情页 404）", file=sys.stderr)
 
     os.makedirs(os.path.dirname(OUT) or ".", exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
