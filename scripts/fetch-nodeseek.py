@@ -6,6 +6,7 @@
 """
 import json
 import os
+import random
 import re
 import sys
 import time
@@ -31,16 +32,29 @@ def is_blocked(html: str) -> bool:
     return bool(BLOCK_HINT.search(html[:600]))
 
 
-def fetch_detail(session, url: str, retries: int = 2):
-    """详情页带退避重试。返回正常 HTML，被拦或失败返回 None。"""
+ALT_IMPERSONATE = os.environ.get("NODESEEK_IMPERSONATE_ALT", "safari")
+_alt_session = None
+
+
+def _alt_session_get():
+    """前两次用主指纹，之后换 safari 指纹再试——同一 IP 上两种指纹被拦的概率并不相关。"""
+    global _alt_session
+    if _alt_session is None:
+        _alt_session = creq.Session(impersonate=ALT_IMPERSONATE)
+    return _alt_session
+
+
+def fetch_detail(session, url: str, retries: int = 4):
+    """详情页带退避与指纹轮换重试。返回正常 HTML，被拦或失败返回 None。"""
     for attempt in range(retries + 1):
+        sess = session if attempt < 2 else _alt_session_get()
         try:
-            r = session.get(url, timeout=50, allow_redirects=True)
+            r = sess.get(url, timeout=50, allow_redirects=True)
             if r.status_code == 200 and not is_blocked(r.text):
                 return r.text
-            time.sleep(1.2 * (attempt + 1))
         except Exception:
-            time.sleep(0.8 * (attempt + 1))
+            pass
+        time.sleep(0.7 + 0.6 * attempt + random.uniform(0, 0.6))
     return None
 
 
@@ -82,11 +96,22 @@ def parse_list(html: str):
 
 
 def extract_body(html: str) -> str:
-    m = re.search(r'<(article|div)[^>]*class="[^"]*\bpost-content\b[^"]*"[^>]*>([\s\S]*?)</\1>', html, re.I)
-    if m:
-        text = strip_tags(m.group(2))
-        if len(text) > 20:
-            return text
+    """用 BeautifulSoup 取 .post-content，正则做兜底；再兜 meta 描述。"""
+    try:
+        soup = BeautifulSoup(html, "lxml")
+        el = soup.select_one(".post-content")
+        if el:
+            text = re.sub(r"\s+", " ", el.get_text(" ", strip=True)).strip()
+            if len(text) > 20:
+                return text
+        for name in (("property", "og:description"), ("name", "description")):
+            meta = soup.find("meta", attrs={name[0]: name[1]})
+            if meta and meta.get("content"):
+                text = re.sub(r"\s+", " ", meta["content"]).strip()
+                if text:
+                    return text
+    except Exception:
+        pass
     m = re.search(r'<meta[^>]+(?:property|name)="(?:og:description|description)"[^>]+content="([^"]+)"', html, re.I)
     return strip_tags(m.group(1)) if m else ""
 
