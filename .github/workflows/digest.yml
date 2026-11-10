@@ -13,7 +13,7 @@ on:
         options: [loop, dry-run]
       rounds:
         description: '循环轮数（每轮约 11 分钟）'
-        default: '27'
+        default: '24'
 
 permissions:
   contents: write
@@ -50,7 +50,7 @@ jobs:
 
       - name: 长驻抓取循环
         env:
-          LOOP_ROUNDS: ${{ inputs.rounds || '27' }}
+          LOOP_ROUNDS: ${{ inputs.rounds || '24' }}
           LOOP_INTERVAL_MS: '600000'
           TELEGRAM_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ vars.TG_CHAT_ID || '6867015060' }}

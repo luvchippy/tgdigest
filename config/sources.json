@@ -28,7 +28,7 @@
       "baseUrl": "https://linux.do",
       "pages": 2,
       "fetchDetail": true,
-      "detailLimit": 15
+      "detailLimit": 8
     },
     {
       "id": "nht",
