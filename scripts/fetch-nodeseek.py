@@ -19,6 +19,9 @@ PAGES = int(os.environ.get("NODESEEK_PAGES", "3"))
 DETAIL_LIMIT = int(os.environ.get("NODESEEK_DETAIL", "20"))
 OUT = os.environ.get("NODESEEK_RAW", "/tmp/nodeseek-raw.json")
 IMPERSONATE = os.environ.get("NODESEEK_IMPERSONATE", "chrome")
+# 同一个 job 内已经抓过详情的帖子 id。每轮只抓新帖的详情，别把同一批帖子反复请求——
+# 那是 Cloudflare 按 IP 限流的直接原因（实测连续 5~6 轮后整站 403）。
+DETAIL_SEEN = os.environ.get("NODESEEK_DETAIL_SEEN", "/tmp/nodeseek-detail-ids.txt")
 
 BLOCK_HINT = re.compile(r"Just a moment|ipv6\s*已关闭|请稍候|Verifying you are human", re.I)
 TITLE_RE = re.compile(r"<title>([^<]*)</title>", re.I)
@@ -168,6 +171,7 @@ def main() -> int:
     session = creq.Session(impersonate=IMPERSONATE)
     posts = {}
 
+    pages_ok = 0
     for page in range(1, PAGES + 1):
         url = BASE + ("/" if page == 1 else f"/page-{page}")
         try:
@@ -178,6 +182,7 @@ def main() -> int:
             if BLOCK_HINT.search(r.text[:4000]):
                 print(f"  [py] page-{page} 被拦截页挡住", file=sys.stderr)
                 continue
+            pages_ok += 1
             listed = parse_list(r.text)
             added = 0
             for p in listed:
@@ -188,7 +193,22 @@ def main() -> int:
         except Exception as e:
             print(f"  [py] page-{page} 失败: {type(e).__name__}: {str(e)[:100]}", file=sys.stderr)
 
-    detail_targets = list(posts.values())[:DETAIL_LIMIT]
+    if pages_ok == 0:
+        print("  [py] 所有列表页均被 403/拦截，判定本机 IP 已被限流", file=sys.stderr)
+        return 2
+
+    seen_ids = set()
+    try:
+        with open(DETAIL_SEEN, encoding="utf-8") as f:
+            seen_ids = {line.strip() for line in f if line.strip()}
+    except Exception:
+        pass
+
+    fresh = [p for p in posts.values() if p["id"] not in seen_ids]
+    skipped = len(posts) - len(fresh)
+    if skipped:
+        print(f"  [py] 跳过本 job 已抓过详情的 {skipped} 条，本轮只抓 {min(len(fresh), DETAIL_LIMIT)} 条", file=sys.stderr)
+    detail_targets = fresh[:DETAIL_LIMIT]
     ok = 0
     failed = []
 
@@ -229,6 +249,14 @@ def main() -> int:
         print(f"  [py] 补偿重扫：捞回 {recovered}/{len(failed)} 条", file=sys.stderr)
 
     print(f"  [py] 详情抓取完成：{ok}/{len(detail_targets)} 成功", file=sys.stderr)
+
+    if detail_targets:
+        try:
+            with open(DETAIL_SEEN, "a", encoding="utf-8") as f:
+                for p in detail_targets:
+                    f.write(p["id"] + chr(10))
+        except Exception:
+            pass
     if _fail_reasons:
         detail = ", ".join(f"{k}×{v}" for k, v in sorted(_fail_reasons.items(), key=lambda kv: -kv[1]))
         print(f"  [py] 详情失败原因：{detail}", file=sys.stderr)
