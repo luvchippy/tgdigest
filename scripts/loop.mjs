@@ -69,7 +69,12 @@ let nodeSeekFailStreak = 0;
 for (let round = 1; round <= ROUNDS; round += 1) {
   log(`===== 第 ${round}/${ROUNDS} 轮 =====`);
 
-  const nsOk = run('python scripts/fetch-nodeseek.py');
+  // 第 1 轮把列表翻深、详情额度拉满：补回上一个 run 因限流中断留下的缺口，
+  // 以及换 IP 的空窗期，保证 NodeSeek 的帖子一条不漏。
+  const nsEnv = round === 1
+    ? 'NODESEEK_PAGES=8 NODESEEK_DETAIL=900 '
+    : 'NODESEEK_PAGES=4 NODESEEK_DETAIL=200 ';
+  const nsOk = run(nsEnv + 'python scripts/fetch-nodeseek.py');
   if (nsOk) {
     nodeSeekFailStreak = 0;
   } else {
