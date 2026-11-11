@@ -102,6 +102,12 @@ async function fetchBody(baseUrl, id) {
 
 export async function fetchNodeseek(source, ctx) {
   const baseUrl = source.baseUrl;
+  // 长驻循环里本机 IP 被 Cloudflare 限流时，别退化成只抓 RSS 标题——
+  // 那批帖子没有正文，进队只会把 AI 审核质量拉低。
+  if (process.env.SKIP_NODESEEK === '1') {
+    console.log('  [nodeseek] 本机 IP 已被限流，本轮跳过 NodeSeek');
+    return [];
+  }
 
   // 首选：curl_cffi 抓到的完整结果（带正文）
   const cffi = loadCurlCffiResult();
