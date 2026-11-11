@@ -1,0 +1,4 @@
+# 这两个目录是自动生成的追加式数据，两个 job 交接时 git rebase 会撞车。
+# 按行 union 合并：双方新增的行都保留，重复行由程序自身去重。
+data/*.jsonl merge=union
+state/*.jsonl merge=union
