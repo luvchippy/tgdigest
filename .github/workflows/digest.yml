@@ -61,9 +61,11 @@ jobs:
           REVIEW_BASE_URL: ${{ vars.REVIEW_BASE_URL || 'https://napi.luvz.top/v1' }}
           REVIEW_API_KEY: ${{ secrets.LLM_API_KEY }}
           REVIEW_MODEL: ${{ vars.REVIEW_MODEL || 'deepseek-v4.1-flash-1017' }}
-          MIN_SCORE: ${{ vars.MIN_SCORE || '6' }}
+          # 不再按分数过滤：进了队列的帖子必须全部推送，这个变量只为兼容旧配置保留
+          MIN_SCORE: ${{ vars.MIN_SCORE || '0' }}
+          REVIEW_BATCH_SIZE: ${{ vars.REVIEW_BATCH_SIZE || '30' }}
           MAX_PER_SOURCE: ${{ vars.MAX_PER_SOURCE || '0' }}
-          MAX_CANDIDATES: ${{ vars.MAX_CANDIDATES || '2000' }}
+          MAX_CANDIDATES: ${{ vars.MAX_CANDIDATES || '20000' }}
           INTEREST_PROFILE: ${{ vars.INTEREST_PROFILE }}
           COLLECT_WINDOW_MINUTES: ${{ vars.COLLECT_WINDOW_MINUTES || '25' }}
           # 4 页 ≈ 120 条；详情额度提到 110，覆盖率上限从 45/88≈51% 抬到 ~90%
