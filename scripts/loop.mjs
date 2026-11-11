@@ -64,12 +64,23 @@ function commit(msg) {
 
 log(`长驻循环启动：${ROUNDS} 轮 × ${Math.round(INTERVAL_MS / 60000)} 分钟，推送模式 ${DIGEST_MODE}${DIGEST_MODE === 'daily' ? ` (UTC ${DIGEST_UTC_HOUR} 点)` : ''}`);
 
+let nodeSeekFailStreak = 0;
+
 for (let round = 1; round <= ROUNDS; round += 1) {
   log(`===== 第 ${round}/${ROUNDS} 轮 =====`);
 
-  run('python scripts/fetch-nodeseek.py');
+  if (run('python scripts/fetch-nodeseek.py')) {
+    nodeSeekFailStreak = 0;
+  } else {
+    nodeSeekFailStreak += 1;
+  }
   run('node src/collect.mjs');
   commit('chore(collect): queue update');
+
+  if (nodeSeekFailStreak >= 3) {
+    log(`NodeSeek 连续 ${nodeSeekFailStreak} 轮全站被拦（本机 IP 已被 Cloudflare 限流），提前结束本次 run，交给下一次换 IP`);
+    break;
+  }
 
   if (shouldDigest()) {
     log('触发本轮审核推送');
