@@ -69,15 +69,17 @@ let nodeSeekFailStreak = 0;
 for (let round = 1; round <= ROUNDS; round += 1) {
   log(`===== 第 ${round}/${ROUNDS} 轮 =====`);
 
-  if (run('python scripts/fetch-nodeseek.py')) {
+  const nsOk = run('python scripts/fetch-nodeseek.py');
+  if (nsOk) {
     nodeSeekFailStreak = 0;
   } else {
     nodeSeekFailStreak += 1;
   }
-  run('node src/collect.mjs');
+  // 被限流时不把 RSS 的裸标题灌进队列：那会把正文覆盖率从 ~91% 拉到 ~79%
+  run(nsOk ? 'node src/collect.mjs' : 'SKIP_NODESEEK=1 node src/collect.mjs');
   commit('chore(collect): queue update');
 
-  if (nodeSeekFailStreak >= 3) {
+  if (nodeSeekFailStreak >= 2) {
     log(`NodeSeek 连续 ${nodeSeekFailStreak} 轮全站被拦（本机 IP 已被 Cloudflare 限流），提前结束本次 run，交给下一次换 IP`);
     break;
   }
