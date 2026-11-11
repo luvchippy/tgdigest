@@ -1,7 +1,10 @@
 /**
- * 阶段二：审核推送（每小时一次）。
- * 读当天队列 -> AI 逐条打分 -> 按分数从高到低推送 -> 清空队列。
- * 每轮都会发一条消息，哪怕没有达标内容。
+ * 阶段二：审核推送。
+ * 读当天队列 -> AI 逐条打分（只用来排序和写推荐理由）-> 全部推送 -> 清空队列。
+ *
+ * 铁律：进了队列的帖子必须原样出现在 Telegram 里。
+ * AI 的分数只是附加信息，不参与去留判断；AI 调用失败、返回脏 JSON、
+ * 少给一条结论，都不能让帖子凭空消失——那种情况打上 no-verdict 照发。
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -13,9 +16,8 @@ const dataDir = path.join(root, 'data');
 const promptTemplate = fs.readFileSync(path.join(root, 'prompts/review.md'), 'utf8');
 
 const cfg = {
-  minScore: Number(process.env.MIN_SCORE ?? 6),
   maxPerSource: Number(process.env.MAX_PER_SOURCE ?? 0),
-  maxCandidates: Number(process.env.MAX_CANDIDATES ?? 600),
+  maxCandidates: Number(process.env.MAX_CANDIDATES ?? 20000),
   dryRun: process.env.DRY_RUN === '1',
   profile: process.env.INTEREST_PROFILE ??
     '关注 VPS/云主机优惠与线路质量、开源项目与自建服务、网络与运维故障、AI 自动化工具、值得踩坑的交易与投诉。',
@@ -54,10 +56,13 @@ const verdicts = candidates.length
   ? await reviewItems(candidates, { template: promptTemplate, profile: cfg.profile, log })
   : new Map();
 
+// 不做 keep / score 过滤。缺 verdict 的条目补一个占位对象，保证一条不丢。
 const scored = candidates
-  .map((item, i) => ({ ...item, verdict: verdicts.get(i) }))
-  .filter((x) => x.verdict && x.verdict.keep && x.verdict.score >= cfg.minScore)
-  .sort((a, b) => b.verdict.score - a.verdict.score);
+  .map((item, i) => ({
+    ...item,
+    verdict: verdicts.get(i) ?? { keep: true, score: 0, why: '', error: 'no-verdict' },
+  }))
+  .sort((a, b) => (b.verdict.score ?? 0) - (a.verdict.score ?? 0));
 
 let selected = scored;
 if (cfg.maxPerSource > 0) {
@@ -75,21 +80,21 @@ function buildMessage() {
   const stamp = new Date(now).toLocaleString('zh-CN', {
     timeZone: 'Asia/Shanghai', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false,
   });
-  const degraded = selected.some((s) => s.verdict.error === 'review-failed');
+  const unscored = selected.filter((s) => s.verdict.error).length;
   let out = `📮 <b>论坛速递 ${stamp}</b>\n`;
-  out += `新帖 ${items.length} 条 · 达标 ${scored.length} 条 · 推送 <b>${selected.length}</b> 条`;
-  if (degraded) out += '\n<i>AI 审核不可用，本轮为未打分直推</i>';
+  out += `新帖 ${items.length} 条 · 推送 <b>${selected.length}</b> 条`;
+  if (unscored) out += `（其中 ${unscored} 条 AI 未给出评分）`;
 
   if (!selected.length) {
-    out += '\n\n本轮没有达到推送标准的内容。';
+    out += '\n\n本轮队列为空。';
   } else {
     selected.forEach((item, i) => {
-      const score = item.verdict.error === 'review-failed' ? '' : ` <b>${item.verdict.score}</b>`;
+      const score = item.verdict.error ? '' : ` <b>${item.verdict.score}</b>`;
       out += `\n\n${i + 1}. <a href="${escapeHtml(item.url)}">${escapeHtml(item.title)}</a>${score}\n`;
       out += `   ▸ ${escapeHtml(item.sourceName)}`;
       if (item.stats) out += ` · ${escapeHtml(item.stats)}`;
       if (item.category) out += ` · ${escapeHtml(item.category)}`;
-      if (item.verdict.why && item.verdict.error !== 'review-failed') out += `\n   ▸ ${escapeHtml(item.verdict.why)}`;
+      if (item.verdict.why && !item.verdict.error) out += `\n   ▸ ${escapeHtml(item.verdict.why)}`;
     });
   }
 
@@ -118,14 +123,14 @@ if (!cfg.dryRun) {
   try { fs.unlinkSync(path.join(dataDir, 'last-errors.json')); } catch { /* 无 */ }
 }
 
-log(`送审 ${candidates.length} 条，达标 ${scored.length} 条，推送 ${selected.length} 条`);
+log(`送审 ${candidates.length} 条，推送 ${selected.length} 条（队列 ${items.length} 条）`);
 
 const summary = process.env.GITHUB_STEP_SUMMARY;
 if (summary) {
   try {
     fs.appendFileSync(summary, [
       '## 论坛速递', '',
-      `- 队列：${items.length}，送审：${candidates.length}，达标：${scored.length}，推送：${selected.length}`,
+      `- 队列：${items.length}，送审：${candidates.length}，推送：${selected.length}`,
       errors.length ? `- 失败源：${errors.map((e) => `${e.source}(${e.error})`).join('；')}` : '- 失败源：无',
       '', ...selected.map((s) => `- [${s.sourceName}] ${s.title} — ${s.verdict.score}/${s.verdict.why}`),
     ].join('\n') + '\n');
