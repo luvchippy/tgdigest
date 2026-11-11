@@ -33,14 +33,16 @@ function run(cmd, opts = {}) {
 function shouldDigest() {
   const now = Date.now();
   const dt = new Date(now);
-  // daily：只在指定 UTC 小时的整点后 12 分钟内触发（UTC 1 = 北京 09:00）
+  // daily：只在指定 UTC 小时触发（UTC 1 = 北京 09:00）
   if (DIGEST_MODE === 'daily' && dt.getUTCHours() !== DIGEST_UTC_HOUR) return false;
   try {
     const last = Number(fs.readFileSync(stampFile, 'utf8').trim());
     if (last && now - last < DIGEST_GUARD_MS) return false;
   } catch { /* 首次 */ }
-  // 整点后 12 分钟内触发一次
-  return dt.getUTCMinutes() < 12;
+  // hourly：不再看"整点后 N 分钟"——一轮抓取要 4~5 分钟，等抓完再判断会把窗口整段错过。
+  // 改成纯粹的 55 分钟节流：只要距上次推送够久就推。
+  if (DIGEST_MODE === 'daily') return dt.getUTCMinutes() < 12;
+  return true;
 }
 
 function commit(msg) {
@@ -69,6 +71,9 @@ let nodeSeekFailStreak = 0;
 for (let round = 1; round <= ROUNDS; round += 1) {
   log(`===== 第 ${round}/${ROUNDS} 轮 =====`);
 
+  // 抓取要 4~5 分钟，必须在抓之前就判定，否则整点窗口会被吃掉
+  const digestDue = shouldDigest();
+
   // 第 1 轮把列表翻深、详情额度拉满：补回上一个 run 因限流中断留下的缺口，
   // 以及换 IP 的空窗期，保证 NodeSeek 的帖子一条不漏。
   const nsEnv = round === 1
@@ -89,7 +94,7 @@ for (let round = 1; round <= ROUNDS; round += 1) {
     break;
   }
 
-  if (shouldDigest()) {
+  if (digestDue) {
     log('触发本轮审核推送');
     const ok = run('node src/digest.mjs');
     if (ok) {
