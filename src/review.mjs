@@ -3,7 +3,7 @@
  * 供应商可插拔，默认 GitHub Models（在 Actions 里用内置 GITHUB_TOKEN，无需额外付费 key）。
  */
 
-const BATCH_SIZE = Number(process.env.REVIEW_BATCH_SIZE ?? 20);
+const BATCH_SIZE = Number(process.env.REVIEW_BATCH_SIZE ?? 10);
 
 function providerConfig() {
   // 默认策略：配了自定义 base url 就用它（DeepSeek 等中转服务），否则回落到 GitHub Models
@@ -59,7 +59,7 @@ function providerConfig() {
   };
 }
 
-async function chat(messages, { timeout = 90000 } = {}) {
+async function chat(messages, { timeout = 180000 } = {}) {
   const cfg = providerConfig();
   const body = cfg.kind === 'gemini'
     ? {
@@ -70,6 +70,9 @@ async function chat(messages, { timeout = 90000 } = {}) {
         model: cfg.model,
         messages,
         temperature: 0.2,
+        // 该模型带长思维链（reasoning_content），max_tokens 给小了 JSON 会被截断，
+        // 表现为整批解析失败、全部条目丢失。
+        max_tokens: Number(process.env.REVIEW_MAX_TOKENS ?? 8000),
         // 部分托管模型不支持 response_format，硬带会整批 400；靠提示词 + 解析容错兜住
         ...(process.env.REVIEW_JSON_MODE === '1' ? { response_format: { type: 'json_object' } } : {}),
       };
