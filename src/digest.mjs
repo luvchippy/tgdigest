@@ -16,6 +16,7 @@ const dataDir = path.join(root, 'data');
 const promptTemplate = fs.readFileSync(path.join(root, 'prompts/review.md'), 'utf8');
 
 const cfg = {
+  minScore: Number(process.env.MIN_SCORE ?? 6),
   maxPerSource: Number(process.env.MAX_PER_SOURCE ?? 0),
   maxCandidates: Number(process.env.MAX_CANDIDATES ?? 20000),
   dryRun: process.env.DRY_RUN === '1',
@@ -56,12 +57,16 @@ const verdicts = candidates.length
   ? await reviewItems(candidates, { template: promptTemplate, profile: cfg.profile, log })
   : new Map();
 
-// 不做 keep / score 过滤。缺 verdict 的条目补一个占位对象，保证一条不丢。
+// 每条帖子都送审，但只有审核通过（keep=true 且分数 >= MIN_SCORE）的才推送。
+// 广告、抽奖、推广、水贴由提示词判 keep=false；审核失败(error)的也不算通过，
+// 单独计数写进消息，免得把没审过的内容当成好内容推出去。
+const auditFailed = candidates.filter((_, i) => !verdicts.get(i) || verdicts.get(i).error).length;
 const scored = candidates
   .map((item, i) => ({
     ...item,
-    verdict: verdicts.get(i) ?? { keep: true, score: 0, why: '', error: 'no-verdict' },
+    verdict: verdicts.get(i) ?? { keep: false, score: 0, why: '', error: 'no-verdict' },
   }))
+  .filter((x) => x.verdict && !x.verdict.error && x.verdict.keep && (x.verdict.score ?? 0) >= cfg.minScore)
   .sort((a, b) => (b.verdict.score ?? 0) - (a.verdict.score ?? 0));
 
 let selected = scored;
@@ -80,13 +85,12 @@ function buildMessage() {
   const stamp = new Date(now).toLocaleString('zh-CN', {
     timeZone: 'Asia/Shanghai', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false,
   });
-  const unscored = selected.filter((s) => s.verdict.error).length;
   let out = `📮 <b>论坛速递 ${stamp}</b>\n`;
-  out += `新帖 ${items.length} 条 · 推送 <b>${selected.length}</b> 条`;
-  if (unscored) out += `（其中 ${unscored} 条 AI 未给出评分）`;
+  out += `新帖 ${items.length} 条 · 送审 ${candidates.length} 条 · 入选 <b>${selected.length}</b> 条`;
+  if (auditFailed) out += `（${auditFailed} 条审核失败未计入）`;
 
   if (!selected.length) {
-    out += '\n\n本轮队列为空。';
+    out += '\n\n本轮没有达到入选标准的帖子。';
   } else {
     selected.forEach((item, i) => {
       const score = item.verdict.error ? '' : ` <b>${item.verdict.score}</b>`;
@@ -123,7 +127,7 @@ if (!cfg.dryRun) {
   try { fs.unlinkSync(path.join(dataDir, 'last-errors.json')); } catch { /* 无 */ }
 }
 
-log(`送审 ${candidates.length} 条，推送 ${selected.length} 条（队列 ${items.length} 条）`);
+log(`送审 ${candidates.length} 条，入选 ${selected.length} 条，审核失败 ${auditFailed} 条（队列 ${items.length} 条）`);
 
 const summary = process.env.GITHUB_STEP_SUMMARY;
 if (summary) {
