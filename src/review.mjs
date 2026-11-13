@@ -156,8 +156,20 @@ function renderPrompt(template, profile, items) {
  */
 export async function reviewItems(items, { template, profile, log = () => {} }) {
   const verdicts = new Map();
+
+  const batches = [];
   for (let offset = 0; offset < items.length; offset += BATCH_SIZE) {
-    const batch = items.slice(offset, offset + BATCH_SIZE);
+    batches.push({ offset, batch: items.slice(offset, offset + BATCH_SIZE) });
+  }
+
+  // 批处理改成并发：串行时 216 条要跑 36 分钟，把整个抓取循环都堵住了。
+  const CONCURRENCY = Math.max(1, Number(process.env.REVIEW_CONCURRENCY ?? 3));
+  // 审核没成功的条目默认丢弃：宁可少推，也不要把没经过筛选的帖子当成好帖发出去。
+  const failMode = process.env.FALLBACK_ON_REVIEW_ERROR ?? 'drop';
+
+  let cursor = 0;
+
+  async function runOne({ offset, batch }) {
     const prompt = renderPrompt(template, profile, batch);
     let ok = false;
     for (let attempt = 1; attempt <= 3 && !ok; attempt += 1) {
@@ -176,19 +188,29 @@ export async function reviewItems(items, { template, profile, log = () => {} }) 
       }
     }
     if (!ok) {
-      const mode = process.env.FALLBACK_ON_REVIEW_ERROR ?? 'push';
       for (let i = 0; i < batch.length; i += 1) {
         if (!verdicts.has(offset + i)) {
           verdicts.set(offset + i, {
-            keep: mode === 'push',
-            score: mode === 'push' ? Number(process.env.MIN_SCORE ?? 6) : 0,
+            keep: failMode === 'push',
+            score: failMode === 'push' ? Number(process.env.MIN_SCORE ?? 6) : 0,
             tags: [],
-            why: mode === 'push' ? 'AI 审核不可用，原样推送' : 'AI 审核不可用，已丢弃',
+            why: failMode === 'push' ? 'AI 审核不可用，原样推送' : 'AI 审核不可用，已丢弃',
             error: 'review-failed',
           });
         }
       }
     }
   }
+
+  async function worker() {
+    while (cursor < batches.length) {
+      const my = batches[cursor];
+      cursor += 1;
+      await runOne(my);
+    }
+  }
+
+  const n = Math.min(CONCURRENCY, batches.length);
+  await Promise.all(Array.from({ length: n }, () => worker()));
   return verdicts;
 }
