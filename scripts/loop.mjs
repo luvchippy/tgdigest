@@ -12,6 +12,8 @@ const ROOT = process.cwd();
 const ROUNDS = Number(process.env.LOOP_ROUNDS ?? 24);
 const INTERVAL_MS = Number(process.env.LOOP_INTERVAL_MS ?? 600_000);
 const DIGEST_MODE = (process.env.DIGEST_MODE ?? 'hourly').trim().toLowerCase();
+// 抓取 workflow 专用：只入队不审核，审核交给独立的 forum-review
+const COLLECT_ONLY = process.env.COLLECT_ONLY === '1';
 const DIGEST_UTC_HOUR = Number(process.env.DIGEST_UTC_HOUR ?? 1);
 // hourly 模式下两次推送至少间隔 55 分钟；daily 模式下 20 小时，避免跨天重复推送
 const DIGEST_GUARD_MS = DIGEST_MODE === 'daily' ? 20 * 60 * 60_000 : 55 * 60_000;
@@ -94,7 +96,7 @@ for (let round = 1; round <= ROUNDS; round += 1) {
     break;
   }
 
-  if (digestDue) {
+  if (digestDue && !COLLECT_ONLY) {
     log('触发本轮审核推送');
     const ok = run('node src/digest.mjs');
     if (ok) {
