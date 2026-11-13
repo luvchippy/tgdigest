@@ -1,0 +1,74 @@
+name: forum-review
+
+# 只负责审核：每次运行把 queue 里"还没有审核结论"的帖子送 AI，
+# 结论落到 data/reviewed-*.jsonl，攒够 PUSH_THRESHOLD 条达标帖才推送。
+# 和 forum-collect 完全解耦，可以并行跑，谁都不会阻塞谁。
+
+on:
+  schedule:
+    # 兜底轮询：即使抓取 workflow 没触发，也能每 15 分钟看一眼队列
+    - cron: '*/15 * * * *'
+  workflow_run:
+    # 抓取 workflow 一结束就立刻审核一次
+    workflows: ["forum-collect"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: forum-review
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+
+      - name: 配置 git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: 增量审核 + 攒够阈值推送
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ vars.TG_CHAT_ID || '6867015060' }}
+          REVIEW_BASE_URL: ${{ vars.REVIEW_BASE_URL || 'https://note3-prev-api.askdiandian.com/v1' }}
+          REVIEW_API_KEY: ${{ secrets.LLM_API_KEY }}
+          REVIEW_MODEL: ${{ vars.REVIEW_MODEL || 'dots3-note-prev' }}
+          REVIEW_BATCH_SIZE: ${{ vars.REVIEW_BATCH_SIZE || '10' }}
+          REVIEW_CONCURRENCY: ${{ vars.REVIEW_CONCURRENCY || '3' }}
+          REVIEW_MAX_TOKENS: ${{ vars.REVIEW_MAX_TOKENS || '8000' }}
+          MIN_SCORE: ${{ vars.MIN_SCORE || '6' }}
+          PUSH_THRESHOLD: ${{ vars.PUSH_THRESHOLD || '20' }}
+          MAX_REVIEW_ATTEMPTS: ${{ vars.MAX_REVIEW_ATTEMPTS || '3' }}
+          MAX_CANDIDATES: ${{ vars.MAX_CANDIDATES || '20000' }}
+          MAX_PER_SOURCE: ${{ vars.MAX_PER_SOURCE || '0' }}
+          INTEREST_PROFILE: ${{ vars.INTEREST_PROFILE }}
+          DRY_RUN: ${{ github.event.inputs.mode == 'dry-run' && '1' || '0' }}
+        run: node src/reviewer.mjs
+
+      - name: 提交审核结果
+        run: |
+          git add -A data state 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "没有需要提交的变更"
+            exit 0
+          fi
+          git commit -m "chore(review): verdicts update [skip ci]" -q
+          for i in 1 2 3; do
+            if git pull --rebase --autostash -q && git push -q; then exit 0; fi
+            git rebase --abort 2>/dev/null || true
+            sleep 2
+          done
+          echo "push 失败"
+          exit 1
