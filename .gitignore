@@ -1,3 +1,9 @@
 node_modules/
 .env
 *.log
+
+# 自动生成的状态文件：每轮都会重写，两个 job 交接时 git rebase 必然 add/add 冲突，
+# rebase 冲突会让整轮采集数据都提交不上去（曾因此丢掉 2 小时的帖子）。
+# 这两个文件只在单次 run 内有效，不需要跨 run 持久化，直接排除出版本控制。
+data/last-errors.json
+data/last-digest.txt
