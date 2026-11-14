@@ -1,6 +1,6 @@
 {
   "name": "forum-digest",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "private": true,
   "type": "module",
   "engines": {
@@ -8,8 +8,8 @@
   },
   "scripts": {
     "collect": "node src/collect.mjs",
-    "digest": "node src/digest.mjs",
-    "dry-run": "DRY_RUN=1 node src/digest.mjs",
+    "review": "node src/reviewer.mjs",
+    "dry-run": "DRY_RUN=1 node src/reviewer.mjs",
     "probe": "node src/probe.mjs"
   },
   "dependencies": {}
