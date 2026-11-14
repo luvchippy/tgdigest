@@ -4383,3 +4383,9 @@
 {"key":"nodeseek:1021678","sourceId":"nodeseek","id":"1021678","title":"甲骨文 龟壳 升级号 二验","keep":true,"score":6,"tags":["云服务","经验"],"why":"分享验证问题，有具体细节","at":1794683261318}
 {"key":"nodeseek:1054695","sourceId":"nodeseek","id":"1054695","title":"【NQ】DIMT LAX.AN4.EB.WEE","keep":true,"score":8,"tags":["硬件","实测"],"why":"一手硬件体检报告","at":1794683261318}
 {"key":"linuxdo:3178140","sourceId":"linuxdo","id":"3178140","title":"13年金融，8年保险，关于医疗险咨询的答疑","keep":false,"score":0,"tags":[],"why":"正文空，标题党无实质内容","at":1794683261318}
+{"key":"nodeseek:1054722","sourceId":"nodeseek","id":"1054722","title":"礼貌问价","keep":true,"score":5,"tags":["VPS","询价"],"why":"询问市场价，附有测速报告链接","at":1794683301521}
+{"key":"nodeseek:1054721","sourceId":"nodeseek","id":"1054721","title":"claude这样是彻底G了吗","keep":false,"score":0,"tags":[],"why":"正文空洞，无实质内容","at":1794683301521}
+{"key":"nodeseek:967928","sourceId":"nodeseek","id":"967928","title":"轻量（Lite）探针 2.3.7 更新：定时任务、续费日历、精细时间流量重置等","keep":true,"score":8,"tags":["开源","监控","更新"],"why":"详细更新日志，包含新功能说明","at":1794683301521}
+{"key":"nodeseek:1021678","sourceId":"nodeseek","id":"1021678","title":"甲骨文 龟壳 升级号 二验","keep":true,"score":7,"tags":["甲骨文云","验证","风险"],"why":"分享验证失败经历，寻求分析，有具体细节","at":1794683301521}
+{"key":"nodeseek:1054695","sourceId":"nodeseek","id":"1054695","title":"【NQ】DIMT LAX.AN4.EB.WEE","keep":true,"score":8,"tags":["硬件","体检","VPS"],"why":"提供硬件质量体检报告，有具体数据","at":1794683301521}
+{"key":"linuxdo:3178140","sourceId":"linuxdo","id":"3178140","title":"13年金融，8年保险，关于医疗险咨询的答疑","keep":false,"score":0,"tags":[],"why":"正文缺失，无实质内容","at":1794683301521}
