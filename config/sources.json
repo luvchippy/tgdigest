@@ -46,6 +46,7 @@
       "enabled": true,
       "baseUrl": "https://1a2x.com",
       "feedUrl": "https://1a2x.com/rss.xml",
+      "windowHours": 24,
       "fetchDetail": false
     }
   ]
