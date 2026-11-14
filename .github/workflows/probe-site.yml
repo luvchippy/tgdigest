@@ -9,7 +9,7 @@ on:
         required: true
         default: 'https://1a2x.com/'
       mode:
-        description: 'head=只打印响应头和首段内容'
+        description: 'head=响应头+首段 / json=按 JSON 结构分析'
         default: 'head'
 
 jobs:
@@ -25,8 +25,20 @@ jobs:
             -H "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" \
             "${{ inputs.url }}" || echo "curl exit $?"
           echo "=========== HEADERS ==========="
-          head -30 headers.txt
+          head -12 headers.txt
           echo "=========== SIZE ==========="
           wc -c body.bin
-          echo "=========== BODY (first 4000) ==========="
-          head -c 4000 body.bin
+          if [ "${{ inputs.mode }}" = "json" ]; then
+            echo "=========== JSON SHAPE ==========="
+            jq -r '
+              "top-level keys: \(keys | join(","))",
+              "pagination: \(. | {total, last_page, current_page, per_page, page, total_count} | tostring)",
+              "data length: \(.data | length)",
+              "first keys: \(.data[0] | keys | join(","))",
+              "first item: \(.data[0] | {id, title, created_at, createdAt, published_at} | tostring)",
+              "last item: \(.data[-1] | {id, title, created_at, createdAt, published_at} | tostring)"
+            ' body.bin 2>&1 | head -20
+          else
+            echo "=========== BODY (first 2000) ==========="
+            head -c 2000 body.bin
+          fi
