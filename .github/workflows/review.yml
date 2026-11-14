@@ -13,6 +13,12 @@ on:
     workflows: ["forum-collect"]
     types: [completed]
   workflow_dispatch:
+    inputs:
+      mode:
+        description: '运行模式'
+        type: choice
+        default: run
+        options: [run, dry-run]
 
 permissions:
   contents: write
