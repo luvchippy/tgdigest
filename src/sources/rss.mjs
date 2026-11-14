@@ -35,6 +35,11 @@ function idFromLink(link) {
 }
 
 export async function fetchRss(source, ctx) {
+  // RSS 站点普遍是小站，25 分钟窗口内经常一条新帖都没有，全被过滤掉。
+  // 这里改用 source.windowHours（默认 24 小时），靠 seen 去重保证不重复入队。
+  const windowHours = Number(source.windowHours ?? 24);
+  const cutoff = Date.now() - windowHours * 3600_000;
+
   const base = source.baseUrl.replace(/\/$/, '');
   const feedUrl = source.feedUrl || base + '/rss.xml';
 
@@ -50,7 +55,8 @@ export async function fetchRss(source, ctx) {
     if (!title || !link) continue;
 
     const created = toISO(tag(b, 'pubDate'));
-    if (!ctx.withinWindow(created)) continue;
+    const ts = created ? Date.parse(created) : NaN;
+    if (!Number.isNaN(ts) && ts < cutoff) continue;
 
     const desc = stripHtml(tag(b, 'description'));
     const category = stripHtml(tag(b, 'category'));
