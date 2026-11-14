@@ -7,9 +7,11 @@ import { excerpt, pick, toISO, findObjectArray, tagList } from '../lib/parse.mjs
  * 列表：GET /api/topics?page=N -> {code:200, data:[...], pagination:{page,per_page,total,total_pages}}
  * 详情：GET /api/topics/{id}  -> {code, data:{topic, replies, endorsed_reply}}
  *
- * 坑：这个接口按 id 升序分页，page=1 是最老的帖子（id=1 是建站公告）。
- * 原实现固定抓 page=1，于是永远只能拿到几个月前的帖子，被时间窗口全部滤掉。
- * 现在先读 pagination.total_pages，再从最后一页往前抓，保证先拿到最新的。
+ * 两个实测结论：
+ *   1. 排序是按「最后回复时间」倒序，page=1 就是最新的一批；置顶帖排在最前面（is_pinned）。
+ *      所以必须从 page=1 开始抓，不能倒着抓（倒着抓拿到的是几个月前的死帖）。
+ *   2. 全站只有一百多条帖，更新很慢，用 collect 那个 25 分钟窗口几乎永远抓不到东西。
+ *      这里改用 source.windowHours（默认 24 小时），靠 seen 去重保证不重复入队。
  */
 
 const MAX_REPLIES = 5;
@@ -33,24 +35,17 @@ function pageUrl(baseUrl, page) {
 }
 
 export async function fetchNht(source, ctx) {
-  // 帖子不多（实测 105 条 / 6 页），用宽窗口 + seen 去重就够了
   const windowHours = Number(source.windowHours || 24);
   const cutoff = Date.now() - windowHours * 3600 * 1000;
-
-  const first = await requestJson(pageUrl(source.baseUrl, 1), { timeout: 25000 });
-  const totalPages = Math.max(1, Number((first && first.pagination && first.pagination.total_pages) || 1));
-  const wantPages = Math.max(1, Number(source.pages || 2));
-  const startPage = Math.max(1, totalPages - wantPages + 1);
-
-  console.log('  [nht] 共 ' + totalPages + ' 页，抓第 ' + startPage + '~' + totalPages + ' 页');
+  const pages = Math.max(1, Number(source.pages || 2));
 
   const out = [];
   const seen = new Set();
 
-  for (let page = totalPages; page >= startPage; page -= 1) {
-    const data = page === 1 ? first : await requestJson(pageUrl(source.baseUrl, page), { timeout: 25000 });
+  for (let page = 1; page <= pages; page += 1) {
+    const data = await requestJson(pageUrl(source.baseUrl, page), { timeout: 25000 });
     const list = Array.isArray(data && data.data) ? data.data : findObjectArray(data);
-    if (!list.length) continue;
+    if (!list.length) break;
 
     for (const t of list) {
       if (t.is_hidden) continue;
@@ -83,6 +78,6 @@ export async function fetchNht(source, ctx) {
     }
   }
 
-  console.log('  [nht] 窗口内 ' + out.length + ' 条');
+  console.log('  [nht] 窗口 ' + windowHours + 'h 内 ' + out.length + ' 条');
   return out;
 }
