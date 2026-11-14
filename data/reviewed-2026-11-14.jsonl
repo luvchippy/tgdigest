@@ -4611,3 +4611,4 @@
 {"key":"linuxdo:3178231","sourceId":"linuxdo","id":"3178231","title":"Astra 凭一张图片找到地图上的位置","keep":true,"score":3,"tags":["人工智能","地图"],"why":"标题提及AI应用但无正文，信息量不足","at":1794695900526}
 {"key":"nodeseek:1054800","sourceId":"nodeseek","id":"1054800","title":"isvoro HK电信和联通也好起来了？","keep":true,"score":9,"tags":["网络","硬件","测评"],"why":"附详细硬件体检报告，含一手实测数据","at":1794695900526}
 {"key":"1a2x:863","sourceId":"1a2x","id":"863","title":"早上好","keep":false,"score":0,"tags":["闲聊"],"why":"纯日常问候，无实质内容","at":1794695900526}
+{"key":"linuxdo:3178238","sourceId":"linuxdo","id":"3178238","title":"今年下半年的羊毛有点多啊","keep":false,"score":0,"tags":[],"why":"标题党且正文缺失，无信息价值","at":1794696923259}
