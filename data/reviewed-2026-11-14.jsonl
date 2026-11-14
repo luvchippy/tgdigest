@@ -4377,3 +4377,9 @@
 {"key":"linuxdo:3178135","sourceId":"linuxdo","id":"3178135","title":"难道就在今天？","keep":false,"score":0,"tags":["纯水"],"why":"标题模糊无正文，明显纯水贴","at":1794682931552}
 {"key":"linuxdo:3178129","sourceId":"linuxdo","id":"3178129","title":"claude setup-token登录也可以看到限额了","keep":true,"score":7,"tags":["AI","技术分享"],"why":"标题分享技术细节，数据互动良好，有共鸣","at":1794682931552}
 {"key":"linuxdo:3178133","sourceId":"linuxdo","id":"3178133","title":"有没有佬试过过期签证能否kyc","keep":true,"score":3,"tags":["提问","KYC"],"why":"提问过期签证KYC，但无正文，信息价值低","at":1794682931552}
+{"key":"nodeseek:1054722","sourceId":"nodeseek","id":"1054722","title":"礼貌问价","keep":true,"score":6,"tags":["VPS","提问"],"why":"技术提问有具体背景，但无实测数据","at":1794683261318}
+{"key":"nodeseek:1054721","sourceId":"nodeseek","id":"1054721","title":"claude这样是彻底G了吗","keep":false,"score":0,"tags":[],"why":"正文为空，无信息量提问","at":1794683261318}
+{"key":"nodeseek:967928","sourceId":"nodeseek","id":"967928","title":"轻量（Lite）探针 2.3.7 更新：定时任务、续费日历、精细时间流量重置等","keep":true,"score":9,"tags":["开源","更新"],"why":"详细功能更新，属行业消息","at":1794683261318}
+{"key":"nodeseek:1021678","sourceId":"nodeseek","id":"1021678","title":"甲骨文 龟壳 升级号 二验","keep":true,"score":6,"tags":["云服务","经验"],"why":"分享验证问题，有具体细节","at":1794683261318}
+{"key":"nodeseek:1054695","sourceId":"nodeseek","id":"1054695","title":"【NQ】DIMT LAX.AN4.EB.WEE","keep":true,"score":8,"tags":["硬件","实测"],"why":"一手硬件体检报告","at":1794683261318}
+{"key":"linuxdo:3178140","sourceId":"linuxdo","id":"3178140","title":"13年金融，8年保险，关于医疗险咨询的答疑","keep":false,"score":0,"tags":[],"why":"正文空，标题党无实质内容","at":1794683261318}
