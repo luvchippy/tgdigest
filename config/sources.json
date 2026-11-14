@@ -38,6 +38,15 @@
       "baseUrl": "https://n.ht",
       "pages": 2,
       "fetchDetail": true
+    },
+    {
+      "id": "1a2x",
+      "name": "1A2X",
+      "adapter": "rss",
+      "enabled": true,
+      "baseUrl": "https://1a2x.com",
+      "feedUrl": "https://1a2x.com/rss.xml",
+      "fetchDetail": false
     }
   ]
 }
