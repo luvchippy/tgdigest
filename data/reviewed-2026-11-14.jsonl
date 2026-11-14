@@ -1370,3 +1370,73 @@
 {"key":"linuxdo:3175935","sourceId":"linuxdo","id":"3175935","title":"美国：数千名旅客滞留，部分航班在长时间停飞后恢复运营","keep":true,"score":6,"tags":["新闻","航空"],"why":"标题为行业消息，但无正文且互动数据低，信息有限","at":1794645462556}
 {"key":"linuxdo:3176007","sourceId":"linuxdo","id":"3176007","title":"分享下我的claude pro活2个月的配置,旁路由全局代理","keep":true,"score":5,"tags":["AI","Claude","配置"],"why":"标题分享配置经验，但无正文且浏览回复少，价值一般","at":1794645462556}
 {"key":"linuxdo:3175992","sourceId":"linuxdo","id":"3175992","title":"numes.ai多个模型限时免费（超级慢，分享给有能者用）","keep":true,"score":6,"tags":["AI","免费","模型"],"why":"标题分享免费资源，浏览较高，但无正文且未证实可靠性","at":1794645462556}
+{"key":"nodeseek:1053497","sourceId":"nodeseek","id":"1053497","title":"claude秒封也是好事","keep":true,"score":6,"tags":["AI","踩坑"],"why":"分享订阅被封经历和全额退款结果，有警示价值","at":1794645571687}
+{"key":"nodeseek:1053504","sourceId":"nodeseek","id":"1053504","title":"出2个google ultra 5x车位，30/月","keep":false,"score":0,"tags":[],"why":"出售车位广告，拉微信群，属于推广垃圾","at":1794645571687}
+{"key":"nodeseek:1053515","sourceId":"nodeseek","id":"1053515","title":"今天的Raksmart又卖了1000台吗","keep":false,"score":0,"tags":[],"why":"标题党但正文缺失，无信息量","at":1794645571687}
+{"key":"nodeseek:1053514","sourceId":"nodeseek","id":"1053514","title":"16R出今早买的alphavps","keep":false,"score":0,"tags":[],"why":"出售VPS资源，属于推广行为","at":1794645571687}
+{"key":"nodeseek:1053509","sourceId":"nodeseek","id":"1053509","title":"中介交易 出 google voice 666尾号 身份已验证 自带谷歌账号","keep":false,"score":0,"tags":[],"why":"出售Google Voice号码，明显广告拉人","at":1794645571687}
+{"key":"nodeseek:1053502","sourceId":"nodeseek","id":"1053502","title":"KFC ↔ 荫云绕路了，东京互 ping 60+，之前都是个位数","keep":true,"score":6,"tags":["网络","诊断"],"why":"分享东京节点延迟异常数据，有技术诊断价值","at":1794645571687}
+{"key":"nodeseek:1053511","sourceId":"nodeseek","id":"1053511","title":"68段 剩余价值出了回血，vmiss tri pro","keep":false,"score":0,"tags":[],"why":"出售VPS剩余价值，属于推广","at":1794645571687}
+{"key":"nodeseek:1053505","sourceId":"nodeseek","id":"1053505","title":"50出 isvoro hkl首发16.14/月 3.9t流量","keep":false,"score":0,"tags":[],"why":"出售VPS服务，推广帖","at":1794645571687}
+{"key":"nodeseek:1053294","sourceId":"nodeseek","id":"1053294","title":"Your subscription to Office 365 E3 was renewed","keep":false,"score":0,"tags":[],"why":"无信息量的续订通知，纯水贴","at":1794645571687}
+{"key":"nodeseek:1053513","sourceId":"nodeseek","id":"1053513","title":"muse开始ban视频生成了吗？","keep":true,"score":7,"tags":["AI","实测"],"why":"实测视频生成被禁，分析区域策略变化","at":1794645571687}
+{"key":"nodeseek:1053449","sourceId":"nodeseek","id":"1053449","title":"【秒出】【VMISS38段满血版】US.L.A.TRI.Basic 5CAD月付，ns邮箱转移","keep":false,"score":0,"tags":[],"why":"广告推广帖，正文空无信息，属垃圾内容","at":1794645571687}
+{"key":"nodeseek:1052930","sourceId":"nodeseek","id":"1052930","title":"一个类似于muse的软件，蛮有意思的，现在可以抢占id","keep":false,"score":0,"tags":[],"why":"邀请码推广链接，明显拉人头，过滤为垃圾","at":1794645571687}
+{"key":"nodeseek:1053476","sourceId":"nodeseek","id":"1053476","title":"gemini家庭组如何分配额度呢？","keep":true,"score":6,"tags":[],"why":"技术提问关于额度分配，有背景信息，值6分","at":1794645571687}
+{"key":"nodeseek:1053299","sourceId":"nodeseek","id":"1053299","title":"100出zouter hk老9.9 AMD","keep":true,"score":7,"tags":[],"why":"VPS交易详情详细，含计费和到期信息，价格情报","at":1794645571687}
+{"key":"nodeseek:986564","sourceId":"nodeseek","id":"986564","title":"有没有马来西亚家宽商家推荐?稳定一点","keep":true,"score":4,"tags":[],"why":"寻求商家推荐，泛泛提问，信息价值较低","at":1794645571687}
+{"key":"nodeseek:943428","sourceId":"nodeseek","id":"943428","title":"【人找车】马来西亚家宽tk用","keep":false,"score":0,"tags":[],"why":"正文模糊如题，纯水贴，无实质信息","at":1794645571687}
+{"key":"nodeseek:1053471","sourceId":"nodeseek","id":"1053471","title":"绿云年付486刀2c4g1t溢价多少合适？","keep":true,"score":7,"tags":[],"why":"年付月付价格比较，有具体数据，有效分享","at":1794645571687}
+{"key":"nodeseek:1053477","sourceId":"nodeseek","id":"1053477","title":"实测｜Claude-fable-5-2 模型测速分享，附 Modeloc 检测报告","keep":true,"score":9,"tags":[],"why":"一手模型测速报告，含评级和链接，高价值实测","at":1794645571687}
+{"key":"nodeseek:1053393","sourceId":"nodeseek","id":"1053393","title":"【150收】Panstar-HKS Special $6.10/年","keep":false,"score":0,"tags":[],"why":"正文仅RT，标题党空内容，过滤为垃圾","at":1794645571687}
+{"key":"nodeseek:1053450","sourceId":"nodeseek","id":"1053450","title":"【项目分享】自用和新手用的 VPS 开荒工具箱-STBOX：菜单点着走，改 SSH 失联会自动回滚","keep":true,"score":9,"tags":[],"why":"开源工具箱分享，详细功能描述，实用高价值","at":1794645571687}
+{"key":"nodeseek:1053452","sourceId":"nodeseek","id":"1053452","title":"长期免费BaaS 留档","keep":true,"score":8,"tags":["BaaS","免费服务"],"why":"含免费服务列表和限制详情，信息价值高","at":1794645571687}
+{"key":"nodeseek:1053448","sourceId":"nodeseek","id":"1053448","title":"【出】wawo HK-Simple-0.5G-LS-2 39年付","keep":false,"score":0,"tags":[],"why":"出售VPS，属推广信息","at":1794645571687}
+{"key":"nodeseek:912880","sourceId":"nodeseek","id":"912880","title":"[车找人] iOS土区内购1Password(4/5)，80一年","keep":false,"score":0,"tags":[],"why":"拼车拉人，属推广","at":1794645571687}
+{"key":"nodeseek:1053454","sourceId":"nodeseek","id":"1053454","title":"出11.14 新开 surge iOS 车位 永久or一年都行","keep":false,"score":0,"tags":[],"why":"出售车位，属推广","at":1794645571687}
+{"key":"nodeseek:1050331","sourceId":"nodeseek","id":"1050331","title":"【已收】溢价80收 干杯云148元","keep":false,"score":0,"tags":[],"why":"收购请求，属交易广告","at":1794645571687}
+{"key":"nodeseek:1053447","sourceId":"nodeseek","id":"1053447","title":"nq脚本赞助商变了","keep":true,"score":6,"tags":["NQ","脚本","赞助商"],"why":"讨论赞助商变更，有行业消息","at":1794645571687}
+{"key":"nodeseek:1053445","sourceId":"nodeseek","id":"1053445","title":"【NQ+TQ】【非晚高峰】【V6优化线路】HKCloudX【MiniV6】11月14日下午3点测试","keep":true,"score":9,"tags":["VPS","测试","线路"],"why":"含硬件测试报告和线路数据，一手实测","at":1794645571687}
+{"key":"nodeseek:1053421","sourceId":"nodeseek","id":"1053421","title":"收15日的临期Team 不要非盈利","keep":false,"score":0,"tags":[],"why":"收购请求，属交易广告","at":1794645571687}
+{"key":"nodeseek:1053444","sourceId":"nodeseek","id":"1053444","title":"溢价20收一台cc 2C2G120G、$14.99/年","keep":false,"score":0,"tags":[],"why":"收购请求，属交易广告","at":1794645571687}
+{"key":"nodeseek:1053395","sourceId":"nodeseek","id":"1053395","title":"收个干杯云frontier","keep":false,"score":0,"tags":[],"why":"收购请求，无正文，信息量低","at":1794645571687}
+{"key":"nodeseek:1053436","sourceId":"nodeseek","id":"1053436","title":"小黑盒貌似开了防盗链了，图片没办法在外站引用了","keep":true,"score":2,"tags":["技术更新"],"why":"标题提及防盗链但无正文，信息量有限","at":1794645571687}
+{"key":"nodeseek:1053319","sourceId":"nodeseek","id":"1053319","title":"【收】dedirock 大盘鸡 和 5.8","keep":true,"score":2,"tags":["交易"],"why":"标题为求购帖但无正文，缺乏详细信息","at":1794645571687}
+{"key":"nodeseek:1053336","sourceId":"nodeseek","id":"1053336","title":"【收】CCS 3C4G100G 24刀年付 金牌","keep":true,"score":4,"tags":["交易","VPS"],"why":"有具体配置和价格信息，但属求购帖价值一般","at":1794645571687}
+{"key":"nodeseek:1053405","sourceId":"nodeseek","id":"1053405","title":"网易云音乐","keep":false,"score":0,"tags":[],"why":"正文含邀请码和推广链接，明显广告内容","at":1794645571687}
+{"key":"nodeseek:889810","sourceId":"nodeseek","id":"889810","title":"甲骨文的地址怎么填？","keep":true,"score":6,"tags":["技术提问","云服务"],"why":"具体技术问题，涉及地址填写细节，有信息量","at":1794645571687}
+{"key":"nodeseek:1053342","sourceId":"nodeseek","id":"1053342","title":"+1100 收留心碎 corona","keep":true,"score":2,"tags":["闲聊"],"why":"正文模糊抒情，无实质信息，接近水贴","at":1794645571687}
+{"key":"nodeseek:980424","sourceId":"nodeseek","id":"980424","title":"绿云和Zouter哪家的大盘鸡比较好","keep":true,"score":6,"tags":["VPS","比较"],"why":"寻求日本服务器速度比较，有具体需求背景","at":1794645571687}
+{"key":"nodeseek:1053404","sourceId":"nodeseek","id":"1053404","title":"[出] 华纳云 JP 轻量云服务器","keep":true,"score":8,"tags":["交易","VPS","价格"],"why":"详细列出配置、流量和价格，属价格库存情报","at":1794645571687}
+{"key":"nodeseek:1053370","sourceId":"nodeseek","id":"1053370","title":"【交易中】850 带邮箱出 DMIT Intro 29.9","keep":true,"score":3,"tags":["交易","VPS"],"why":"标题有交易信息但无正文，信息不完整","at":1794645571687}
+{"key":"nodeloc:117794","sourceId":"nodeloc","id":"117794","title":"求助，关于这机器怎么用","keep":true,"score":6,"tags":["求助","测评"],"why":"技术求助有具体背景，互动数据表明一定关注度","at":1794645571687}
+{"key":"nodeloc:117793","sourceId":"nodeloc","id":"117793","title":"v0 上能免费使用 Anthropic/claude-fable-5.2","keep":true,"score":9,"tags":["VPS","测评"],"why":"含一手实测验证，确认接口无套壳","at":1794645571687}
+{"key":"linuxdo:3175971","sourceId":"linuxdo","id":"3175971","title":"openai API还有绑定费的？","keep":false,"score":0,"tags":[],"why":"无正文，信息量不足","at":1794645571687}
+{"key":"linuxdo:3175977","sourceId":"linuxdo","id":"3175977","title":"ld士多的神秘bug","keep":false,"score":0,"tags":[],"why":"纯水贴，无信息量","at":1794645571687}
+{"key":"linuxdo:3175941","sourceId":"linuxdo","id":"3175941","title":"本山大叔献唱的《怕啥子嘛》真的不错","keep":false,"score":0,"tags":[],"why":"无正文，信息量低","at":1794645571687}
+{"key":"linuxdo:3175933","sourceId":"linuxdo","id":"3175933","title":"微软似乎推出了新的中文输入法","keep":false,"score":0,"tags":[],"why":"无正文，信息不足","at":1794645571687}
+{"key":"linuxdo:3175959","sourceId":"linuxdo","id":"3175959","title":"还是没逃过claude的kyc，不过我还有后手","keep":false,"score":0,"tags":[],"why":"无正文，信息量低","at":1794645571687}
+{"key":"linuxdo:3175878","sourceId":"linuxdo","id":"3175878","title":"GPT PRO每个月的API干啥呢？","keep":false,"score":0,"tags":[],"why":"无正文，信息不足","at":1794645571687}
+{"key":"linuxdo:3175946","sourceId":"linuxdo","id":"3175946","title":"硅谷筹划黄仁勋的回归","keep":false,"score":0,"tags":[],"why":"无正文，信息不足","at":1794645571687}
+{"key":"linuxdo:3175880","sourceId":"linuxdo","id":"3175880","title":"3W6就能用上量子计算机，L们快冲（祖冲之 2 3 号）","keep":false,"score":0,"tags":[],"why":"标题推广意味，无正文","at":1794645571687}
+{"key":"linuxdo:3175957","sourceId":"linuxdo","id":"3175957","title":"【bug】进入connect以后，返回论坛后会显示无法加载","keep":false,"score":0,"tags":[],"why":"无正文，信息不足","at":1794645571687}
+{"key":"linuxdo:3175928","sourceId":"linuxdo","id":"3175928","title":"百万上下文在反重力中，何故总是压缩？","keep":true,"score":4,"tags":["人工智能","技术问题"],"why":"具体技术提问，但无正文，信息量有限","at":1794645571687}
+{"key":"linuxdo:3176019","sourceId":"linuxdo","id":"3176019","title":"VibeCoding 全干，各位佬可以交流一下心得吗？","keep":false,"score":0,"tags":["软件开发","闲聊"],"why":"纯水贴，邀请闲聊无实质内容","at":1794645571687}
+{"key":"linuxdo:3176005","sourceId":"linuxdo","id":"3176005","title":"佬们，现在游戏行业的行情怎么样啊","keep":true,"score":4,"tags":["游戏行业","讨论"],"why":"行业行情询问，但无正文，价值一般","at":1794645571687}
+{"key":"linuxdo:3176018","sourceId":"linuxdo","id":"3176018","title":"有测试今天的反重力额度吗？","keep":true,"score":4,"tags":["人工智能","测试"],"why":"具体额度测试问题，但无正文，信息不足","at":1794645571687}
+{"key":"linuxdo:3176017","sourceId":"linuxdo","id":"3176017","title":"现在科研绘图 gpt生成图都好差","keep":false,"score":0,"tags":["纯水","抱怨"],"why":"单句抱怨无信息量，属纯水贴","at":1794645571687}
+{"key":"linuxdo:3175981","sourceId":"linuxdo","id":"3175981","title":"单单有edu.xx 的教育邮箱，可以薅什么羊毛？求推荐","keep":true,"score":4,"tags":["教育邮箱","资源推荐"],"why":"请求推荐薅羊毛，但无正文，价值有限","at":1794645571687}
+{"key":"linuxdo:3175986","sourceId":"linuxdo","id":"3175986","title":"降薪通知书没法签。","keep":true,"score":4,"tags":["软件开发","劳动话题"],"why":"降薪话题可能引发讨论，但无正文","at":1794645571687}
+{"key":"linuxdo:3176012","sourceId":"linuxdo","id":"3176012","title":"Cloudflare 推出支出限额和警报管理，再也不怕天价账单","keep":true,"score":5,"tags":["Cloudflare","行业新闻"],"why":"行业新功能公告，有信息价值","at":1794645571687}
+{"key":"linuxdo:3176008","sourceId":"linuxdo","id":"3176008","title":"做个调研. 各位Gemini被封的反代都是使用什么客户端？","keep":true,"score":4,"tags":["Gemini","技术调研"],"why":"客户端调研提问，但无正文，价值一般","at":1794645571687}
+{"key":"linuxdo:3175929","sourceId":"linuxdo","id":"3175929","title":"关于即将飞升那档事","keep":false,"score":0,"tags":["纯水","模糊话题"],"why":"标题模糊无上下文，属水贴","at":1794645571687}
+{"key":"linuxdo:3175935","sourceId":"linuxdo","id":"3175935","title":"美国：数千名旅客滞留，部分航班在长时间停飞后恢复运营","keep":false,"score":0,"tags":["新闻","航班"],"why":"无正文的新闻标题，属标题党空帖","at":1794645571687}
+{"key":"linuxdo:3176007","sourceId":"linuxdo","id":"3176007","title":"分享下我的claude pro活2个月的配置,旁路由全局代理","keep":false,"score":0,"tags":["AI","配置"],"why":"分享配置但无正文，无法评估内容","at":1794645571687}
+{"key":"linuxdo:3175992","sourceId":"linuxdo","id":"3175992","title":"numes.ai多个模型限时免费（超级慢，分享给有能者用）","keep":false,"score":0,"tags":["AI","免费模型"],"why":"限时分享但无正文，可能为水贴","at":1794645571687}
+{"key":"nodeloc:117795","sourceId":"nodeloc","id":"117795","title":"$200 价值1343元额度,支持N多模型,claude-opus-5-5等,一句话描述,香得就很!","keep":false,"score":0,"tags":["AI","AFF","推广"],"why":"明显推广拉人头，扫码进群","at":1794645571687}
+{"key":"linuxdo:3176045","sourceId":"linuxdo","id":"3176045","title":"翻车了，手机裸奔","keep":false,"score":0,"tags":["纯水","翻车"],"why":"纯水板块无正文，属闲聊水贴","at":1794645571687}
+{"key":"linuxdo:3176053","sourceId":"linuxdo","id":"3176053","title":"muse 如何破甲？","keep":false,"score":0,"tags":["纯水","提问"],"why":"无信息量提问且无正文","at":1794645571687}
+{"key":"linuxdo:3176034","sourceId":"linuxdo","id":"3176034","title":"咕咕嘎嘎这波杀反代真狠啊","keep":false,"score":0,"tags":["AI","反代"],"why":"技术讨论但无正文，内容缺失","at":1794645571687}
+{"key":"linuxdo:3176052","sourceId":"linuxdo","id":"3176052","title":"好雨知时节，待办亦知时：做了一款看天气排周期的「提醒事项Pro」，送 15 个兑换码","keep":false,"score":0,"tags":["应用","兑换码"],"why":"分享应用送码但无正文，似推广","at":1794645571687}
+{"key":"linuxdo:3176049","sourceId":"linuxdo","id":"3176049","title":"即梦 1.0 image max vs 即梦 image pro 2.5(即GPT image 2.5 sub)","keep":false,"score":0,"tags":["AI","模型比较"],"why":"模型比较但无正文，无实质内容","at":1794645571687}
+{"key":"linuxdo:3176029","sourceId":"linuxdo","id":"3176029","title":"对抗 AI 的啥都想解释的欲望：限制 AI 制作的UI 塞满不必要文字","keep":false,"score":0,"tags":["纯水","AI UI"],"why":"讨论AI UI但无正文，属闲聊","at":1794645571687}
