@@ -3588,3 +3588,22 @@
 {"key":"linuxdo:3177526","sourceId":"linuxdo","id":"3177526","title":"rea-toon，继rea-video之后，逆向拆解短剧也来啦","keep":true,"score":5,"tags":[],"why":"标题提及开源项目，但无正文细节","at":1794669096963}
 {"key":"linuxdo:3177519","sourceId":"linuxdo","id":"3177519","title":"暴论：订阅claude只需要做到两点","keep":false,"score":0,"tags":["人工智能","Claude"],"why":"正文为空，属标题党水贴，无实质内容。","at":1794669096963}
 {"key":"linuxdo:3177534","sourceId":"linuxdo","id":"3177534","title":"commancod登不完了，还有三天到期。","keep":false,"score":0,"tags":["技术","登录问题"],"why":"正文缺失，内容空洞，互动数据低下。","at":1794669096963}
+{"key":"nodeloc:117841","sourceId":"nodeloc","id":"117841","title":"记录一下muse的内部推理服务的名称","keep":true,"score":6,"tags":["AI","技术分享"],"why":"含内部服务实测信息，但互动数据低","at":1794669770876}
+{"key":"nodeloc:117843","sourceId":"nodeloc","id":"117843","title":"声称要复活的免费域名com.mp 已埋入土中","keep":true,"score":6,"tags":["域名","DNS"],"why":"域名状态更新，有一手情报但浏览少","at":1794669770876}
+{"key":"nodeloc:117842","sourceId":"nodeloc","id":"117842","title":"节点真连接不通，但tcping通？是为什么？","keep":true,"score":6,"tags":["网络","VPS"],"why":"技术提问，但正文简短细节不足","at":1794669770876}
+{"key":"linuxdo:3177593","sourceId":"linuxdo","id":"3177593","title":"Super grok除了bot还能怎么用","keep":false,"score":0,"tags":[],"why":"无正文，纯标题提问属水贴","at":1794669770876}
+{"key":"linuxdo:3177592","sourceId":"linuxdo","id":"3177592","title":"求助，无法参与抽奖","keep":false,"score":0,"tags":[],"why":"无正文，纯水贴","at":1794669770876}
+{"key":"linuxdo:3177591","sourceId":"linuxdo","id":"3177591","title":"普普通的蓝色星球啊〜","keep":false,"score":0,"tags":[],"why":"无正文，纯水贴","at":1794669770876}
+{"key":"linuxdo:3177573","sourceId":"linuxdo","id":"3177573","title":"gpt 报cyber几次会封，多久会封呀？","keep":false,"score":0,"tags":[],"why":"无正文，标题党内容空洞","at":1794669770876}
+{"key":"linuxdo:3177587","sourceId":"linuxdo","id":"3177587","title":"豆包变跳蛋了？？？","keep":false,"score":0,"tags":[],"why":"无正文，标题党内容空洞","at":1794669770876}
+{"key":"linuxdo:3177584","sourceId":"linuxdo","id":"3177584","title":"怎么解决deepseek在deepseekharness里不做工作汇报以及不设定工作流程的问题。","keep":false,"score":0,"tags":[],"why":"无正文，纯标题提问属水贴","at":1794669770876}
+{"key":"linuxdo:3177582","sourceId":"linuxdo","id":"3177582","title":"ANI-RSS-GO 自动追番、订阅、下载 蜜柑RSS动漫","keep":false,"score":0,"tags":[],"why":"无正文，疑似开源推广","at":1794669770876}
+{"key":"linuxdo:3177576","sourceId":"linuxdo","id":"3177576","title":"【Claude支付玄学】3DS连续跳两次，手机号也接码了，卡也填了，最后居然告诉我「无法验证支付方式」？？？","keep":false,"score":0,"tags":[],"why":"正文缺失，标题为无信息量提问，无法评估价值","at":1794669770876}
+{"key":"linuxdo:3177612","sourceId":"linuxdo","id":"3177612","title":"还差60LDC购买士多的Gemini，怎么能快速获取呢，急！","keep":false,"score":0,"tags":[],"why":"正文缺失，求资源帖疑似推广，无实质内容","at":1794669770876}
+{"key":"linuxdo:3177601","sourceId":"linuxdo","id":"3177601","title":"想第一次订阅claude请教","keep":false,"score":0,"tags":[],"why":"正文缺失，简单请教无细节，信息量低","at":1794669770876}
+{"key":"linuxdo:3177572","sourceId":"linuxdo","id":"3177572","title":"[Aether API] 官platform 的 claude 模型，还有:red_envelope:","keep":false,"score":0,"tags":[],"why":"正文缺失，标题疑似API推广，无观点和内容","at":1794669770876}
+{"key":"linuxdo:3177634","sourceId":"linuxdo","id":"3177634","title":"Z世代抗议：婴儿潮一代真的比年轻人过得更好吗？| DW","keep":false,"score":0,"tags":[],"why":"正文缺失，转载新闻无原创观点，属复制粘贴","at":1794669770876}
+{"key":"linuxdo:3177619","sourceId":"linuxdo","id":"3177619","title":"如何拿到一个纯净的土区代理？","keep":false,"score":0,"tags":[],"why":"正文缺失，技术提问无背景，泛泛而谈","at":1794669770876}
+{"key":"linuxdo:3177604","sourceId":"linuxdo","id":"3177604","title":"免费分享一个glm5.3和glm5.3Flash的ApiKey密钥","keep":false,"score":0,"tags":[],"why":"正文缺失，分享密钥可能违规，无实证","at":1794669770876}
+{"key":"linuxdo:3177613","sourceId":"linuxdo","id":"3177613","title":"刚刚开了GCP，扣款了30🔪，不会被薅了吧","keep":false,"score":0,"tags":[],"why":"正文缺失，扣款问题无说明，信息不足","at":1794669770876}
+{"key":"linuxdo:3177600","sourceId":"linuxdo","id":"3177600","title":"建议在muse内置浏览器登录主号吗","keep":false,"score":0,"tags":[],"why":"正文缺失，建议帖无讨论基础，价值低","at":1794669770876}
