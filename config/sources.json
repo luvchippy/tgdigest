@@ -37,6 +37,7 @@
       "enabled": true,
       "baseUrl": "https://n.ht",
       "pages": 2,
+      "windowHours": 24,
       "fetchDetail": true
     },
     {
