@@ -4652,3 +4652,13 @@
 {"key":"nodeseek:1054815","sourceId":"nodeseek","id":"1054815","title":"现在前置机怎么这么少人出","keep":true,"score":6,"tags":["VPS","前置机","提问"],"why":"技术提问有背景，反映真实需求","at":1794699516277}
 {"key":"nodeseek:1054814","sourceId":"nodeseek","id":"1054814","title":"【出】20出台湾Seednet家宽 nat","keep":true,"score":9,"tags":["网络","家宽","交易"],"why":"具体带宽和价格信息，属库存情报","at":1794699516277}
 {"key":"nodeloc:117862","sourceId":"nodeloc","id":"117862","title":"gpt-image 2.6好像没什么甲？","keep":false,"score":0,"tags":[],"why":"正文仅为权限提示，无实质信息，符合垃圾过滤条件。","at":1794699516277}
+{"key":"nodeseek:1054822","sourceId":"nodeseek","id":"1054822","title":"dmit昨天炸了2次","keep":true,"score":6,"tags":["VPS","故障"],"why":"提及DMIT故障事件，但正文简短，无详细数据。","at":1794700156551}
+{"key":"nodeseek:1054821","sourceId":"nodeseek","id":"1054821","title":"收喵云[TW]HKIDC-Nano 6.1折月付7.87","keep":false,"score":0,"tags":[],"why":"标题含折扣广告，正文空洞，属拉人头垃圾。","at":1794700156551}
+{"key":"nodeseek:1051487","sourceId":"nodeseek","id":"1051487","title":"腾讯云双十一活动，好友邀请各多得三个月套餐时间","keep":false,"score":0,"tags":[],"why":"明显腾讯云双十一推广，带邀请链接，算广告。","at":1794700156551}
+{"key":"nodeseek:1054819","sourceId":"nodeseek","id":"1054819","title":"今天blg跟geng真焦灼啊","keep":true,"score":3,"tags":["电竞","闲聊"],"why":"BLG比赛讨论，但正文单句，属日常闲聊。","at":1794700156551}
+{"key":"nodeseek:1054820","sourceId":"nodeseek","id":"1054820","title":"继续收aether la折扣款","keep":false,"score":0,"tags":[],"why":"收购折扣款帖，正文私我拉人，算交易垃圾。","at":1794700156551}
+{"key":"linuxdo:3178262","sourceId":"linuxdo","id":"3178262","title":"求百元3d打印机推荐","keep":false,"score":0,"tags":[],"why":"纯水区无正文提问，信息量为零。","at":1794700156551}
+{"key":"1a2x:868","sourceId":"1a2x","id":"868","title":"今天还是平淡的开始","keep":false,"score":0,"tags":[],"why":"正文仅表情符号，属签到灌水垃圾。","at":1794700156551}
+{"key":"nodeloc:117863","sourceId":"nodeloc","id":"117863","title":"[UlziX TG自动转发] 香港19/27区升级完成及预选改动和策略调整","keep":true,"score":8,"tags":["TG","升级公告"],"why":"香港区升级详细公告，有具体策略调整信息。","at":1794700156551}
+{"key":"linuxdo:3178277","sourceId":"linuxdo","id":"3178277","title":"许愿了一个小众变态成人向网页游戏","keep":false,"score":0,"tags":[],"why":"成人向标题且无正文，可能违规或水贴。","at":1794700156551}
+{"key":"linuxdo:3178278","sourceId":"linuxdo","id":"3178278","title":"让我们恭喜 blg 恭喜 bin 哥","keep":false,"score":0,"tags":[],"why":"纯恭喜帖无正文，属灌水内容。","at":1794700156551}
