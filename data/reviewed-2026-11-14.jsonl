@@ -4291,3 +4291,28 @@
 {"key":"linuxdo:3178042","sourceId":"linuxdo","id":"3178042","title":"Claude KYC 账号无法注销？","keep":true,"score":3,"tags":["AI","KYC"],"why":"提问账号注销问题，有实用性但数据有限","at":1794679759355}
 {"key":"linuxdo:3178036","sourceId":"linuxdo","id":"3178036","title":"各位薅的aws网速快吗","keep":true,"score":3,"tags":["VPS","AWS"],"why":"标题为AWS网速提问，但无正文和评论，属泛泛提问，信息价值低。","at":1794679759355}
 {"key":"linuxdo:3178035","sourceId":"linuxdo","id":"3178035","title":"有佬试过用gemini 4相关模型搞逆向不","keep":true,"score":3,"tags":["AI","逆向"],"why":"提问Gemini 4逆向，但无正文且互动弱，信息量不足。","at":1794679759355}
+{"key":"nodeseek:1054684","sourceId":"nodeseek","id":"1054684","title":"又一个出口转内销的假洋洗护牌子","keep":true,"score":3,"tags":["洗护","假洋品牌"],"why":"标题有批判性但无正文，信息量不足","at":1794680712258}
+{"key":"nodeseek:1054694","sourceId":"nodeseek","id":"1054694","title":"出yt.net HK.BGP.BF年付89.1","keep":false,"score":0,"tags":["VPS","出售"],"why":"广告推广帖，明盘销售VPS服务","at":1794680712258}
+{"key":"nodeseek:1054690","sourceId":"nodeseek","id":"1054690","title":"有没有人了解华为od的啊","keep":true,"score":4,"tags":["华为OD","求职"],"why":"普通提问，讨论岗位稳定性","at":1794680712258}
+{"key":"nodeseek:1054691","sourceId":"nodeseek","id":"1054691","title":"收v6vps 0.48","keep":true,"score":3,"tags":["VPS","求购"],"why":"求购交易帖，信息价值低","at":1794680712258}
+{"key":"nodeseek:1054693","sourceId":"nodeseek","id":"1054693","title":"【剩余出】光锥云 lightcone 香港Light-A1 618 2c4g 20M口子无限流量","keep":false,"score":0,"tags":["VPS","出售"],"why":"广告推广帖，虽有数据但属销售性质","at":1794680712258}
+{"key":"nodeseek:964704","sourceId":"nodeseek","id":"964704","title":"digitalfyre16c16g和bero 89o怎么选","keep":true,"score":7,"tags":["VPS","比较"],"why":"带背景的技术提问，比较服务商可靠性","at":1794680712258}
+{"key":"nodeseek:1054668","sourceId":"nodeseek","id":"1054668","title":"[已出] 马创2次成长389/0.5year 234M/486G","keep":true,"score":8,"tags":["VPS","交易"],"why":"分享交易数据与价格情报，信息价值高","at":1794680712258}
+{"key":"nodeseek:1054585","sourceId":"nodeseek","id":"1054585","title":"【打折收】DMIT HKG.AS3.T1.WEE 36.9$","keep":true,"score":3,"tags":["VPS","求购"],"why":"打折求购帖，无正文信息量低","at":1794680712258}
+{"key":"linuxdo:3178063","sourceId":"linuxdo","id":"3178063","title":"claude code账号切换冷知识","keep":false,"score":0,"tags":["Claude","冷知识"],"why":"纯水贴，无正文且板块标记为水帖","at":1794680712258}
+{"key":"nodeseek:1052846","sourceId":"nodeseek","id":"1052846","title":"换绑出pixpin的终身","keep":false,"score":0,"tags":["Pixpin","出售"],"why":"广告推广帖，简单交易信息","at":1794680712258}
+{"key":"nodeseek:1054647","sourceId":"nodeseek","id":"1054647","title":"准备通宵看BLG了","keep":false,"score":0,"tags":[],"why":"个人通宵计划，纯水贴无信息价值","at":1794680712258}
+{"key":"nodeseek:1054697","sourceId":"nodeseek","id":"1054697","title":"130收 RN Racknerd 黑五闪购 3C2.5G10T 续费13.99$/年","keep":false,"score":0,"tags":[],"why":"黑五闪购推广，属广告内容","at":1794680712258}
+{"key":"nodeseek:1054696","sourceId":"nodeseek","id":"1054696","title":"15种后缀，首年免费顶级域名","keep":true,"score":4,"tags":["域名","资源"],"why":"分享域名后缀列表，但无实测或深度","at":1794680712258}
+{"key":"nodeseek:1054676","sourceId":"nodeseek","id":"1054676","title":"claude还有代KYC的吗？","keep":true,"score":4,"tags":["AI","KYC"],"why":"技术提问但信息量不足","at":1794680712258}
+{"key":"nodeseek:1054641","sourceId":"nodeseek","id":"1054641","title":"伤心云和光椎云你们用过吗？无限流量款会限速吗","keep":true,"score":4,"tags":["云服务","VPS"],"why":"普通提问云服务限速，无实质内容","at":1794680712258}
+{"key":"nodeseek:1054622","sourceId":"nodeseek","id":"1054622","title":"收个便宜的美国联通优化伪家宽","keep":false,"score":0,"tags":[],"why":"推广收VPS，属广告内容","at":1794680712258}
+{"key":"nodeseek:1054673","sourceId":"nodeseek","id":"1054673","title":"反重力Orchestrator有没有用过的","keep":true,"score":6,"tags":["AI","Orchestrator"],"why":"带背景技术提问，涉及缓存问题","at":1794680712258}
+{"key":"nodeseek:1054611","sourceId":"nodeseek","id":"1054611","title":"让ds给我搞了个1password本地版","keep":true,"score":6,"tags":["密码管理","安全"],"why":"分享本地版密码管理器经验","at":1794680712258}
+{"key":"nodeseek:1041541","sourceId":"nodeseek","id":"1041541","title":"【出】绿云日本 软银 4核6G / 60G系统盘+2TB存储，80美元/年，剩余价值出，开通了内网，不包 push","keep":false,"score":0,"tags":[],"why":"出售VPS资源，属广告内容","at":1794680712258}
+{"key":"nodeseek:1054571","sourceId":"nodeseek","id":"1054571","title":"malibu过年放假了","keep":false,"score":0,"tags":[],"why":"个人放假抒情，纯水贴无信息价值","at":1794680712258}
+{"key":"nodeseek:1054563","sourceId":"nodeseek","id":"1054563","title":"【继续收】溢价248+剩余价值收 DMIT TYO.PrO.TINY 东京 $21.9款，我出中介","keep":true,"score":6,"tags":["VPS","交易"],"why":"溢价收购VPS有具体价格信息，但无互动数据支撑","at":1794680712258}
+{"key":"1a2x:861","sourceId":"1a2x","id":"861","title":"破甲大肥鱼","keep":false,"score":0,"tags":[],"why":"推广AI模型含返利链接，属垃圾广告","at":1794680712258}
+{"key":"linuxdo:3178086","sourceId":"linuxdo","id":"3178086","title":"半夜睡不着，纯好奇，大家都是什么行业的。","keep":false,"score":0,"tags":[],"why":"纯水提问无信息量，数据低互动少","at":1794680712258}
+{"key":"linuxdo:3178083","sourceId":"linuxdo","id":"3178083","title":"一个女生老是发一会朋友圈过一会又删掉的什么意思","keep":false,"score":0,"tags":[],"why":"闲聊提问无实质内容，属纯水贴","at":1794680712258}
+{"key":"linuxdo:3178076","sourceId":"linuxdo","id":"3178076","title":"佬们新人有个问题想问下","keep":false,"score":0,"tags":[],"why":"无正文提问信息量不足，泛泛之问","at":1794680712258}
