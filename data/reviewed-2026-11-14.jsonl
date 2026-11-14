@@ -1931,3 +1931,44 @@
 {"key":"linuxdo:3176385","sourceId":"linuxdo","id":"3176385","title":"佬们，你们的智谱臭鸡蛋还能用吗？","keep":false,"score":0,"tags":["纯水","快问快答"],"why":"无正文，快问快答无内容","at":1794651737283}
 {"key":"linuxdo:3176387","sourceId":"linuxdo","id":"3176387","title":"放弃Claude了，想着用Gemini吧，最近看表现还可以","keep":false,"score":0,"tags":["人工智能"],"why":"无正文，标题党但空，无实质内容","at":1794651737283}
 {"key":"linuxdo:3176345","sourceId":"linuxdo","id":"3176345","title":"最近有没有值得入手的VPS啊？！最好是适合建站滴","keep":false,"score":0,"tags":["纯水"],"why":"无正文，泛泛提问，无信息量","at":1794651737283}
+{"key":"nodeseek:1053755","sourceId":"nodeseek","id":"1053755","title":"claude 可能是代理加密才会跳kyc","keep":true,"score":9,"tags":["技术","AI","安全"],"why":"含实测漏洞细节，技术价值高","at":1794652664578}
+{"key":"nodeseek:1053749","sourceId":"nodeseek","id":"1053749","title":"服了 RakSmart 网站就不能优化一下","keep":false,"score":0,"tags":[],"why":"纯用户抱怨，无实质信息","at":1794652664578}
+{"key":"nodeseek:1053763","sourceId":"nodeseek","id":"1053763","title":"想问下如果万事达卡cvv和日期被泄露了应该怎么办","keep":false,"score":0,"tags":[],"why":"无信息量提问，属垃圾范畴","at":1794652664578}
+{"key":"nodeseek:1053751","sourceId":"nodeseek","id":"1053751","title":"得偿所愿","keep":true,"score":6,"tags":["VPS","经验分享"],"why":"分享双持互备实操经验","at":1794652664578}
+{"key":"nodeseek:1053768","sourceId":"nodeseek","id":"1053768","title":"最近发现gpt越来越拉，想问问gemini行不行？","keep":true,"score":4,"tags":["AI","提问"],"why":"有效提问但无实测数据","at":1794652664578}
+{"key":"nodeseek:1053775","sourceId":"nodeseek","id":"1053775","title":"土区google ultra 5x美区家庭组再最后招1人，30/月","keep":false,"score":0,"tags":[],"why":"广告招募，纯拉人头","at":1794652664578}
+{"key":"nodeseek:1053758","sourceId":"nodeseek","id":"1053758","title":"[出] 9折出akkocloud美国圣何塞KVM-CN2-A2 mini 千兆带宽800G流量 449年付","keep":false,"score":0,"tags":[],"why":"推广出售，属广告类","at":1794652664578}
+{"key":"nodeseek:1053774","sourceId":"nodeseek","id":"1053774","title":"之前嫖的Instabox已经玩不起了，官方明确说不能用tailscale的exit node出口","keep":true,"score":9,"tags":["VPS","情报"],"why":"服务变更一手反馈，有线路异动","at":1794652664578}
+{"key":"nodeseek:1053773","sourceId":"nodeseek","id":"1053773","title":"这是GPT新模型出不来的原因吧？很早就说提前训练好了","keep":false,"score":0,"tags":[],"why":"标题党且正文空","at":1794652664578}
+{"key":"nodeseek:1053761","sourceId":"nodeseek","id":"1053761","title":"RN 放生前测试留档","keep":true,"score":10,"tags":["硬件","测试"],"why":"完整硬件体检报告，一手实测","at":1794652664578}
+{"key":"nodeseek:1053770","sourceId":"nodeseek","id":"1053770","title":"Google让接码的手机扫描，还有的救吗？","keep":true,"score":3,"tags":["技术提问"],"why":"提问具体但正文简短，无评论补充","at":1794652664578}
+{"key":"nodeseek:1053769","sourceId":"nodeseek","id":"1053769","title":"【出】zouter jp Intel 216段 2T 16.8月付","keep":false,"score":0,"tags":[],"why":"出售VPS的广告帖","at":1794652664578}
+{"key":"nodeseek:1053741","sourceId":"nodeseek","id":"1053741","title":"新华为云SG好像还行啊，移动很快乐啊","keep":true,"score":6,"tags":["云服务","测评"],"why":"有实测网速体验，但数据不完整","at":1794652664578}
+{"key":"nodeseek:1053756","sourceId":"nodeseek","id":"1053756","title":"[出]30元改邮出一个isvoro账号，27余额带一个3天到期的特价JP BGP和一张流量重置卡","keep":false,"score":0,"tags":[],"why":"出售账号的广告帖","at":1794652664578}
+{"key":"nodeseek:1053581","sourceId":"nodeseek","id":"1053581","title":"明盘 350收个懒猫云0.1折日本狗妈 免费的400收","keep":false,"score":0,"tags":[],"why":"收购资源的广告帖","at":1794652664578}
+{"key":"nodeseek:1053687","sourceId":"nodeseek","id":"1053687","title":"剩余价值+30出 Raksmart cn2 3.99（已开内网）+国际isp 1.99（已开内网）+4837 2c4g 1.99（未开内网）","keep":false,"score":0,"tags":[],"why":"出售VPS资源的广告帖","at":1794652664578}
+{"key":"nodeseek:1053742","sourceId":"nodeseek","id":"1053742","title":"养了2天成品号 尝试客户端","keep":false,"score":0,"tags":[],"why":"无正文的水贴","at":1794652664578}
+{"key":"nodeseek:1053735","sourceId":"nodeseek","id":"1053735","title":"有没有画图的中转站","keep":true,"score":6,"tags":["技术提问"],"why":"带背景的画图中转站提问","at":1794652664578}
+{"key":"nodeseek:1053713","sourceId":"nodeseek","id":"1053713","title":"muse token","keep":true,"score":3,"tags":["技术提问"],"why":"关于token有效性的简短提问","at":1794652664578}
+{"key":"nodeseek:1053719","sourceId":"nodeseek","id":"1053719","title":"gpt订阅重复咋办","keep":true,"score":6,"tags":["技术求助"],"why":"详细描述GPT订阅重复问题","at":1794652664578}
+{"key":"nodeseek:1053707","sourceId":"nodeseek","id":"1053707","title":"麦卡锡主义","keep":true,"score":4,"tags":["历史","时事"],"why":"历史分析联系时事，但无实测数据或互动","at":1794652664578}
+{"key":"nodeseek:1053695","sourceId":"nodeseek","id":"1053695","title":"[收] +20收个rak的3.99cn2+4折isp已组好内网","keep":false,"score":0,"tags":[],"why":"交易帖，属广告推广，内容水","at":1794652664578}
+{"key":"nodeseek:1053731","sourceId":"nodeseek","id":"1053731","title":"raksmart有毒吧","keep":true,"score":3,"tags":["服务投诉"],"why":"抱怨服务问题，但信息量低，无实质补充","at":1794652664578}
+{"key":"nodeseek:1053747","sourceId":"nodeseek","id":"1053747","title":"gpt pro5x，每个月需要手动领取一次api赠金吗？是每个月100美元api吗？","keep":true,"score":6,"tags":["技术提问"],"why":"API赠金有效期提问，有背景技术问题","at":1794652664578}
+{"key":"nodeseek:954174","sourceId":"nodeseek","id":"954174","title":"谁那卖越南esim卡","keep":true,"score":3,"tags":["求助"],"why":"询问ESIM卡，泛泛提问，无信息量","at":1794652664578}
+{"key":"nodeseek:1053694","sourceId":"nodeseek","id":"1053694","title":"【出】剩余价值八折168出 六六云 美西原生IP双ISP/CU4837/G口 特惠六折 360年付","keep":false,"score":0,"tags":[],"why":"出售VPS，广告性质，命中垃圾过滤","at":1794652664578}
+{"key":"nodeseek:1051653","sourceId":"nodeseek","id":"1051653","title":"【已出完】Hkcloudx-MiniV6-1000G 0.6刀/m","keep":false,"score":0,"tags":[],"why":"出售闲置，广告性质，命中垃圾过滤","at":1794652664578}
+{"key":"nodeseek:1036673","sourceId":"nodeseek","id":"1036673","title":"收到了）50收一个懒猫云frontier 2区mini三折","keep":false,"score":0,"tags":[],"why":"收购VPS，交易帖，命中垃圾过滤","at":1794652664578}
+{"key":"nodeseek:1053672","sourceId":"nodeseek","id":"1053672","title":"【NQ】vpslayer 6.99o年付 无限流量","keep":true,"score":9,"tags":["VPS","测评"],"why":"硬件体检报告，一手实测数据，信息价值高","at":1794652664578}
+{"key":"nodeseek:1053668","sourceId":"nodeseek","id":"1053668","title":"出几个TG老号 出2014-2019的TG老号 9id 8id 8-9id","keep":false,"score":0,"tags":[],"why":"出售TG账号，涉嫌隐私违规，命中垃圾过滤","at":1794652664578}
+{"key":"nodeseek:1053596","sourceId":"nodeseek","id":"1053596","title":"+150 收绿云 SG 带内网的落地机","keep":true,"score":3,"tags":["VPS","交易"],"why":"仅为收购条件，无技术信息或实测数据。","at":1794652664578}
+{"key":"nodeseek:1053629","sourceId":"nodeseek","id":"1053629","title":"shockhosting又放货了","keep":true,"score":3,"tags":["VPS","优惠码"],"why":"询问优惠码，内容简短无实质。","at":1794652664578}
+{"key":"nodeseek:654027","sourceId":"nodeseek","id":"654027","title":"【TG Bot】NodeSeek关键词监控 - 已经稳定发送了284906个通知","keep":false,"score":0,"tags":[],"why":"推广Telegram Bot，属于广告宣传。","at":1794652664578}
+{"key":"nodeseek:1053654","sourceId":"nodeseek","id":"1053654","title":"网站接入什么支付好一点？","keep":true,"score":6,"tags":["网站","支付"],"why":"带背景的技术提问，提供网站细节和用户群体。","at":1794652664578}
+{"key":"nodeseek:1053662","sourceId":"nodeseek","id":"1053662","title":"【NQ】 Dartnode 2c4g 100G 休斯顿","keep":true,"score":8,"tags":["VPS","测评"],"why":"含硬件质量体检报告，有一手实测数据。","at":1794652664578}
+{"key":"nodeseek:985615","sourceId":"nodeseek","id":"985615","title":"剩余价值在收1台CCS 3H-4G洛杉矶/芝加哥20.99金牌U","keep":true,"score":3,"tags":["VPS","交易"],"why":"收购VPS条件，无技术内容。","at":1794652664578}
+{"key":"nodeseek:1032232","sourceId":"nodeseek","id":"1032232","title":"Google AI Ultra 20x 有教程么，说赠送了300美金 还有claude可用","keep":true,"score":6,"tags":["AI","教程"],"why":"用户开通服务后提问使用方法，带背景。","at":1794652664578}
+{"key":"nodeseek:1053567","sourceId":"nodeseek","id":"1053567","title":"【TQ】panstar LAXPre.DC2 Nano 评测留档","keep":true,"score":8,"tags":["VPS","测评"],"why":"提供线路测试项目和报告链接，有实测数据。","at":1794652664578}
+{"key":"linuxdo:3176429","sourceId":"linuxdo","id":"3176429","title":"拒绝 Kiro 掺假和降智：自建纯血 Claude 官方号池，3 折直连 Claude Code + 回帖白嫖 2$","keep":false,"score":0,"tags":[],"why":"推广Claude号池，含拉人头活动。","at":1794652664578}
+{"key":"linuxdo:3176441","sourceId":"linuxdo","id":"3176441","title":"6Luna免费Key","keep":false,"score":0,"tags":[],"why":"标题党且正文空，无实质信息。","at":1794652664578}
+{"key":"linuxdo:3176437","sourceId":"linuxdo","id":"3176437","title":"感觉到 claude 解封号的权重 有多大了！？","keep":false,"score":0,"tags":["Claude"],"why":"标题提问但正文空，无信息量，属水贴","at":1794652664578}
