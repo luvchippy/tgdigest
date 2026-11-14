@@ -480,3 +480,44 @@
 {"key":"linuxdo:3175201","sourceId":"linuxdo","id":"3175201","title":"小布你没有心","keep":false,"score":0,"tags":[],"why":"无正文，单句抒情","at":1794633654446}
 {"key":"linuxdo:3175195","sourceId":"linuxdo","id":"3175195","title":"富途牛牛里的港币如何提现？","keep":false,"score":0,"tags":[],"why":"无正文，信息量不足","at":1794633654446}
 {"key":"linuxdo:3175180","sourceId":"linuxdo","id":"3175180","title":"G家学生pro会员到期，如何继续","keep":false,"score":0,"tags":["会员咨询"],"why":"正文缺失，属无信息量提问，互动数据低","at":1794633654446}
+{"key":"nodeseek:1053184","sourceId":"nodeseek","id":"1053184","title":"A\\重置了？","keep":true,"score":3,"tags":["技术","提问"],"why":"提问关于A\\重置问题，信息量少，属普通讨论","at":1794634664473}
+{"key":"nodeseek:1053171","sourceId":"nodeseek","id":"1053171","title":"Mues 310亿token好，3块多买的，笑死，2天就寄了","keep":true,"score":6,"tags":["服务","反馈"],"why":"用户反馈Muse服务失效，有踩坑避坑价值","at":1794634664473}
+{"key":"nodeseek:1053178","sourceId":"nodeseek","id":"1053178","title":"算了下从 Lv4 到 Lv5 到底要多久","keep":true,"score":6,"tags":["等级","计算"],"why":"详细计算升级时间，属有效经验分享","at":1794634664473}
+{"key":"nodeseek:1053179","sourceId":"nodeseek","id":"1053179","title":"佬们deepseek v4.1 flash都用什么harness","keep":true,"score":3,"tags":["AI","工具"],"why":"技术提问关于DeepSeek harness，信息量低","at":1794634664473}
+{"key":"nodeseek:1053176","sourceId":"nodeseek","id":"1053176","title":"a/的kyc用国外驾照和照片能过吗，还是必须得那边亲自操作过生物验证？","keep":true,"score":3,"tags":["验证","账号"],"why":"具体提问KYC验证方法，属普通讨论","at":1794634664473}
+{"key":"nodeseek:1053149","sourceId":"nodeseek","id":"1053149","title":"演唱会抢票脚本","keep":true,"score":3,"tags":["演唱会","脚本"],"why":"提问演唱会抢票脚本，信息量低","at":1794634664473}
+{"key":"nodeseek:1053161","sourceId":"nodeseek","id":"1053161","title":"还是劝劝新人暂时别溢价买特价机","keep":true,"score":7,"tags":["VPS","购买建议"],"why":"计算VPS回本周期，有完整分析价值","at":1794634664473}
+{"key":"nodeseek:1053141","sourceId":"nodeseek","id":"1053141","title":"【求助】Claude申诉需要多久？","keep":true,"score":3,"tags":["AI","账号"],"why":"求助Claude申诉时间，属普通求助","at":1794634664473}
+{"key":"nodeseek:1053183","sourceId":"nodeseek","id":"1053183","title":"ios 冲 claude 用礼品卡应该无法退款？","keep":true,"score":3,"tags":["AI","支付"],"why":"提问支付方式，信息量低","at":1794634664473}
+{"key":"nodeseek:1053182","sourceId":"nodeseek","id":"1053182","title":"现在指纹浏览器除了adspower，有比他更好用的吗？","keep":true,"score":3,"tags":["工具","浏览器"],"why":"提问指纹浏览器替代品，属普通讨论","at":1794634664473}
+{"key":"nodeseek:1053173","sourceId":"nodeseek","id":"1053173","title":"1200出土区谷歌Ultra 20X 带苹果邮箱 ID 一套。","keep":false,"score":0,"tags":["交易"],"why":"广告出售帖，无信息价值，属垃圾过滤范围","at":1794634664473}
+{"key":"nodeseek:1053181","sourceId":"nodeseek","id":"1053181","title":"【出】75折出vmiss 236cad余额 + 14CAD CN.HK.INTL.Basic","keep":false,"score":0,"tags":["交易"],"why":"推广出售余额，含价格信息但属广告性质","at":1794634664473}
+{"key":"nodeseek:1053167","sourceId":"nodeseek","id":"1053167","title":"【收】剩余价值打8折收DMIT MALIBU","keep":false,"score":0,"tags":["交易"],"why":"收购帖内容空洞，无实质信息，视为垃圾","at":1794634664473}
+{"key":"nodeseek:1053162","sourceId":"nodeseek","id":"1053162","title":"还有两周就黑五了","keep":true,"score":4,"tags":["讨论","VPS"],"why":"讨论黑五溢价，有市场信息量，属普通讨论","at":1794634664473}
+{"key":"nodeseek:1053052","sourceId":"nodeseek","id":"1053052","title":"［收］888收土区谷歌Ultra 20X 带苹果邮箱 ID 一套。","keep":false,"score":0,"tags":["交易"],"why":"纯收购帖，正文仅rt，无信息价值","at":1794634664473}
+{"key":"nodeseek:1052764","sourceId":"nodeseek","id":"1052764","title":"宿舍不收电费，怎么最大限度利用一下?","keep":false,"score":0,"tags":["水贴"],"why":"无正文提问，信息量为零，属水贴","at":1794634664473}
+{"key":"nodeseek:1053143","sourceId":"nodeseek","id":"1053143","title":"muse有点笨啊","keep":false,"score":0,"tags":["闲聊"],"why":"日常抱怨，无实质内容，属闲聊水贴","at":1794634664473}
+{"key":"nodeseek:1053152","sourceId":"nodeseek","id":"1053152","title":"溢价1400➕剩余收一台DMIT corona","keep":true,"score":5,"tags":["交易","市场"],"why":"收购讨论涉及溢价，有价格情报价值","at":1794634664473}
+{"key":"nodeseek:1053107","sourceId":"nodeseek","id":"1053107","title":"RakSmart 的cn2怎么突然还行了","keep":true,"score":6,"tags":["VPS","测评"],"why":"技术提问关于CN2线路，有信息量讨论","at":1794634664473}
+{"key":"nodeseek:1053006","sourceId":"nodeseek","id":"1053006","title":"25元 [出] HKcloudx mini - v6 0.6刀 月付款 带宽500M 月1T流量 我包PUSH费用","keep":false,"score":0,"tags":["广告"],"why":"出售帖含邀请链接，属推广返利垃圾","at":1794634664473}
+{"key":"nodeseek:932870","sourceId":"nodeseek","id":"932870","title":"美帝签证续签也很难申请吗？","keep":true,"score":3,"tags":["签证","提问"],"why":"签证政策提问，对有需求者有参考但信息量一般","at":1794634664473}
+{"key":"nodeseek:1052381","sourceId":"nodeseek","id":"1052381","title":"反重力账号验证的短信发不出去有解吗","keep":true,"score":6,"tags":["验证","技术提问"],"why":"短信验证问题求助，有具体背景，属有效技术提问","at":1794634664473}
+{"key":"nodeseek:1053155","sourceId":"nodeseek","id":"1053155","title":"如何在NS账号/联系方式中替换绑定的TG号?","keep":true,"score":6,"tags":["账号","技术提问"],"why":"换绑TG号问题，步骤描述清晰，属有效技术提问","at":1794634664473}
+{"key":"nodeseek:1053156","sourceId":"nodeseek","id":"1053156","title":"[NQ+TQ] PanstarCloud LAXPre.DC2 Nano $5.59/月","keep":true,"score":6,"tags":["VPS","测评"],"why":"VPS套餐分享，含网络报告链接，对用户有参考价值","at":1794634664473}
+{"key":"nodeseek:1053154","sourceId":"nodeseek","id":"1053154","title":"antigravity登录时需要验证手机号怎么办","keep":true,"score":6,"tags":["验证","技术提问"],"why":"手机号验证问题，涉及具体服务，属有效技术提问","at":1794634664473}
+{"key":"nodeseek:1053007","sourceId":"nodeseek","id":"1053007","title":"哪家的jp鸡鸡是gsl线路","keep":false,"score":0,"tags":[],"why":"标题有术语但正文无信息量，属水贴","at":1794634664473}
+{"key":"nodeseek:1052924","sourceId":"nodeseek","id":"1052924","title":"咸鱼650淘了一台se3","keep":true,"score":3,"tags":["二手手机","分享"],"why":"购机经历分享，有细节但属日常闲聊","at":1794634664473}
+{"key":"nodeseek:1052804","sourceId":"nodeseek","id":"1052804","title":"第一次开拼车就碰到了这种车友 咋整","keep":false,"score":0,"tags":[],"why":"标题党但正文空，无实质内容","at":1794634664473}
+{"key":"nodeseek:1053086","sourceId":"nodeseek","id":"1053086","title":"问一下，有一个推特号粉丝47.9k，能换绑的话打算也卖了，绑定的是之前不知道哪里搞的一次性邮箱，现在邮箱找不到了，怎么换绑邮箱呢","keep":true,"score":6,"tags":["账号","技术提问"],"why":"推特号换绑问题，有具体场景，属有效技术提问","at":1794634664473}
+{"key":"nodeseek:1053098","sourceId":"nodeseek","id":"1053098","title":"aaitr和干杯云的应该怎么选择","keep":false,"score":0,"tags":[],"why":"标题提问但正文空，无信息量","at":1794634664473}
+{"key":"nodeseek:1052288","sourceId":"nodeseek","id":"1052288","title":"6r大量出gpt 48team 8 折优惠码，20个以上的来","keep":false,"score":0,"tags":["广告","推广"],"why":"标题和正文均为优惠码推广，属广告内容，无评论实锤","at":1794634664473}
+{"key":"nodeseek:1052953","sourceId":"nodeseek","id":"1052953","title":"奠信日本CF优选IP目前的速度不超过百兆","keep":true,"score":8,"tags":["VPS","网络","故障"],"why":"含一手实测数据，详细描述IP速度问题，信息价值高","at":1794634664473}
+{"key":"nodeseek:1053048","sourceId":"nodeseek","id":"1053048","title":"移动快乐机","keep":false,"score":0,"tags":["水贴"],"why":"正文为单句抒情，无信息量，命中纯水贴","at":1794634664473}
+{"key":"nodeseek:1053045","sourceId":"nodeseek","id":"1053045","title":"请教大佬，反重力Antigravity登录不了应该怎么处理？","keep":true,"score":6,"tags":["技术","求助"],"why":"有具体错误提示和背景，属带背景的技术提问","at":1794634664473}
+{"key":"linuxdo:3175238","sourceId":"linuxdo","id":"3175238","title":"受不了chatgpt了，现在订阅claude的路子有什么推荐吗？","keep":true,"score":3,"tags":["人工智能","讨论"],"why":"泛泛提问推荐订阅方式，无正文，互动一般","at":1794634664473}
+{"key":"linuxdo:3175252","sourceId":"linuxdo","id":"3175252","title":"github 不要让ai操作git 会被封的","keep":true,"score":6,"tags":["GitHub","AI","警告"],"why":"标题有警示内容，属有效经验分享，互动较多","at":1794634664473}
+{"key":"linuxdo:3175270","sourceId":"linuxdo","id":"3175270","title":"问大家下，claude kyc认证人脸和签证不是同一个人能过吗","keep":true,"score":3,"tags":["Claude","KYC","提问"],"why":"具体KYC问题，但数据低，无正文，价值有限","at":1794634664473}
+{"key":"linuxdo:3175253","sourceId":"linuxdo","id":"3175253","title":"claude 的 portal kyc 弹了一次过了，又弹一次","keep":true,"score":3,"tags":["Claude","KYC"],"why":"分享弹窗经历，但无正文，互动一般","at":1794634664473}
+{"key":"linuxdo:3175251","sourceId":"linuxdo","id":"3175251","title":"Agy cli在本地前端网页调用的风险如何？算反代吗？？？会不会封号啊","keep":true,"score":4,"tags":["技术","风险","提问"],"why":"技术风险提问，但无正文，互动少","at":1794634664473}
+{"key":"linuxdo:3175239","sourceId":"linuxdo","id":"3175239","title":"Claude 二验后秒封","keep":true,"score":6,"tags":["Claude","封号","警告"],"why":"标题有封号警示，属经验分享，互动较多","at":1794634664473}
+{"key":"linuxdo:3175243","sourceId":"linuxdo","id":"3175243","title":"好事，windows11 更新26h2后内存占用减少，cpu利用率增加","keep":false,"score":0,"tags":["Windows","更新"],"why":"标题党但正文空，无实质信息。","at":1794634664473}
