@@ -32,7 +32,7 @@ jobs:
             echo "=========== JSON SHAPE ==========="
             jq -r '
               "top-level keys: \(keys | join(","))",
-              "pagination: \(. | {total, last_page, current_page, per_page, page, total_count} | tostring)",
+              "pagination: \(.pagination | tostring)",
               "data length: \(.data | length)",
               "first keys: \(.data[0] | keys | join(","))",
               "first item: \(.data[0] | {id, title, created_at, createdAt, published_at} | tostring)",
