@@ -57,6 +57,26 @@ function appendJsonl(name, rows) {
 }
 
 const keyOf = (it) => `${it.sourceId}:${it.id}`;
+// 保留最近 N 天的数据文件，超期自动删除（默认 7 天）。
+// 不清理的话 queue/reviewed 每天几十万字节，几个月就把仓库撑起来。
+const RETAIN_DAYS = Number(process.env.DATA_RETAIN_DAYS ?? 7);
+
+function pruneOldFiles() {
+  if (!fs.existsSync(dataDir)) return [];
+  const cutoff = new Date(now - RETAIN_DAYS * 86400_000).toISOString().slice(0, 10);
+  const removed = [];
+  for (const f of fs.readdirSync(dataDir)) {
+    const m = /^(queue|reviewed|sent|review-failures)-(\d{4}-\d{2}-\d{2})\.jsonl$/.exec(f);
+    if (!m) continue;
+    if (m[2] < cutoff) {
+      try { fs.unlinkSync(path.join(dataDir, f)); removed.push(f); } catch { /* 忽略 */ }
+    }
+  }
+  return removed;
+}
+
+const pruned = pruneOldFiles();
+if (pruned.length) log(`清理过期数据文件 ${pruned.length} 个`);
 
 // ---------- 读现状 ----------
 const queue = new Map();
