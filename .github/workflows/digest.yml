@@ -9,6 +9,14 @@ on:
     - cron: '7,37 * * * *'
   workflow_dispatch:
     inputs:
+      # 保留这个输入只为兼容 Cloudflare Worker 的 dispatch 负载：
+      # 它固定发 { mode: 'loop', rounds: '24' }，缺了 mode 会被 GitHub 判 422
+      # 整次派发静默失败（Worker 侧只 console.log，看不出错）。
+      mode:
+        description: '保留字段（抓取端不使用）'
+        type: choice
+        default: loop
+        options: [loop, dry-run]
       rounds:
         description: '循环轮数（每轮约 10 分钟）'
         default: '24'
