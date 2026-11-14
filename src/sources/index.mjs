@@ -2,12 +2,14 @@ import { fetchDiscourse } from './discourse.mjs';
 import { fetchNht } from './nht.mjs';
 import { fetchGeneric } from './generic.mjs';
 import { fetchNodeseek } from './nodeseek.mjs';
+import { fetchRss } from './rss.mjs';
 
 const ADAPTERS = {
   discourse: fetchDiscourse,
   nht: fetchNht,
   generic: fetchGeneric,
   nodeseek: fetchNodeseek,
+  rss: fetchRss,
 };
 
 export function getAdapter(kind) {
