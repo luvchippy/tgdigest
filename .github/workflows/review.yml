@@ -48,14 +48,14 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ vars.TG_CHAT_ID || '6867015060' }}
-          REVIEW_BASE_URL: ${{ vars.REVIEW_BASE_URL || 'https://note3-prev-api.askdiandian.com/v1' }}
+          REVIEW_BASE_URL: ${{ vars.REVIEW_BASE_URL || 'https://napi.luvz.top/v1' }}
           REVIEW_API_KEY: ${{ secrets.LLM_API_KEY }}
-          REVIEW_MODEL: ${{ vars.REVIEW_MODEL || 'dots3-note-prev' }}
+          REVIEW_MODEL: ${{ vars.REVIEW_MODEL || 'deepseek-v4.1-flash-1017' }}
           REVIEW_BATCH_SIZE: ${{ vars.REVIEW_BATCH_SIZE || '10' }}
           REVIEW_CONCURRENCY: ${{ vars.REVIEW_CONCURRENCY || '3' }}
-          REVIEW_MAX_TOKENS: ${{ vars.REVIEW_MAX_TOKENS || '8000' }}
+          REVIEW_MAX_TOKENS: ${{ vars.REVIEW_MAX_TOKENS || '16000' }}
           MIN_SCORE: ${{ vars.MIN_SCORE || '6' }}
-          PUSH_THRESHOLD: ${{ vars.PUSH_THRESHOLD || '20' }}
+          PUSH_THRESHOLD: ${{ vars.PUSH_THRESHOLD || '50' }}
           MAX_REVIEW_ATTEMPTS: ${{ vars.MAX_REVIEW_ATTEMPTS || '3' }}
           MAX_CANDIDATES: ${{ vars.MAX_CANDIDATES || '20000' }}
           MAX_PER_SOURCE: ${{ vars.MAX_PER_SOURCE || '0' }}
