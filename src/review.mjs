@@ -183,7 +183,7 @@ export async function reviewItems(items, { template, profile, log = () => {} }) 
     const urls = [];
     for (const item of batch) {
       if (!Array.isArray(item.images) || !item.images.length) continue;
-      if (String(item.text || '').length >= 80) continue;
+      if (String(item.text || '').length >= 300) continue;
       for (const u of item.images) {
         if (urls.length >= max) return urls;
         if (typeof u !== 'string' || !u.startsWith('http')) continue;
@@ -198,6 +198,7 @@ export async function reviewItems(items, { template, profile, log = () => {} }) 
   async function runOne({ offset, batch, depth = 0 }) {
     const prompt = renderPrompt(template, profile, batch);
     const images = collectImages(batch);
+    if (images.length) log(`  · 批次 ${offset / BATCH_SIZE + 1} 附带 ${images.length} 张图`);
     let ok = false;
     let truncated = false;
 
