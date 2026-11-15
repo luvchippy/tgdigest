@@ -132,6 +132,30 @@ def extract_body(html: str) -> str:
     return strip_tags(m.group(1)) if m else ""
 
 
+def extract_images(html: str, limit: int = 2) -> list:
+    """从 .post-content 里取正文配图（绝对地址），给多模态审核用。
+
+    只保留 http(s) 绝对地址，跳过表情与相对路径；
+    纯图帖的正文往往很短，图片本身就是内容，所以这个字段很关键。
+    """
+    out = []
+    try:
+        soup = BeautifulSoup(html, "lxml")
+        for img in soup.select(".post-content img"):
+            src = (img.get("src") or img.get("data-src") or "").strip()
+            if not src.startswith("http"):
+                continue
+            if "/emoji/" in src or "smiley" in src:
+                continue
+            if src not in out:
+                out.append(src)
+            if len(out) >= limit:
+                break
+    except Exception:
+        pass
+    return out
+
+
 def extract_comments(html: str, limit: int = 5) -> list:
     """评论区结构：<div class="comment-container"> 内 <ul class="comments"> 的 <li class="content-item">。"""
     try:
@@ -214,6 +238,7 @@ def main() -> int:
 
     def absorb(p, html):
         p["text"] = extract_body(html)[:1200]
+        p["images"] = extract_images(html, 2)
         p["replies"] = extract_comments(html)
         stats = extract_stats(html)
         if stats:
