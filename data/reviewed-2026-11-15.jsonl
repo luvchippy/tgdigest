@@ -1754,3 +1754,57 @@
 {"key":"linuxdo:3179918","sourceId":"linuxdo","id":"3179918","title":"宝马735Li降到48点8万","keep":false,"score":0,"tags":["标题党"],"why":"仅一句降价标题无正文，评论是调侃，没有信息","at":1794730139640}
 {"key":"linuxdo:3179912","sourceId":"linuxdo","id":"3179912","title":"哈基米现在又杀反代了吗，刚死4个号","keep":true,"score":5,"tags":["封号","反代"],"why":"一条封号动态，提示反代被杀号风险，但无细节","at":1794730139640}
 {"key":"linuxdo:3179898","sourceId":"linuxdo","id":"3179898","title":"L站有没有使用临时root的？ 硬重启后模块不生效有知道怎么处理的吗？(疑似overlayFS问题)","keep":true,"score":6,"tags":["技术提问","Android"],"why":"临时root硬重启后模块失效，带overlayFS疑点真问题","at":1794730139640}
+{"key":"nodeseek:1055595","sourceId":"nodeseek","id":"1055595","title":"【求助】数字域名被GFW整域 DNS 污染 + SNI RST，hosts 和换 IP 全失效，只能换域名？","keep":true,"score":7,"tags":["网络","DNS"],"why":"DNS污染与SNI RST实测细节完整，属有背景的技术求助","at":1794731861259}
+{"key":"nodeseek:1055594","sourceId":"nodeseek","id":"1055594","title":"明牌450出2席位0刀48team(可以加席位)最后N个","keep":false,"score":0,"tags":["广告"],"why":"出售Team席位，属交易推广帖","at":1794731861259}
+{"key":"nodeseek:1055590","sourceId":"nodeseek","id":"1055590","title":"影之刃零有没有玩的大佬？","keep":false,"score":0,"tags":["水贴"],"why":"无正文、无信息量的单句提问","at":1794731861259}
+{"key":"nodeseek:1055542","sourceId":"nodeseek","id":"1055542","title":"Claude Portal可用日本旅游签证通过","keep":true,"score":7,"tags":["Claude","账号"],"why":"一手过验证实测，评论补充日本IP使用背景","at":1794731861259}
+{"key":"nodeseek:1055585","sourceId":"nodeseek","id":"1055585","title":"outlook注册muse能过，只是概率低","keep":false,"score":2,"tags":["违规","邀请"],"why":"批量注册刷邀请并付费拉人，属违规操作","at":1794731861259}
+{"key":"nodeseek:1055593","sourceId":"nodeseek","id":"1055593","title":"Gemini Ultra 20×、Claude Max 20×、ChatGPT Pro 20×，反代的实际额度到底是多少？","keep":false,"score":1,"tags":["空贴"],"why":"只有标题加RT，无任何实测或背景信息","at":1794731861259}
+{"key":"nodeseek:1055591","sourceId":"nodeseek","id":"1055591","title":"（nqtq）taxi三兄弟之24刀美西","keep":true,"score":8,"tags":["VPS","跑分"],"why":"完整硬件跑分报告，含价格与美西线路情报","at":1794731861259}
+{"key":"nodeseek:1055502","sourceId":"nodeseek","id":"1055502","title":"raksmart 内网问题","keep":true,"score":6,"tags":["VPS","内网"],"why":"真实内网需求，评论明确不同账号不通、无法补开","at":1794731861259}
+{"key":"nodeseek:1055583","sourceId":"nodeseek","id":"1055583","title":"新人求指教，黑五是什么时候开始呢？","keep":false,"score":2,"tags":["水贴"],"why":"新人泛问黑五时间，无实质信息，评论也无补充","at":1794731861259}
+{"key":"nodeseek:1055587","sourceId":"nodeseek","id":"1055587","title":"(找车友）48个月team席位~有一个周限~最好长期使用","keep":false,"score":0,"tags":["广告","拼车"],"why":"出租Team席位广告，评论已指出违规与封号风险","at":1794731861259}
+{"key":"nodeseek:1055589","sourceId":"nodeseek","id":"1055589","title":"[NQ+TQ] Lightlayer HK-VP02-A(SY) 更换IP后测试","keep":true,"score":8,"tags":["VPS","测评"],"why":"更换IP后含完整硬件跑分，属一手实测","at":1794731861259}
+{"key":"nodeseek:1055572","sourceId":"nodeseek","id":"1055572","title":"google gemini的学生优惠应该如何获取啊","keep":false,"score":0,"tags":["提问","水贴"],"why":"无信息量求学生身份，纯低质提问","at":1794731861259}
+{"key":"nodeseek:1055482","sourceId":"nodeseek","id":"1055482","title":"[NQ] Raksmart 双isp 1.8刀 NQ 测试留档","keep":true,"score":8,"tags":["VPS","IP质量","测评"],"why":"双ISP IP质量测试留档，含原生家宽结论","at":1794731861259}
+{"key":"nodeseek:1055565","sourceId":"nodeseek","id":"1055565","title":"已出RakSmart CN2 3.9+isp1.99 3T，已组好内网","keep":false,"score":0,"tags":["交易","广告"],"why":"已出交易帖，信息量低且属交易广告","at":1794731861259}
+{"key":"nodeseek:1055510","sourceId":"nodeseek","id":"1055510","title":"【出】115出NewNB tokyo-1C0.5G 65折年付款 ¥93.60/year","keep":false,"score":0,"tags":["交易","广告"],"why":"出售VPS属交易广告，正文主体为转卖","at":1794731861259}
+{"key":"nodeseek:1055488","sourceId":"nodeseek","id":"1055488","title":"你们用gomami会有那种频繁的断流的感觉吗？","keep":true,"score":7,"tags":["VPS","网络","讨论"],"why":"断流有背景，评论给出HK/JP/SG线路差异","at":1794731861259}
+{"key":"nodeseek:1055519","sourceId":"nodeseek","id":"1055519","title":"[NQ] bocchi Tokyo - Pulse Performance TYO-Pulse 3","keep":true,"score":7,"tags":["VPS","测评"],"why":"含硬件跑分，评论补充商家为勃起云","at":1794731861259}
+{"key":"nodeseek:1055537","sourceId":"nodeseek","id":"1055537","title":"【出】40出菲律宾Globe ESIM 可拉wifi Calling","keep":false,"score":0,"tags":["广告","eSIM","风险"],"why":"售卖已KYC eSIM，广告且涉隐私风险","at":1794731861259}
+{"key":"nodeseek:953384","sourceId":"nodeseek","id":"953384","title":"想把构思一样win11换成Linux系统，发行版该选择哪个好","keep":true,"score":6,"tags":["Linux","讨论"],"why":"泛问发行版，评论给出Mint/Zorin/Bazzite等推荐","at":1794731861259}
+{"key":"nodeseek:1055512","sourceId":"nodeseek","id":"1055512","title":"夸一下自己的播放器UI，历经几轮迭代，越来越成熟了","keep":false,"score":0,"tags":["水贴","标题党"],"why":"无正文无图纯自夸，标题党空贴","at":1794731861259}
+{"key":"nodeseek:1055473","sourceId":"nodeseek","id":"1055473","title":"【GCP】明天就是16号了，GCP有必要升级成付费帐户吗?16号$300刀试用金权益就要变更了。","keep":true,"score":4,"tags":["GCP","讨论"],"why":"权益变更咨询，评论仅传言无定论，信息量有限","at":1794731861259}
+{"key":"nodeseek:1055468","sourceId":"nodeseek","id":"1055468","title":"【已出】cloudleadinno 美国 ISP 家宽云 老2刀款。","keep":true,"score":4,"tags":["交易","家宽"],"why":"已出二手交易，价格有参考但无实测，互动有限","at":1794731861259}
+{"key":"nodeseek:1055474","sourceId":"nodeseek","id":"1055474","title":"现在的青龙面板还适合用来跑点什么","keep":true,"score":6,"tags":["青龙面板","经验"],"why":"评论给出证书监控等实用思路，有信息量","at":1794731861259}
+{"key":"nodeseek:1055573","sourceId":"nodeseek","id":"1055573","title":"[出] 绿云10G内存大鸡 剩余价值出","keep":true,"score":5,"tags":["交易","云主机"],"why":"二手云主机转让，配置价格清晰但无实测互动","at":1794731861259}
+{"key":"nodeseek:1055618","sourceId":"nodeseek","id":"1055618","title":"20r出个raksmart逾期账单 7.73刀/年 无限流量100m口子","keep":true,"score":4,"tags":["交易","低价"],"why":"低价转让逾期账单，线路不明，信息价值低","at":1794731861259}
+{"key":"nodeseek:1055606","sourceId":"nodeseek","id":"1055606","title":"GoMami hk 是出问题了吗？","keep":true,"score":8,"tags":["VPS","故障"],"why":"附图实测HK线路异常，评论讨论单线测速，故障信息明确","at":1794731861259}
+{"key":"nodeseek:1055588","sourceId":"nodeseek","id":"1055588","title":"出 1个AKile 澳门 MOLite-One(番茄清仓) 69.99r年付","keep":true,"score":5,"tags":["交易","VPS"],"why":"二手年付套餐转让，含配置与到期，无实测讨论","at":1794731861259}
+{"key":"nodeseek:1055630","sourceId":"nodeseek","id":"1055630","title":"gpt team席位出租 80/月 有5h 长期车","keep":false,"score":0,"tags":["广告","拼车"],"why":"席位出租属商业推广，风险自担无讨论","at":1794731861259}
+{"key":"nodeseek:1055539","sourceId":"nodeseek","id":"1055539","title":"[不懂就问]关于CLAUDE，AI使用问题","keep":true,"score":6,"tags":["Claude","讨论"],"why":"评论指出中转普遍不靠谱，建议官方渠道，有经验","at":1794731861259}
+{"key":"nodeseek:1055626","sourceId":"nodeseek","id":"1055626","title":"sonnet和opus差距大吗","keep":true,"score":4,"tags":["AI","提问"],"why":"泛泛模型对比提问，无回复无实测，信息有限","at":1794731861259}
+{"key":"nodeseek:1055621","sourceId":"nodeseek","id":"1055621","title":"收个RakSmart CN2 3.9+isp1.99组好内网","keep":false,"score":0,"tags":["求购","水贴"],"why":"无信息量求购帖，评论仅同收无实质内容","at":1794731861259}
+{"key":"nodeseek:1055622","sourceId":"nodeseek","id":"1055622","title":"shandun德国，电信线路疯狂仰卧起坐","keep":true,"score":7,"tags":["VPS","线路","避坑"],"why":"德国线路异常反馈，评论指CN2疑似造假","at":1794731861259}
+{"key":"nodeseek:1055552","sourceId":"nodeseek","id":"1055552","title":"【总价85R出】Raksmart cn2+isp 已开通内网","keep":true,"score":5,"tags":["VPS","交易","价格"],"why":"二手转让含具体价格，评论补充成交参考","at":1794731861259}
+{"key":"nodeseek:1055620","sourceId":"nodeseek","id":"1055620","title":"Panstar 美西、德国都售罄了","keep":true,"score":6,"tags":["VPS","库存"],"why":"售罄情报，评论给出补货规律及德区替代","at":1794731861259}
+{"key":"nodeseek:1055612","sourceId":"nodeseek","id":"1055612","title":"现在有支持让agent检索X上的帖子推文的skill吗？","keep":true,"score":6,"tags":["AI","Agent","技术讨论"],"why":"技术提问，评论补充反爬与API限制","at":1794731861259}
+{"key":"nodeseek:1055629","sourceId":"nodeseek","id":"1055629","title":"百度搭子dumate0.01月卡（可用magpie反代）","keep":false,"score":0,"tags":["推广","广告"],"why":"带购买链接的推广，无评论佐证","at":1794731861259}
+{"key":"nodeseek:1055597","sourceId":"nodeseek","id":"1055597","title":"antigravity carbon额度不够 如何将网页版提出来","keep":true,"score":5,"tags":["AI","工具"],"why":"技术求助，评论给出可用开源工具链接","at":1794731861259}
+{"key":"nodeseek:1055628","sourceId":"nodeseek","id":"1055628","title":"影视飓风TiM在抽100台duo","keep":false,"score":0,"tags":["抽奖","活动"],"why":"抽奖活动宣传，无信息增量","at":1794731861259}
+{"key":"nodeseek:1055616","sourceId":"nodeseek","id":"1055616","title":"【问】[新人第一次开通claude 如何使用谷歌支付]","keep":true,"score":5,"tags":["Claude","支付"],"why":"新手支付问题，评论一致给出安卓端方案","at":1794731861259}
+{"key":"nodeseek:1055579","sourceId":"nodeseek","id":"1055579","title":"长期车找人 ChatGPT team 找人 70/月","keep":false,"score":0,"tags":["拼车","广告"],"why":"付费拼车招人，属拉人推广","at":1794731861259}
+{"key":"nodeseek:1055545","sourceId":"nodeseek","id":"1055545","title":"【快讯】taxi la还是cmin2，cmi是乌龙","keep":false,"score":0,"tags":["无正文"],"why":"仅一句话快讯，无正文无评论，无信息量","at":1794731861259}
+{"key":"nodeseek:1055529","sourceId":"nodeseek","id":"1055529","title":"收 Bage的Los Angeles - TINY $20.01 USD/year","keep":true,"score":5,"tags":["交易","库存"],"why":"求购帖，评论透露LA1 Tiny官网还有1台现货","at":1794731861259}
+{"key":"nodeseek:1055483","sourceId":"nodeseek","id":"1055483","title":"悲报，CC三年老号被封","keep":true,"score":6,"tags":["封号","避坑"],"why":"老号被封求退款，评论反映近期批量解封现象","at":1794731861259}
+{"key":"nodeseek:995945","sourceId":"nodeseek","id":"995945","title":"【人找车】megabox的季付车有吗，找俩车位，一个500G双向","keep":true,"score":3,"tags":["拼车"],"why":"找车位帖，评论认为35/季价格给得太低，难以拼成","at":1794731861259}
+{"key":"nodeseek:1055543","sourceId":"nodeseek","id":"1055543","title":"komari重启机器流量就重置怎么办","keep":true,"score":5,"tags":["技术提问","komari"],"why":"具体面板流量重置问题，评论只有一句AI写备份，无实质方案","at":1794731861259}
+{"key":"nodeseek:1055563","sourceId":"nodeseek","id":"1055563","title":"【收】总价 170 收 vps.taxi LA Mini年付10刀","keep":true,"score":3,"tags":["求购","VPS"],"why":"对症求购，附IP段与未送中条件，但无回复、无额外信息","at":1794731861259}
+{"key":"nodeseek:1055558","sourceId":"nodeseek","id":"1055558","title":"有没有用vps.soy深港ix的，是不是挂了","keep":true,"score":7,"tags":["故障","线路"],"why":"深港IX疑似宕机，评论确认刚挂，属故障异动","at":1794731861259}
+{"key":"nodeseek:1055560","sourceId":"nodeseek","id":"1055560","title":"在线收 miaomiao/喵云 tw-hinet","keep":false,"score":2,"tags":["求购","水贴"],"why":"只有一句求购，无配置无价格，信息量不足","at":1794731861259}
+{"key":"nodeseek:1055557","sourceId":"nodeseek","id":"1055557","title":"75/月或210/季出gpt的team席位","keep":false,"score":0,"tags":["广告","转售"],"why":"商业转售GPT团队席位，属推广拉人","at":1794731861259}
+{"key":"nodeseek:1055528","sourceId":"nodeseek","id":"1055528","title":"收物语云cera","keep":true,"score":3,"tags":["求购","溢价"],"why":"收购帖，含溢价与月付价格，但无实际情报补充","at":1794731861259}
+{"key":"nodeseek:1055520","sourceId":"nodeseek","id":"1055520","title":"已出 Zouter HK BGP Global - Standard - Debut，2vCPU | 2GB ￥129.00年付","keep":false,"score":1,"tags":["交易","VPS"],"why":"已出结帖，无正文无评论，无任何有效信息","at":1794731861259}
+{"key":"nodeseek:1055450","sourceId":"nodeseek","id":"1055450","title":"[NodeQuality]专门跑AI的家里云NUC","keep":false,"score":1,"tags":["NUC","水贴"],"why":"仅有标题，正文为空，无实测内容可参考","at":1794731861259}
+{"key":"nodeseek:969344","sourceId":"nodeseek","id":"969344","title":"linuxdo社区完全版账号鱼卖80 值得吗？","keep":true,"score":4,"tags":["账号","讨论"],"why":"评论给出替代方案：可自行注册，Github五年号直注，不值80","at":1794731861259}
+{"key":"nodeseek:1055442","sourceId":"nodeseek","id":"1055442","title":"【已上车】【人找车】5元 欧洲9929 仅1月 100GB流量（in+out，可以更少）","keep":false,"score":1,"tags":["拼车","招募"],"why":"正文为空，仅剩拼车招揽信息，无实质内容","at":1794731861259}
