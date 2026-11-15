@@ -63,7 +63,12 @@ if (collected.length) {
     createdAt: i.createdAt,
     category: i.category,
     stats: i.stats,
-    text: (i.text ?? '').slice(0, 600),
+    // 正文放宽到 1500：提示词要靠正文判断信息量，切太短会误杀长文帖
+    text: (i.text ?? '').slice(0, 1500),
+    // 正文配图（目前只有 NodeSeek 提供）：纯图帖靠这个交给多模态审核
+    ...(Array.isArray(i.images) && i.images.length ? { images: i.images.slice(0, 2) } : {}),
+    // 热门评论：提示词第三步明确要用评论校正，之前一直没写进队列，等于白写了
+    ...(Array.isArray(i.replies) && i.replies.length ? { replies: i.replies.slice(0, 5) } : {}),
   })).join('\n') + '\n');
 }
 
