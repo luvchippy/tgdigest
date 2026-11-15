@@ -177,16 +177,38 @@ export async function reviewItems(items, { template, profile, log = () => {} }) 
 
   let cursor = 0;
 
+  // 只有"正文很短 + 带图"的帖子才附图：那类帖子正文几乎没信息，图就是内容本身。
+  // 长文帖的配图属于锦上添花，带上只会白烧 token（该模型思维链很长）。
+  function collectImages(batch, max = 3) {
+    const urls = [];
+    for (const item of batch) {
+      if (!Array.isArray(item.images) || !item.images.length) continue;
+      if (String(item.text || '').length >= 80) continue;
+      for (const u of item.images) {
+        if (urls.length >= max) return urls;
+        if (typeof u === 'string' && u.startsWith('http') && !urls.includes(u)) urls.push(u);
+      }
+    }
+    return urls;
+  }
+
   async function runOne({ offset, batch, depth = 0 }) {
     const prompt = renderPrompt(template, profile, batch);
+    const images = collectImages(batch);
     let ok = false;
     let truncated = false;
 
     for (let attempt = 1; attempt <= 3 && !ok; attempt += 1) {
       try {
+        const userContent = images.length
+          ? [
+              { type: 'text', text: prompt },
+              ...images.map((u) => ({ type: 'image_url', image_url: { url: u } })),
+            ]
+          : prompt;
         const res = await chat([
           { role: 'system', content: '你是严格的社区内容审核与编辑。只输出 JSON，不要任何解释、前缀或 markdown 围栏。' },
-          { role: 'user', content: prompt },
+          { role: 'user', content: userContent },
         ]);
         const raw = res.content ?? '';
 
