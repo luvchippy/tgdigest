@@ -72,7 +72,7 @@ async function chat(messages, { timeout = 180000 } = {}) {
         temperature: 0.2,
         // 该模型带长思维链（reasoning_content），max_tokens 给小了 JSON 会被截断，
         // 表现为整批解析失败、全部条目丢失。
-        max_tokens: Number(process.env.REVIEW_MAX_TOKENS ?? 8000),
+        max_tokens: Number(process.env.REVIEW_MAX_TOKENS ?? 16000),
         // 部分托管模型不支持 response_format，硬带会整批 400；靠提示词 + 解析容错兜住
         ...(process.env.REVIEW_JSON_MODE === '1' ? { response_format: { type: 'json_object' } } : {}),
       };
@@ -89,9 +89,17 @@ async function chat(messages, { timeout = 180000 } = {}) {
     const text = await res.text();
     if (!res.ok) throw new Error(`review provider ${res.status}: ${text.slice(0, 300)}`);
     const data = JSON.parse(text);
-    return cfg.kind === 'gemini'
-      ? (data.candidates?.[0]?.content?.parts ?? []).map((p) => p.text).join('')
-      : data.choices?.[0]?.message?.content ?? '';
+    if (cfg.kind === 'gemini') {
+      return {
+        content: (data.candidates?.[0]?.content?.parts ?? []).map((p) => p.text).join(''),
+        finishReason: data.candidates?.[0]?.finishReason ?? '',
+      };
+    }
+    return {
+      content: data.choices?.[0]?.message?.content ?? '',
+      // length 表示被 max_tokens 截断：该模型思维链很长，JSON 会写一半就断
+      finishReason: data.choices?.[0]?.finish_reason ?? '',
+    };
   } finally {
     clearTimeout(timer);
   }
@@ -169,15 +177,26 @@ export async function reviewItems(items, { template, profile, log = () => {} }) 
 
   let cursor = 0;
 
-  async function runOne({ offset, batch }) {
+  async function runOne({ offset, batch, depth = 0 }) {
     const prompt = renderPrompt(template, profile, batch);
     let ok = false;
+    let truncated = false;
+
     for (let attempt = 1; attempt <= 3 && !ok; attempt += 1) {
       try {
-        const raw = await chat([
+        const res = await chat([
           { role: 'system', content: '你是严格的社区内容审核与编辑。只输出 JSON，不要任何解释、前缀或 markdown 围栏。' },
           { role: 'user', content: prompt },
         ]);
+        const raw = res.content ?? '';
+
+        // finish_reason=length 表示 JSON 写到一半被 max_tokens 截断。
+        // 这种情况重试同一批多半还是截断，直接拆半各跑一次更有效。
+        if (res.finishReason === 'length' && batch.length > 1 && depth < 3) {
+          truncated = true;
+          break;
+        }
+
         const map = parseVerdicts(raw, batch.length);
         map.forEach((v, i) => verdicts.set(offset + i, v));
         ok = map.size > 0;
@@ -187,6 +206,15 @@ export async function reviewItems(items, { template, profile, log = () => {} }) 
         if (attempt < 3) await new Promise((r) => setTimeout(r, 1500 * attempt));
       }
     }
+
+    if (truncated) {
+      const mid = Math.ceil(batch.length / 2);
+      log(`  ! 批次 ${offset / BATCH_SIZE + 1} 被 max_tokens 截断，拆成 ${mid}+${batch.length - mid} 重试`);
+      await runOne({ offset, batch: batch.slice(0, mid), depth: depth + 1 });
+      await runOne({ offset: offset + mid, batch: batch.slice(mid), depth: depth + 1 });
+      return;
+    }
+
     if (!ok) {
       for (let i = 0; i < batch.length; i += 1) {
         if (!verdicts.has(offset + i)) {
