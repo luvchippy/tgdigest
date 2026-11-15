@@ -84,3 +84,54 @@
 {"key":"nodeseek:1025661","sourceId":"nodeseek","id":"1025661","title":"关于跨境电商","keep":true,"score":4,"tags":["跨境电商","经验分享"],"why":"分享选品困难，但未深入讨论","at":1794703125585}
 {"key":"nodeseek:1054833","sourceId":"nodeseek","id":"1054833","title":"看比赛看入迷了下意识打完团想按快进","keep":true,"score":3,"tags":["趣事","直播"],"why":"个人直播趣事分享，无信息价值","at":1794703125585}
 {"key":"nodeloc:117865","sourceId":"nodeloc","id":"117865","title":"Claude Max里边 Fable 只可以蹬周额度的一半","keep":true,"score":6,"tags":["AI工具","使用体验"],"why":"分享Fable与Opus额度体验，有具体工具对比","at":1794703125585}
+{"key":"nodeseek:1054865","sourceId":"nodeseek","id":"1054865","title":"每次关键比赛chovy一点声音都没有","keep":false,"score":0,"tags":[],"why":"内容为单句抒情，无信息量，属于水贴。","at":1794704862842}
+{"key":"nodeseek:1054870","sourceId":"nodeseek","id":"1054870","title":"blg撬壳成功！","keep":true,"score":4,"tags":["电子竞技","比赛讨论"],"why":"描述观看比赛结果，但缺乏深度分析，属普通讨论。","at":1794704862842}
+{"key":"nodeseek:1054886","sourceId":"nodeseek","id":"1054886","title":"[情报]SpaceX首次实现“筷子夹飞船”","keep":true,"score":9,"tags":["航天","SpaceX","情报"],"why":"一手科技情报，详细描述星舰试飞成就，信息价值高。","at":1794704862842}
+{"key":"nodeseek:1054883","sourceId":"nodeseek","id":"1054883","title":"恭喜blg","keep":false,"score":2,"tags":[],"why":"简单祝贺与提问，无实质内容，属日常闲聊。","at":1794704862842}
+{"key":"nodeseek:1054885","sourceId":"nodeseek","id":"1054885","title":"BLG🐮","keep":false,"score":0,"tags":[],"why":"正文含推广拉新内容，违反垃圾过滤规则。","at":1794704862842}
+{"key":"nodeseek:1054884","sourceId":"nodeseek","id":"1054884","title":"这份mvp其实最该颁给xun","keep":true,"score":6,"tags":["电子竞技","MVP讨论"],"why":"有具体细节和观点，属有效经验分享。","at":1794704862842}
+{"key":"nodeseek:1054858","sourceId":"nodeseek","id":"1054858","title":"恭喜blg","keep":false,"score":2,"tags":[],"why":"内容简短，泛泛祝贺，无信息量。","at":1794704862842}
+{"key":"nodeseek:1054859","sourceId":"nodeseek","id":"1054859","title":"恭喜BLG🎉","keep":false,"score":0,"tags":[],"why":"无正文，纯标题党，属于水贴。","at":1794704862842}
+{"key":"nodeseek:1054832","sourceId":"nodeseek","id":"1054832","title":"请问下antigravity 使用","keep":true,"score":7,"tags":["技术提问","Google Pro"],"why":"带背景的技术提问，描述具体问题，有信息量。","at":1794704862842}
+{"key":"nodeseek:1054861","sourceId":"nodeseek","id":"1054861","title":"恭喜BLG","keep":false,"score":1,"tags":[],"why":"内容过于简短，无实质讨论，属水贴。","at":1794704862842}
+{"key":"nodeseek:1054805","sourceId":"nodeseek","id":"1054805","title":"Blg2:1","keep":false,"score":0,"tags":[],"why":"纯水提问，无信息量，属于垃圾过滤范围","at":1794704862842}
+{"key":"1a2x:871","sourceId":"1a2x","id":"871","title":"关于水香蕉的一点想法","keep":true,"score":4,"tags":["闲聊","建议"],"why":"分享获取途径并提功能建议，属普通讨论","at":1794704862842}
+{"key":"nodeloc:117870","sourceId":"nodeloc","id":"117870","title":"自从用了REA之后，我对于羊毛的要求越来越高了","keep":true,"score":6,"tags":["技术","请求"],"why":"技术讨论，请求开发环境，有信息量","at":1794704862842}
+{"key":"linuxdo:3178367","sourceId":"linuxdo","id":"3178367","title":"Google Play订阅Claude退款失败","keep":false,"score":0,"tags":[],"why":"正文缺失，无效提问，命中垃圾过滤","at":1794704862842}
+{"key":"linuxdo:3178378","sourceId":"linuxdo","id":"3178378","title":"请问怎么屏蔽BLG的消息","keep":false,"score":0,"tags":[],"why":"纯水板块，无正文，属水贴","at":1794704862842}
+{"key":"linuxdo:3178380","sourceId":"linuxdo","id":"3178380","title":"BLG赢了！创造了历史！雷鸟是对的！","keep":false,"score":0,"tags":[],"why":"无正文庆祝帖，纯情绪抒发，水贴","at":1794704862842}
+{"key":"linuxdo:3178382","sourceId":"linuxdo","id":"3178382","title":"恭喜BLG夺冠，LOLM手游可免费领取5个英雄","keep":false,"score":0,"tags":[],"why":"活动宣传，无正文，命中广告推广","at":1794704862842}
+{"key":"linuxdo:3178387","sourceId":"linuxdo","id":"3178387","title":"有人能用 Vertex (agent-platform) 请求 Gemini-4-carbon 吗？","keep":true,"score":5,"tags":["人工智能","提问"],"why":"技术提问，但数据低，信息价值中等","at":1794704862842}
+{"key":"linuxdo:3178351","sourceId":"linuxdo","id":"3178351","title":"约等于BLG屠杀了一个赛区？","keep":true,"score":5,"tags":["LOL","讨论"],"why":"高互动讨论帖，有共鸣，数据支撑加分","at":1794704862842}
+{"key":"linuxdo:3178361","sourceId":"linuxdo","id":"3178361","title":"哔哩哔哩恭喜BLG夺冠，送大会员，限时1天领取","keep":false,"score":0,"tags":[],"why":"广告活动宣传，命中垃圾过滤","at":1794704862842}
+{"key":"linuxdo:3178375","sourceId":"linuxdo","id":"3178375","title":"还是没忍住开了ultra 5x","keep":false,"score":0,"tags":[],"why":"无正文，标题党内容不完整","at":1794704862842}
+{"key":"linuxdo:3178364","sourceId":"linuxdo","id":"3178364","title":"BLG一穿4LCK，拿下全球总冠军！","keep":false,"score":0,"tags":[],"why":"纯水贴，无正文信息","at":1794704862842}
+{"key":"linuxdo:3178376","sourceId":"linuxdo","id":"3178376","title":"有买rokid glasses 2的吗？到底怎么样！","keep":false,"score":0,"tags":[],"why":"无正文，提问无内容支撑","at":1794704862842}
+{"key":"linuxdo:3178345","sourceId":"linuxdo","id":"3178345","title":"求问 gemini 的 agent 使用体验","keep":false,"score":0,"tags":[],"why":"无正文，技术提问无详情","at":1794704862842}
+{"key":"linuxdo:3178358","sourceId":"linuxdo","id":"3178358","title":"周末dsv4.1f","keep":false,"score":0,"tags":[],"why":"无正文，标题含义不明","at":1794704862842}
+{"key":"linuxdo:3178363","sourceId":"linuxdo","id":"3178363","title":"让我们恭喜blg败者组1穿4夺冠","keep":false,"score":0,"tags":[],"why":"纯水贴，无正文","at":1794704862842}
+{"key":"linuxdo:3178362","sourceId":"linuxdo","id":"3178362","title":"B站可以领会员啦","keep":false,"score":0,"tags":[],"why":"广告推广，活动宣传","at":1794704862842}
+{"key":"linuxdo:3178349","sourceId":"linuxdo","id":"3178349","title":"Claude max能拼一个号吗","keep":false,"score":0,"tags":[],"why":"无正文，快问快答无内容","at":1794704862842}
+{"key":"linuxdo:3178357","sourceId":"linuxdo","id":"3178357","title":"失去黄仁勋的远见、影响力和号召力之后，华尔街料算力生态下一轮融资将更难、更贵……","keep":false,"score":0,"tags":[],"why":"无正文，观点性标题无支撑","at":1794704862842}
+{"key":"linuxdo:3178356","sourceId":"linuxdo","id":"3178356","title":"真不知道这是咋了，求助佬友","keep":false,"score":0,"tags":[],"why":"无正文，求助帖无描述","at":1794704862842}
+{"key":"nodeseek:1054901","sourceId":"nodeseek","id":"1054901","title":"lightlayer207换154.81后至今无法联网","keep":true,"score":6,"tags":["VPS","故障求助"],"why":"具体描述VPS网络不通问题，有配置细节和对比情况","at":1794704862842}
+{"key":"nodeseek:1054906","sourceId":"nodeseek","id":"1054906","title":"我滴乖乖，大早上一上论坛全是某比赛的帖子","keep":false,"score":0,"tags":[],"why":"纯抱怨帖，无实质信息，属于水贴","at":1794704862842}
+{"key":"nodeseek:1054905","sourceId":"nodeseek","id":"1054905","title":"[roll]blg我错了，你是最牛的b","keep":false,"score":0,"tags":[],"why":"抽奖活动宣传，违反垃圾过滤规则","at":1794704862842}
+{"key":"nodeseek:1054888","sourceId":"nodeseek","id":"1054888","title":"谷歌通过 假的 429 识别你有没有反代。","keep":true,"score":9,"tags":["Google","反代","安全"],"why":"深度分析Google用429钓鱼反代池，有技术细节和行业洞察","at":1794704862842}
+{"key":"nodeseek:1054895","sourceId":"nodeseek","id":"1054895","title":"【求助】土区AI使用环境","keep":true,"score":4,"tags":["AI","订阅","IP"],"why":"关于土区AI订阅的IP环境要求，问题具体但答案未知","at":1794704862842}
+{"key":"nodeseek:1054889","sourceId":"nodeseek","id":"1054889","title":"【收】DMIT 洛杉矶 Pro.WEE 年付特价款，长期自用","keep":true,"score":7,"tags":["VPS","收购","价格"],"why":"详细列出DMIT VPS收购要求，含价格和配置情报","at":1794704862842}
+{"key":"nodeseek:1054904","sourceId":"nodeseek","id":"1054904","title":"今天生日 但我从来没过过","keep":false,"score":0,"tags":[],"why":"个人抒情帖，无信息量，属于水贴","at":1794704862842}
+{"key":"nodeseek:1054899","sourceId":"nodeseek","id":"1054899","title":"做了个好看的 Mac 系统监控软件 Ebb，送 10 个激活码，有人要不","keep":false,"score":0,"tags":[],"why":"软件推广帖，含激活码活动，违反垃圾过滤规则","at":1794704862842}
+{"key":"nodeseek:1054903","sourceId":"nodeseek","id":"1054903","title":"GPT网页上能用，但是客户端网连不上，不知道什么原因？","keep":false,"score":0,"tags":[],"why":"技术提问但无背景信息，属于泛泛提问","at":1794704862842}
+{"key":"nodeseek:1054902","sourceId":"nodeseek","id":"1054902","title":"【人找车】寻Google AI Pro Ultra 20x，只用 antigravity，包车预算 400","keep":false,"score":0,"tags":[],"why":"包车请求，正文简短无实质内容","at":1794704862842}
+{"key":"nodeseek:1054900","sourceId":"nodeseek","id":"1054900","title":"【英雄联盟S16】真拿你没办法，坐好喽（有图）","keep":true,"score":9,"tags":["电竞","赛事报道"],"why":"含详细赛事描述与背景信息，属一手报道","at":1794704862842}
+{"key":"nodeseek:1054835","sourceId":"nodeseek","id":"1054835","title":"出已激活的cmlink 英国卡（esim和实体卡都有）","keep":false,"score":0,"tags":[],"why":"广告推广内容，命中垃圾过滤","at":1794704862842}
+{"key":"nodeseek:1054869","sourceId":"nodeseek","id":"1054869","title":"一串四，预言的没毛病","keep":false,"score":0,"tags":[],"why":"纯水贴，无信息量","at":1794704862842}
+{"key":"nodeseek:1054862","sourceId":"nodeseek","id":"1054862","title":"恭喜blg","keep":false,"score":0,"tags":[],"why":"纯水贴，无信息量","at":1794704862842}
+{"key":"nodeseek:1054868","sourceId":"nodeseek","id":"1054868","title":"【收】uzumaru 台湾家宽","keep":false,"score":0,"tags":[],"why":"无信息量的提问，纯水贴","at":1794704862842}
+{"key":"nodeseek:1054823","sourceId":"nodeseek","id":"1054823","title":"Vercel 推出 Token Pass","keep":true,"score":7,"tags":["AI","产品发布"],"why":"含具体产品信息与价格细节，属行业消息","at":1794704862842}
+{"key":"linuxdo:3178412","sourceId":"linuxdo","id":"3178412","title":"BLG！！！我们是冠军！！！","keep":false,"score":0,"tags":[],"why":"纯水贴，无正文","at":1794704862842}
+{"key":"linuxdo:3178410","sourceId":"linuxdo","id":"3178410","title":"看着有点出戏","keep":false,"score":0,"tags":[],"why":"纯水贴，无正文","at":1794704862842}
+{"key":"linuxdo:3178394","sourceId":"linuxdo","id":"3178394","title":"BLG夺冠！B站免费送所有人大会员！","keep":false,"score":0,"tags":[],"why":"正文空，纯水贴","at":1794704862842}
+{"key":"linuxdo:3178401","sourceId":"linuxdo","id":"3178401","title":"BLG牛逼！","keep":false,"score":0,"tags":[],"why":"纯水贴，无正文","at":1794704862842}
+{"key":"linuxdo:3178372","sourceId":"linuxdo","id":"3178372","title":"互联网已经成了 ai 的形状，那么半导体行业现在处于什么形状","keep":true,"score":3,"tags":["AI","半导体","快问快答"],"why":"标题为行业提问但无正文，信息价值有限，互动数据一般。","at":1794704862842}
