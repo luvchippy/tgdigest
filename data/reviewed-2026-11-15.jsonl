@@ -1552,3 +1552,8 @@
 {"key":"linuxdo:3179674","sourceId":"linuxdo","id":"3179674","title":"反代Claude到底是不是封号因子","keep":true,"score":6,"tags":["Claude","反代"],"why":"评论给出稳定一个半月等实测经验，有参考价值","at":1794726518858}
 {"key":"linuxdo:3179659","sourceId":"linuxdo","id":"3179659","title":"为什么大豆包的反重力运行这么慢","keep":true,"score":3,"tags":["提问","讨论"],"why":"无正文只有标题，评论仅提提示词约束省token的小技巧，信息量低","at":1794726518858}
 {"key":"linuxdo:3179650","sourceId":"linuxdo","id":"3179650","title":"【哔哩公益站】BLG夺冠，快来挖哔哩的矿","keep":false,"score":0,"tags":["推广","垃圾"],"why":"公益站拉新推广帖，无正文无实质内容，属纯水宣传","at":1794726518858}
+{"key":"1a2x:886","sourceId":"1a2x","id":"886","title":"水香蕉","keep":false,"score":0,"tags":["水贴"],"why":"正文仅重复“水香蕉”，无任何信息量","at":1794727069486}
+{"key":"nodeloc:117929","sourceId":"nodeloc","id":"117929","title":"Claude是真的好用，就是真不够用，求中转站推荐","keep":true,"score":5,"tags":["Claude","求助"],"why":"带真实使用背景求中转站，评论给出一条具体推荐","at":1794727069486}
+{"key":"linuxdo:3179703","sourceId":"linuxdo","id":"3179703","title":"继上一篇帖子“7 个月的 claude ultra 号迎来首次 kyc”，k 过之后存活贴","keep":false,"score":2,"tags":["KYC","空贴"],"why":"无正文，仅标题报KYC后存活，评论只是提问无补充","at":1794727069486}
+{"key":"linuxdo:3179742","sourceId":"linuxdo","id":"3179742","title":"还是得mac studio啊，用着不烧心","keep":false,"score":1,"tags":["水贴"],"why":"无正文的单句感慨，无信息量且零评论","at":1794727069486}
+{"key":"linuxdo:3179692","sourceId":"linuxdo","id":"3179692","title":"如何在 dsh 使用生图模型","keep":true,"score":6,"tags":["AI","教程"],"why":"评论给出skill、插件与API具体实现方案，信息量高于正文","at":1794727069486}
