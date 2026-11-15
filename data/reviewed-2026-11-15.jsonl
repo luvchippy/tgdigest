@@ -2019,3 +2019,38 @@
 {"key":"linuxdo:3180186","sourceId":"linuxdo","id":"3180186","title":"求推荐， Antigravity 开发用的插件","keep":false,"score":2,"tags":["提问"],"why":"标题泛泛提问插件推荐，缺少背景和正文细节","at":1794735462854}
 {"key":"linuxdo:3180183","sourceId":"linuxdo","id":"3180183","title":"【可远程】寻找技术负责人 / 创始工程师｜偏后端全栈＋AI 应用，已有 MVP 和真实试用","keep":false,"score":0,"tags":["招聘","广告"],"why":"招聘创始工程师，属于拉人性质的推广帖","at":1794735462854}
 {"key":"linuxdo:3180182","sourceId":"linuxdo","id":"3180182","title":"Gemini 4 Carbon 上线国际版 WorkBuddy","keep":true,"score":5,"tags":["AI","行业消息"],"why":"产品上线情报且浏览量最高，但正文缺失细节有限","at":1794735462854}
+{"key":"nodeseek:1055735","sourceId":"nodeseek","id":"1055735","title":"大妈这是咋了","keep":true,"score":7,"tags":["VPS","故障","DMIT"],"why":"配图显示DM多节点失败，评论称电信受影响","at":1794735839612}
+{"key":"nodeseek:1055701","sourceId":"nodeseek","id":"1055701","title":"如果我是用来建站，那是不是买 Gomami 的 HKG.Pulse.Nano 比较合适？","keep":true,"score":7,"tags":["VPS","建站","线路"],"why":"建站选线路有具体背景，评论给出踩坑和CDN建议","at":1794735839612}
+{"key":"nodeseek:1055757","sourceId":"nodeseek","id":"1055757","title":"续费不涨价！CloudCone 6核4G + 480G硬盘，$44.99/年，这波值不值？","keep":true,"score":6,"tags":["VPS","优惠","CloudCone"],"why":"CloudCone具体配置价格求点评，暂无实测评论","at":1794735839612}
+{"key":"nodeseek:1055749","sourceId":"nodeseek","id":"1055749","title":"【收机】+50再收raksmart，一号双cn2加落地的号","keep":false,"score":1,"tags":["交易","收机"],"why":"求购账号正文仅Rt，无有效信息","at":1794735839612}
+{"key":"nodeseek:1055751","sourceId":"nodeseek","id":"1055751","title":"【收】+15 收一个 有Raksmart sv 年付49.9 cn2 未支付订单 的账号 ns 原邮优先","keep":false,"score":2,"tags":["交易","收机"],"why":"求购未支付订单，交易信息为主，无实测价值","at":1794735839612}
+{"key":"nodeseek:1055747","sourceId":"nodeseek","id":"1055747","title":"【黑五】Jtti 香港 CN2 $89/半年，东京优化 $69.25/年","keep":true,"score":7,"tags":["VPS","黑五","优惠"],"why":"Jtti黑五套餐价格线路明确，评论指出仅5M带宽","at":1794735839612}
+{"key":"nodeseek:1055736","sourceId":"nodeseek","id":"1055736","title":"9esim 买的CM Link 100GB，可以转移到别的卡上吗？","keep":true,"score":4,"tags":["eSIM","问答"],"why":"特定eSIM套餐转移问题，评论给出不能的结论","at":1794735839612}
+{"key":"nodeseek:1055731","sourceId":"nodeseek","id":"1055731","title":"[NQ] residential-service 美国家宽 ＄15/月","keep":true,"score":7,"tags":["VPS","家宽","测评"],"why":"美国家宽含详细硬件实测，但缺网络体验","at":1794735839612}
+{"key":"nodeseek:1037142","sourceId":"nodeseek","id":"1037142","title":"出88vip 网易云音乐25 优酷/芒果TV视频20 2027.6.30到期","keep":false,"score":0,"tags":["交易","会员"],"why":"出售会员权益，属交易推广信息","at":1794735839612}
+{"key":"nodeseek:1055756","sourceId":"nodeseek","id":"1055756","title":"bybit卡被gpt给拒了还有什么卡可以申请？或者是有什么办法？","keep":true,"score":3,"tags":["支付","问答"],"why":"仅问被拒后替代卡，缺细节和有效回复","at":1794735839612}
+{"key":"nodeseek:1055748","sourceId":"nodeseek","id":"1055748","title":"分享galgame资源","keep":false,"score":0,"tags":["资源","网盘"],"why":"纯网盘链接无观点，评论无营养，属资源搬运","at":1794735839612}
+{"key":"nodeseek:1055640","sourceId":"nodeseek","id":"1055640","title":"【+30慢收】 raksmart cn2+4387 或者 cn2+isp 1.81$ 2.07$","keep":true,"score":4,"tags":["VPS","交易"],"why":"求购帖，评论反映raksmart缺货溢价行情","at":1794735839612}
+{"key":"nodeseek:1055667","sourceId":"nodeseek","id":"1055667","title":"【新人 MJJ 收🐔】+300 收 RFC JP T1 $39.9, 其他折扣款可谈","keep":false,"score":0,"tags":["VPS","交易"],"why":"仅标题求购无正文无评论，信息量极低","at":1794735839612}
+{"key":"nodeseek:1055725","sourceId":"nodeseek","id":"1055725","title":"【已出】剩余价值出心碎HKCloudX 200M老款","keep":false,"score":0,"tags":["VPS","交易"],"why":"已出且无正文无评论，无推送价值","at":1794735839612}
+{"key":"nodeseek:1055685","sourceId":"nodeseek","id":"1055685","title":"80出Akile-HKLite-One(番茄特供)月付5/2000G","keep":true,"score":5,"tags":["VPS","交易"],"why":"二手VPS配置价格完整，评论补充硬件差异","at":1794735839612}
+{"key":"nodeseek:1052211","sourceId":"nodeseek","id":"1052211","title":"六六云美国 CN2 GIA 1核1G 实付44元/月，复用 Webshare 湾区静态出口，初装实测（无AFF）","keep":true,"score":9,"tags":["VPS","测评","CN2"],"why":"自费实测CN2线路与住宅出口，数据完整无AFF","at":1794735839612}
+{"key":"nodeseek:1055717","sourceId":"nodeseek","id":"1055717","title":"明盘150接Claude KYC","keep":false,"score":0,"tags":["违规","KYC"],"why":"代过KYC属违规灰产，风险高","at":1794735839612}
+{"key":"nodeseek:1055691","sourceId":"nodeseek","id":"1055691","title":"280出48team，美区，18号","keep":true,"score":3,"tags":["交易","账号"],"why":"简单转让订阅车位，信息有限且无评论","at":1794735839612}
+{"key":"nodeseek:1055663","sourceId":"nodeseek","id":"1055663","title":"已经出了。出Evoxt 线路优化","keep":false,"score":0,"tags":["VPS","交易"],"why":"标题称已出交易失效，评论仅无营养顶帖","at":1794735839612}
+{"key":"nodeseek:1055690","sourceId":"nodeseek","id":"1055690","title":"【NQ+TQ留档】AaITR 美国加州 美西Verizon Frontier静态家宽 INTEL XEON E5","keep":true,"score":8,"tags":["VPS","测评","家宽"],"why":"完整硬件体检与配置留档，一手数据","at":1794735839612}
+{"key":"nodeseek:1055636","sourceId":"nodeseek","id":"1055636","title":"Kiro用哪个项目","keep":true,"score":3,"tags":["提问","网络"],"why":"提问简略无背景，未提供实测信息","at":1794735839612}
+{"key":"1a2x:890","sourceId":"1a2x","id":"890","title":"我在 DNSHE 注册了一个免费域名，还差你一次助力就能升级为永久有效(免续期)了！助力码：EAK8LQZV8L","keep":false,"score":0,"tags":["推广","助力"],"why":"助力码拉人头，属推广垃圾","at":1794735839612}
+{"key":"1a2x:889","sourceId":"1a2x","id":"889","title":"发现一个GPT 6系列的公益站点。0.25倍率 关注就送1000额度","keep":false,"score":0,"tags":["广告","邀请"],"why":"带邀请链接的公益站推广，无实测","at":1794735839612}
+{"key":"nodeloc:117938","sourceId":"nodeloc","id":"117938","title":"关于Claude订阅","keep":true,"score":7,"tags":["AI","订阅","避坑"],"why":"充值遇KYC，评论提供注册支付汇总文档","at":1794735839612}
+{"key":"linuxdo:3180210","sourceId":"linuxdo","id":"3180210","title":"羡慕人家天天打飞机，但我们可以天天挖矿","keep":false,"score":0,"tags":["水贴"],"why":"无正文且评论纯调侃，无信息量","at":1794735839612}
+{"key":"linuxdo:3180185","sourceId":"linuxdo","id":"3180185","title":"怎么给muse换浏览器出口，用自己服务器的","keep":true,"score":6,"tags":["技术","求助"],"why":"评论给出Tailscale/CDP等可行方案","at":1794735839612}
+{"key":"linuxdo:3180216","sourceId":"linuxdo","id":"3180216","title":"Claude现在还能免kyc嘛","keep":false,"score":0,"tags":["提问","水贴"],"why":"无正文无回复，纯一句话提问","at":1794735839612}
+{"key":"linuxdo:3180178","sourceId":"linuxdo","id":"3180178","title":"lyra称预计在未来5-6天 Logan会发送下一个Gemini","keep":true,"score":5,"tags":["AI","行业消息"],"why":"Gemini发布传闻，评论有质疑与讨论","at":1794735839612}
+{"key":"linuxdo:3180211","sourceId":"linuxdo","id":"3180211","title":"量化系统开发问题","keep":false,"score":0,"tags":["提问","水贴"],"why":"仅标题无正文，问题无背景无法讨论","at":1794735839612}
+{"key":"linuxdo:3180200","sourceId":"linuxdo","id":"3180200","title":"招行万事达借记卡绑定Google Play时提示OR_MIVEM_02，是因为才刚办好的缘故吗？","keep":true,"score":5,"tags":["支付","求助"],"why":"具体错误码，评论判断为短期风控","at":1794735839612}
+{"key":"linuxdo:3180190","sourceId":"linuxdo","id":"3180190","title":"LLM，尤其是 Grok，部署服务时真有点草台班子","keep":false,"score":2,"tags":["AI","吐槽"],"why":"只有一句吐槽，没有正文和评论，也未提供任何部署细节","at":1794735839612}
+{"key":"linuxdo:3180188","sourceId":"linuxdo","id":"3180188","title":"在做一个糅合了很多东西的软件","keep":false,"score":1,"tags":["开发"],"why":"标题空泛且无正文，看不出任何有效信息","at":1794735839612}
+{"key":"linuxdo:3180186","sourceId":"linuxdo","id":"3180186","title":"求推荐， Antigravity 开发用的插件","keep":false,"score":2,"tags":["AI","提问"],"why":"泛泛求推荐插件，无背景说明，评论也无实质补充","at":1794735839612}
+{"key":"linuxdo:3180183","sourceId":"linuxdo","id":"3180183","title":"【可远程】寻找技术负责人 / 创始工程师｜偏后端全栈＋AI 应用，已有 MVP 和真实试用","keep":false,"score":0,"tags":["招聘","广告"],"why":"招募创始工程师属于推广拉人，且无正文实质内容","at":1794735839612}
+{"key":"linuxdo:3180182","sourceId":"linuxdo","id":"3180182","title":"Gemini 4 Carbon 上线国际版 WorkBuddy","keep":true,"score":5,"tags":["AI","产品动态"],"why":"浏览较高，标题含产品上线情报，但无正文详述","at":1794735839612}
