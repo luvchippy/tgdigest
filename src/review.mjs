@@ -186,7 +186,10 @@ export async function reviewItems(items, { template, profile, log = () => {} }) 
       if (String(item.text || '').length >= 80) continue;
       for (const u of item.images) {
         if (urls.length >= max) return urls;
-        if (typeof u === 'string' && u.startsWith('http') && !urls.includes(u)) urls.push(u);
+        if (typeof u !== 'string' || !u.startsWith('http')) continue;
+        // 矢量图和缩略图接口多半不收，带上会让整批 400
+        if (/\.svg(\?|$)/i.test(u)) continue;
+        if (!urls.includes(u)) urls.push(u);
       }
     }
     return urls;
