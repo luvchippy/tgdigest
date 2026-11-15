@@ -1862,3 +1862,42 @@
 {"key":"nodeseek:1055450","sourceId":"nodeseek","id":"1055450","title":"[NodeQuality]专门跑AI的家里云NUC","keep":false,"score":0,"tags":["空帖"],"why":"仅标题无正文无评论，无法判断内容，属于空壳帖","at":1794731910978}
 {"key":"nodeseek:969344","sourceId":"nodeseek","id":"969344","title":"linuxdo社区完全版账号鱼卖80 值得吗？","keep":true,"score":6,"tags":["账号","讨论"],"why":"评论给出实情：不值，可自行注册，GitHub老号也能开通","at":1794731910978}
 {"key":"nodeseek:1055442","sourceId":"nodeseek","id":"1055442","title":"【已上车】【人找车】5元 欧洲9929 仅1月 100GB流量（in+out，可以更少）","keep":false,"score":0,"tags":["拼车","拉人"],"why":"无正文的拼车拉人帖，属拉人头招募，无信息量","at":1794731910978}
+{"key":"nodeseek:1055551","sourceId":"nodeseek","id":"1055551","title":"阿里云国际的9.9轻量 啥时候放货？","keep":false,"score":0,"tags":[],"why":"审核多次失败，已放弃","error":"abandoned","at":1794733148845}
+{"key":"nodeseek:1055550","sourceId":"nodeseek","id":"1055550","title":"【出】26 出YT洛杉矶三网精品VPS 原生 IP","keep":false,"score":0,"tags":[],"why":"审核多次失败，已放弃","error":"abandoned","at":1794733148845}
+{"key":"nodeseek:1055531","sourceId":"nodeseek","id":"1055531","title":"130出 taxi jp 24刀","keep":false,"score":0,"tags":[],"why":"审核多次失败，已放弃","error":"abandoned","at":1794733148845}
+{"key":"nodeseek:1055454","sourceId":"nodeseek","id":"1055454","title":"瓦工和大妈哪个好？","keep":false,"score":0,"tags":[],"why":"审核多次失败，已放弃","error":"abandoned","at":1794733148845}
+{"key":"nodeseek:1055530","sourceId":"nodeseek","id":"1055530","title":"继续580收bero 69o","keep":false,"score":0,"tags":[],"why":"审核多次失败，已放弃","error":"abandoned","at":1794733148845}
+{"key":"nodeseek:1055549","sourceId":"nodeseek","id":"1055549","title":"收任何时间临期 team 母号","keep":false,"score":0,"tags":[],"why":"审核多次失败，已放弃","error":"abandoned","at":1794733148845}
+{"key":"nodeseek:1055459","sourceId":"nodeseek","id":"1055459","title":"gen2到电信炸了好几天了","keep":false,"score":0,"tags":[],"why":"审核多次失败，已放弃","error":"abandoned","at":1794733148845}
+{"key":"nodeseek:1055546","sourceId":"nodeseek","id":"1055546","title":"【NQ】isvoro de9929秒杀","keep":false,"score":0,"tags":[],"why":"审核多次失败，已放弃","error":"abandoned","at":1794733148845}
+{"key":"nodeseek:1055544","sourceId":"nodeseek","id":"1055544","title":"腾讯轻量云的怪问题","keep":false,"score":0,"tags":[],"why":"审核多次失败，已放弃","error":"abandoned","at":1794733148845}
+{"key":"nodeseek:1055525","sourceId":"nodeseek","id":"1055525","title":"现在还有卖gemini jio的18个月pro链接的吗？还是只有 pixel的6个月pro了","keep":false,"score":0,"tags":[],"why":"审核多次失败，已放弃","error":"abandoned","at":1794733148845}
+{"key":"nodeseek:1055650","sourceId":"nodeseek","id":"1055650","title":"大妈的eb和pro哪个好啊？","keep":true,"score":5,"tags":["VPS","选型","讨论"],"why":"评论给出移动选EB、电信选PRO，有选型参考","at":1794733148845}
+{"key":"nodeseek:1055639","sourceId":"nodeseek","id":"1055639","title":"推荐几个原声看球的网站给我吧！","keep":true,"score":5,"tags":["求推荐","体育直播","资源"],"why":"评论补充DAZN/ESPN/Sky，需求明确但方案有限","at":1794733148845}
+{"key":"nodeseek:1055649","sourceId":"nodeseek","id":"1055649","title":"MK的沪日IX也会被D哥打嘛","keep":true,"score":6,"tags":["VPS","线路","避坑"],"why":"评论确认同样遭DDoS，线路风险有避坑价值","at":1794733148845}
+{"key":"nodeseek:1055635","sourceId":"nodeseek","id":"1055635","title":"Oracle新家坡免费账号尝试中，看看多久能开出Arm实例","keep":true,"score":9,"tags":["Oracle","VPS","实测","踩坑"],"why":"附图71次全500成功0，评论补充升级也开不出","at":1794733148845}
+{"key":"nodeseek:1055646","sourceId":"nodeseek","id":"1055646","title":"怎么办用了1一年的谷歌账号被封","keep":true,"score":7,"tags":["Google","账号封禁","避坑"],"why":"邮件实锤多账号创建封禁，评论补充U卡/Gemini关联","at":1794733148845}
+{"key":"nodeseek:1055642","sourceId":"nodeseek","id":"1055642","title":"入门款小鸡，除了节点和静态页还有哪些玩法？","keep":true,"score":3,"tags":["VPS","提问"],"why":"配置具体但评论无实质玩法，仅泛问","at":1794733148845}
+{"key":"nodeseek:1055645","sourceId":"nodeseek","id":"1055645","title":"出 raksmart 4837 ➕ntt 已组好内网","keep":true,"score":4,"tags":["VPS","二手交易","线路"],"why":"有线路和价格，缺套餐详情，评论追问配置","at":1794733148845}
+{"key":"nodeseek:1055648","sourceId":"nodeseek","id":"1055648","title":"出 Alpha AMD 主机 ------4 核 3G 6T 流量","keep":true,"score":7,"tags":["VPS","二手交易","跑分"],"why":"附完整配置与bench，价格到期明确，交易参考强","at":1794733148845}
+{"key":"nodeseek:1055647","sourceId":"nodeseek","id":"1055647","title":"AWS选不了区域了吗","keep":true,"score":4,"tags":["AWS","提问"],"why":"具体问AWS区域限制，但无回复和补充信息","at":1794733148845}
+{"key":"nodeseek:1055617","sourceId":"nodeseek","id":"1055617","title":"菲律宾hbomax 车找3人","keep":false,"score":0,"tags":["拼车","拉人"],"why":"拼车招人帖，属拉人招募，无独立信息价值","at":1794733148845}
+{"key":"nodeseek:1055627","sourceId":"nodeseek","id":"1055627","title":"ISIF的台湾TW.TPE-A有人出吗，收一个试试","keep":false,"score":2,"tags":["求购","水贴"],"why":"仅一句求购，无行情无配置，无信息量","at":1794733148845}
+{"key":"nodeseek:1055625","sourceId":"nodeseek","id":"1055625","title":"新的muse bot","keep":false,"score":0,"tags":["广告","拉人头"],"why":"带邀请码的机器人拉新返利，属推广垃圾","at":1794733148845}
+{"key":"nodeseek:1055624","sourceId":"nodeseek","id":"1055624","title":"30出一台liteserver老黑五 25o 512G大盘鸡","keep":false,"score":3,"tags":["交易","VPS"],"why":"个人转让带配置与续费价，信息量偏低","at":1794733148845}
+{"key":"nodeseek:1055602","sourceId":"nodeseek","id":"1055602","title":"Antigravity 1u求发个码过验证","keep":false,"score":3,"tags":["求码","求助"],"why":"正文仅求码，评论扫码替代法略有用但整体低质","at":1794733148845}
+{"key":"nodeseek:1055623","sourceId":"nodeseek","id":"1055623","title":"汐云的HK,上游Hkcloud.","keep":true,"score":7,"tags":["VPS","测评"],"why":"完整硬件体检实测报告，有CPU与虚拟化数据","at":1794733148845}
+{"key":"nodeseek:1055582","sourceId":"nodeseek","id":"1055582","title":"拼个TW或HK落地机，有位置的发NQ","keep":false,"score":2,"tags":["拼车","水贴"],"why":"求拼车位置，无配置无报价，评论仅追问","at":1794733148845}
+{"key":"nodeseek:1055566","sourceId":"nodeseek","id":"1055566","title":"ChatGPT/Codex 200$套餐 - 历时14天解决 O➗降智 (目前已恢复)","keep":true,"score":8,"tags":["AI","踩坑复盘"],"why":"降智全过程实测复盘，评论补充他人同期恢复","at":1794733148845}
+{"key":"nodeseek:1055614","sourceId":"nodeseek","id":"1055614","title":"【收】raksmart双机","keep":false,"score":2,"tags":["求购","水贴"],"why":"求购双机，无有效信息，评论仅引帖","at":1794733148845}
+{"key":"nodeseek:1055576","sourceId":"nodeseek","id":"1055576","title":"【TQ】isvoro de9929秒杀","keep":true,"score":7,"tags":["VPS","线路"],"why":"含回程测速报告，评论反馈电信回程已炸","at":1794733148845}
+{"key":"nodeseek:1055578","sourceId":"nodeseek","id":"1055578","title":"找个boil hkt 9刀拼车位置","keep":false,"score":2,"tags":["拼车","水贴"],"why":"仅一句找拼车位置，无任何有效信息","at":1794733148845}
+{"key":"nodeseek:1055574","sourceId":"nodeseek","id":"1055574","title":"14收小红卡2u!","keep":false,"score":0,"tags":["交易","水贴"],"why":"单句收货，无有效信息","at":1794733148845}
+{"key":"nodeseek:1055577","sourceId":"nodeseek","id":"1055577","title":"youtube premium 车找人（还有两位置）","keep":false,"score":0,"tags":["广告","拼车"],"why":"拼车招人并留联系方式，属推广拉人","at":1794733148845}
+{"key":"nodeseek:1034698","sourceId":"nodeseek","id":"1034698","title":"【出】总价 ¥270.00 · 剩余价值出 · PPFlight · Glide S 300M · 600G 年付","keep":true,"score":6,"tags":["VPS","交易"],"why":"转让信息完整，含线路与维护补偿，评论仅顶帖","at":1794733148845}
+{"key":"nodeseek:1055559","sourceId":"nodeseek","id":"1055559","title":"GoogleVoice保号可以打给这个号码","keep":true,"score":5,"tags":["GoogleVoice","保号"],"why":"提供GV保号玩法，评论补充短信更简便","at":1794733148845}
+{"key":"nodeseek:1055541","sourceId":"nodeseek","id":"1055541","title":"收Claude CVP账号","keep":false,"score":0,"tags":["交易","水贴"],"why":"单句收号，无有效信息","at":1794733148845}
+{"key":"nodeseek:1055540","sourceId":"nodeseek","id":"1055540","title":"【NQ】DMIT PRO WEE 39.9$ /年","keep":false,"score":0,"tags":["VPS","空贴"],"why":"正文为空，仅标题无有效信息","at":1794733148845}
+{"key":"1a2x:888","sourceId":"1a2x","id":"888","title":"科技真的是第一生产力","keep":true,"score":7,"tags":["Oracle","经验"],"why":"记录Oracle申请与外币卡踩坑，具实操参考","at":1794733148845}
+{"key":"nodeloc:117935","sourceId":"nodeloc","id":"117935","title":"兄弟们 半导体进厂 还是继续找工作 我要怎么办","keep":false,"score":0,"tags":["隐藏内容"],"why":"内容需等级解锁，无法获取有效信息","at":1794733148845}
+{"key":"nodeloc:117934","sourceId":"nodeloc","id":"117934","title":"厌倦了使用Java编写Minecraft Mod/Plugin？来看看这个","keep":true,"score":8,"tags":["开源","Minecraft"],"why":"开源项目发布，支持跨语言开发MC插件","at":1794733148845}
