@@ -124,6 +124,8 @@ export async function fetchNodeseek(source, ctx) {
       category: p.category,
       stats: p.stats,
       text: excerpt(p.text ?? '', 1200),
+      // 正文配图：纯图帖的正文往往只有一句话，图片才是真正的内容
+      images: Array.isArray(p.images) ? p.images.filter((u) => typeof u === 'string').slice(0, 2) : [],
       replies: Array.isArray(p.replies) ? p.replies.slice(0, 5) : [],
     }));
   }
