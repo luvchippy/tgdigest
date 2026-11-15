@@ -2054,3 +2054,30 @@
 {"key":"linuxdo:3180186","sourceId":"linuxdo","id":"3180186","title":"求推荐， Antigravity 开发用的插件","keep":false,"score":2,"tags":["AI","提问"],"why":"泛泛求推荐插件，无背景说明，评论也无实质补充","at":1794735839612}
 {"key":"linuxdo:3180183","sourceId":"linuxdo","id":"3180183","title":"【可远程】寻找技术负责人 / 创始工程师｜偏后端全栈＋AI 应用，已有 MVP 和真实试用","keep":false,"score":0,"tags":["招聘","广告"],"why":"招募创始工程师属于推广拉人，且无正文实质内容","at":1794735839612}
 {"key":"linuxdo:3180182","sourceId":"linuxdo","id":"3180182","title":"Gemini 4 Carbon 上线国际版 WorkBuddy","keep":true,"score":5,"tags":["AI","产品动态"],"why":"浏览较高，标题含产品上线情报，但无正文详述","at":1794735839612}
+{"key":"nodeseek:1055765","sourceId":"nodeseek","id":"1055765","title":"甲骨文一个圣何塞，再开一个 韩国 日本 新加坡哪个好呢？","keep":true,"score":5,"tags":["VPS","甲骨文"],"why":"副区域选择提问，评论补充开通方式","at":1794736219459}
+{"key":"nodeseek:1055771","sourceId":"nodeseek","id":"1055771","title":"谷歌又封了一个号，反代的路断了啊","keep":true,"score":8,"tags":["Google","封号","反代"],"why":"多人确认反代封号潮，家庭组也连坐","at":1794736219459}
+{"key":"nodeseek:1055777","sourceId":"nodeseek","id":"1055777","title":"【收】 绿云JP2222软银-三年翻倍款","keep":false,"score":0,"tags":["交易","VPS"],"why":"纯收购广告，无实测或市场信息","at":1794736219459}
+{"key":"nodeseek:1055755","sourceId":"nodeseek","id":"1055755","title":"【出】某人云东京75折750G流量396季付","keep":false,"score":0,"tags":["交易","VPS"],"why":"二手转卖广告，评论仅议价吐槽","at":1794736219459}
+{"key":"nodeseek:1055774","sourceId":"nodeseek","id":"1055774","title":"溢价收台湾、美国住宅家宽IP，用Claude的","keep":false,"score":0,"tags":["交易","住宅IP"],"why":"住宅IP收购贴，评论仅询价拼车","at":1794736219459}
+{"key":"nodeseek:1055760","sourceId":"nodeseek","id":"1055760","title":"[收]raksmart 7.73刀/年 无限流量100m 逾期账单也收","keep":false,"score":0,"tags":["交易","VPS"],"why":"收购广告，评论仅交易和借楼出货","at":1794736219459}
+{"key":"nodeseek:1055753","sourceId":"nodeseek","id":"1055753","title":"瓦工CN2 GIA-E 40G限量板和The planV1/V2是不是基本都没了，都看不到什么交易了","keep":true,"score":3,"tags":["VPS","行情"],"why":"仅泛问套餐是否绝版，无正文无回复","at":1794736219459}
+{"key":"nodeseek:1055637","sourceId":"nodeseek","id":"1055637","title":"【已出】18元 vps.soy 深港IX mini 月付4.5","keep":true,"score":5,"tags":["VPS","维护","交易"],"why":"已售贴附VPS.SOY维护公告，官网打不开","at":1794736219459}
+{"key":"nodeseek:1055673","sourceId":"nodeseek","id":"1055673","title":"收 lightlayer hk 20M 的 小水管","keep":false,"score":0,"tags":["交易","VPS"],"why":"收购贴，评论仅确认官网是否有货","at":1794736219459}
+{"key":"nodeseek:1055709","sourceId":"nodeseek","id":"1055709","title":"colab 出售后的问题","keep":true,"score":7,"tags":["Colab","OAuth","安全"],"why":"OAuth转卖风险问答，评论补充撤销授权","at":1794736219459}
+{"key":"nodeseek:1055750","sourceId":"nodeseek","id":"1055750","title":"300出个埃及临期team16下午","keep":false,"score":0,"tags":["交易","水贴"],"why":"正文只有rt，出售帖无任何配置或价格细节信息","at":1794736219459}
+{"key":"nodeseek:1055694","sourceId":"nodeseek","id":"1055694","title":"[已出]溢价70出 VMISS CN.HK.INTL.Basic 14CAD 半价款","keep":false,"score":1,"tags":["交易","已出"],"why":"已成交的转让帖，余下评论只怀旧，无可推信息","at":1794736219459}
+{"key":"nodeseek:1008172","sourceId":"nodeseek","id":"1008172","title":"Google AI Ultra 5x 怎么样，品鉴过Gemini 4 argon的佬评价下呢？","keep":true,"score":7,"tags":["AI","讨论"],"why":"评论给出Gemini 4实测体验与额度对比，信息量高于正文","at":1794736219459}
+{"key":"nodeseek:1055719","sourceId":"nodeseek","id":"1055719","title":"【线路特价】Zgo 洛杉矶现在是 $58/年，德国 9929 $45/年","keep":true,"score":8,"tags":["VPS","价格情报"],"why":"一手核价，含具体配置与商家标称线路，无aff","at":1794736219459}
+{"key":"nodeseek:1055457","sourceId":"nodeseek","id":"1055457","title":"proton family开车了","keep":false,"score":1,"tags":["拼车","拉人"],"why":"家庭组招人拉客且声明跳车不退，属拉人头","at":1794736219459}
+{"key":"nodeseek:1055670","sourceId":"nodeseek","id":"1055670","title":"applemusic拼车有吗","keep":false,"score":2,"tags":["提问","水贴"],"why":"一句求拼车，评论仅说车少，无实质信息","at":1794736219459}
+{"key":"nodeseek:286885","sourceId":"nodeseek","id":"286885","title":"『更新，NFD2.0』 telegram私聊机器人，创建只需一分钟！替代Livegram Bot","keep":true,"score":9,"tags":["开源","Telegram"],"why":"开源项目2.0发布，含架构说明，作者评论回应隐私质疑","at":1794736219459}
+{"key":"nodeseek:1051613","sourceId":"nodeseek","id":"1051613","title":"【出】42元出一个Saily，美国ESIM","keep":false,"score":2,"tags":["交易","ESIM"],"why":"二手转售，号码属性未定，评论因kyc门槛被劝退","at":1794736219459}
+{"key":"nodeseek:1055706","sourceId":"nodeseek","id":"1055706","title":"【赔钱出】佳人&某人&家人6折1T流量317季付💰东京-26秋-S&Nosla","keep":true,"score":4,"tags":["交易","机场"],"why":"有成本明细与套餐价格，评论补充+500G配置","at":1794736219459}
+{"key":"nodeseek:1055644","sourceId":"nodeseek","id":"1055644","title":"gomami sg确实还可以，移动很快乐","keep":false,"score":1,"tags":["水贴"],"why":"无正文，仅一句主观感受，无实测数据","at":1794736219459}
+{"key":"nodeseek:1055678","sourceId":"nodeseek","id":"1055678","title":"【出】30包push 出一个懒猫五折日本家宽 biglobe mini","keep":false,"score":0,"tags":["交易","转让"],"why":"账号转让帖，纯叫卖无实测信息","at":1794736219459}
+{"key":"nodeseek:1055631","sourceId":"nodeseek","id":"1055631","title":"收一个raksmart 3.99CN2+1.81 ISP 90 收","keep":false,"score":0,"tags":["交易","求购"],"why":"求购帖无信息量，评论仅同收","at":1794736219459}
+{"key":"linuxdo:3180233","sourceId":"linuxdo","id":"3180233","title":"周末了零了个臭鸡蛋，结果用Magpie还给封号了","keep":true,"score":7,"tags":["封号","Magpie","避坑"],"why":"多例封号反馈，避坑信息明确","at":1794736219459}
+{"key":"linuxdo:3180254","sourceId":"linuxdo","id":"3180254","title":"这个是不是Zcode号没了😡","keep":false,"score":0,"tags":["水贴"],"why":"无正文无细节，空泛提问","at":1794736219459}
+{"key":"linuxdo:3180248","sourceId":"linuxdo","id":"3180248","title":"大妈 dmit 又炸了","keep":true,"score":8,"tags":["VPS","故障"],"why":"评论补充故障时段及防火墙升级原因","at":1794736219459}
+{"key":"linuxdo:3180253","sourceId":"linuxdo","id":"3180253","title":"muse接入微信后延迟好高","keep":false,"score":0,"tags":["水贴"],"why":"无正文无细节，属无信息量提问","at":1794736219459}
+{"key":"linuxdo:3180237","sourceId":"linuxdo","id":"3180237","title":"反重力家庭组被连坐","keep":true,"score":6,"tags":["账号封禁","家庭组"],"why":"家庭组连坐案例，评论补充拼车风险","at":1794736219459}
