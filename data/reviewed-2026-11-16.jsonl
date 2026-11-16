@@ -1361,3 +1361,69 @@
 {"key":"linuxdo:3184469","sourceId":"linuxdo","id":"3184469","title":"Claude Ultra 稳定订阅两个月，马上要三个月了","keep":false,"score":0,"tags":["AI","订阅"],"why":"仅一句订阅状态，无正文与有效评论","at":1794811452787}
 {"key":"linuxdo:3184464","sourceId":"linuxdo","id":"3184464","title":"carbon够不够替代opus5.5 是不是不用再飞蛾扑火了","keep":false,"score":1,"tags":["纯水","提问"],"why":"标注纯水且无正文，仅一句泛问，无实测或背景信息","at":1794811452787}
 {"key":"linuxdo:3184503","sourceId":"linuxdo","id":"3184503","title":"好消息，ayg的carbon上下文涨到512k","keep":true,"score":5,"tags":["AI模型","情报"],"why":"单一参数异动消息有情报价值，但无正文细节与评论佐证","at":1794811452787}
+{"key":"nodeseek:1057450","sourceId":"nodeseek","id":"1057450","title":"【NQ】MLNL.HOST 9950X 杜甫","keep":true,"score":8,"tags":["VPS","测评"],"why":"9950X独服完整跑分报告，一手实测数据，评论有互动","at":1794812862764}
+{"key":"nodeseek:1057402","sourceId":"nodeseek","id":"1057402","title":"「收」claude（克劳德）门户认证kyc","keep":false,"score":0,"tags":[],"why":"纯交易帖收KYC账号，无信息量且涉违规操作","at":1794812862764}
+{"key":"nodeseek:1057197","sourceId":"nodeseek","id":"1057197","title":"Claude解决了kyc 有需要的吗","keep":false,"score":0,"tags":[],"why":"招揽代实名KYC的业务广告，评论只问价格","at":1794812862764}
+{"key":"nodeseek:1057436","sourceId":"nodeseek","id":"1057436","title":"[NQ] Datawave LAX Premium Black5A 368¥/Year","keep":true,"score":7,"tags":["VPS","测评"],"why":"含EPYC 7663跑分与年付价格，属一手实测情报","at":1794812862764}
+{"key":"nodeseek:1057443","sourceId":"nodeseek","id":"1057443","title":"VPS 被哪吒探针恶意注入了","keep":true,"score":6,"tags":["安全","避坑"],"why":"探针漏洞注入告警，但评论质疑其无实锤证据","at":1794812862764}
+{"key":"nodeseek:1057452","sourceId":"nodeseek","id":"1057452","title":"RFC正在遭受“极其猛烈”的DDoS攻击","keep":true,"score":7,"tags":["线路","故障"],"why":"RFC港美间歇不可用故障异动，评论补充日本同样","at":1794812862764}
+{"key":"nodeseek:1057453","sourceId":"nodeseek","id":"1057453","title":"在美国vps里面安装chrome用Claude，能避免封号吗？","keep":true,"score":3,"tags":["提问"],"why":"泛泛提问防封号，无具体环境与实测背景","at":1794812862764}
+{"key":"nodeseek:1057427","sourceId":"nodeseek","id":"1057427","title":"又是亏麻的一天 这波真要请黄大仙出山救市了","keep":false,"score":1,"tags":[],"why":"无正文的股市吐槽，纯情绪水贴无信息量","at":1794812862764}
+{"key":"nodeseek:991174","sourceId":"nodeseek","id":"991174","title":"claude max20 拼车","keep":false,"score":0,"tags":[],"why":"Claude拼车商业广告，评论直指额度线性不划算","at":1794812862764}
+{"key":"nodeseek:1057439","sourceId":"nodeseek","id":"1057439","title":"【出】剩余价值9折出 Lightlayer SG&HK两台年付25刀的优化小水管机","keep":true,"score":5,"tags":["交易","VPS"],"why":"二手转让附剩余价值与九折出价，信息较完整","at":1794812862764}
+{"key":"nodeseek:1057429","sourceId":"nodeseek","id":"1057429","title":"到英国的小鸡用什么线路拉？HK?美西？","keep":false,"score":2,"tags":["提问","水贴"],"why":"正文只有“如题”，评论也只有单字回复，没有实测信息","at":1794812862764}
+{"key":"nodeseek:1057371","sourceId":"nodeseek","id":"1057371","title":"送muse互助token","keep":false,"score":0,"tags":["邀请码","拉人头"],"why":"送邀请码与求互助码，属于拉人头垃圾帖","at":1794812862764}
+{"key":"nodeseek:1057385","sourceId":"nodeseek","id":"1057385","title":"出grok build额度（supergrok会员）我个人完全不用","keep":false,"score":1,"tags":["账号共享","灰产"],"why":"转卖会员额度并共享登录，风险高，且违反服务条款","at":1794812862764}
+{"key":"nodeseek:1057428","sourceId":"nodeseek","id":"1057428","title":"【NodeQuality】Zouter-HK-BGP-Standard","keep":true,"score":8,"tags":["VPS","测评","跑分"],"why":"含完整硬件跑分与99元/年的价格情报，一手实测","at":1794812862764}
+{"key":"nodeseek:1057418","sourceId":"nodeseek","id":"1057418","title":"有未读的私信但是已经看不到了","keep":false,"score":0,"tags":["水贴"],"why":"无正文无评论，纯无用信息","at":1794812862764}
+{"key":"nodeseek:1057420","sourceId":"nodeseek","id":"1057420","title":"NQ留档hyperhost £1.67/m","keep":true,"score":7,"tags":["VPS","测评","英国"],"why":"一手硬件体检报告，给出月付约15元的价格档位","at":1794812862764}
+{"key":"nodeseek:1057130","sourceId":"nodeseek","id":"1057130","title":"大妈dmit最近是咋了","keep":true,"score":8,"tags":["VPS","线路","故障"],"why":"评论实测补充：遭受攻击、9929 降级、官方可退款","at":1794812862764}
+{"key":"nodeseek:1057392","sourceId":"nodeseek","id":"1057392","title":"claude解封了","keep":true,"score":7,"tags":["Claude","经验","申诉"],"why":"申诉解封流程可参考，评论确认同期多人解封","at":1794812862764}
+{"key":"nodeseek:1056231","sourceId":"nodeseek","id":"1056231","title":"求推荐ix转发面板","keep":true,"score":7,"tags":["技术","开源","转发面板"],"why":"评论给出开源面板且楼主实测成功，后续信息比正文更有价值","at":1794812862764}
+{"key":"nodeseek:1057424","sourceId":"nodeseek","id":"1057424","title":"codex pro 现在耐用吗？","keep":true,"score":3,"tags":["提问","AI"],"why":"泛指提问，正文只有一句，无实测和评论补充","at":1794812862764}
+{"key":"nodeseek:1057406","sourceId":"nodeseek","id":"1057406","title":"家人sjc个人用怎么样","keep":true,"score":3,"tags":["VPS","提问"],"why":"泛泛询问家人云是否适合个人备用，评论仅称价格尚可、可能是坑，无实质信息","at":1794812862764}
+{"key":"nodeseek:1057408","sourceId":"nodeseek","id":"1057408","title":"长期收Claude解封号","keep":true,"score":4,"tags":["Claude","交易信息"],"why":"收号帖列出各类解封号的报价，评论印证解封号降价，只有市场行情价值","at":1794812862764}
+{"key":"nodeseek:1057398","sourceId":"nodeseek","id":"1057398","title":"【出】400r出 绝版减席位48个月 GPT周限Team","keep":false,"score":1,"tags":["广告","GPT"],"why":"二手转卖帖带“机不可失”式营销话术，评论直言价格离谱","at":1794812862764}
+{"key":"nodeseek:1057116","sourceId":"nodeseek","id":"1057116","title":"claude申诉解封","keep":true,"score":7,"tags":["Claude","申诉","经验"],"why":"评论给出多种申诉理由和时效，比正文的解封通知更有参考价值","at":1794812862764}
+{"key":"nodeseek:1057377","sourceId":"nodeseek","id":"1057377","title":"收临期team 19号之前得想卖的来","keep":false,"score":0,"tags":["水贴","交易"],"why":"正文只留QQ号，没有配置或价格等信息","at":1794812862764}
+{"key":"nodeseek:1033795","sourceId":"nodeseek","id":"1033795","title":"【提问】Claude封号第一次申诉失败后可以继续申诉吗，给鸡腿","keep":true,"score":6,"tags":["Claude","提问","经验"],"why":"附带封号背景的提问，评论说明二次申诉会被拒，并给出删号重注册方案","at":1794812862764}
+{"key":"nodeseek:1057319","sourceId":"nodeseek","id":"1057319","title":"GPT 纯纯废物一个","keep":false,"score":2,"tags":["吐槽","水贴"],"why":"单句吐槽拉踩无实测，评论区是carbon推销广告","at":1794812862764}
+{"key":"nodeseek:1057368","sourceId":"nodeseek","id":"1057368","title":"关于AI客服自动回复","keep":true,"score":5,"tags":["AI","提问"],"why":"关于无官方API时如何实现客服自动回复的技术提问，评论给出dify等实现思路","at":1794812862764}
+{"key":"nodeseek:1056827","sourceId":"nodeseek","id":"1056827","title":"6折出台isvoro hkl","keep":true,"score":4,"tags":["VPS","交易"],"why":"转让帖附配置截图和剩余价值明细，但评论指出图片裂开，价值有限","at":1794812862764}
+{"key":"nodeseek:480914","sourceId":"nodeseek","id":"480914","title":"改了下Bin佬的dd脚本，支持btrfs文件系统","keep":true,"score":9,"tags":["开源","脚本","btrfs"],"why":"对dd脚本的一手改动，评论实测1G硬盘失败及迁移方案，信息量大","at":1794812862764}
+{"key":"nodeseek:1057107","sourceId":"nodeseek","id":"1057107","title":"TQ 斯巴达 Spartanhost 9929&CMIN2 24刀/年","keep":false,"score":0,"tags":["转链","推广"],"why":"正文仅推广短链无观点，属纯转链水贴","at":1794812862764}
+{"key":"nodeseek:1057326","sourceId":"nodeseek","id":"1057326","title":"预计一波，今天大妈今天会被打吗","keep":true,"score":6,"tags":["线路","故障"],"why":"评论证实凌晨遭攻击，波及其他线路","at":1794812862764}
+{"key":"nodeseek:1057244","sourceId":"nodeseek","id":"1057244","title":"[出鸡]出家 sjc 26国庆特别版 550g","keep":true,"score":4,"tags":["VPS","交易"],"why":"个人转让含价格和剩余价值，评论仅帮顶","at":1794812862764}
+{"key":"nodeseek:1057172","sourceId":"nodeseek","id":"1057172","title":"黄仁勋据报与盟友讨论回归英伟达任 CEO","keep":false,"score":0,"tags":["谣言","敏感"],"why":"涉间谍传闻且内容失实，属敏感谣言","at":1794812862764}
+{"key":"nodeseek:1057236","sourceId":"nodeseek","id":"1057236","title":"（人找车）移动快乐v4，v6都可","keep":false,"score":0,"tags":["水贴","拉人"],"why":"正文重复标题，无实质信息，疑似拼车拉人","at":1794812862764}
+{"key":"nodeseek:899854","sourceId":"nodeseek","id":"899854","title":"以此为鉴，警示所有想永久白嫖甲骨文的佬友","keep":true,"score":8,"tags":["甲骨文","避坑"],"why":"20多个号被封复盘，评论补充自注册更稳","at":1794812862764}
+{"key":"nodeseek:1057335","sourceId":"nodeseek","id":"1057335","title":"【出】剩余价值+15 出MK广新ix专线首发 158.4r 2T 不包PUSH","keep":true,"score":4,"tags":["VPS","交易"],"why":"二手VPS转让信息，评论仅问价帮顶","at":1794812862764}
+{"key":"nodeseek:1056899","sourceId":"nodeseek","id":"1056899","title":"现在有啥emby推荐的","keep":true,"score":7,"tags":["Emby","推荐"],"why":"评论给出多个服价格和播放器实测推荐","at":1794812862764}
+{"key":"nodeseek:1056255","sourceId":"nodeseek","id":"1056255","title":"听说在IBKR里面换汇还比较划算 有懂的吗","keep":true,"score":7,"tags":["IBKR","换汇"],"why":"换汇成本对比，评论警示当换汇工具会关户","at":1794812862764}
+{"key":"nodeseek:1057185","sourceId":"nodeseek","id":"1057185","title":"GPT 代充/plus110/pro5x600/10x1000","keep":false,"score":0,"tags":["广告","代充"],"why":"代充广告含微信和批发价，属推广拉客","at":1794812862764}
+{"key":"nodeseek:1057360","sourceId":"nodeseek","id":"1057360","title":"Vivaldi浏览器为什么用着用着油猴脚本中的所有脚本都会没了","keep":true,"score":6,"tags":["浏览器","求助"],"why":"脚本消失的可复现故障，评论确认管理面板仍在但页面不生效","at":1794812862764}
+{"key":"nodeloc:118063","sourceId":"nodeloc","id":"118063","title":"佬们，有没有觉得那个卖服务器的站点主题页面比较好看的，推荐几个？","keep":false,"score":3,"tags":["提问"],"why":"泛泛求主题推荐，无具体需求也无有效回复","at":1794812862764}
+{"key":"linuxdo:3184490","sourceId":"linuxdo","id":"3184490","title":"workbuddy反代已经到头了，今天我全部的国内账号全封了","keep":true,"score":8,"tags":["封号","避坑"],"why":"批量封号实况，评论补充工具与并发线索，有警示价值","at":1794812862764}
+{"key":"linuxdo:3184565","sourceId":"linuxdo","id":"3184565","title":"Claude现在充值必弹kyc吗","keep":true,"score":8,"tags":["Claude","KYC"],"why":"评论给出卡种、礼品卡、Google/Apple订阅等多条实测分因","at":1794812862764}
+{"key":"linuxdo:3184586","sourceId":"linuxdo","id":"3184586","title":"gpt image 2.6 生图评比大赛","keep":false,"score":0,"tags":["活动"],"why":"生图比赛拉人参与，正文空缺仅有占楼回复","at":1794812862764}
+{"key":"linuxdo:3184560","sourceId":"linuxdo","id":"3184560","title":"问一下，现在gpt6.1 terra 速度实际有多少token/s？","keep":true,"score":7,"tags":["OpenAI","实测"],"why":"评论给出降速前后token/s对比，有真实数据","at":1794812862764}
+{"key":"linuxdo:3184527","sourceId":"linuxdo","id":"3184527","title":"好想离职，却又不知道自己能干嘛，每天都很难受","keep":false,"score":2,"tags":["闲聊"],"why":"情绪化倾诉无具体信息，回复多为泛泛安慰","at":1794812862764}
+{"key":"linuxdo:3184562","sourceId":"linuxdo","id":"3184562","title":"投影仪如何变废为宝","keep":true,"score":6,"tags":["投影仪","经验"],"why":"评论给出emby源、网盘、精简系统等可行改造方案","at":1794812862764}
+{"key":"linuxdo:3184589","sourceId":"linuxdo","id":"3184589","title":"求助，VOXI的esim卡没信号","keep":false,"score":2,"tags":["求助"],"why":"无正文无回复，仅一句故障描述，无排查信息","at":1794812862764}
+{"key":"linuxdo:3184568","sourceId":"linuxdo","id":"3184568","title":"Gemini的Agy用家庭组小号反代真的会被封吗？？看到很多帖子说了","keep":false,"score":3,"tags":["Gemini","提问"],"why":"仅凭传言发问，无实测无回复，暂无可采信信息","at":1794812862764}
+{"key":"linuxdo:3184543","sourceId":"linuxdo","id":"3184543","title":"不要用豆包工作，真的会被气出脑溢血","keep":false,"score":0,"tags":["水贴"],"why":"只有情绪化标题无正文，无可推送信息","at":1794812862764}
+{"key":"linuxdo:3184486","sourceId":"linuxdo","id":"3184486","title":"能不能一直薅GPT半价优惠","keep":false,"score":0,"tags":["水贴"],"why":"无正文无实质讨论，只是薅羊毛式泛问","at":1794812862764}
+{"key":"linuxdo:3184540","sourceId":"linuxdo","id":"3184540","title":"深度体验了一下 gemini4 各模型，整体感觉哈基米真的站起来了！","keep":false,"score":0,"tags":["标题党"],"why":"标称深度体验却无正文，读者点进去是空的","at":1794812862764}
+{"key":"linuxdo:3184491","sourceId":"linuxdo","id":"3184491","title":"12 月 ChatGPT 和 Codex 要共用额度了，Plus 还够用吗？","keep":false,"score":2,"tags":["提问","标题党"],"why":"仅标题传闻式提问，无正文或评论佐证","at":1794812862764}
+{"key":"1a2x:922","sourceId":"1a2x","id":"922","title":"腾讯和字节都开始搞智囊团了，腾讯注册就有奖励","keep":false,"score":0,"tags":["广告","返利"],"why":"推广板块带referral_code拉新返现，属AFF推广","at":1794812862764}
+{"key":"linuxdo:3184665","sourceId":"linuxdo","id":"3184665","title":"Team使用SIWC方式登录Pi等第三方客户端教程","keep":false,"score":2,"tags":["教程","水贴"],"why":"声称教程却无正文，零浏览零价值","at":1794812862764}
+{"key":"linuxdo:3184646","sourceId":"linuxdo","id":"3184646","title":"寻找付费自习室外的能用来学习的地方","keep":true,"score":5,"tags":["讨论","生活"],"why":"话题有共鸣，评论给出图书馆等替代方案","at":1794812862764}
+{"key":"linuxdo:3184633","sourceId":"linuxdo","id":"3184633","title":"摸鱼记英语单词的PC软件-墨鱼单词-v1.3.0-解锁永久会员功能，需登录","keep":false,"score":2,"tags":["破解","软件"],"why":"破解会员软件仅标题，无说明无实测，风险高","at":1794812862764}
+{"key":"linuxdo:3184616","sourceId":"linuxdo","id":"3184616","title":"求问一下Claude的Kyc可以主动发起吗？","keep":true,"score":6,"tags":["Claude","经验"],"why":"评论给出付款触发KYC的实测路径与风险提醒","at":1794812862764}
+{"key":"linuxdo:3184660","sourceId":"linuxdo","id":"3184660","title":"求一个服务器一键脚本，刚刚白嫖了一个google 云服务器 的虚拟机实例","keep":false,"score":2,"tags":["提问","水贴"],"why":"泛泛求一键脚本，无正文无具体环境信息","at":1794812862764}
+{"key":"linuxdo:3184605","sourceId":"linuxdo","id":"3184605","title":"这算AI焦虑吗？或者AI矛盾犹豫？","keep":true,"score":4,"tags":["讨论","AI"],"why":"无正文的闲谈，但评论含AI写码实测感受，略有讨论价值","at":1794812862764}
+{"key":"linuxdo:3184657","sourceId":"linuxdo","id":"3184657","title":"workbuddy天亮了还是天黑了orz","keep":false,"score":0,"tags":["水贴"],"why":"无正文无回复，标题含糊无信息量","at":1794812862764}
+{"key":"linuxdo:3184654","sourceId":"linuxdo","id":"3184654","title":"有佬遇到Grok频繁自动退出登录吗？","keep":false,"score":1,"tags":["水贴","提问"],"why":"无正文，仅一句泛泛提问，无背景与回复","at":1794812862764}
+{"key":"linuxdo:3184555","sourceId":"linuxdo","id":"3184555","title":"我有一个朋友，L站账号进不去了","keep":false,"score":1,"tags":["水贴","提问"],"why":"无正文，账号问题描述不清，无法提供有效信息","at":1794812862764}
+{"key":"linuxdo:3184607","sourceId":"linuxdo","id":"3184607","title":"x上看见的agent配合开源模型测试，codex综合第一，agy果然挺拉","keep":true,"score":7,"tags":["AI","测评"],"why":"引用开源模型与agent实测排名对比，具参考信息量","at":1794812862764}
+{"key":"linuxdo:3184634","sourceId":"linuxdo","id":"3184634","title":"佬友们，有没有专门用于健康监测方面的智能手表推荐","keep":false,"score":2,"tags":["水贴","提问"],"why":"无正文的泛泛求推荐，无预算场景回复也缺失","at":1794812862764}
