@@ -5035,3 +5035,15 @@
 {"key":"nodeseek:1059025","sourceId":"nodeseek","id":"1059025","title":"从号商那里买 google ultra 5x 的小心买到 0 元购账号","keep":true,"score":4,"tags":["避坑","Google"],"why":"标题提醒0元购账号风险，但无正文细节","at":1794870460281}
 {"key":"nodeseek:1059023","sourceId":"nodeseek","id":"1059023","title":"做落地的为啥这么少？","keep":true,"score":4,"tags":["机场","行业动态"],"why":"简短吐槽但透露面包云倒闭、aether缺货的供给情报，信息量有限","at":1794870460281}
 {"key":"linuxdo:3187996","sourceId":"linuxdo","id":"3187996","title":"上海人工智能实验室发布科学多模态模型Sage S2.1 Flash，多项专业基准测试拔得头筹","keep":false,"score":0,"tags":["AI"],"why":"只有标题无正文，属空壳新闻搬运，无实质信息与讨论","at":1794870460281}
+{"key":"nodeseek:1059021","sourceId":"nodeseek","id":"1059021","title":"补偿这块还得是大妈啊！","keep":true,"score":7,"tags":["VPS","补偿"],"why":"一手补偿经历，评论点出高溢价背景","at":1794870504012}
+{"key":"nodeseek:1059020","sourceId":"nodeseek","id":"1059020","title":"【未出】claude Pro七天体验链接出售","keep":false,"score":0,"tags":["交易","广告"],"why":"出售账号体验链接，属交易推广","at":1794870504012}
+{"key":"nodeseek:1059019","sourceId":"nodeseek","id":"1059019","title":"溢价收 Zouter 香港老款 AMD 2C2G 原生IP，99元/年","keep":true,"score":6,"tags":["VPS","交易"],"why":"求购贴含配置与溢价，评论补充市场价","at":1794870504012}
+{"key":"linuxdo:3187988","sourceId":"linuxdo","id":"3187988","title":"claude大哥不要我钱了","keep":false,"score":0,"tags":["Claude","水贴"],"why":"纯水标题且无正文，评论仅泛泛解释","at":1794870504012}
+{"key":"linuxdo:3187990","sourceId":"linuxdo","id":"3187990","title":"Bybit实测可以有三个区的账号","keep":true,"score":3,"tags":["Bybit","实测"],"why":"标题称实测多区账号，但无正文细节","at":1794870504012}
+{"key":"linuxdo:3187993","sourceId":"linuxdo","id":"3187993","title":"为什么发文出错","keep":false,"score":0,"tags":["求助","水贴"],"why":"无正文的技术求助，缺乏有效信息","at":1794870504012}
+{"key":"nodeseek:1059026","sourceId":"nodeseek","id":"1059026","title":"claude无法通过Appstore余额内购了。只能是谷歌了吗","keep":true,"score":6,"tags":["Claude","支付"],"why":"反映App Store余额内购失效，有异动信息","at":1794870504012}
+{"key":"nodeseek:1059022","sourceId":"nodeseek","id":"1059022","title":"京东积分有人收吗？还有23分","keep":true,"score":6,"tags":["京东","积分"],"why":"评论补充积分兑换场景与有效期","at":1794870504012}
+{"key":"nodeseek:1059024","sourceId":"nodeseek","id":"1059024","title":"Claude本周封号调查","keep":true,"score":7,"tags":["Claude","封号"],"why":"评论证实23年老号也被封，有风险提示","at":1794870504012}
+{"key":"nodeseek:1059025","sourceId":"nodeseek","id":"1059025","title":"从号商那里买 google ultra 5x 的小心买到 0 元购账号","keep":true,"score":8,"tags":["Google","避坑"],"why":"附0元购订单截图，提醒号商试用号风险","at":1794870504012}
+{"key":"nodeseek:1059023","sourceId":"nodeseek","id":"1059023","title":"做落地的为啥这么少？","keep":true,"score":4,"tags":["服务商","情报"],"why":"提到面包云停运、aether缺货，属服务商异动但信息量单薄","at":1794870504012}
+{"key":"linuxdo:3187996","sourceId":"linuxdo","id":"3187996","title":"上海人工智能实验室发布科学多模态模型Sage S2.1 Flash，多项专业基准测试拔得头筹","keep":false,"score":0,"tags":[],"why":"正文为空，只搬运新闻标题，浏览和回复都极低","at":1794870504012}
