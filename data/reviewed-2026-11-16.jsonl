@@ -4918,3 +4918,23 @@
 {"key":"nodeseek:1058936","sourceId":"nodeseek","id":"1058936","title":"有哪些商家卖M247 Europe的机吗","keep":true,"score":3,"tags":["提问"],"why":"询问M247线路商家，指向明确但缺背景说明","at":1794861463242}
 {"key":"linuxdo:3187959","sourceId":"linuxdo","id":"3187959","title":"1017味儿太大，自动化客服用哪家？","keep":false,"score":1,"tags":["水贴"],"why":"标题表述含混，无正文，只有一句话的泛泛提问","at":1794861463242}
 {"key":"linuxdo:3187957","sourceId":"linuxdo","id":"3187957","title":"看到了一些不得了的爆料(预测), 来自一个我认识很久的比较靠谱的X博主","keep":false,"score":2,"tags":["纯水","传闻"],"why":"无正文，评论内容像编造的模型名，没有任何依据","at":1794861463242}
+{"key":"nodeseek:1058992","sourceId":"nodeseek","id":"1058992","title":"懒猫日本买哪款呀？KDDI、SoftBank、GLBB、BIGLOBE","keep":true,"score":4,"tags":["VPS","日本线路","提问"],"why":"具体询问日本线路IP质量，缺实测与回复","at":1794861489960}
+{"key":"nodeseek:1058991","sourceId":"nodeseek","id":"1058991","title":"aws赠金最后一个月是怎么算的？","keep":true,"score":6,"tags":["AWS","账单"],"why":"有注册日期场景的赠金计算问题，技术提问","at":1794861489960}
+{"key":"nodeseek:993228","sourceId":"nodeseek","id":"993228","title":"印尼佬买的muse满级号多久封号","keep":false,"score":0,"tags":["AFF","推广"],"why":"正文带AFF返利链接，属拉新推广","at":1794861489960}
+{"key":"linuxdo:3187949","sourceId":"linuxdo","id":"3187949","title":"commandcode退钱了，但是……这对吗？","keep":false,"score":0,"tags":["空正文","垃圾"],"why":"正文为空，仅标题带情绪，无有效信息","at":1794861489960}
+{"key":"nodeseek:1058996","sourceId":"nodeseek","id":"1058996","title":"福建电信还有办法提升上行吗？","keep":true,"score":5,"tags":["宽带","福建电信"],"why":"反映福建电信上行统一限速，有地区背景","at":1794861489960}
+{"key":"nodeseek:1057857","sourceId":"nodeseek","id":"1057857","title":"160收 已续费的ovh 17.88","keep":true,"score":4,"tags":["交易","OVH"],"why":"求购OVH特价机，仅报价格，评论无补充","at":1794861489960}
+{"key":"nodeseek:1058994","sourceId":"nodeseek","id":"1058994","title":"现在还有多播的宽带吗？","keep":true,"score":4,"tags":["宽带","多播"],"why":"描述宽带多播可用性变化，经验有限但非水","at":1794861489960}
+{"key":"nodeseek:1058771","sourceId":"nodeseek","id":"1058771","title":"刚翻到几张8折team优惠码 有没有人收","keep":false,"score":0,"tags":["广告","优惠码"],"why":"出售优惠码且无正文，属交易广告","at":1794861489960}
+{"key":"linuxdo:3187952","sourceId":"linuxdo","id":"3187952","title":"Gemini ultra20xWeb聊天额度大砍了吗？","keep":true,"score":3,"tags":["AI","Gemini","提问"],"why":"仅标题询问Gemini额度变化，缺正文与数据","at":1794861489960}
+{"key":"linuxdo:3187953","sourceId":"linuxdo","id":"3187953","title":"gemini-4-neon （氖）出现在 Gemini Web","keep":true,"score":6,"tags":["AI","Gemini","转载"],"why":"Gemini新模型上线异动，有赞但评论仅吐槽","at":1794861489960}
+{"key":"linuxdo:3187951","sourceId":"linuxdo","id":"3187951","title":"赞美佬友、赞美始皇、赞美太阳，方可飞升","keep":false,"score":0,"tags":["水贴"],"why":"纯赞美无正文，无任何信息量","at":1794861489960}
+{"key":"nodeseek:1058998","sourceId":"nodeseek","id":"1058998","title":"就离谱啊，Saily号竟然注册美区PayPal成功了","keep":true,"score":6,"tags":["PayPal","eSIM","实测"],"why":"一手注册实测，含失败与成功条件，可参考","at":1794861489960}
+{"key":"nodeseek:974088","sourceId":"nodeseek","id":"974088","title":"[开源] Komari Horizon 主题｜高密度节点卡片、流量周期校准、延迟丢包可视化","keep":true,"score":9,"tags":["开源","Komari","主题"],"why":"开源主题发布，功能完整并附仓库和演示","at":1794861489960}
+{"key":"nodeseek:1058997","sourceId":"nodeseek","id":"1058997","title":"gemini3.8太卡了，用了一下ds4.1是真快","keep":false,"score":0,"tags":["水贴","AI"],"why":"单句主观对比，无实测和数据","at":1794861489960}
+{"key":"nodeseek:1056879","sourceId":"nodeseek","id":"1056879","title":"【溢价800已出】出95新硬盘 OVH Sys-stor-le-2 48T大盘鸡 BHS","keep":true,"score":6,"tags":["OVH","二手交易","硬件"],"why":"含硬件检测与成交溢价，可作行情参考","at":1794861489960}
+{"key":"nodeseek:1058993","sourceId":"nodeseek","id":"1058993","title":"45r出菲律宾Globe one eSIM","keep":false,"score":0,"tags":["交易","eSIM"],"why":"纯出售无正文无细节，信息量不足","at":1794861489960}
+{"key":"nodeseek:1058955","sourceId":"nodeseek","id":"1058955","title":"100 出个阿里云国际，已开国内","keep":false,"score":0,"tags":["交易","阿里云"],"why":"纯出售账号无正文，无有效信息","at":1794861489960}
+{"key":"nodeseek:1058936","sourceId":"nodeseek","id":"1058936","title":"有哪些商家卖M247 Europe的机吗","keep":true,"score":3,"tags":["M247","VPS","提问"],"why":"具体商家咨询但缺背景，讨论价值一般","at":1794861489960}
+{"key":"linuxdo:3187959","sourceId":"linuxdo","id":"3187959","title":"1017味儿太大，自动化客服用哪家？","keep":false,"score":0,"tags":["水贴","AI"],"why":"标题含糊且无正文，无法判断有效需求","at":1794861489960}
+{"key":"linuxdo:3187957","sourceId":"linuxdo","id":"3187957","title":"看到了一些不得了的爆料(预测), 来自一个我认识很久的比较靠谱的X博主","keep":false,"score":0,"tags":["标题党","传闻"],"why":"正文空，无来源爆料，评论为玩梗","at":1794861489960}
