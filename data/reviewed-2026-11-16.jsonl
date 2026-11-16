@@ -4947,3 +4947,12 @@
 {"key":"nodeseek:1035053","sourceId":"nodeseek","id":"1035053","title":"Claude开一个虚拟机是不是不容易被封？","keep":true,"score":7,"tags":["Claude","防封"],"why":"评论给出物理机、环境隔离及长期挂机实测经验","at":1794863263412}
 {"key":"nodeseek:1059001","sourceId":"nodeseek","id":"1059001","title":"求不分流、日换ip的hinet推荐","keep":true,"score":5,"tags":["Hinet","求推荐"],"why":"带明确用途与ipv6、LXC需求的求推荐，有背景","at":1794863263412}
 {"key":"linuxdo:3187964","sourceId":"linuxdo","id":"3187964","title":"求助贴，有没有佬知道特斯拉eap他们怎么通过模块刷出来的","keep":false,"score":2,"tags":["求助","无正文"],"why":"无正文的低互动求资源提问，无有效信息","at":1794863263412}
+{"key":"nodeseek:1059000","sourceId":"nodeseek","id":"1059000","title":"【收】云悠 De Frankfurt C.Std - Mini 9929 八折机","keep":false,"score":0,"tags":["交易","求购"],"why":"纯求购贴无正文，无任何信息价值","at":1794863284150}
+{"key":"nodeseek:978760","sourceId":"nodeseek","id":"978760","title":"发现ProxyLane更好用，不开TUN","keep":true,"score":7,"tags":["开源工具","代理"],"why":"带对比观点的开源工具推荐，评论补充注入方案优劣","at":1794863284150}
+{"key":"nodeseek:1038696","sourceId":"nodeseek","id":"1038696","title":"namecrane 新官网上线，即将支持域名注册","keep":false,"score":2,"tags":["商家动态"],"why":"仅一句商家动态且无正文，信息量近零","at":1794863284150}
+{"key":"nodeseek:1058985","sourceId":"nodeseek","id":"1058985","title":"Google AI Ultra 5x 自用家庭组拼车｜无反重力、网页版2位","keep":false,"score":0,"tags":["拼车","广告"],"why":"家庭组车位招募，属拉人头推广","at":1794863284150}
+{"key":"nodeseek:1059002","sourceId":"nodeseek","id":"1059002","title":"codex你个fw","keep":false,"score":1,"tags":["吐槽","情绪"],"why":"纯情绪发泄无有效信息，且含歧视性用语","at":1794863284150}
+{"key":"nodeseek:1058999","sourceId":"nodeseek","id":"1058999","title":"马来西亚家宽VDS出租","keep":false,"score":0,"tags":["广告","出租"],"why":"VDS 出租广告，无正文无信息","at":1794863284150}
+{"key":"nodeseek:1035053","sourceId":"nodeseek","id":"1035053","title":"Claude开一个虚拟机是不是不容易被封？","keep":true,"score":7,"tags":["Claude","经验"],"why":"带背景提问，评论给出环境隔离与长期使用实测","at":1794863284150}
+{"key":"nodeseek:1059001","sourceId":"nodeseek","id":"1059001","title":"求不分流、日换ip的hinet推荐","keep":true,"score":6,"tags":["VPS","求推荐"],"why":"需求描述具体（日换IP、反代、IPv6、LXC），可讨论","at":1794863284150}
+{"key":"linuxdo:3187964","sourceId":"linuxdo","id":"3187964","title":"求助贴，有没有佬知道特斯拉eap他们怎么通过模块刷出来的","keep":false,"score":2,"tags":["求助","灰色"],"why":"无正文的刷模块求助，无信息量且涉违规风险","at":1794863284150}
