@@ -3815,3 +3815,47 @@
 {"key":"linuxdo:3187195","sourceId":"linuxdo","id":"3187195","title":"Pickle 有人在用吗？","keep":false,"score":0,"tags":["无信息量"],"why":"仅问有没有人用，无背景和观点","at":1794839939039}
 {"key":"linuxdo:3187212","sourceId":"linuxdo","id":"3187212","title":"反重力没法登陆，两个号都是这个问题，都不敢去开pro，怕登录不上","keep":true,"score":4,"tags":["故障反馈","订阅"],"why":"反馈两号无法登录，缺排查细节","at":1794839939039}
 {"key":"linuxdo:3187206","sourceId":"linuxdo","id":"3187206","title":"最近感觉opencode go的套餐不行了，首字巨慢而且tps也慢。","keep":false,"score":2,"tags":["人工智能"],"why":"无正文无实测数据，仅单句吐槽服务变慢，信息量不足","at":1794839939039}
+{"key":"nodeseek:1058599","sourceId":"nodeseek","id":"1058599","title":"180出 TAXI LA ISP 10刀/年","keep":false,"score":1,"tags":["交易","出售"],"why":"纯二手转让帖，只留PM联系方式，无任何有效信息","at":1794840561986}
+{"key":"nodeseek:1058550","sourceId":"nodeseek","id":"1058550","title":"HyperHost V6 VPS涨价了","keep":true,"score":7,"tags":["VPS","涨价"],"why":"一手涨价邮件与新旧价对比，评论补充上架同价与CPU短板","at":1794840561986}
+{"key":"nodeseek:1058593","sourceId":"nodeseek","id":"1058593","title":"Lightlayer SJC的CN2GIA还是很给力啊","keep":true,"score":6,"tags":["VPS","实测"],"why":"附测速图，下载414M、上传仅0.46M，属一手实测","at":1794840561986}
+{"key":"nodeseek:1058598","sourceId":"nodeseek","id":"1058598","title":"收 TAXI SG/JP/LA 10刀","keep":false,"score":1,"tags":["交易","求购"],"why":"纯收货帖，无配置、价格依据等信息","at":1794840561986}
+{"key":"nodeseek:1058586","sourceId":"nodeseek","id":"1058586","title":"佬们，现在香港100mbps不限量大约每月是多少刀","keep":true,"score":6,"tags":["香港","带宽"],"why":"评论给出大妈T1 6.9刀2T、超量限100M的具体方案","at":1794840561986}
+{"key":"nodeseek:1058568","sourceId":"nodeseek","id":"1058568","title":"阿里上海有通的ix吗 求上车","keep":true,"score":6,"tags":["IX","网络"],"why":"正文仅1字，但评论给出SHIXP互通与100G端口报价","at":1794840561986}
+{"key":"nodeseek:1058597","sourceId":"nodeseek","id":"1058597","title":"KFC闹麻了，一到晚上就这样吗","keep":true,"score":6,"tags":["故障","线路"],"why":"记录晚间反复断连的故障异动，白天正常、夜间异常","at":1794840561986}
+{"key":"nodeseek:1058594","sourceId":"nodeseek","id":"1058594","title":"你们下午抢的raksmart 3.99刀续费价格对吗","keep":true,"score":6,"tags":["VPS","价格"],"why":"续费价3.99变12.99，评论多人证实系统价格异常","at":1794840561986}
+{"key":"nodeseek:1058542","sourceId":"nodeseek","id":"1058542","title":"我想买gen2纠结小秘书还是riven","keep":true,"score":4,"tags":["VPS","提问"],"why":"泛泛求推荐，评论只给结论无实测数据支撑","at":1794840561986}
+{"key":"nodeseek:1058596","sourceId":"nodeseek","id":"1058596","title":"老实说，确切原因我现在给不出，不再编了。","keep":false,"score":1,"tags":["水贴"],"why":"仅一句吐槽截图无上下文，评论也只问模型，无信息量","at":1794840561986}
+{"key":"nodeseek:1058530","sourceId":"nodeseek","id":"1058530","title":"haha 卡","keep":true,"score":6,"tags":["电话卡","问答"],"why":"评论明确内地免实名、香港用流量需实名","at":1794840561986}
+{"key":"nodeseek:1058591","sourceId":"nodeseek","id":"1058591","title":"又是开启暴跌的一天","keep":false,"score":0,"tags":["水贴"],"why":"纯情绪感叹暴跌，无标的无数据","at":1794840561986}
+{"key":"nodeseek:1058538","sourceId":"nodeseek","id":"1058538","title":"【已出】出14.9年付的 Lightlayer SJ-VP04-L-A","keep":false,"score":2,"tags":["VPS","交易","已出"],"why":"已出交易帖，仅报价和到期，时效已过","at":1794840561986}
+{"key":"nodeseek:1058575","sourceId":"nodeseek","id":"1058575","title":"【已换】dmit和bwg线路机换亚洲线路机","keep":true,"score":6,"tags":["VPS","线路","交易"],"why":"已换但评论有gen2与AS3价格流量换算","at":1794840561986}
+{"key":"nodeseek:1058579","sourceId":"nodeseek","id":"1058579","title":"收个 NB Cogent 便宜就好","keep":false,"score":0,"tags":["水贴","求购"],"why":"纯求购水贴，无配置与价格","at":1794840561986}
+{"key":"nodeseek:1058570","sourceId":"nodeseek","id":"1058570","title":"【NQ】ZORO GLBB 趁着放货，再撸一台","keep":false,"score":0,"tags":["水贴","链接"],"why":"正文仅模板与链接，无实测数据","at":1794840561986}
+{"key":"nodeseek:1058554","sourceId":"nodeseek","id":"1058554","title":"服务器为什么叫龟壳？","keep":true,"score":5,"tags":["问答","术语"],"why":"评论解释Oracle译甲骨文，故称龟壳","at":1794840561986}
+{"key":"nodeseek:1058525","sourceId":"nodeseek","id":"1058525","title":"求求求 有哪些美西三网优化 可以后续加购流量包的","keep":true,"score":7,"tags":["VPS","求推荐"],"why":"评论推荐派大星500G套餐及5.99刀重置流量","at":1794840561986}
+{"key":"nodeseek:1058567","sourceId":"nodeseek","id":"1058567","title":"出某某的tex1 年付","keep":true,"score":4,"tags":["VPS","交易"],"why":"出售信息含107元价格与到期日，但缺配置","at":1794840561986}
+{"key":"nodeseek:1058552","sourceId":"nodeseek","id":"1058552","title":"55包push出ppf LITE S历史套餐月付，未改年付","keep":true,"score":6,"tags":["VPS","交易"],"why":"二手LITE S信息较全，评论补充384G流量","at":1794840561986}
+{"key":"nodeseek:1058561","sourceId":"nodeseek","id":"1058561","title":"现在甲骨文东京ARM机器很好开了吗","keep":true,"score":5,"tags":["VPS","Oracle","情报"],"why":"附图显示东京ARM开机成功，评论质疑升级号","at":1794840561986}
+{"key":"nodeseek:1058569","sourceId":"nodeseek","id":"1058569","title":"isvoro 29的美西三网优化，ip 质量感觉好像挺高的，有人要吗，这个能值多少钱","keep":true,"score":5,"tags":["VPS","IP质量","交易"],"why":"附图IP质量报告，评论称跑Claude半月，属估价","at":1794840561986}
+{"key":"nodeseek:1058541","sourceId":"nodeseek","id":"1058541","title":"已出AetherCloud · Los Angeles Prime · 1C · 1G · 20G SSD · 2.5G · 2T","keep":false,"score":2,"tags":["VPS","交易"],"why":"已出二手交易，仅补充续费价格，时效价值低","at":1794840561986}
+{"key":"nodeseek:1058571","sourceId":"nodeseek","id":"1058571","title":"【测评留档NQ】干杯云二号线","keep":true,"score":8,"tags":["VPS","测评"],"why":"完整硬件体检与跑分留档，一手实测数据充分","at":1794840561986}
+{"key":"nodeseek:1058536","sourceId":"nodeseek","id":"1058536","title":"[暂时不出了，有空再说]270出 白丝云Cloudsilk4837 1C1G 800G 年付159.99款","keep":true,"score":6,"tags":["VPS","交易","避坑"],"why":"评论算出剩余价值仅70元，270元溢价近200","at":1794840561986}
+{"key":"nodeseek:1058462","sourceId":"nodeseek","id":"1058462","title":"Claude成功试用，是否续费","keep":true,"score":7,"tags":["AI","账号","经验"],"why":"Claude试用KYC与退款细节，评论补充退款难和CLI","at":1794840561986}
+{"key":"nodeseek:1058508","sourceId":"nodeseek","id":"1058508","title":"问下csl esim删除以后就不能再加了吗？要去香港才能加？","keep":true,"score":6,"tags":["eSIM","问答"],"why":"评论给出eSIM重装及60天有效期规则，信息有效","at":1794840561986}
+{"key":"nodeseek:1058534","sourceId":"nodeseek","id":"1058534","title":"【TQ】zouter HK BGP","keep":true,"score":8,"tags":["VPS","线路","测评"],"why":"附TcpQuality回程报告，丢包数据具体，一手实测","at":1794840561986}
+{"key":"nodeseek:1058526","sourceId":"nodeseek","id":"1058526","title":"【NQ+TQ】破云/艾云 Brea.cloud Aiyun DE9929 2T流量 1G口子","keep":true,"score":9,"tags":["VPS","测评"],"why":"含完整硬件体检，评论补充单线程速度优于polo","at":1794840561986}
+{"key":"nodeseek:1058476","sourceId":"nodeseek","id":"1058476","title":"【NQ】干杯云2号家宽留档","keep":false,"score":0,"tags":["重复","水贴"],"why":"与第4条同为干杯云2号留档，正文空，去重","at":1794840561986}
+{"key":"nodeseek:1058332","sourceId":"nodeseek","id":"1058332","title":"快讯 legend转给家人是为了ip不被滥用","keep":false,"score":0,"tags":["水贴"],"why":"无正文，仅群聊玩梗和上链接调侃，无信息量","at":1794840561986}
+{"key":"nodeseek:1058491","sourceId":"nodeseek","id":"1058491","title":"raksmart 双 ISP ntt 和 cloudlead的 ISP NTT哪个好","keep":true,"score":4,"tags":["VPS","线路选择"],"why":"对比双ISP NTT线路，评论仅反问无实测补充","at":1794840561986}
+{"key":"nodeseek:1058455","sourceId":"nodeseek","id":"1058455","title":"[已收] 140收 TAXI LA ISP 10刀","keep":true,"score":4,"tags":["VPS","交易"],"why":"已收机型给出成交价，评论提示库存与替代选择","at":1794840561986}
+{"key":"nodeseek:1058464","sourceId":"nodeseek","id":"1058464","title":"溢价80收dmitLAX.AS3.Pro.TINY","keep":true,"score":5,"tags":["VPS","交易"],"why":"求购Dmit指定机型并给溢价，评论有人出货","at":1794840561986}
+{"key":"nodeseek:1058427","sourceId":"nodeseek","id":"1058427","title":"【已秒出】180+剩余 Heptasky QHIX-500G流量款 六折 86.40 刀年付（出闲置，等黑五）","keep":true,"score":5,"tags":["VPS","二手交易"],"why":"出闲置配置价格明细完整，评论追问IPLC线路","at":1794840561986}
+{"key":"nodeseek:1058487","sourceId":"nodeseek","id":"1058487","title":"溢价1600收Dmit-Malibu / 2000 Megabox 需原邮","keep":true,"score":5,"tags":["VPS","交易"],"why":"高溢价求购Dmit机型，评论补充1700报价","at":1794840561986}
+{"key":"linuxdo:3187298","sourceId":"linuxdo","id":"3187298","title":"今天的sol 比 astra 慢好多，有感觉吗","keep":false,"score":0,"tags":["水贴"],"why":"单句主观体验提问，无正文无评论，信息量极低","at":1794840561986}
+{"key":"linuxdo:3187234","sourceId":"linuxdo","id":"3187234","title":"网安比赛是否因为ai而消亡？","keep":true,"score":6,"tags":["网络安全","AI","讨论"],"why":"评论讨论AI在CTF中的优势及取证设备场景","at":1794840561986}
+{"key":"linuxdo:3187294","sourceId":"linuxdo","id":"3187294","title":"Google的AI studio中的这个Antigravity额度如何用到","keep":false,"score":0,"tags":["水贴","提问"],"why":"仅一句额度使用提问，无正文无背景无回复","at":1794840561986}
+{"key":"linuxdo:3187285","sourceId":"linuxdo","id":"3187285","title":"科研党怎么用上claude","keep":true,"score":5,"tags":["AI","Claude","经验"],"why":"评论给出devin/droid/kiro及kiro国内支付方案","at":1794840561986}
+{"key":"linuxdo:3187292","sourceId":"linuxdo","id":"3187292","title":"boostnet 半年订阅 每月200GB，还有三天到期","keep":false,"score":1,"tags":["水贴"],"why":"正文为空，仅一句到期提醒，没有价格或使用信息","at":1794840561986}
+{"key":"linuxdo:3187280","sourceId":"linuxdo","id":"3187280","title":"三个字给grok说降智了？","keep":false,"score":0,"tags":["水贴"],"why":"纯水版块标题党，正文为空，没有信息量","at":1794840561986}
+{"key":"linuxdo:3187278","sourceId":"linuxdo","id":"3187278","title":"做ai视频短剧的剧本都是在哪里弄的啊","keep":false,"score":2,"tags":["泛问"],"why":"无正文、无背景，属于泛泛提问，回复也少","at":1794840561986}
+{"key":"linuxdo:3187238","sourceId":"linuxdo","id":"3187238","title":"现在还有什么渠道可以用上反重力的Hydrogen，付费学生Pro可以吗","keep":true,"score":5,"tags":["提问","渠道"],"why":"询问Hydrogen可用渠道和学生Pro，浏览回复稍多，属于有效提问","at":1794840561986}
