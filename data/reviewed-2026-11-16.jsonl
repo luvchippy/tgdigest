@@ -4893,3 +4893,8 @@
 {"key":"linuxdo:3187944","sourceId":"linuxdo","id":"3187944","title":"有没有什么门槛低的业务客户付钱贼爽快的","keep":true,"score":4,"tags":["讨论","客户"],"why":"提问泛泛，评论有付款经验但信息有限","at":1794859662501}
 {"key":"linuxdo:3187943","sourceId":"linuxdo","id":"3187943","title":"Duet过了，两张重置卡到手！","keep":false,"score":0,"tags":["水贴"],"why":"纯水炫耀到卡，无任何有效信息","at":1794859662501}
 {"key":"linuxdo:3187941","sourceId":"linuxdo","id":"3187941","title":"众安银行 Lv2 新团，免费领实体卡 2026-11-17","keep":false,"score":0,"tags":["拼车","拉新"],"why":"拼车开团拉新，无实质经验或情报","at":1794859662501}
+{"key":"nodeseek:962137","sourceId":"nodeseek","id":"962137","title":"InfiniCLOUD网盘免费用户可以弃了,数据全部丢失","keep":true,"score":8,"tags":["网盘","故障","避坑"],"why":"具体节点硬盘损坏丢数据，属避坑情报，评论提醒备份","at":1794859683166}
+{"key":"nodeseek:1057103","sourceId":"nodeseek","id":"1057103","title":"(换) 老款Dmit Pro.Wee 换老款EB.WEE 1.15T","keep":false,"score":1,"tags":["交易","VPS"],"why":"仅置换标题无正文细节，信息量不足","at":1794859683166}
+{"key":"linuxdo:3187944","sourceId":"linuxdo","id":"3187944","title":"有没有什么门槛低的业务客户付钱贼爽快的","keep":true,"score":6,"tags":["接单","客户","讨论"],"why":"评论指出低门槛客户信任低、付款拖沓，有经验价值","at":1794859683166}
+{"key":"linuxdo:3187943","sourceId":"linuxdo","id":"3187943","title":"Duet过了，两张重置卡到手！","keep":false,"score":0,"tags":["水贴"],"why":"纯水贴，无正文无有效信息","at":1794859683166}
+{"key":"linuxdo:3187941","sourceId":"linuxdo","id":"3187941","title":"众安银行 Lv2 新团，免费领实体卡 2026-11-17","keep":false,"score":0,"tags":["拼车","拉新","银行"],"why":"拼车开团拉新，属推广拉人，无实质信息","at":1794859683166}
