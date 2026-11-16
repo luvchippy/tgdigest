@@ -179,7 +179,30 @@ export async function reviewItems(items, { template, profile, log = () => {} }) 
 
   // 只有"正文很短 + 带图"的帖子才附图：那类帖子正文几乎没信息，图就是内容本身。
   // 长文帖的配图属于锦上添花，带上只会白烧 token（该模型思维链很长）。
-  function collectImages(batch, max = 3) {
+  // 图床普遍有防盗链，让模型服务端自己去下载会 403（实测整批 400）。
+  // 这里改成由 runner 先下载、转成 data URL 内联传过去，绕开对方的下载环节。
+  async function toDataUrl(url) {
+    try {
+      const res = await fetch(url, {
+        headers: {
+          'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+          referer: new URL(url).origin + '/',
+        },
+        signal: AbortSignal.timeout(12000),
+      });
+      if (!res.ok) return null;
+      const type = res.headers.get('content-type') ?? '';
+      if (!type.startsWith('image/')) return null;
+      const buf = Buffer.from(await res.arrayBuffer());
+      // 单张限 2MB：太大的图 base64 之后会把上下文顶爆
+      if (!buf.length || buf.length > 2 * 1024 * 1024) return null;
+      return 'data:' + type.split(';')[0] + ';base64,' + buf.toString('base64');
+    } catch {
+      return null;
+    }
+  }
+
+  async function collectImages(batch, max = 3) {
     const urls = [];
     for (const item of batch) {
       if (!Array.isArray(item.images) || !item.images.length) continue;
@@ -187,17 +210,22 @@ export async function reviewItems(items, { template, profile, log = () => {} }) 
       for (const u of item.images) {
         if (urls.length >= max) return urls;
         if (typeof u !== 'string' || !u.startsWith('http')) continue;
-        // 矢量图和缩略图接口多半不收，带上会让整批 400
+        // 矢量图接口不收，带上会让整批 400
         if (/\.svg(\?|$)/i.test(u)) continue;
         if (!urls.includes(u)) urls.push(u);
       }
     }
-    return urls;
+    const out = [];
+    for (const u of urls) {
+      const dataUrl = await toDataUrl(u);
+      if (dataUrl) out.push(dataUrl);
+    }
+    return out;
   }
 
   async function runOne({ offset, batch, depth = 0 }) {
     const prompt = renderPrompt(template, profile, batch);
-    const images = collectImages(batch);
+    let images = await collectImages(batch);
     if (images.length) log(`  · 批次 ${offset / BATCH_SIZE + 1} 附带 ${images.length} 张图`);
     let ok = false;
     let truncated = false;
@@ -229,6 +257,14 @@ export async function reviewItems(items, { template, profile, log = () => {} }) 
         if (!ok) throw new Error('no verdict parsed');
       } catch (err) {
         log(`  ! 审核批次 ${offset / BATCH_SIZE + 1} 第 ${attempt} 次失败: ${err.message}`);
+        // 图片相关的报错（图床挡了、格式不支持）不该拖垮整批：
+        // 丢掉图用纯文本重来，宁可少看图也不能丢帖子。
+        if (images.length && /image/i.test(err.message)) {
+          log('    → 图片加载失败，本批降级为纯文本重试');
+          images = [];
+          attempt -= 1;
+          continue;
+        }
         if (attempt < 3) await new Promise((r) => setTimeout(r, 1500 * attempt));
       }
     }
