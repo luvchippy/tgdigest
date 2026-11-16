@@ -5006,3 +5006,20 @@
 {"key":"nodeseek:1056404","sourceId":"nodeseek","id":"1056404","title":"感悟：鸡够用就行了","keep":false,"score":2,"tags":["水贴"],"why":"单句感悟，评论亦为闲聊，无信息量","at":1794868663780}
 {"key":"nodeseek:1059016","sourceId":"nodeseek","id":"1059016","title":"用 Cloudflare Workers 把 GitHub 变成复古主页：零 VPS、零数据库","keep":true,"score":9,"tags":["开源","Cloudflare"],"why":"完整自建方案含架构取舍与成本说明，可复用","at":1794868663780}
 {"key":"nodeseek:1059015","sourceId":"nodeseek","id":"1059015","title":"关于红果短剧的一些探讨","keep":true,"score":6,"tags":["讨论","算法"],"why":"对短剧成瘾算法有独立分析，非情绪宣泄","at":1794868663780}
+{"key":"nodeseek:907090","sourceId":"nodeseek","id":"907090","title":"现在tg会员怎样开最便宜","keep":false,"score":0,"tags":["水贴","提问"],"why":"正文仅rt，属无信息量提问，评论只零散提到印区价格","at":1794868695519}
+{"key":"nodeseek:1059012","sourceId":"nodeseek","id":"1059012","title":"ios27.3 Beta2已经发布更新","keep":false,"score":1,"tags":["水贴","资讯"],"why":"只有一句话的版本号消息，无细节无评论，信息量接近零","at":1794868695519}
+{"key":"nodeseek:1059010","sourceId":"nodeseek","id":"1059010","title":"这是真天塌了","keep":true,"score":8,"tags":["VPS","商家异动"],"why":"商家官方公告砍流量并全额退款，是一手服务变更情报","at":1794868695519}
+{"key":"nodeseek:1059011","sourceId":"nodeseek","id":"1059011","title":"预购晚开机的等待期间也正常计费？","keep":true,"score":7,"tags":["VPS","避坑"],"why":"预购期计费争议有实情，评论补充其他地区也被砍流量","at":1794868695519}
+{"key":"nodeseek:1059007","sourceId":"nodeseek","id":"1059007","title":"家人再出昏招","keep":false,"score":0,"tags":["纯链接","重复"],"why":"正文只有一条TG链接且无观点，与同批NoSLA帖主题重复","at":1794868695519}
+{"key":"nodeseek:913481","sourceId":"nodeseek","id":"913481","title":"那个大佬认识便宜开TG会员的！我看大佬们都有会员，心痒痒！","keep":false,"score":0,"tags":["拉人头","水贴"],"why":"正文仅RT求渠道，评论多为“我这能开”的揽客回复","at":1794868695519}
+{"key":"nodeseek:1059014","sourceId":"nodeseek","id":"1059014","title":"【+20收】JTTI 日本 东京 年付 $35 那款","keep":false,"score":2,"tags":["交易","求购"],"why":"纯求购收机帖，对第三方读者无有效信息","at":1794868695519}
+{"key":"nodeseek:662710","sourceId":"nodeseek","id":"662710","title":"有人用Brave浏览器吗？体验如何？","keep":true,"score":5,"tags":["浏览器","讨论"],"why":"普通体验讨论，评论给出换用Vivaldi、tor模式等实际反馈","at":1794868695519}
+{"key":"nodeseek:1059013","sourceId":"nodeseek","id":"1059013","title":"用muse 搞了个本机ipv4/ipv6查询网站","keep":true,"score":8,"tags":["开源","技术"],"why":"自建IP查询站并附完整trace原理说明，属一手技术分享","at":1794868695519}
+{"key":"nodeseek:1056535","sourceId":"nodeseek","id":"1056535","title":"我的 dmit 被打得掉线了","keep":true,"score":3,"tags":["VPS","闲聊"],"why":"正文仅一句掉线，评论补充被炒到1600的价格现象","at":1794868695519}
+{"key":"nodeseek:1017970","sourceId":"nodeseek","id":"1017970","title":"[NQ+TQ]ZgoVPS Los Angeles AMD Optimised VPS - Specials - Starter","keep":true,"score":8,"tags":["VPS","测评"],"why":"含完整硬件跑分实测，属一手VPS测评","at":1794868695519}
+{"key":"linuxdo:3187986","sourceId":"linuxdo","id":"3187986","title":"反重力正常用被封号了","keep":false,"score":0,"tags":["纯水"],"why":"无正文，纯水，仅标题无信息","at":1794868695519}
+{"key":"linuxdo:3187983","sourceId":"linuxdo","id":"3187983","title":"解锁 Antigravity + 体验最新 4 Hydrogen，附过手机扫码验证","keep":false,"score":0,"tags":["空帖"],"why":"无正文，标题党空帖，无法验证","at":1794868695519}
+{"key":"nodeseek:1059017","sourceId":"nodeseek","id":"1059017","title":"某人云的退了，实在受不了这气","keep":true,"score":5,"tags":["VPS","避坑"],"why":"反映流量缩水，有比例但商家不明","at":1794868695519}
+{"key":"nodeseek:1056404","sourceId":"nodeseek","id":"1056404","title":"感悟：鸡够用就行了","keep":false,"score":0,"tags":["纯水"],"why":"单句抒情无信息，评论亦空泛","at":1794868695519}
+{"key":"nodeseek:1059016","sourceId":"nodeseek","id":"1059016","title":"用 Cloudflare Workers 把 GitHub 变成复古主页：零 VPS、零数据库","keep":true,"score":9,"tags":["开源","Cloudflare"],"why":"开源项目发布，架构成本与限制完整","at":1794868695519}
+{"key":"nodeseek:1059015","sourceId":"nodeseek","id":"1059015","title":"关于红果短剧的一些探讨","keep":true,"score":6,"tags":["短剧","算法","行业讨论"],"why":"长文分析短剧算法与平台垄断","at":1794868695519}
