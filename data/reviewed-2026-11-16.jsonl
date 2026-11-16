@@ -1309,3 +1309,13 @@
 {"key":"linuxdo:3184397","sourceId":"linuxdo","id":"3184397","title":"反重力谷歌pro开通问题","keep":false,"score":2,"tags":["提问","模糊"],"why":"标题含糊且无正文，无法判断具体问题","at":1794810596712}
 {"key":"linuxdo:3184395","sourceId":"linuxdo","id":"3184395","title":"6.2 Sol、Astra 最新鹈鹕测试","keep":false,"score":2,"tags":["AI","测评"],"why":"仅标题提及测评，无正文结论，信息不足","at":1794810596712}
 {"key":"linuxdo:3184386","sourceId":"linuxdo","id":"3184386","title":"gpt-6.1 sol在处理多线程优化时出现权限问题，求解","keep":false,"score":0,"tags":["水贴","无正文"],"why":"正文为空，标题所指对象含糊，无实质信息，零互动反馈","at":1794810596712}
+{"key":"nodeseek:1057183","sourceId":"nodeseek","id":"1057183","title":"大家都用Claude Code做出来什么牛逼的东西了","keep":true,"score":4,"tags":["AI","讨论"],"why":"泛泛讨论，评论只有一句小工具实测，信息量偏低","at":1794810979120}
+{"key":"nodeseek:1056977","sourceId":"nodeseek","id":"1056977","title":"【溢价80收】rabisu 土耳其家宽IP 9.9刀/年，有的老板带货来","keep":false,"score":2,"tags":["求购","VPS"],"why":"纯溢价求购帖，无实质信息，评论只是互相询价","at":1794810979120}
+{"key":"nodeseek:1057128","sourceId":"nodeseek","id":"1057128","title":"Dmit 黑五和圣诞节活动","keep":true,"score":5,"tags":["VPS","商家动态"],"why":"评论透露暂停补货、正在扩容及线路问题，有一定情报价值","at":1794810979120}
+{"key":"nodeseek:1057110","sourceId":"nodeseek","id":"1057110","title":"Claude大家都用什么节点蹬的？","keep":true,"score":6,"tags":["VPS","Claude"],"why":"评论区有多条节点实际使用经验，可作参考","at":1794810979120}
+{"key":"nodeseek:1056938","sourceId":"nodeseek","id":"1056938","title":"豆奶和大肥鱼你们喜欢哪个？","keep":false,"score":1,"tags":["水贴"],"why":"无正文闲聊，评论纯起哄，无信息量","at":1794810979120}
+{"key":"nodeseek:1056545","sourceId":"nodeseek","id":"1056545","title":"论坛想找一个中兴F50插卡改散热版，有大佬闲置出的吗","keep":true,"score":4,"tags":["硬件","求购"],"why":"求购帖，评论给出具体现货方案与流量套餐实测信息","at":1794810979120}
+{"key":"nodeseek:1057179","sourceId":"nodeseek","id":"1057179","title":"Cpe有推荐么？","keep":true,"score":3,"tags":["CPE","求推荐"],"why":"使用场景具体，但回复零散，只点名几个品牌","at":1794810979120}
+{"key":"nodeseek:1056683","sourceId":"nodeseek","id":"1056683","title":"阿里云7.5折新人领不了，咋回事呢","keep":false,"score":2,"tags":["阿里云","提问"],"why":"提问极简无细节，评论多为AFF链接和无用回复","at":1794810979120}
+{"key":"nodeseek:1056916","sourceId":"nodeseek","id":"1056916","title":"【收】biggerbox pro或者Malibu","keep":true,"score":4,"tags":["二手","行情"],"why":"评论区讨论溢价变化，有少量行情参考","at":1794810979120}
+{"key":"nodeseek:1057213","sourceId":"nodeseek","id":"1057213","title":"300 收17号临期team","keep":false,"score":1,"tags":["求购","水贴"],"why":"纯留QQ号的交易贴，无正文无评论","at":1794810979120}
