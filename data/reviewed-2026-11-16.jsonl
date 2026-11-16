@@ -4989,3 +4989,20 @@
 {"key":"linuxdo:3187981","sourceId":"linuxdo","id":"3187981","title":"Google AI Ultra能退款吗？","keep":false,"score":0,"tags":["提问","无正文"],"why":"无正文、无背景，属无信息量提问，回复也未提供实质内容","at":1794866137663}
 {"key":"linuxdo:3187980","sourceId":"linuxdo","id":"3187980","title":"x也有那么多韭菜吗？这些镰刀自己靠所谓的矩阵客流赚到钱了吗？敢开这么高价格","keep":false,"score":0,"tags":["水贴","吐槽"],"why":"纯情绪吐槽割韭菜，无任何事实或信息增量","at":1794866137663}
 {"key":"linuxdo:3187978","sourceId":"linuxdo","id":"3187978","title":"怎么推广里面这么多奇葩站点","keep":false,"score":0,"tags":["水贴","提问"],"why":"仅一句泛泛抱怨，无正文无细节，属临界水贴","at":1794866137663}
+{"key":"nodeseek:907090","sourceId":"nodeseek","id":"907090","title":"现在tg会员怎样开最便宜","keep":true,"score":3,"tags":["提问","TG会员"],"why":"正文仅rt，评论给出印区约170元的实价情报","at":1794868663780}
+{"key":"nodeseek:1059012","sourceId":"nodeseek","id":"1059012","title":"ios27.3 Beta2已经发布更新","keep":true,"score":3,"tags":["iOS","资讯"],"why":"单句快讯无细节，仅告知版本号，信息量低","at":1794868663780}
+{"key":"nodeseek:1059010","sourceId":"nodeseek","id":"1059010","title":"这是真天塌了","keep":true,"score":9,"tags":["服务商","异动","避坑"],"why":"完整公告含砍量55%与全额退款流程，评论有实锤吐槽","at":1794868663780}
+{"key":"nodeseek:1059011","sourceId":"nodeseek","id":"1059011","title":"预购晚开机的等待期间也正常计费？","keep":true,"score":7,"tags":["服务商","踩坑"],"why":"预购期照常计费的具体坑，评论补充地区口径反复","at":1794868663780}
+{"key":"nodeseek:1059007","sourceId":"nodeseek","id":"1059007","title":"家人再出昏招","keep":false,"score":0,"tags":["纯转链"],"why":"正文仅一条TG链接无观点，与同批公告帖重复","at":1794868663780}
+{"key":"nodeseek:913481","sourceId":"nodeseek","id":"913481","title":"那个大佬认识便宜开TG会员的！我看大佬们都有会员，心痒痒！","keep":false,"score":0,"tags":["拉人","重复"],"why":"求代开会员且评论引导私信，与同批TG会员帖重复","at":1794868663780}
+{"key":"nodeseek:1059014","sourceId":"nodeseek","id":"1059014","title":"【+20收】JTTI 日本 东京 年付 $35 那款","keep":true,"score":3,"tags":["求购","交易"],"why":"仅求购溢价20收，无评测或参考信息","at":1794868663780}
+{"key":"nodeseek:662710","sourceId":"nodeseek","id":"662710","title":"有人用Brave浏览器吗？体验如何？","keep":true,"score":5,"tags":["浏览器","讨论"],"why":"泛问但评论给出停用、转Vivaldi等真实体验","at":1794868663780}
+{"key":"nodeseek:1059013","sourceId":"nodeseek","id":"1059013","title":"用muse 搞了个本机ipv4/ipv6查询网站","keep":true,"score":8,"tags":["开源","工具","自建"],"why":"自建IP查询站并讲清Cloudflare trace原理可复现","at":1794868663780}
+{"key":"nodeseek:1056535","sourceId":"nodeseek","id":"1056535","title":"我的 dmit 被打得掉线了","keep":true,"score":3,"tags":["DDoS","闲聊"],"why":"单句喊被打掉线，评论仅附和溢价离谱无实测","at":1794868663780}
+{"key":"nodeseek:1017970","sourceId":"nodeseek","id":"1017970","title":"[NQ+TQ]ZgoVPS Los Angeles AMD Optimised VPS - Specials - Starter","keep":true,"score":8,"tags":["VPS","测评"],"why":"一手硬件跑分实测，评论有同款用户交流体验","at":1794868663780}
+{"key":"linuxdo:3187986","sourceId":"linuxdo","id":"3187986","title":"反重力正常用被封号了","keep":false,"score":1,"tags":["水贴"],"why":"无正文，仅一句封号抱怨，无任何有效信息","at":1794868663780}
+{"key":"linuxdo:3187983","sourceId":"linuxdo","id":"3187983","title":"解锁 Antigravity + 体验最新 4 Hydrogen，附过手机扫码验证","keep":false,"score":1,"tags":["水贴"],"why":"标题像教程但正文为空，无可验证内容","at":1794868663780}
+{"key":"nodeseek:1059017","sourceId":"nodeseek","id":"1059017","title":"某人云的退了，实在受不了这气","keep":true,"score":6,"tags":["VPS","避坑"],"why":"具体指出流量砍至45%、500G变225G，属商家异动情报","at":1794868663780}
+{"key":"nodeseek:1056404","sourceId":"nodeseek","id":"1056404","title":"感悟：鸡够用就行了","keep":false,"score":2,"tags":["水贴"],"why":"单句感悟，评论亦为闲聊，无信息量","at":1794868663780}
+{"key":"nodeseek:1059016","sourceId":"nodeseek","id":"1059016","title":"用 Cloudflare Workers 把 GitHub 变成复古主页：零 VPS、零数据库","keep":true,"score":9,"tags":["开源","Cloudflare"],"why":"完整自建方案含架构取舍与成本说明，可复用","at":1794868663780}
+{"key":"nodeseek:1059015","sourceId":"nodeseek","id":"1059015","title":"关于红果短剧的一些探讨","keep":true,"score":6,"tags":["讨论","算法"],"why":"对短剧成瘾算法有独立分析，非情绪宣泄","at":1794868663780}
