@@ -5047,3 +5047,19 @@
 {"key":"nodeseek:1059025","sourceId":"nodeseek","id":"1059025","title":"从号商那里买 google ultra 5x 的小心买到 0 元购账号","keep":true,"score":8,"tags":["Google","避坑"],"why":"附0元购订单截图，提醒号商试用号风险","at":1794870504012}
 {"key":"nodeseek:1059023","sourceId":"nodeseek","id":"1059023","title":"做落地的为啥这么少？","keep":true,"score":4,"tags":["服务商","情报"],"why":"提到面包云停运、aether缺货，属服务商异动但信息量单薄","at":1794870504012}
 {"key":"linuxdo:3187996","sourceId":"linuxdo","id":"3187996","title":"上海人工智能实验室发布科学多模态模型Sage S2.1 Flash，多项专业基准测试拔得头筹","keep":false,"score":0,"tags":[],"why":"正文为空，只搬运新闻标题，浏览和回复都极低","at":1794870504012}
+{"key":"nodeseek:1059032","sourceId":"nodeseek","id":"1059032","title":"英伟达董事会不考虑让黄仁勋重新担任CEO","keep":false,"score":0,"tags":["新闻","不实"],"why":"标题与事实不符的搬运新闻，无信息增量","at":1794872265917}
+{"key":"nodeseek:1059031","sourceId":"nodeseek","id":"1059031","title":"原价收39刀未过白的Hhost年付","keep":false,"score":0,"tags":["交易"],"why":"简短求购交易帖，无信息量","at":1794872265917}
+{"key":"nodeseek:1059030","sourceId":"nodeseek","id":"1059030","title":"印度区iCloud 2T 拼车 1=4 成本价 带apple tv+ arcade","keep":false,"score":0,"tags":["拼车","拉人"],"why":"拼车拉人上车，涉交易推广","at":1794872265917}
+{"key":"nodeseek:1059028","sourceId":"nodeseek","id":"1059028","title":"求一个IOS 18.3.1系统修改定位的方法","keep":true,"score":6,"tags":["iOS","求助"],"why":"带具体场景的定位修改求助，有讨论价值","at":1794872265917}
+{"key":"nodeseek:1051148","sourceId":"nodeseek","id":"1051148","title":"【测】skylineconnect 日本S","keep":false,"score":0,"tags":["空贴"],"why":"正文为空，仅标题无实质内容","at":1794872265917}
+{"key":"nodeseek:1059035","sourceId":"nodeseek","id":"1059035","title":"123 云盘启动严厉封号机制，最高封号永久","keep":true,"score":7,"tags":["云盘","封号"],"why":"封号机制异动，附截图提醒风险","at":1794872265917}
+{"key":"nodeseek:1059034","sourceId":"nodeseek","id":"1059034","title":"[问]ipapi显示未知的家宽是啥情况","keep":true,"score":6,"tags":["家宽","IP"],"why":"带具体检测结果的家宽疑问，有讨论价值","at":1794872265917}
+{"key":"1a2x:946","sourceId":"1a2x","id":"946","title":"早上好","keep":false,"score":0,"tags":["水贴"],"why":"纯问候水贴，无信息量","at":1794872265917}
+{"key":"nodeloc:118150","sourceId":"nodeloc","id":"118150","title":"询问 Gemini 关于欧洲停产燃油车的计划，看看这个草台班子！","keep":true,"score":4,"tags":["政策","闲聊"],"why":"转述AI政策回答，信息一般互动少","at":1794872265917}
+{"key":"nodeseek:1059038","sourceId":"nodeseek","id":"1059038","title":"无聊，来个Riven Mkcloud Nobrand速度对比","keep":true,"score":8,"tags":["VPS","测速"],"why":"含三家VPS实测速度与价格对比，一手数据","at":1794872265917}
+{"key":"nodeseek:1059037","sourceId":"nodeseek","id":"1059037","title":"【NQ】抽奖中的HINET","keep":true,"score":8,"tags":["VPS","测评","跑分"],"why":"硬件体检含实测数据，评论指出283个容器严重超售","at":1794872265917}
+{"key":"nodeseek:1059036","sourceId":"nodeseek","id":"1059036","title":"日志删了，df 还是满的？先看文件有没有被进程占着","keep":true,"score":7,"tags":["Linux","运维","经验"],"why":"df与du对不上的实用排查思路，附官方参考","at":1794872265917}
+{"key":"nodeseek:1056988","sourceId":"nodeseek","id":"1056988","title":"【出】溢价1400出顶级亚太🐔奶爸neburst HK 55刀季付款","keep":false,"score":1,"tags":["交易","炒作"],"why":"溢价出机炒作，评论一边倒不认可、劝自用","at":1794872265917}
+{"key":"nodeseek:1059027","sourceId":"nodeseek","id":"1059027","title":"【收机】收aethercloud或者taipei101折扣款","keep":false,"score":1,"tags":["交易"],"why":"纯收机需求，无信息量","at":1794872265917}
+{"key":"1a2x:947","sourceId":"1a2x","id":"947","title":"今天的风甚是喧嚣","keep":false,"score":0,"tags":["水贴"],"why":"单句抒情闲聊，无任何信息量","at":1794872265917}
+{"key":"linuxdo:3188005","sourceId":"linuxdo","id":"3188005","title":"DeepSeek网页版与APP增加长对话恢复限制","keep":true,"score":5,"tags":["AI","行业消息"],"why":"标题即变更信息但无正文细节，零互动","at":1794872265917}
