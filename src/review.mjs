@@ -191,12 +191,13 @@ export async function reviewItems(items, { template, profile, log = () => {} }) 
         signal: AbortSignal.timeout(12000),
       });
       if (!res.ok) return null;
-      const type = res.headers.get('content-type') ?? '';
-      if (!type.startsWith('image/')) return null;
+      const raw = (res.headers.get('content-type') ?? '').split(';')[0].trim().toLowerCase();
+      // 只收四种标准位图：webp/svg 之类上游会报 "not a valid image format"
+      if (!['image/png', 'image/jpeg', 'image/gif', 'image/webp'].includes(raw)) return null;
       const buf = Buffer.from(await res.arrayBuffer());
-      // 单张限 2MB：太大的图 base64 之后会把上下文顶爆
-      if (!buf.length || buf.length > 2 * 1024 * 1024) return null;
-      return 'data:' + type.split(';')[0] + ';base64,' + buf.toString('base64');
+      // 单张限 500KB：实测 2MB 会触发 "Multimodal file size is too large"
+      if (!buf.length || buf.length > 500 * 1024) return null;
+      return 'data:' + raw + ';base64,' + buf.toString('base64');
     } catch {
       return null;
     }
@@ -259,7 +260,7 @@ export async function reviewItems(items, { template, profile, log = () => {} }) 
         log(`  ! 审核批次 ${offset / BATCH_SIZE + 1} 第 ${attempt} 次失败: ${err.message}`);
         // 图片相关的报错（图床挡了、格式不支持）不该拖垮整批：
         // 丢掉图用纯文本重来，宁可少看图也不能丢帖子。
-        if (images.length && /image/i.test(err.message)) {
+        if (images.length && /image|multimodal|file size/i.test(err.message)) {
           log('    → 图片加载失败，本批降级为纯文本重试');
           images = [];
           attempt -= 1;
