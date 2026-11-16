@@ -5063,3 +5063,19 @@
 {"key":"nodeseek:1059027","sourceId":"nodeseek","id":"1059027","title":"【收机】收aethercloud或者taipei101折扣款","keep":false,"score":1,"tags":["交易"],"why":"纯收机需求，无信息量","at":1794872265917}
 {"key":"1a2x:947","sourceId":"1a2x","id":"947","title":"今天的风甚是喧嚣","keep":false,"score":0,"tags":["水贴"],"why":"单句抒情闲聊，无任何信息量","at":1794872265917}
 {"key":"linuxdo:3188005","sourceId":"linuxdo","id":"3188005","title":"DeepSeek网页版与APP增加长对话恢复限制","keep":true,"score":5,"tags":["AI","行业消息"],"why":"标题即变更信息但无正文细节，零互动","at":1794872265917}
+{"key":"nodeseek:1059032","sourceId":"nodeseek","id":"1059032","title":"英伟达董事会不考虑让黄仁勋重新担任CEO","keep":false,"score":2,"tags":["假消息","资讯"],"why":"黄仁勋现任CEO，该报道属明显杜撰或误译，没有信息价值","at":1794872305125}
+{"key":"nodeseek:1059031","sourceId":"nodeseek","id":"1059031","title":"原价收39刀未过白的Hhost年付","keep":false,"score":1,"tags":["交易","水贴"],"why":"只有一句求购帖，没有正文和任何参考信息","at":1794872305125}
+{"key":"nodeseek:1059030","sourceId":"nodeseek","id":"1059030","title":"印度区iCloud 2T 拼车 1=4 成本价 带apple tv+ arcade","keep":false,"score":1,"tags":["拼车","拉人"],"why":"组织iCloud拼车并拉人上车，属于变相招募帖","at":1794872305125}
+{"key":"nodeseek:1059028","sourceId":"nodeseek","id":"1059028","title":"求一个IOS 18.3.1系统修改定位的方法","keep":true,"score":5,"tags":["提问","iOS"],"why":"有具体背景的技术求助，但涉及打卡作弊，价值有限","at":1794872305125}
+{"key":"nodeseek:1051148","sourceId":"nodeseek","id":"1051148","title":"【测】skylineconnect 日本S","keep":false,"score":1,"tags":["空帖"],"why":"没有正文，只有标题中的一句“测”，无任何数据","at":1794872305125}
+{"key":"nodeseek:1059035","sourceId":"nodeseek","id":"1059035","title":"123 云盘启动严厉封号机制，最高封号永久","keep":true,"score":7,"tags":["行业消息","网盘"],"why":"封号机制收紧的异动消息，涉及永久封禁，有提醒价值","at":1794872305125}
+{"key":"nodeseek:1059034","sourceId":"nodeseek","id":"1059034","title":"[问]ipapi显示未知的家宽是啥情况","keep":true,"score":6,"tags":["提问","IP"],"why":"带真实环境的家宽IP提问，细节足以供人讨论","at":1794872305125}
+{"key":"1a2x:946","sourceId":"1a2x","id":"946","title":"早上好","keep":false,"score":0,"tags":["水贴"],"why":"纯属日常问候，没有任何信息量","at":1794872305125}
+{"key":"nodeloc:118150","sourceId":"nodeloc","id":"118150","title":"询问 Gemini 关于欧洲停产燃油车的计划，看看这个草台班子！","keep":false,"score":2,"tags":["AI搬运","无观点"],"why":"直接粘贴AI回答凑数，既无原创观点，也没有讨论热度","at":1794872305125}
+{"key":"nodeseek:1059038","sourceId":"nodeseek","id":"1059038","title":"无聊，来个Riven Mkcloud Nobrand速度对比","keep":true,"score":8,"tags":["VPS","实测"],"why":"一手三机速度对比并给出价格结论，属于可参考实测","at":1794872305125}
+{"key":"nodeseek:1059037","sourceId":"nodeseek","id":"1059037","title":"【NQ】抽奖中的HINET","keep":true,"score":7,"tags":["VPS","测评","跑分"],"why":"硬件体检显示单节点运行283个容器，评论指出超售严重，可作参考","at":1794872305125}
+{"key":"nodeseek:1059036","sourceId":"nodeseek","id":"1059036","title":"日志删了，df 还是满的？先看文件有没有被进程占着","keep":true,"score":6,"tags":["Linux","运维","经验"],"why":"lsof +L1 排查删日志后空间不回收，步骤清晰并附有风险提醒","at":1794872305125}
+{"key":"nodeseek:1056988","sourceId":"nodeseek","id":"1056988","title":"【出】溢价1400出顶级亚太🐔奶爸neburst HK 55刀季付款","keep":false,"score":1,"tags":["交易","溢价"],"why":"转手高溢价账号的买卖帖，评论一致嘲讽，视为炒卖广告","at":1794872305125}
+{"key":"nodeseek:1059027","sourceId":"nodeseek","id":"1059027","title":"【收机】收aethercloud或者taipei101折扣款","keep":false,"score":1,"tags":["交易","求购"],"why":"求购帖无有效信息，实质是交易意向","at":1794872305125}
+{"key":"1a2x:947","sourceId":"1a2x","id":"947","title":"今天的风甚是喧嚣","keep":false,"score":0,"tags":["水贴"],"why":"单句抒情且无信息量","at":1794872305125}
+{"key":"linuxdo:3188005","sourceId":"linuxdo","id":"3188005","title":"DeepSeek网页版与APP增加长对话恢复限制","keep":false,"score":0,"tags":["新闻","标题党"],"why":"无正文仅标题，没有可核查的信息","at":1794872305125}
