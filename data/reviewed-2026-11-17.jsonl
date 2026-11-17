@@ -5786,3 +5786,8 @@
 {"key":"linuxdo:3194173","sourceId":"linuxdo","id":"3194173","title":"Gemini Carbon提速了","keep":false,"score":2,"tags":["模型","水贴"],"why":"标题称提速但无正文无评论佐证","at":1794953264709}
 {"key":"nodeseek:1061853","sourceId":"nodeseek","id":"1061853","title":"出一个六位TG号","keep":false,"score":0,"tags":["交易","账号"],"why":"出售TG账号并附联系方式与价格，属于广告或账号交易，没有信息价值","at":1794953264709}
 {"key":"linuxdo:3194179","sourceId":"linuxdo","id":"3194179","title":"分享你深夜能蹬的免费渠道！","keep":false,"score":0,"tags":["水贴","空正文"],"why":"正文为空，标题诱导；评论只提到常见渠道，没有实质信息","at":1794953264709}
+{"key":"nodeseek:1060266","sourceId":"nodeseek","id":"1060266","title":"大家觉得DeepSeek API 现在贵吗？","keep":false,"score":2,"tags":["提问"],"why":"无正文无数据，只是空泛征求意见，信息量近乎零","at":1794953287778}
+{"key":"nodeseek:1061849","sourceId":"nodeseek","id":"1061849","title":"[收] PPFlight GLOBAL S2","keep":false,"score":1,"tags":["交易"],"why":"单纯的收购帖，没有可推送的信息价值","at":1794953287778}
+{"key":"linuxdo:3194168","sourceId":"linuxdo","id":"3194168","title":"astra6.2 暴论","keep":false,"score":3,"tags":["模型讨论","纯水"],"why":"无正文，评论只说速度慢，缺乏实测数据支撑","at":1794953287778}
+{"key":"nodeseek:1061853","sourceId":"nodeseek","id":"1061853","title":"出一个六位TG号","keep":false,"score":0,"tags":["账号交易","广告"],"why":"出售六位TG号并留联系方式，属交易推广，无信息价值","at":1794953287778}
+{"key":"linuxdo:3194179","sourceId":"linuxdo","id":"3194179","title":"分享你深夜能蹬的免费渠道！","keep":false,"score":2,"tags":["求资源","水贴"],"why":"正文为空只求免费渠道，仅评论提一服务名，信息量极低","at":1794953287778}
