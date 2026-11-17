@@ -5742,3 +5742,13 @@
 {"key":"nodeseek:1061840","sourceId":"nodeseek","id":"1061840","title":"苹果线上服务大规模宕机","keep":true,"score":5,"tags":["行业消息"],"why":"服务宕机消息，列出受影响服务，但属新闻搬运无实测","at":1794947889686}
 {"key":"nodeseek:1061556","sourceId":"nodeseek","id":"1061556","title":"【买1个谷歌账号】美国和香港地区，需要验货和售后","keep":false,"score":0,"tags":["违规交易"],"why":"买卖账号的违规交易帖，无正文","at":1794947889686}
 {"key":"linuxdo:3194134","sourceId":"linuxdo","id":"3194134","title":"[黑洞测试#6] ChatGPT新模型6.2Astra和6.2Sol速测","keep":false,"score":0,"tags":["纯水","重复"],"why":"无正文速测，与前几条新模型测试主题重复","at":1794947889686}
+{"key":"nodeseek:1061844","sourceId":"nodeseek","id":"1061844","title":"生图还得是gpt啊2.6好用","keep":true,"score":4,"tags":["AI","生图","OpenAI"],"why":"仅称模型好用，评论指已发布半月，信息量低","at":1794949662844}
+{"key":"nodeseek:1061842","sourceId":"nodeseek","id":"1061842","title":"[Apple] App Store服务炸了，无法登录","keep":true,"score":6,"tags":["Apple","故障"],"why":"App Store登录异常一手反馈，但细节较少","at":1794949662844}
+{"key":"nodeseek:1061841","sourceId":"nodeseek","id":"1061841","title":"【NQ】OVH KS-1-B","keep":true,"score":8,"tags":["VPS","测评","OVH"],"why":"完整硬件跑分报告，具实测参考价值","at":1794949662844}
+{"key":"nodeseek:1061766","sourceId":"nodeseek","id":"1061766","title":"关于 Riven Cloud 修改 ToS 的事情","keep":false,"score":0,"tags":["VPS","ToS"],"why":"仅标题无正文无评论，变更内容无法核实","at":1794949662844}
+{"key":"linuxdo:3194142","sourceId":"linuxdo","id":"3194142","title":"opencode go 10刀的GLM5.3额度提升到 200刀, 和 glm coding plan lite 哪个更香","keep":true,"score":4,"tags":["AI","GLM","套餐"],"why":"有具体套餐价格对比，但无正文且回复少","at":1794949662844}
+{"key":"linuxdo:3194138","sourceId":"linuxdo","id":"3194138","title":"Devin可以反代吗？","keep":true,"score":5,"tags":["Devin","反代","问答"],"why":"评论确认可反代并提示Pro限额","at":1794949662844}
+{"key":"nodeseek:1061845","sourceId":"nodeseek","id":"1061845","title":"怪不得人家能挣钱","keep":true,"score":7,"tags":["NodeSeek","避坑","邀请码"],"why":"评论揭出邀请码官方更便宜，属避坑信息","at":1794949662844}
+{"key":"nodeseek:1061810","sourceId":"nodeseek","id":"1061810","title":"明盘出微软 office 365 5年母号订阅","keep":false,"score":0,"tags":["交易","广告","Office365"],"why":"出售Office订阅，属交易广告","at":1794949662844}
+{"key":"nodeseek:1061808","sourceId":"nodeseek","id":"1061808","title":"收个65折skyline jp I型 带溢价来","keep":false,"score":0,"tags":["交易","广告","VPS"],"why":"带溢价收购VPS，属交易广告","at":1794949662844}
+{"key":"linuxdo:3194147","sourceId":"linuxdo","id":"3194147","title":"6.2SOL生成的小鸟游六花","keep":false,"score":0,"tags":["纯水"],"why":"纯水板块无正文，无信息量","at":1794949662844}
