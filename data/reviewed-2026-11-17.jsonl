@@ -5074,3 +5074,53 @@
 {"key":"linuxdo:3193786","sourceId":"linuxdo","id":"3193786","title":"谷歌学生认证无相应学校也可认证","keep":false,"score":2,"tags":["Google","认证"],"why":"无正文，仅一句方法标题，无从判断真伪","at":1794935265629}
 {"key":"linuxdo:3193759","sourceId":"linuxdo","id":"3193759","title":"我去，谷歌账号的云服务竟然解封了","keep":false,"score":2,"tags":["Google"],"why":"单句感叹无正文，回复未补充任何信息","at":1794935265629}
 {"key":"linuxdo:3193757","sourceId":"linuxdo","id":"3193757","title":"我被风控了？","keep":false,"score":1,"tags":["水贴"],"why":"仅一句疑问无正文，唯一回复无信息量","at":1794935265629}
+{"key":"nodeseek:1061560","sourceId":"nodeseek","id":"1061560","title":"那个游戏，要来了！","keep":false,"score":1,"tags":["水贴","游戏"],"why":"纯期待抒情，评论无实质信息，也无实测内容","at":1794935356021}
+{"key":"nodeseek:1061580","sourceId":"nodeseek","id":"1061580","title":"最近不要高价接手小秘书哦","keep":true,"score":6,"tags":["VPS","避坑"],"why":"Riven限速的简短提醒，评论补充拼车将停车，有情报价值","at":1794935356021}
+{"key":"nodeseek:1061551","sourceId":"nodeseek","id":"1061551","title":"<出> dmit LAX.AS3.Pro.MINI*1 LAX.AS3.Pro.Pocket*2 LAX.AS3.Pro.TINY *2","keep":true,"score":4,"tags":["交易","VPS"],"why":"自用VPS转让信息，含配置与到期，属普通交易帖","at":1794935356021}
+{"key":"nodeseek:1061565","sourceId":"nodeseek","id":"1061565","title":"ovh中奖了，双中奖","keep":true,"score":7,"tags":["OVH","开奖"],"why":"一手开奖，列出CPU、内存实际升级细节，评论多为祝贺","at":1794935356021}
+{"key":"nodeseek:1061543","sourceId":"nodeseek","id":"1061543","title":"老黄打破沉默，表态愿意回归，美股科技股集体转涨","keep":false,"score":1,"tags":["新闻","水贴"],"why":"疑似不实传闻的转贴，无观点，评论无信息量","at":1794935356021}
+{"key":"nodeseek:1061525","sourceId":"nodeseek","id":"1061525","title":"谷歌ultra羊毛?","keep":true,"score":5,"tags":["羊毛","避坑"],"why":"正文空洞，但评论揭示需要日本节点、风控严格、封卡吃亏","at":1794935356021}
+{"key":"nodeseek:1061468","sourceId":"nodeseek","id":"1061468","title":"大家最近几个月睡眠怎么样？MJJ们也是熬夜专业户么？","keep":true,"score":3,"tags":["闲聊","睡眠"],"why":"日常作息闲聊，只有共鸣，无实用信息","at":1794935356021}
+{"key":"nodeseek:1061555","sourceId":"nodeseek","id":"1061555","title":"ovh ks-le-3中奖","keep":false,"score":1,"tags":["重复","OVH"],"why":"图裂无内容，与第4条同属OVH中奖主题且信息更少","at":1794935356021}
+{"key":"nodeseek:1061538","sourceId":"nodeseek","id":"1061538","title":"好奇大家买OVH等厂家的杜甫都用来干什么","keep":true,"score":6,"tags":["OVH","讨论"],"why":"带自用背景的讨论，评论补充转手升值与内存硬盘性价比","at":1794935356021}
+{"key":"nodeseek:1061567","sourceId":"nodeseek","id":"1061567","title":"[TQ] DE🇩🇪 AKKO(kirino) YUNYOO(netlab) Lamhosting(91Telecom)","keep":true,"score":8,"tags":["测评","线路"],"why":"多家商家回程与测速实测，附报告链接及丢包异常观察","at":1794935356021}
+{"key":"nodeseek:1061620","sourceId":"nodeseek","id":"1061620","title":"快讯，皮衣要回归了","keep":false,"score":0,"tags":["水贴"],"why":"正文仅一句无信息，评论追问，属水贴","at":1794935356021}
+{"key":"nodeseek:1061617","sourceId":"nodeseek","id":"1061617","title":"Claude会不会检测路由器出厂信道，ap信道？","keep":true,"score":4,"tags":["Claude","网络环境"],"why":"技术疑问有场景，评论指出无需换AP","at":1794935356021}
+{"key":"nodeseek:1061595","sourceId":"nodeseek","id":"1061595","title":"ovh这账号都挺不好注册的，收机器的话搞个新号要过kyc什么的么","keep":true,"score":6,"tags":["OVH","注册","问答"],"why":"具体OVH注册支付问题，评论补充南非注册与2233卡","at":1794935356021}
+{"key":"nodeseek:1061583","sourceId":"nodeseek","id":"1061583","title":"【速抽】抽个zouter HK BGP Global - Standard","keep":false,"score":0,"tags":["抽奖","活动"],"why":"抽奖活动帖，评论无营养，属垃圾","at":1794935356021}
+{"key":"nodeseek:1061568","sourceId":"nodeseek","id":"1061568","title":"【出】｜帮友 溢价2.95k出个 有outlook 原邮的299 Gen2 友谊床","keep":false,"score":0,"tags":["交易","广告"],"why":"二手交易出售帖，无正文信息","at":1794935356021}
+{"key":"nodeseek:1061623","sourceId":"nodeseek","id":"1061623","title":"60出Tamago HKT.NAT.500M.VPS.6免费机 300G","keep":false,"score":0,"tags":["交易","广告"],"why":"出售VPS广告，无讨论信息","at":1794935356021}
+{"key":"nodeseek:1061622","sourceId":"nodeseek","id":"1061622","title":"【TQ】Lisahost 9929","keep":true,"score":8,"tags":["VPS","测评","Lisahost"],"why":"附完整TCP质量实测报告，验证线路水管小","at":1794935356021}
+{"key":"nodeseek:1061616","sourceId":"nodeseek","id":"1061616","title":"gta6 和 astra 6.2 哪个会先到","keep":false,"score":0,"tags":["闲聊","水贴"],"why":"无正文的闲聊竞猜，无信息量","at":1794935356021}
+{"key":"nodeseek:1061605","sourceId":"nodeseek","id":"1061605","title":"伪人群扎啤老登开串了，不过这是真老登吗","keep":true,"score":8,"tags":["避坑","VPS","维权"],"why":"评论与截图实锤商家清退用户并转卖资源","at":1794935356021}
+{"key":"nodeseek:1061596","sourceId":"nodeseek","id":"1061596","title":"注册和购买 OVH 的两个关键技巧","keep":true,"score":9,"tags":["OVH","教程","避坑"],"why":"一手验证OVH免税注册与付款风控，评论补充","at":1794935356021}
+{"key":"nodeseek:1061619","sourceId":"nodeseek","id":"1061619","title":"有没有谷歌的车啊 就想玩一下","keep":false,"score":0,"tags":["求车","水贴"],"why":"无正文无评论，纯求谷歌车的水贴","at":1794935356021}
+{"key":"nodeseek:1061564","sourceId":"nodeseek","id":"1061564","title":"google 惊天大羊毛!!! 5x ultra 一年白嫖","keep":false,"score":1,"tags":["羊毛","Google","风险"],"why":"羊毛教程带链接，评论一致判断会被清退","at":1794935356021}
+{"key":"nodeseek:1061493","sourceId":"nodeseek","id":"1061493","title":"这是ip黑了吗？(原来送俄了)","keep":true,"score":8,"tags":["IP","Gemini","故障"],"why":"实测IP送俄致网页版异常，评论补充同步问题","at":1794935356021}
+{"key":"nodeseek:1061571","sourceId":"nodeseek","id":"1061571","title":"再次坠机，损失惨重，今天土区 colab 被封了四个号","keep":true,"score":8,"tags":["Google","Colab","封号","踩坑"],"why":"一手封号复盘，含PVE隔离与土区风控结论","at":1794935356021}
+{"key":"nodeseek:1046728","sourceId":"nodeseek","id":"1046728","title":"RakSmart 那个3.99刀的cn2 值得买吗","keep":true,"score":6,"tags":["VPS","RakSmart","CN2"],"why":"评论给出组网与线路体验，有参考价值","at":1794935356021}
+{"key":"nodeseek:1061528","sourceId":"nodeseek","id":"1061528","title":"烧心了，老ovh号跳48h","keep":true,"score":6,"tags":["OVH","账号","验证"],"why":"评论补充养号及支付方式避坑经验","at":1794935356021}
+{"key":"nodeseek:1061532","sourceId":"nodeseek","id":"1061532","title":"预测明天google就要开始清算了","keep":false,"score":2,"tags":["Google","预测","水贴"],"why":"纯猜测清算无实锤，评论仅附和","at":1794935356021}
+{"key":"nodeseek:1061566","sourceId":"nodeseek","id":"1061566","title":"溢价收 OVH IE区 KS-LE-6 加拿大BHS","keep":false,"score":0,"tags":["交易","求购","OVH"],"why":"纯溢价求购交易帖，无信息增量","at":1794935356021}
+{"key":"nodeseek:1061504","sourceId":"nodeseek","id":"1061504","title":"【已出】100出 一套RakSmart CN2 3.99+ISP 1.81 已开内网","keep":false,"score":0,"tags":["交易","出售","RakSmart"],"why":"二手出售已出，评论仅帮顶","at":1794935356021}
+{"key":"nodeseek:1061539","sourceId":"nodeseek","id":"1061539","title":"我chovy，Xtom的圣何塞下游只有某人云吗","keep":true,"score":3,"tags":["VPS","Xtom","提问"],"why":"仅泛泛询问下游商家，信息量偏低","at":1794935356021}
+{"key":"nodeseek:1061527","sourceId":"nodeseek","id":"1061527","title":"【收】+1476收一台eb corona","keep":false,"score":2,"tags":["交易","求购"],"why":"仅含求购价格，评论均为顶帖，无实质信息","at":1794935356021}
+{"key":"nodeseek:1061442","sourceId":"nodeseek","id":"1061442","title":"[不出了]NoBrand Super IPLC KFC Yearly 1 CM 纯专线","keep":true,"score":6,"tags":["VPS","价格情报"],"why":"年付128含100G流量，评论补充配置，现已退余额","at":1794935356021}
+{"key":"nodeseek:1061534","sourceId":"nodeseek","id":"1061534","title":"PQS家的动态家宽","keep":true,"score":6,"tags":["AI","网络","实测"],"why":"截图显示Claude信任100、台湾住宅IP，有检测参考","at":1794935356021}
+{"key":"nodeseek:1061354","sourceId":"nodeseek","id":"1061354","title":"100收个taxi la isp 10刀","keep":false,"score":2,"tags":["交易","求购"],"why":"求购信息简单，评论仅顶帖和一句差评，无实锤","at":1794935356021}
+{"key":"nodeseek:1061508","sourceId":"nodeseek","id":"1061508","title":"今晚的Google utral 20 x 你们敢薅吗？","keep":false,"score":2,"tags":["羊毛","讨论"],"why":"仅一句敢不敢薅，评论无方案或风险数据","at":1794935356021}
+{"key":"linuxdo:3193699","sourceId":"linuxdo","id":"3193699","title":"？老黄复出了？","keep":true,"score":7,"tags":["行业","英伟达"],"why":"评论称推文足以罢免董事会，讨论热烈且有情报","at":1794935356021}
+{"key":"linuxdo:3193728","sourceId":"linuxdo","id":"3193728","title":"wow这是什么","keep":false,"score":0,"tags":["水贴"],"why":"正文缺失且评论无关，纯水无信息","at":1794935356021}
+{"key":"linuxdo:3193705","sourceId":"linuxdo","id":"3193705","title":"老黄发了篇新帖子，大家怎么看？","keep":false,"score":0,"tags":["重复"],"why":"与第6条同题重复，讨论多为猜测，信息量较低","at":1794935356021}
+{"key":"linuxdo:3193730","sourceId":"linuxdo","id":"3193730","title":"我的 ipad 突然黑屏不亮了","keep":false,"score":0,"tags":["求助"],"why":"无正文无故障细节，无法提供有效帮助","at":1794935356021}
+{"key":"linuxdo:3193729","sourceId":"linuxdo","id":"3193729","title":"这会不会是未来的剧本","keep":false,"score":0,"tags":["水贴"],"why":"标题空泛正文缺失，评论仅泛泛谈薅羊毛","at":1794935356021}
+{"key":"nodeseek:1061535","sourceId":"nodeseek","id":"1061535","title":"【收】Heptasky QHIX-500G年付六折款","keep":false,"score":0,"tags":["交易","求购"],"why":"无正文的纯收购帖，无任何信息价值","at":1794935356021}
+{"key":"nodeseek:1061648","sourceId":"nodeseek","id":"1061648","title":"所有商家 Gen2 以后都要95带宽限制了？？？","keep":true,"score":3,"tags":["闲聊","带宽"],"why":"泛泛提问，评论仅猜测，无限制政策的实锤信息","at":1794935356021}
+{"key":"nodeseek:1061657","sourceId":"nodeseek","id":"1061657","title":"【NQ】Ciallo DE 9929","keep":true,"score":8,"tags":["VPS","测评"],"why":"完整硬件体检一手实测数据，可作选购参考","at":1794935356021}
+{"key":"nodeseek:1061656","sourceId":"nodeseek","id":"1061656","title":"【出】180出 vps.taxi JP Mini 10刀/年","keep":false,"score":0,"tags":["交易","出售"],"why":"二手转卖广告，无评测或避坑信息","at":1794935356021}
+{"key":"nodeseek:1061643","sourceId":"nodeseek","id":"1061643","title":"NQ-PPFlight-LIFT S创始人 自用留档","keep":true,"score":8,"tags":["VPS","测评"],"why":"一手硬件实测，评论补出33美元年付价格信息","at":1794935356021}
+{"key":"nodeseek:1061652","sourceId":"nodeseek","id":"1061652","title":"溢价500收 OVH IE区 KS-LE-6 2*1.92T nvme 德国","keep":true,"score":5,"tags":["交易","库存情报"],"why":"评论给出德法区收货行情与库存差异，但本质是加价收购","at":1794935356021}
+{"key":"nodeseek:1061636","sourceId":"nodeseek","id":"1061636","title":"NQ-WAWO HK-Simple-2G-47 年付59¥ 自用留档","keep":true,"score":7,"tags":["VPS","测评"],"why":"一手硬件报告，评论质疑其CN2GIA线路宣传有避坑价值","at":1794935356021}
+{"key":"nodeseek:1061653","sourceId":"nodeseek","id":"1061653","title":"近期有收某家云的mjj,收之前最好问一下老🐶登清退是原路退回还是什么情况","keep":true,"score":6,"tags":["避坑","经验"],"why":"清退退款风险提醒，评论补充按登记支付宝原路退","at":1794935356021}
+{"key":"nodeseek:1061640","sourceId":"nodeseek","id":"1061640","title":"快讯，老黄表示如果董事会愿意会回归ceo","keep":false,"score":1,"tags":["新闻","水贴"],"why":"正文仅一句外媒转述无观点，评论纯玩梗","at":1794935356021}
+{"key":"nodeseek:1061655","sourceId":"nodeseek","id":"1061655","title":"《10元再出》google账号 最后2个","keep":false,"score":0,"tags":["违规","账号交易"],"why":"出售谷歌账号，属违规交易与广告","at":1794935356021}
