@@ -3676,3 +3676,44 @@
 {"key":"linuxdo:3192424","sourceId":"linuxdo","id":"3192424","title":"大家Gemini 100美刀的ultra计划开发够用吗?相比于GPT 100","keep":true,"score":5,"tags":["Gemini","订阅"],"why":"预算选型提问有共鸣，但缺具体使用背景与回复","at":1794917851275}
 {"key":"linuxdo:3192432","sourceId":"linuxdo","id":"3192432","title":"agy cli 终于把自动压缩上下文阈值扩展到了 512k","keep":true,"score":7,"tags":["CLI","更新"],"why":"工具上下文阈值扩至512k属具体版本异动消息","at":1794917851275}
 {"key":"linuxdo:3192426","sourceId":"linuxdo","id":"3192426","title":"请问linuxdo的OIDC应用接入文档在哪？","keep":false,"score":0,"tags":["提问","水贴"],"why":"无正文，仅泛泛求文档链接，无信息量","at":1794917851275}
+{"key":"nodeseek:1060994","sourceId":"nodeseek","id":"1060994","title":"不降智x20，3人车找1人","keep":false,"score":0,"tags":["拼车","推广"],"why":"合租账号招人推广，无实测且涉账号共享风险","at":1794919062010}
+{"key":"nodeseek:1060934","sourceId":"nodeseek","id":"1060934","title":"[人找车]搬瓦工每月1TB流量，有车位的，私信我！","keep":true,"score":4,"tags":["拼车","求购"],"why":"求拼车需求具体，评论指出流量大难有车位","at":1794919062010}
+{"key":"nodeseek:1060992","sourceId":"nodeseek","id":"1060992","title":"你们用gemini argon会不会经常没响应？","keep":true,"score":7,"tags":["Gemini","技术提问"],"why":"带现象描述的技术提问，评论指出沙箱卡住","at":1794919062010}
+{"key":"nodeseek:1060987","sourceId":"nodeseek","id":"1060987","title":"gemini 20x bug号100一个","keep":true,"score":7,"tags":["Gemini","避坑"],"why":"评论实锤日抛号次日封，具避坑价值","at":1794919062010}
+{"key":"nodeseek:1060899","sourceId":"nodeseek","id":"1060899","title":"求问 一般如果收到team 母号 后 怎么自己开车","keep":true,"score":7,"tags":["Team","拼车"],"why":"提问有背景，评论纠正拉人需按剩余时间付费","at":1794919062010}
+{"key":"nodeseek:1060993","sourceId":"nodeseek","id":"1060993","title":"cloudflare是不是抽风了","keep":false,"score":0,"tags":["Cloudflare","故障"],"why":"仅一句体感故障，无数据无回复","at":1794919062010}
+{"key":"nodeseek:1060978","sourceId":"nodeseek","id":"1060978","title":"100出 RakSmart CN2 + 4837 已组内网套餐（账单未付）","keep":true,"score":6,"tags":["VPS","交易"],"why":"转让含配置价格及内网核对提示，评论纠金额","at":1794919062010}
+{"key":"nodeseek:1043710","sourceId":"nodeseek","id":"1043710","title":"【车找人】沪日 IPLC · 上海电信入口 · 80 元/月 · 500G 双向 · 含日本落地","keep":false,"score":0,"tags":["拼车","广告"],"why":"拼车招募广告且评论称车满，无持续价值","at":1794919062010}
+{"key":"nodeseek:1060985","sourceId":"nodeseek","id":"1060985","title":"OVH黑五活动预先看","keep":true,"score":7,"tags":["OVH","黑五","价格"],"why":"附黑五价格表，评论讨论月付与区域","at":1794919062010}
+{"key":"nodeseek:1060976","sourceId":"nodeseek","id":"1060976","title":"哥哥们 小白求个dmit有吗 想出的私聊 价格你开","keep":true,"score":5,"tags":["DMIT","求购"],"why":"小白求购帖，评论提供黑五圣诞购买时机","at":1794919062010}
+{"key":"nodeseek:1060952","sourceId":"nodeseek","id":"1060952","title":"我说白了，你这老chatgpt能不能争气点啊，但凡争气点都不能让A\\这么猖狂！","keep":false,"score":0,"tags":["水贴"],"why":"纯情绪吐槽，评论玩梗，无有效信息","at":1794919062010}
+{"key":"nodeseek:1033252","sourceId":"nodeseek","id":"1033252","title":"[不收了做家人了]溢价 80 收 AkkoCloud德国法兰克福KVM-CN2-A1 mini（299/年）","keep":true,"score":3,"tags":["VPS","交易"],"why":"求购二手VPS，仅有溢价和配置需求","at":1794919062010}
+{"key":"nodeseek:1060972","sourceId":"nodeseek","id":"1060972","title":"问一下 RakSmart4折券在那个页面领了，但是为什么一看优惠券里面没有啊","keep":true,"score":6,"tags":["VPS","优惠券"],"why":"评论补充新号首单限制及CN2导致券失效","at":1794919062010}
+{"key":"nodeseek:1060990","sourceId":"nodeseek","id":"1060990","title":"新公益emby","keep":false,"score":0,"tags":["推广"],"why":"含TG群和名额的拉新推广，无实质评测","at":1794919062010}
+{"key":"nodeseek:1060966","sourceId":"nodeseek","id":"1060966","title":"【NQ+TQ】【非晚高峰】HKCloudX【香港BGP优化带宽-200M，CPU8269】（CPU迁移后的老200M）11月17日下午6、8点测试","keep":true,"score":8,"tags":["VPS","测评","线路"],"why":"一手硬件与线路测试，评论指出回程路由乱","at":1794919062010}
+{"key":"nodeseek:1060958","sourceId":"nodeseek","id":"1060958","title":"没了。送一个raksmart年付49.9刀账单，ns邮箱。给第一个私的。","keep":false,"score":0,"tags":["交易","水贴"],"why":"已送出的账单帖，无有效信息且涉账号转移","at":1794919062010}
+{"key":"nodeseek:1060911","sourceId":"nodeseek","id":"1060911","title":"二战Claude的配置清单，拜托MJJ们提提建议","keep":true,"score":7,"tags":["AI","经验","风控"],"why":"详细复盘Claude账号风控，评论补充语言与终端建议","at":1794919062010}
+{"key":"nodeseek:988619","sourceId":"nodeseek","id":"988619","title":"【NQ留档】阿里云 香港CDT","keep":true,"score":8,"tags":["VPS","测评","价格"],"why":"含五年价格与跑分留档，评论补充实例规格","at":1794919062010}
+{"key":"nodeseek:1060969","sourceId":"nodeseek","id":"1060969","title":"55 days left to update your documen 还警告我了啊 N26","keep":false,"score":2,"tags":["水贴"],"why":"仅转述N26证件提醒，无经验或讨论价值","at":1794919062010}
+{"key":"nodeseek:1060954","sourceId":"nodeseek","id":"1060954","title":"今日贴4 请教一下 如果收临期pro，怎么判断是否能收？","keep":true,"score":6,"tags":["AI","避坑","账号"],"why":"真实经历收临期Pro三天被封，有避坑警示","at":1794919062010}
+{"key":"nodeseek:907189","sourceId":"nodeseek","id":"907189","title":"【已出】ZoroCloud(索隆云) 新加坡 SG SPTel 商宽/家宽 盲盒 1388 元/年付 稀有款","keep":false,"score":0,"tags":["交易","广告"],"why":"已售二手交易帖，评论仅吐槽价格无实质信息","at":1794919062010}
+{"key":"nodeseek:1060928","sourceId":"nodeseek","id":"1060928","title":"「慢讯」Sixtynet 家宽补货","keep":false,"score":0,"tags":["AFF","广告"],"why":"含AFF返利链接，属推广拉新","at":1794919062010}
+{"key":"nodeseek:1060877","sourceId":"nodeseek","id":"1060877","title":"aethercloud的洛杉矶家寬与诺联的哪个好？","keep":true,"score":4,"tags":["VPS","讨论"],"why":"对比提问，评论补充Aether仅v6家宽/200G","at":1794919062010}
+{"key":"nodeseek:1060960","sourceId":"nodeseek","id":"1060960","title":"claude portal kyc卡住 求指导","keep":true,"score":5,"tags":["账号","求助"],"why":"KYC卡住有具体背景，但暂无有效解法","at":1794919062010}
+{"key":"nodeseek:1060821","sourceId":"nodeseek","id":"1060821","title":"很遗憾，只买到raksmart的4837，CN2没买到。","keep":true,"score":5,"tags":["VPS","情报"],"why":"评论补充补货时间25-30号及4837可用","at":1794919062010}
+{"key":"nodeseek:1060923","sourceId":"nodeseek","id":"1060923","title":"V.PS的nano kvm也都是优化鸡吗","keep":false,"score":0,"tags":["水贴"],"why":"无背景的泛泛提问且零回复","at":1794919062010}
+{"key":"nodeseek:1060874","sourceId":"nodeseek","id":"1060874","title":"【已出】云途HK.BGP.B老款年付350月3T流","keep":true,"score":7,"tags":["VPS","交易","避坑"],"why":"评论实锤改标题重发、老款非独立出口","at":1794919062010}
+{"key":"nodeseek:1060921","sourceId":"nodeseek","id":"1060921","title":"【出】剩余价值折价出干杯云ATT家宽VPS","keep":false,"score":0,"tags":["交易","广告"],"why":"纯出售帖且无评论/价格信息","at":1794919062010}
+{"key":"nodeseek:1060897","sourceId":"nodeseek","id":"1060897","title":"【已收】 110收 一套RakSmart 3.99+ISP 1.81 已组网的","keep":false,"score":0,"tags":["交易","广告"],"why":"已收交易帖，无有效信息","at":1794919062010}
+{"key":"nodeseek:1060811","sourceId":"nodeseek","id":"1060811","title":"Panstar 今天是不是出问题了？","keep":true,"score":8,"tags":["VPS","故障"],"why":"运营商故障公告，含免费换IP与恢复说明","at":1794919062010}
+{"key":"nodeseek:1060818","sourceId":"nodeseek","id":"1060818","title":"[NQ/TQ]云悠YUNYOO洛杉矶C.Lite - Mini晚高峰测评 月付17.99","keep":true,"score":8,"tags":["VPS","测评"],"why":"一手晚高峰实测含体检报告，点出客服不回工单的坑","at":1794919062010}
+{"key":"nodeseek:1060790","sourceId":"nodeseek","id":"1060790","title":"【NQ留档】Raksmart cn2 3.99","keep":true,"score":6,"tags":["VPS","跑分"],"why":"附完整硬件体检报告，评论补充邻居延迟对比","at":1794919062010}
+{"key":"nodeseek:1060774","sourceId":"nodeseek","id":"1060774","title":"平安车险怎么样","keep":true,"score":5,"tags":["车险","讨论"],"why":"评论给出返点、充电券和理赔时效等实用信息","at":1794919062010}
+{"key":"nodeseek:1060815","sourceId":"nodeseek","id":"1060815","title":"继续出鸡","keep":true,"score":4,"tags":["VPS","交易"],"why":"转让帖配置价格到期清晰，但无实测信息","at":1794919062010}
+{"key":"nodeseek:1060813","sourceId":"nodeseek","id":"1060813","title":"gpt绑卡优惠，能绑什么虚拟卡","keep":true,"score":6,"tags":["ChatGPT","支付"],"why":"带具体支付报错背景的有效求助","at":1794919062010}
+{"key":"nodeseek:1060637","sourceId":"nodeseek","id":"1060637","title":"+400 收 HostHatch JP/HK 4C16G200G 170U/三年","keep":true,"score":3,"tags":["求购"],"why":"单句求购，仅列配置与预算，信息量低","at":1794919062010}
+{"key":"nodeseek:1060640","sourceId":"nodeseek","id":"1060640","title":"通过 bgp.he.net 发现 dmit 179 号段两个邻居是搞灰产引流入口的","keep":true,"score":8,"tags":["VPS","避坑"],"why":"用bgp.he.net查出邻居做灰产引流，给出查询方法","at":1794919062010}
+{"key":"linuxdo:3192495","sourceId":"linuxdo","id":"3192495","title":"关于使用韩国SIM卡过门户kyc","keep":false,"score":0,"tags":["KYC","违规"],"why":"讨论付费规避门户KYC验证，属灰产违规","at":1794919062010}
+{"key":"linuxdo:3192500","sourceId":"linuxdo","id":"3192500","title":"关于Claude代充值只需要提供organization ID的疑问","keep":false,"score":1,"tags":["代充值","灰产"],"why":"代充值替换账号凭据，属灰产交易讨论","at":1794919062010}
+{"key":"linuxdo:3192494","sourceId":"linuxdo","id":"3192494","title":"Google账号问题咨询，这是被停用又自动解封了吗？","keep":false,"score":1,"tags":["水贴"],"why":"无正文零回复，无法提供有效信息","at":1794919062010}
+{"key":"linuxdo:3192482","sourceId":"linuxdo","id":"3192482","title":"有佬能给我这个Agent客户端的UI设计提提建议嘛🥺","keep":false,"score":0,"tags":["水贴"],"why":"无正文，仅一句泛泛征求UI建议，信息量为零","at":1794919062010}
