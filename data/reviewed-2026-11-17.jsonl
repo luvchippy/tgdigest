@@ -5732,3 +5732,13 @@
 {"key":"nodeseek:1061827","sourceId":"nodeseek","id":"1061827","title":"1200收 adspower指纹浏览器*20个环境账户","keep":false,"score":0,"tags":["交易"],"why":"无正文的账号收购帖，无信息价值","at":1794946154083}
 {"key":"linuxdo:3194118","sourceId":"linuxdo","id":"3194118","title":"装好机之后，玩了20多分钟3A大作好累，直接删了刷短剧","keep":false,"score":0,"tags":["水贴"],"why":"单句日常抒情，无信息量","at":1794946154083}
 {"key":"linuxdo:3194117","sourceId":"linuxdo","id":"3194117","title":"gpt team已开放6.2astra了","keep":false,"score":0,"tags":["重复","水贴"],"why":"与5同主题且无正文，信息量不足","at":1794946154083}
+{"key":"nodeseek:1061839","sourceId":"nodeseek","id":"1061839","title":"高市早苗今天到深圳吧","keep":false,"score":0,"tags":["政治敏感","水贴"],"why":"涉政治人物调侃，无实质信息，属违规水贴","at":1794947889686}
+{"key":"nodeseek:1061838","sourceId":"nodeseek","id":"1061838","title":"ChatGPT 最新模型 6.2-astra-max 、 6.2-sol-max 鹈鹕测试来了！","keep":true,"score":6,"tags":["AI","实测"],"why":"给出两模型token与花费实测数据，但含推广链接，评论无营养","at":1794947889686}
+{"key":"nodeseek:777674","sourceId":"nodeseek","id":"777674","title":"求个mihomo内核的yaml配置呢","keep":false,"score":0,"tags":["伸手贴"],"why":"无正文无背景的配置索要，属无信息量提问","at":1794947889686}
+{"key":"linuxdo:3194130","sourceId":"linuxdo","id":"3194130","title":"astra6.2 3D版鹈鹕测试","keep":false,"score":0,"tags":["纯水","重复"],"why":"纯水板无正文，与鹈鹕测试主题重复且信息量最低","at":1794947889686}
+{"key":"linuxdo:3194129","sourceId":"linuxdo","id":"3194129","title":"尝鲜测试GPT6.2Astra的svg生成","keep":false,"score":0,"tags":["纯水","重复"],"why":"纯水板无正文，同类ASTRA测试重复帖","at":1794947889686}
+{"key":"nodeseek:1016472","sourceId":"nodeseek","id":"1016472","title":"DMIT，AKKO，RAKS，ACCK，Vmrack，华纳云都封了","keep":true,"score":7,"tags":["VPS","线路异动"],"why":"封禁异动情报，评论多人补充各家实测状态","at":1794947889686}
+{"key":"nodeseek:1029297","sourceId":"nodeseek","id":"1029297","title":"【避坑/吐槽】某廉价VPS VMRACK又开始恶心人了，快照最低天数暗改暴涨700%，真当大家是韭菜？","keep":true,"score":8,"tags":["VPS","避坑"],"why":"快照起售天数暗改涨价700%，价格实据清晰可查","at":1794947889686}
+{"key":"nodeseek:1061840","sourceId":"nodeseek","id":"1061840","title":"苹果线上服务大规模宕机","keep":true,"score":5,"tags":["行业消息"],"why":"服务宕机消息，列出受影响服务，但属新闻搬运无实测","at":1794947889686}
+{"key":"nodeseek:1061556","sourceId":"nodeseek","id":"1061556","title":"【买1个谷歌账号】美国和香港地区，需要验货和售后","keep":false,"score":0,"tags":["违规交易"],"why":"买卖账号的违规交易帖，无正文","at":1794947889686}
+{"key":"linuxdo:3194134","sourceId":"linuxdo","id":"3194134","title":"[黑洞测试#6] ChatGPT新模型6.2Astra和6.2Sol速测","keep":false,"score":0,"tags":["纯水","重复"],"why":"无正文速测，与前几条新模型测试主题重复","at":1794947889686}
