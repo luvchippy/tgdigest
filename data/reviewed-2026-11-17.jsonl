@@ -4308,3 +4308,46 @@
 {"key":"linuxdo:3193026","sourceId":"linuxdo","id":"3193026","title":"现在怎么没有GPT降智测试了","keep":true,"score":4,"tags":["ChatGPT","讨论"],"why":"有共鸣的话题讨论，但无正文与实质评论补充","at":1794925184671}
 {"key":"linuxdo:3193034","sourceId":"linuxdo","id":"3193034","title":"colima/Docker 容器内如何让容器内所有网络流量透明地走 SOCKS5 代理","keep":true,"score":6,"tags":["Docker","网络代理"],"why":"问题具体明确，看得出真实遇到的代理配置难题","at":1794925184671}
 {"key":"linuxdo:3193028","sourceId":"linuxdo","id":"3193028","title":"土区gemini ultra 5x是不是也全封了","keep":true,"score":6,"tags":["Gemini","区域情报"],"why":"区域封禁动态情报，含点赞互动，有参考价值","at":1794925184671}
+{"key":"nodeseek:1061271","sourceId":"nodeseek","id":"1061271","title":"[收]RakSmart cn2.$3.99，不要组网的，只要cn2","keep":false,"score":1,"tags":["VPS","交易"],"why":"求购帖无实测，仅询价与余额交易","at":1794926272601}
+{"key":"nodeseek:1061235","sourceId":"nodeseek","id":"1061235","title":"搬瓦工和大妈 TCP 都被禁了，是不是全网沦陷了？","keep":true,"score":6,"tags":["网络","故障"],"why":"TCP故障有信息，但评论多为调侃封号","at":1794926272601}
+{"key":"nodeseek:1061274","sourceId":"nodeseek","id":"1061274","title":"【出】80再出一组 Raksmart cn2 月付3.99刀+4837 月付1.99刀 已开内网（账单）","keep":false,"score":0,"tags":["VPS","广告"],"why":"VPS出售广告，评论仅议价无独立实测","at":1794926272601}
+{"key":"nodeseek:1061286","sourceId":"nodeseek","id":"1061286","title":"malibu 换 ip 成巴西了，那我用 claude，是不是就要被封了。。","keep":false,"score":2,"tags":["AI","提问"],"why":"单句提问无背景，无评论补充","at":1794926272601}
+{"key":"nodeseek:1061285","sourceId":"nodeseek","id":"1061285","title":"宽带联通，手机卡联通，用dmit pro也是走9929 500g有必要把pro卖了换个eb么？各位大佬？","keep":true,"score":6,"tags":["VPS","网络","求助"],"why":"带联通9929背景的换机咨询，场景具体","at":1794926272601}
+{"key":"nodeseek:1061242","sourceId":"nodeseek","id":"1061242","title":"isvoro 流量偷跑，莫名其妙 160g 一晚上没了","keep":true,"score":7,"tags":["VPS","故障","流量"],"why":"流量异常细节完整，评论补充SNI可能","at":1794926272601}
+{"key":"nodeseek:1061280","sourceId":"nodeseek","id":"1061280","title":"akile都炒的这么凶了？","keep":false,"score":2,"tags":["VPS","市场"],"why":"仅一句炒作感慨，评论无实质数据","at":1794926272601}
+{"key":"nodeseek:1061253","sourceId":"nodeseek","id":"1061253","title":"ovh这波放货性价比目测只有ksle6","keep":true,"score":7,"tags":["OVH","库存","讨论"],"why":"OVH放货价格讨论，评论补充库存与体验","at":1794926272601}
+{"key":"nodeseek:1061284","sourceId":"nodeseek","id":"1061284","title":"已经上车，谢谢佬帮忙","keep":false,"score":0,"tags":["水贴"],"why":"无正文无评论的纯水贴","at":1794926272601}
+{"key":"nodeseek:1061229","sourceId":"nodeseek","id":"1061229","title":"大家的大模型启蒙是什么","keep":true,"score":3,"tags":["AI","讨论"],"why":"大模型启蒙闲聊，评论仅报型号","at":1794926272601}
+{"key":"nodeseek:1061282","sourceId":"nodeseek","id":"1061282","title":"IP 质量黑名单标记多，其他的非常优秀，是好还是不好","keep":false,"score":0,"tags":["水贴","IP"],"why":"正文无数据无图，评论仅要求上图","at":1794926272601}
+{"key":"nodeseek:1061243","sourceId":"nodeseek","id":"1061243","title":"广电买哪一个优化线路啊😯","keep":true,"score":6,"tags":["网络","线路","问答"],"why":"评论指出广电出口随机且延迟丢包高","at":1794926272601}
+{"key":"nodeseek:1061279","sourceId":"nodeseek","id":"1061279","title":"ovh 中奖检查那个脚本是啥来着","keep":true,"score":4,"tags":["OVH","脚本","求助"],"why":"求OVH中奖检测脚本，评论仅提示看面板","at":1794926272601}
+{"key":"nodeseek:1061283","sourceId":"nodeseek","id":"1061283","title":"所以google ultra现在领不了了吗？","keep":true,"score":5,"tags":["Google","订阅","BUG"],"why":"附报错截图，反映漏洞领取状态变化","at":1794926272601}
+{"key":"nodeseek:1061270","sourceId":"nodeseek","id":"1061270","title":"剩余价值 出legendvps sg 44刀3年付","keep":false,"score":0,"tags":["交易","广告"],"why":"二手VPS转让帖，无评测或行情分析","at":1794926272601}
+{"key":"nodeseek:1061254","sourceId":"nodeseek","id":"1061254","title":"akcdn的转发都是专线吗","keep":true,"score":4,"tags":["网络","中转","问答"],"why":"专线判断评论说法不一，信息有限","at":1794926272601}
+{"key":"nodeseek:1061277","sourceId":"nodeseek","id":"1061277","title":"求个英国节点，网络稳定点的","keep":false,"score":2,"tags":["求节点","低信息"],"why":"求英国节点用途狭窄，评论仅追问家宽","at":1794926272601}
+{"key":"nodeseek:1061252","sourceId":"nodeseek","id":"1061252","title":"Deepseek 官方网页版开源了","keep":true,"score":8,"tags":["开源","AI","实测"],"why":"开源项目含token消耗实测与部署说明","at":1794926272601}
+{"key":"nodeseek:1061268","sourceId":"nodeseek","id":"1061268","title":"为啥大家都冲google bug ultra呢","keep":false,"score":0,"tags":["重复","Google"],"why":"与#4同属Google Ultra漏洞，信息更少","at":1794926272601}
+{"key":"nodeseek:1061247","sourceId":"nodeseek","id":"1061247","title":"【车找人0/4】带前置沪日ix拼车","keep":false,"score":0,"tags":["广告","拼车"],"why":"付费拼车广告，明码标价拉客","at":1794926272601}
+{"key":"nodeseek:1061238","sourceId":"nodeseek","id":"1061238","title":"20r包push 出个ciallo 9929 纯v6优化机","keep":true,"score":4,"tags":["VPS","交易"],"why":"明确仅IPv6和退款限制，交易信息完整但受众窄","at":1794926272601}
+{"key":"nodeseek:1061206","sourceId":"nodeseek","id":"1061206","title":"求个claude portal kyc","keep":false,"score":0,"tags":["Claude","违规"],"why":"求购KYC涉账号验证违规","at":1794926272601}
+{"key":"nodeseek:1033797","sourceId":"nodeseek","id":"1033797","title":"【出】溢价35 总价 110 Push 出 Nobrand SHAIX-JP-YEARLY-1","keep":true,"score":4,"tags":["VPS","交易"],"why":"评论指出溢价偏高，卖家已降价，可作比价参考","at":1794926272601}
+{"key":"nodeseek:1061239","sourceId":"nodeseek","id":"1061239","title":"【或折价换】剩余价值+push费出一台WebHorizon-SG-2C-4G-4T，$50.98/年首发移动快乐机","keep":false,"score":0,"tags":["VPS","交易"],"why":"仅转售一句，无配置价格与讨论","at":1794926272601}
+{"key":"nodeseek:1061120","sourceId":"nodeseek","id":"1061120","title":"【出】总价 ¥249.00 · 溢价 ¥171.56 · Vmiss · US.LA.CN2.Basic 八折年付","keep":false,"score":2,"tags":["VPS","交易"],"why":"评论一致嫌贵，溢价过高不宜推送","at":1794926272601}
+{"key":"nodeseek:1061155","sourceId":"nodeseek","id":"1061155","title":"Claude pro 是不是今天后就不能用 fable5.2 了","keep":true,"score":6,"tags":["Claude","讨论"],"why":"评论确认Pro级已不能用，时效信息明确","at":1794926272601}
+{"key":"nodeseek:1061190","sourceId":"nodeseek","id":"1061190","title":"有没有便宜的亚太 vps推荐？比如netlab、hkcloudx","keep":true,"score":4,"tags":["VPS","求助"],"why":"需求具体但评论无实质推荐，价值一般","at":1794926272601}
+{"key":"nodeseek:1061195","sourceId":"nodeseek","id":"1061195","title":"dito esim 收不到验证码，还一直说我没余额","keep":true,"score":5,"tags":["eSIM","求助"],"why":"故障背景具体，含已尝试排障步骤","at":1794926272601}
+{"key":"nodeseek:1061170","sourceId":"nodeseek","id":"1061170","title":"【快讯】ovh补货了（黑五来了）","keep":false,"score":0,"tags":["链接","垃圾"],"why":"正文自认假补货，纯引流链接","at":1794926272601}
+{"key":"nodeseek:1061132","sourceId":"nodeseek","id":"1061132","title":"【秒出】折价出shandun无限流量US三网顶级优化","keep":true,"score":5,"tags":["VPS","交易"],"why":"交易信息完整，评论补充同类低价方案","at":1794926272601}
+{"key":"nodeseek:1061114","sourceId":"nodeseek","id":"1061114","title":"212下次活动什么时候啊","keep":false,"score":2,"tags":["羊毛","提问"],"why":"只打探返利活动档期，本质是AFF薅羊毛，信息价值很低","at":1794926272601}
+{"key":"nodeseek:1060953","sourceId":"nodeseek","id":"1060953","title":"换鸡 VMISS LA TRI","keep":false,"score":1,"tags":["交易","水贴"],"why":"正文表述混乱的换机帖，评论只刷“66”“不换”，没有有效信息","at":1794926272601}
+{"key":"nodeseek:1060920","sourceId":"nodeseek","id":"1060920","title":"最近codex回复变快了好多","keep":false,"score":2,"tags":["AI","闲聊"],"why":"正文只有一句猜测，评论全是“人走光了”等调侃，无实证数据","at":1794926272601}
+{"key":"nodeseek:1061033","sourceId":"nodeseek","id":"1061033","title":"【收】需要一个美西的nat鸡，有没有便宜点的或者给推荐一个","keep":false,"score":2,"tags":["求购","水贴"],"why":"正文只有RT，没写配置预算，也没评论，属于无信息量求购","at":1794926272601}
+{"key":"nodeseek:1060908","sourceId":"nodeseek","id":"1060908","title":"raksmart我看到的Global BGP 是2.99，双ISP DIA VPS是3.87，你们的1.8是什么活动抢的？","keep":true,"score":6,"tags":["VPS","价格情报"],"why":"评论给出4折券、首单自选等真实低价来源，价格情报有效","at":1794926272601}
+{"key":"nodeloc:118259","sourceId":"nodeloc","id":"118259","title":"中国移动10元话费折扣羊毛，20冲30元，移动官方充值优惠","keep":false,"score":2,"tags":["羊毛","空正文"],"why":"没有正文和评论，只剩标题，拿不到具体优惠路径","at":1794926272601}
+{"key":"nodeloc:118258","sourceId":"nodeloc","id":"118258","title":"今年黑五有什么值得蹲的机子吗？","keep":true,"score":4,"tags":["黑五","求助"],"why":"带hosttach、大妈等背景的选机求助，但没回复，价值一般","at":1794926272601}
+{"key":"linuxdo:3193077","sourceId":"linuxdo","id":"3193077","title":"6.2sol使用教程","keep":false,"score":2,"tags":["AI","空正文"],"why":"标题称教程，但正文为空，评论也只是猜测灰度规则","at":1794926272601}
+{"key":"linuxdo:3193091","sourceId":"linuxdo","id":"3193091","title":"gpt plus升级pro 100刀的时候，等了72h苹果的风控今天结束后，再次购买还让等待72h","keep":true,"score":3,"tags":["Apple","风控"],"why":"记录了苹果风控72小时这一情况，但内容过短，缺乏细节","at":1794926272601}
+{"key":"linuxdo:3193089","sourceId":"linuxdo","id":"3193089","title":"【富可敌国】【流光AI】11/17｜混元 Hy4 Flash 上新，留 ID 送 3 元","keep":false,"score":0,"tags":["推广","广告"],"why":"给ID就送3元的拉新推广，按规则直接过滤","at":1794926272601}
+{"key":"linuxdo:3193080","sourceId":"linuxdo","id":"3193080","title":"Pro100和Pro200的速度有差别吗","keep":false,"score":2,"tags":["提问","水贴"],"why":"无正文的单句提问，缺少服务背景与实测，信息量极低","at":1794926272601}
+{"key":"linuxdo:3193012","sourceId":"linuxdo","id":"3193012","title":"关于图片生成的公益站可以分享一下吗","keep":false,"score":0,"tags":["广告","求资源"],"why":"正文为空，只是索要资源，评论仅丢推广链接，属于拉人广告","at":1794926272601}
+{"key":"linuxdo:3193068","sourceId":"linuxdo","id":"3193068","title":"0元的google ultra 20x能跟土区google 20x的一起用吗","keep":true,"score":3,"tags":["人工智能","订阅"],"why":"跨区套餐能否共用的疑问有具体场景，但无正文和实质回复","at":1794926272601}
