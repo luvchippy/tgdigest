@@ -2875,3 +2875,86 @@
 {"key":"linuxdo:3191634","sourceId":"linuxdo","id":"3191634","title":"请教下大家 X Plus 的 Chat 额度有多少","keep":false,"score":3,"tags":["AI","提问"],"why":"无正文的额度提问，评论无补充","at":1794908392375}
 {"key":"linuxdo:3191629","sourceId":"linuxdo","id":"3191629","title":"我有一种不好的预感","keep":false,"score":0,"tags":["水贴"],"why":"无正文，内容纯属个人情绪帖，没有信息量","at":1794908392375}
 {"key":"linuxdo:3191574","sourceId":"linuxdo","id":"3191574","title":"opencode 真的太慢了","keep":false,"score":1,"tags":["水贴","AI"],"why":"正文为空，只有一句嫌慢的吐槽，评论也没有实质内容","at":1794908392375}
+{"key":"nodeseek:1060650","sourceId":"nodeseek","id":"1060650","title":"沪日ix有没有大水管","keep":true,"score":3,"tags":["VPS","提问"],"why":"正文仅rt，评论补充mk带宽约200M，信息量有限","at":1794910064080}
+{"key":"nodeseek:1060506","sourceId":"nodeseek","id":"1060506","title":"【出】 总价333出 干杯1号家宽120/月","keep":true,"score":5,"tags":["交易","家宽"],"why":"出机帖附硬件体检实测报告和价格，信息较完整","at":1794910064080}
+{"key":"nodeseek:1060606","sourceId":"nodeseek","id":"1060606","title":"收甲骨文四区","keep":true,"score":2,"tags":["求购","甲骨文"],"why":"仅一句求购，评论全是玩笑，无实质信息","at":1794910064080}
+{"key":"nodeseek:1060653","sourceId":"nodeseek","id":"1060653","title":"【出】15出懒猫 lazycat SoftBank Nano特别款 续费价格 ¥12.00 /月","keep":true,"score":5,"tags":["交易","懒猫"],"why":"出机带配置图与续费价，属价格情报","at":1794910064080}
+{"key":"nodeseek:1060648","sourceId":"nodeseek","id":"1060648","title":"从此将不再购买此人任何一款产品","keep":true,"score":5,"tags":["避坑","维权"],"why":"正文空，但评论有被反撸实锤经历，值得提醒","at":1794910064080}
+{"key":"nodeseek:1060644","sourceId":"nodeseek","id":"1060644","title":"想收一台量大管饱的CMIN2线路，移动快乐鸡","keep":true,"score":3,"tags":["求购","线路"],"why":"泛泛求购，评论仅一句建议，无实测","at":1794910064080}
+{"key":"nodeseek:1060652","sourceId":"nodeseek","id":"1060652","title":"【出】懒猫云 lazycat 35R出五折德国DE-9929 Mini","keep":true,"score":4,"tags":["交易","懒猫"],"why":"仅截图配置无正文，信息量一般但与4非重复","at":1794910064080}
+{"key":"nodeseek:1060651","sourceId":"nodeseek","id":"1060651","title":"panstar pre dc2 5.59和raksmart 3.99二留一，留哪个","keep":true,"score":3,"tags":["讨论","选择"],"why":"rt式二选一提问，无数据无回复","at":1794910064080}
+{"key":"nodeseek:1060645","sourceId":"nodeseek","id":"1060645","title":"raksmart 续费的问题","keep":true,"score":6,"tags":["Raksmart","续费"],"why":"续费价异动，评论给出多刷与官网bug的实测解释","at":1794910064080}
+{"key":"nodeseek:1060638","sourceId":"nodeseek","id":"1060638","title":"英国 paypal 新用户消费奖励 £25","keep":false,"score":0,"tags":["羊毛","邀请返利"],"why":"带邀请链接的拉新返利帖，属推广","at":1794910064080}
+{"key":"nodeseek:1057986","sourceId":"nodeseek","id":"1057986","title":"出3000苹果土区余额，可开通5x低价，之前20x没有成功的号。","keep":false,"score":0,"tags":["交易","避坑"],"why":"出售土区余额，评论指溢价且难用","at":1794910064080}
+{"key":"nodeseek:1060570","sourceId":"nodeseek","id":"1060570","title":"还有没有类似Afly的机器推荐，仅Ipv6也可以","keep":true,"score":6,"tags":["VPS","讨论"],"why":"求类似Afly机型，评论推荐Scaleway","at":1794910064080}
+{"key":"nodeseek:1060512","sourceId":"nodeseek","id":"1060512","title":"【1117】GPT代充 PLUS ¥116、Pro100 ¥645、Pro200 ¥1045 Codex美国实卡接码3/次 （代充可送)","keep":false,"score":0,"tags":["广告","代充"],"why":"GPT代充广告，含价格表与接码服务","at":1794910064080}
+{"key":"nodeseek:1060217","sourceId":"nodeseek","id":"1060217","title":"【TQ/NQ】Shandun DE9929测试留档","keep":true,"score":8,"tags":["VPS","测评","线路"],"why":"含完整跑分与回程测试，评论补充同款被封","at":1794910064080}
+{"key":"nodeseek:1060283","sourceId":"nodeseek","id":"1060283","title":"dmit炸了吗我的怎么网站都登不上了","keep":true,"score":6,"tags":["VPS","故障"],"why":"反映DMIT无法访问，评论确认TCP阻断","at":1794910064080}
+{"key":"nodeseek:1060580","sourceId":"nodeseek","id":"1060580","title":"出claude ultra 前max20x解封号。","keep":false,"score":0,"tags":["交易"],"why":"出售解封账号，无细节且需私信","at":1794910064080}
+{"key":"nodeseek:1060533","sourceId":"nodeseek","id":"1060533","title":"RTX 5090价格暴跌2万元","keep":true,"score":5,"tags":["硬件","价格"],"why":"5090价格情报，评论质疑非真暴跌","at":1794910064080}
+{"key":"nodeseek:1060380","sourceId":"nodeseek","id":"1060380","title":"大家的CDT轮询方案都是什么？","keep":true,"score":7,"tags":["CDT","技术"],"why":"CDT轮询提问，评论给出开源换班方案","at":1794910064080}
+{"key":"nodeseek:1059890","sourceId":"nodeseek","id":"1059890","title":"[人找车]team","keep":false,"score":0,"tags":["拼车","交易"],"why":"Team拼车招人帖，无实质信息","at":1794910064080}
+{"key":"nodeseek:1060567","sourceId":"nodeseek","id":"1060567","title":"点重置额度，秒弹kyc","keep":false,"score":0,"tags":["KYC","水贴"],"why":"内容过短无上下文，仅提及重置弹KYC","at":1794910064080}
+{"key":"nodeseek:1060572","sourceId":"nodeseek","id":"1060572","title":"【快讯】都佳人","keep":true,"score":6,"tags":["站点动态","行业消息"],"why":"站方披露融资、三证与实名制动向，属一手行业消息，无评论补充","at":1794910064080}
+{"key":"nodeseek:1060571","sourceId":"nodeseek","id":"1060571","title":"克劳德 cladue pro 成品+IP 360","keep":false,"score":0,"tags":["广告"],"why":"售卖Claude成品号并附推广链接，属广告拉新","at":1794910064080}
+{"key":"nodeseek:1056707","sourceId":"nodeseek","id":"1056707","title":"纯小白，黑五要蹲什么机器，预算四百多一年","keep":true,"score":7,"tags":["VPS","求助"],"why":"带宽、地区、预算背景齐全，评论给出美西9929加落地机方案","at":1794910064080}
+{"key":"nodeseek:1060550","sourceId":"nodeseek","id":"1060550","title":"【收】60收AdsPower 免费5环境 老号","keep":false,"score":1,"tags":["交易"],"why":"收购账号的求购帖，无信息量，回复仅“同收”","at":1794910064080}
+{"key":"nodeseek:1060562","sourceId":"nodeseek","id":"1060562","title":"这两个Claude号哪个升MAX稳？","keep":true,"score":6,"tags":["Claude","求助"],"why":"带KYC与绑卡实测背景的具体提问，评论建议先上已过KYC的","at":1794910064080}
+{"key":"nodeseek:1060475","sourceId":"nodeseek","id":"1060475","title":"【已被秒】5元出Zouter HK 大盘鸡 2C2G 月付32.9元 11月19日到期","keep":false,"score":2,"tags":["交易"],"why":"已成交的低价二手转让，仅评论提及zouter v6恢复","at":1794910064080}
+{"key":"1a2x:980","sourceId":"1a2x","id":"980","title":"新人报道","keep":false,"score":0,"tags":["水贴"],"why":"新人报到纯水贴，无任何信息量","at":1794910064080}
+{"key":"nht:375","sourceId":"nht","id":"375","title":"用Agent给Agent自己写了一个数据看板","keep":true,"score":5,"tags":["开源","AI"],"why":"开源项目发布，但仅贴仓库链接与重复图片，无说明且零互动","at":1794910064080}
+{"key":"nodeloc:118234","sourceId":"nodeloc","id":"118234","title":"TerraDomain（不要再封我号了555）","keep":false,"score":2,"tags":["自荐"],"why":"自荐自有免费域名站，无实质内容，互动极少","at":1794910064080}
+{"key":"nodeloc:118233","sourceId":"nodeloc","id":"118233","title":"亚马逊云新开账号被暂停怎么解决","keep":true,"score":6,"tags":["AWS","求助"],"why":"带时间线与邮件细节的真实封号求助，评论称AWS新号注册极难","at":1794910064080}
+{"key":"linuxdo:3191727","sourceId":"linuxdo","id":"3191727","title":"这两天APEC，墙会不会又增高","keep":true,"score":4,"tags":["网络","讨论"],"why":"正文为空，但评论提到dmit线路开始不稳，有一定异动价值","at":1794910064080}
+{"key":"linuxdo:3191719","sourceId":"linuxdo","id":"3191719","title":"新手买车，确实要擦亮眼！","keep":false,"score":1,"tags":["水贴"],"why":"无正文，评论仅感谢分享，没有实质买车经验","at":1794910064080}
+{"key":"linuxdo:3191664","sourceId":"linuxdo","id":"3191664","title":"为什么最近gemini这么火 是因为反重力吗","keep":true,"score":6,"tags":["Gemini","讨论"],"why":"评论具体对比antigravity与carbon、hydrogen模型，有信息量","at":1794910064080}
+{"key":"linuxdo:3191723","sourceId":"linuxdo","id":"3191723","title":"求推荐香港esim","keep":true,"score":6,"tags":["esim","经验"],"why":"评论给出hahasim、csl、club的具体价格与保号对比","at":1794910064080}
+{"key":"linuxdo:3191678","sourceId":"linuxdo","id":"3191678","title":"openai大抵是似了","keep":true,"score":6,"tags":["AI","讨论"],"why":"评论包含GPT与Claude分工使用的实测经验与成本吐槽","at":1794910064080}
+{"key":"linuxdo:3191714","sourceId":"linuxdo","id":"3191714","title":"工位斜对面坐了个小屁孩，连小动作都要学","keep":false,"score":2,"tags":["水贴"],"why":"纯办公室闲聊，评论全是玩笑，没有信息量","at":1794910064080}
+{"key":"linuxdo:3191669","sourceId":"linuxdo","id":"3191669","title":"收一个老印度 grok","keep":false,"score":2,"tags":["交易"],"why":"求购帖内容为空，评论只提示转发到跳蚤市场","at":1794910064080}
+{"key":"linuxdo:3191685","sourceId":"linuxdo","id":"3191685","title":"移动app灵犀送6元话费","keep":false,"score":1,"tags":["羊毛","推广"],"why":"纯活动拉新式送话费，无正文无评论，属推广","at":1794910064080}
+{"key":"linuxdo:3191730","sourceId":"linuxdo","id":"3191730","title":"GPT送200刀API额度","keep":false,"score":1,"tags":["推广"],"why":"送额度活动帖，无正文无评论，疑似拉新引流","at":1794910064080}
+{"key":"linuxdo:3191715","sourceId":"linuxdo","id":"3191715","title":"谷歌终于还是下手了！Jio爽了三个月，没了3.8flash我该怎么办？","keep":false,"score":2,"tags":["标题党"],"why":"标题虽有服务变动暗示但正文为空，无任何细节或讨论","at":1794910064080}
+{"key":"nodeseek:1060678","sourceId":"nodeseek","id":"1060678","title":"raksmart也太闹心了吧","keep":true,"score":4,"tags":["VPS","吐槽"],"why":"反映面板跳转故障，评论多人确认网站难用","at":1794910064080}
+{"key":"nodeseek:1060680","sourceId":"nodeseek","id":"1060680","title":"【出】 斯巴达AMD 9950x","keep":true,"score":6,"tags":["VPS","交易"],"why":"转让斯巴达套餐，评论透露价格从2200降至1500","at":1794910064080}
+{"key":"nodeseek:1060677","sourceId":"nodeseek","id":"1060677","title":"出 Zgo LA 9929/CMIN2 45U/年","keep":true,"score":4,"tags":["VPS","交易"],"why":"出售Zgo套餐，评论补充修正硬盘为50G","at":1794910064080}
+{"key":"nodeseek:1060654","sourceId":"nodeseek","id":"1060654","title":"虽然我有七位数，但是我还是迫不及待的清退老套餐","keep":true,"score":6,"tags":["IDC","避坑"],"why":"吐槽IDC清退老套餐，评论补充限IP流量等做法","at":1794910064080}
+{"key":"nodeseek:1060675","sourceId":"nodeseek","id":"1060675","title":"evoxt马来西亚哪款好啊？","keep":false,"score":0,"tags":["提问","低质"],"why":"泛泛问哪款好，无预算用途等有效信息","at":1794910064080}
+{"key":"nodeseek:1060684","sourceId":"nodeseek","id":"1060684","title":"【出】120出 RakSmart 的3.99CN2 1T月付+2.07ISP 3T机器 已开通内网","keep":true,"score":4,"tags":["VPS","交易"],"why":"转让RakSmart套餐，含价格配置和库存信息","at":1794910064080}
+{"key":"nodeseek:1060681","sourceId":"nodeseek","id":"1060681","title":"这网站笑死, claude 纪念碑","keep":false,"score":0,"tags":["水贴","低质"],"why":"仅一句见闻，无链接和实质信息","at":1794910064080}
+{"key":"nodeseek:1060665","sourceId":"nodeseek","id":"1060665","title":"超售神来了 只有一个探针 这才是真正的9950X","keep":true,"score":8,"tags":["VPS","测评","超售"],"why":"实测9950X空载占用40%、负载25，超售明显","at":1794910064080}
+{"key":"nodeseek:1060673","sourceId":"nodeseek","id":"1060673","title":"乖乖隆地咚，raksmast有两把刷子啊","keep":true,"score":6,"tags":["VPS","测速"],"why":"附电信测速图，下行873Mbps，有实测参考","at":1794910064080}
+{"key":"nodeseek:1060670","sourceId":"nodeseek","id":"1060670","title":"问一下，现在有没有买来就可以立刻解锁BL的手机？","keep":true,"score":6,"tags":["手机","解锁BL"],"why":"评论区给出Pixel、一加、小米等可解BL机型","at":1794910064080}
+{"key":"nodeseek:1060679","sourceId":"nodeseek","id":"1060679","title":"paypal被封了怎么办","keep":true,"score":6,"tags":["PayPal","账号"],"why":"求助有具体场景，评论给出联系客服与转人工路径","at":1794910064080}
+{"key":"nodeseek:1060661","sourceId":"nodeseek","id":"1060661","title":"不是哥们，这akko 客服是扎啤吗，能骂客服吗","keep":true,"score":8,"tags":["VPS","踩坑","工单"],"why":"换IP未通工单实锤，评论补充自动化配置问题","at":1794910064080}
+{"key":"nodeseek:1060671","sourceId":"nodeseek","id":"1060671","title":"有没有联通快乐v6机","keep":true,"score":6,"tags":["VPS","IPv6","推荐"],"why":"短提问但评论给出多个IPv6机型及价格对比","at":1794910064080}
+{"key":"nodeseek:1060601","sourceId":"nodeseek","id":"1060601","title":"【出】ByteVirt VPS-1024-KVM-Hinet-D-TW","keep":true,"score":7,"tags":["VPS","二手","测评"],"why":"出售帖附硬件体检与IP质量反馈，有实测信息","at":1794910064080}
+{"key":"nodeseek:1060657","sourceId":"nodeseek","id":"1060657","title":"+50收台ShanDun DE 9929 2刀/月","keep":false,"score":2,"tags":["求购","VPS"],"why":"纯求购且无配置与讨论，信息量极低","at":1794910064080}
+{"key":"nodeseek:994421","sourceId":"nodeseek","id":"994421","title":"20接figma认证","keep":false,"score":0,"tags":["广告","接单"],"why":"纯接单广告，无任何信息增量","at":1794910064080}
+{"key":"nodeseek:1060215","sourceId":"nodeseek","id":"1060215","title":"黑五马上到了，有什么值得抢的吗？","keep":true,"score":4,"tags":["黑五","VPS","讨论"],"why":"泛泛询问，评论仅两条预热线索，多数无推荐","at":1794910064080}
+{"key":"nodeseek:1060646","sourceId":"nodeseek","id":"1060646","title":"【求购】有没有jev本家的5美刀赠金账号卖？","keep":false,"score":0,"tags":["求购","账号","风险"],"why":"买卖赠金账号有违规风险，评论仅跟风求收","at":1794910064080}
+{"key":"nodeseek:1060628","sourceId":"nodeseek","id":"1060628","title":"160收 TAXI JP/LA 10 刀","keep":true,"score":5,"tags":["VPS","交易","行情"],"why":"求购帖评论澄清套餐规格并出现实际报价","at":1794910064080}
+{"key":"nodeseek:1060647","sourceId":"nodeseek","id":"1060647","title":"Legend SG 难民可以转移去哪里？","keep":true,"score":5,"tags":["VPS","商家变动","求助"],"why":"提及Legend SG被接手，有商家变动信息但无方案","at":1794910064080}
+{"key":"nodeseek:1060609","sourceId":"nodeseek","id":"1060609","title":"15出aether lax 2.2刀不包push","keep":true,"score":3,"tags":["交易","VPS"],"why":"转让自用机，评论仅问价与跑分，信息量有限","at":1794910064080}
+{"key":"nodeseek:1060488","sourceId":"nodeseek","id":"1060488","title":"这次CC cloudcone的黑五活动不仅配置低价格还贵，上车要谨慎，我推过的后期绝大部分都溢价了，这次没有性价比我就不推了，不坑人","keep":true,"score":8,"tags":["黑五","VPS","避坑"],"why":"有性价比警示，评论补充联通网络实测问题","at":1794910064080}
+{"key":"nodeseek:1060410","sourceId":"nodeseek","id":"1060410","title":"出售zouter hk 老款.155ip,移动V6快乐机","keep":false,"score":0,"tags":["出售"],"why":"无正文无评论，纯出售信息无内容","at":1794910064080}
+{"key":"nodeseek:1060616","sourceId":"nodeseek","id":"1060616","title":"【已收】剩余价值收legend sg 1刀/月或者44刀/3年","keep":false,"score":0,"tags":["求购"],"why":"纯求购帖，无有效信息","at":1794910064080}
+{"key":"nodeseek:1060547","sourceId":"nodeseek","id":"1060547","title":"ovh 黑五还有买的必要吗","keep":true,"score":5,"tags":["OVH","黑五"],"why":"讨论OVH黑五涨价，评论补充价格来源","at":1794910064080}
+{"key":"nodeseek:1060604","sourceId":"nodeseek","id":"1060604","title":"nosla 的退款申请入口在哪？","keep":true,"score":6,"tags":["退款","VPS"],"why":"评论给出退款入口并提示排到明年","at":1794910064080}
+{"key":"nodeseek:1060577","sourceId":"nodeseek","id":"1060577","title":"收dmit eb 10.9的","keep":false,"score":0,"tags":["求购"],"why":"纯收机帖，评论仅问价","at":1794910064080}
+{"key":"nodeseek:1060605","sourceId":"nodeseek","id":"1060605","title":"减金额优惠码没有了，gpt非盈利母鸡还值得买吗","keep":true,"score":4,"tags":["GPT","讨论"],"why":"有背景的选购疑问，但无回复补充","at":1794910064080}
+{"key":"nodeseek:1060482","sourceId":"nodeseek","id":"1060482","title":"Claude KYC过了以后，能升级MAX吗？","keep":true,"score":6,"tags":["Claude","KYC"],"why":"评论区分门户与Persona认证，有实操信息","at":1794910064080}
+{"key":"1a2x:981","sourceId":"1a2x","id":"981","title":"TerraDomain — 免费域名","keep":false,"score":0,"tags":["推广","免费域名"],"why":"自荐免费域名服务并拉用户，属推广","at":1794910064080}
+{"key":"nodeloc:118237","sourceId":"nodeloc","id":"118237","title":"以后发布IOS 不要去弄国行了 去弄美区吧","keep":false,"score":2,"tags":["iOS","开发"],"why":"仅一句结论，无细节来源，互动极少","at":1794910064080}
+{"key":"nodeloc:118235","sourceId":"nodeloc","id":"118235","title":"业余玩图，想请教Seedream 5.5去哪用比较省心","keep":true,"score":6,"tags":["AI","求助"],"why":"求助背景具体，关注免费额度与性价比","at":1794910064080}
+{"key":"linuxdo:3191802","sourceId":"linuxdo","id":"3191802","title":"在dsh中尝试了多个主流模型,发现只有gpt会去创建子agent,不知道为啥","keep":false,"score":3,"tags":["AI","模型"],"why":"仅一句观察，无过程数据，评论无实质补充","at":1794910064080}
+{"key":"linuxdo:3191780","sourceId":"linuxdo","id":"3191780","title":"Claude 生死薄网站","keep":false,"score":2,"tags":["Claude","网站"],"why":"正文缺失，评论未说明网站用途与价值","at":1794910064080}
+{"key":"linuxdo:3191702","sourceId":"linuxdo","id":"3191702","title":"关于nas，为什么不选择商用小机箱","keep":false,"score":3,"tags":["NAS","硬件"],"why":"仅泛泛提问，无配置需求，评论无有效信息","at":1794910064080}
+{"key":"linuxdo:3191799","sourceId":"linuxdo","id":"3191799","title":"300G的代理池才能反代出opencode2亿Deepseek token，流量费都不够，怪不得大家都去白嫖代理池，或者不走这个路线","keep":true,"score":6,"tags":["AI","代理池","成本"],"why":"给出反代token的具体成本结论，有避坑价值","at":1794910064080}
+{"key":"linuxdo:3191797","sourceId":"linuxdo","id":"3191797","title":"浅浅分析下反重力的封禁政策","keep":false,"score":2,"tags":["Gemini","封禁"],"why":"标题称分析但正文缺失，无可验证信息","at":1794910064080}
+{"key":"linuxdo:3191790","sourceId":"linuxdo","id":"3191790","title":"HY4 Flash和Deepseek V4.1 Flash的个人测试，仅供参考","keep":true,"score":7,"tags":["AI","测评"],"why":"个人模型对比测试，评论补充参数量信息","at":1794910064080}
+{"key":"linuxdo:3191794","sourceId":"linuxdo","id":"3191794","title":"不是哥们，华为云是真敢定价啊","keep":false,"score":2,"tags":["华为云","定价"],"why":"仅一句吐槽，未说明服务与价格，无信息量","at":1794910064080}
+{"key":"linuxdo:3191793","sourceId":"linuxdo","id":"3191793","title":"OpenCode 中的hy4 flash 感觉额度挺多呀","keep":false,"score":3,"tags":["AI","OpenCode"],"why":"仅一句额度感受，无实测数据支撑","at":1794910064080}
+{"key":"linuxdo:3191784","sourceId":"linuxdo","id":"3191784","title":"澳洲留子，想在悉尼做远程 macmini 租赁是否可行","keep":true,"score":3,"tags":["提问","创业"],"why":"帖子在问远程 Mac mini 租赁是否可行，属于无正文的泛泛提问，但场景具体，暂无评论补充","at":1794910064080}
+{"key":"linuxdo:3191751","sourceId":"linuxdo","id":"3191751","title":"现在还有什么渠道能免费用deepseek嘛？","keep":true,"score":3,"tags":["AI","提问"],"why":"帖子在问免费使用 DeepSeek 的渠道，属于泛泛求资源，没有正文和评论中没有实质信息","at":1794910064080}
+{"key":"linuxdo:3191785","sourceId":"linuxdo","id":"3191785","title":"nx2android太牛了，顺利在手机上跑起来2B小姐姐","keep":false,"score":0,"tags":["水贴"],"why":"标题只有一句感叹，正文、方法和评论均无，属于无信息量的单句水文","at":1794910064080}
