@@ -5593,3 +5593,38 @@
 {"key":"linuxdo:3194048","sourceId":"linuxdo","id":"3194048","title":"不得不说, 这份独家情报有够准确! 玩X资讯的可以留意下这个哥们了","keep":false,"score":0,"tags":["水贴","引流"],"why":"无正文，仅指路引流某博主，属无信息量的水帖","at":1794941911617}
 {"key":"linuxdo:3194045","sourceId":"linuxdo","id":"3194045","title":"GPT 6.2来了，测测怎么样","keep":false,"score":1,"tags":["水贴","提问"],"why":"正文空白，只有标题式空泛提问，无实测内容","at":1794941911617}
 {"key":"linuxdo:3194044","sourceId":"linuxdo","id":"3194044","title":"6.2astra的juice number（部分），防御性太强测不出","keep":false,"score":0,"tags":["重复","人工智能"],"why":"与第2条同属6.2模型话题且无正文，按去重保留信息更多的一条","at":1794941911617}
+{"key":"nodeseek:1061804","sourceId":"nodeseek","id":"1061804","title":"Google utral 已经掉了。。。","keep":false,"score":0,"tags":["Google","水贴"],"why":"正文仅一句掉号无证据，评论各执一词","at":1794942472835}
+{"key":"nodeseek:1061798","sourceId":"nodeseek","id":"1061798","title":"raksmart不是自动开机的?","keep":true,"score":6,"tags":["VPS","提问"],"why":"购买后未自动开通，评论确认发工单秒开机","at":1794942472835}
+{"key":"nodeseek:1061805","sourceId":"nodeseek","id":"1061805","title":"Astra6.2初体验","keep":true,"score":3,"tags":["AI","闲聊"],"why":"仅分享一句AI对话，无实测信息","at":1794942472835}
+{"key":"nodeseek:1049560","sourceId":"nodeseek","id":"1049560","title":"请推荐HK性能🐥","keep":true,"score":6,"tags":["VPS","推荐"],"why":"求推荐HK VPS，评论给出配置与跑分","at":1794942472835}
+{"key":"nodeseek:1061803","sourceId":"nodeseek","id":"1061803","title":"依旧plus 与go 不得入内","keep":false,"score":0,"tags":["水贴"],"why":"无正文无评论，标题不明","at":1794942472835}
+{"key":"nodeseek:1061802","sourceId":"nodeseek","id":"1061802","title":"你们6.2astra速度快吗，为啥我的如此之慢","keep":true,"score":7,"tags":["AI","测评"],"why":"附TPS实测，评论补充型号速度对比","at":1794942472835}
+{"key":"nodeseek:1061797","sourceId":"nodeseek","id":"1061797","title":"【溢价收】OVH - KS-LE-6","keep":true,"score":6,"tags":["VPS","交易"],"why":"求购OVH，评论给出补货规律与蹲货建议","at":1794942472835}
+{"key":"nodeseek:587831","sourceId":"nodeseek","id":"587831","title":"sub-store mihomo配置文件生成","keep":true,"score":7,"tags":["Mihomo","教程"],"why":"分享Mihomo规则脚本教程，评论补充手写方案","at":1794942472835}
+{"key":"nodeseek:1061801","sourceId":"nodeseek","id":"1061801","title":"欢迎探讨","keep":true,"score":8,"tags":["开源","OpenWrt"],"why":"开源Mihomo管理套件发布，含功能与仓库","at":1794942472835}
+{"key":"nodeseek:1061800","sourceId":"nodeseek","id":"1061800","title":"老黄 回应 如果需要还是愿意回来的","keep":false,"score":0,"tags":["闲聊","水贴"],"why":"正文仅一句无背景，评论纯猜测","at":1794942472835}
+{"key":"nodeseek:833057","sourceId":"nodeseek","id":"833057","title":"站内新开的 iLatency的分流规则是啥？用了哪些域名和ip？我装了mihomo进行分流，需要准确域名和ip将他们走直连，有人知道有哪些域名和ip是 iLatency的吗","keep":true,"score":6,"tags":["代理","分流","技术提问"],"why":"分流规则求助，评论指出测试IP会污染规则","at":1794942472835}
+{"key":"nodeseek:1061796","sourceId":"nodeseek","id":"1061796","title":"6.2 astra深夜起床体验，防御性表述依旧","keep":true,"score":7,"tags":["AI","模型体验","GPT"],"why":"6.2 Astra一手体验，评论补充速度与额度反馈","at":1794942472835}
+{"key":"nodeseek:1061760","sourceId":"nodeseek","id":"1061760","title":"大帝 到 0755了 apce","keep":false,"score":0,"tags":["政治敏感","水贴"],"why":"隐晦政治暗语刷屏，无实质信息","at":1794942472835}
+{"key":"nodeseek:1061687","sourceId":"nodeseek","id":"1061687","title":"[出]总价80出shandun DE 9929月付2刀","keep":true,"score":6,"tags":["VPS","二手交易","价格"],"why":"二手VPS转让，评论补充CN2线路需求","at":1794942472835}
+{"key":"nodeseek:1061763","sourceId":"nodeseek","id":"1061763","title":"自注册谷歌账号(账号是一年多的老账号)时隔三个月终于解封了，期间申诉了十五次有多！！！","keep":false,"score":0,"tags":["水贴","账号"],"why":"仅报喜无申诉过程，图片邮件不构成经验","at":1794942472835}
+{"key":"nodeseek:1061552","sourceId":"nodeseek","id":"1061552","title":"女帝偷听我心声后，发现我正盘算怎么跑路！搁置了很久的自动化项目！","keep":false,"score":0,"tags":["推广","标题党"],"why":"夹带小说推广链接，无技术细节","at":1794942472835}
+{"key":"nodeseek:1061481","sourceId":"nodeseek","id":"1061481","title":"[Taier] Tyyunidc Ty云科技 香港一区(性能优化CN2) 香港一 2-4 20M 2c4g 80g Unlimited@20Mbps 高峰动态限至最低5Mbps 175r/y","keep":false,"score":0,"tags":["广告","VPS"],"why":"纯VPS促销报价，无正文无讨论","at":1794942472835}
+{"key":"nodeseek:1061451","sourceId":"nodeseek","id":"1061451","title":"英国bt家宽找到了，这个算干净吗？","keep":true,"score":6,"tags":["家宽","IP","英国"],"why":"英国BT家宽咨询，评论补充20刀价格与检测工具","at":1794942472835}
+{"key":"nodeseek:1061462","sourceId":"nodeseek","id":"1061462","title":"咨询下各位佬 关于GPT TEAM 换绑卡的问题","keep":true,"score":6,"tags":["GPT","账号","支付"],"why":"换绑卡求助，评论给出IP与支付设置建议","at":1794942472835}
+{"key":"nodeseek:1061464","sourceId":"nodeseek","id":"1061464","title":"今天收了个HHost39刀","keep":true,"score":7,"tags":["VPS","避坑","测评"],"why":"HHost购买预告，评论揭juhost改名需避坑","at":1794942472835}
+{"key":"nodeseek:1061262","sourceId":"nodeseek","id":"1061262","title":"怎么都在出RakSmart啊","keep":true,"score":6,"tags":["VPS","避坑"],"why":"评论实锤RakSmart质量差、用户集中抛售，有避坑参考价值","at":1794942472835}
+{"key":"nodeseek:572284","sourceId":"nodeseek","id":"572284","title":"【补档】使用阿里云CDT 享受每月200G/4元高速流量","keep":true,"score":9,"tags":["教程","阿里云","CDT"],"why":"补档修订版实操教程，含关键排错点，评论补充真实账单数据","at":1794942472835}
+{"key":"nodeseek:1061419","sourceId":"nodeseek","id":"1061419","title":"claude是不是无法恢复订阅？","keep":true,"score":5,"tags":["提问","Claude"],"why":"带具体场景的订阅恢复提问，信息量一般但非水贴","at":1794942472835}
+{"key":"nodeseek:1061396","sourceId":"nodeseek","id":"1061396","title":"Gemini土区涨价后哪个区便宜啊？","keep":true,"score":6,"tags":["订阅","Gemini"],"why":"评论给出比价站点，有实用补充信息","at":1794942472835}
+{"key":"nodeseek:765997","sourceId":"nodeseek","id":"765997","title":"独角鲸有长期折扣码么？","keep":false,"score":2,"tags":["AFF","求码"],"why":"求折扣码引AFF推广链接，无实质信息","at":1794942472835}
+{"key":"nodeseek:1061342","sourceId":"nodeseek","id":"1061342","title":"📢通知：大家快看看dmit的cmin2？电信把线了？直接电信没速度，你们电信都有速度没？","keep":true,"score":6,"tags":["VPS","线路"],"why":"报告DMIT电信线路疑似异常，属故障异动但评论未证实","at":1794942472835}
+{"key":"nodeloc:118277","sourceId":"nodeloc","id":"118277","title":"做了个可以部署在CF的Pages上的博客站，新文章支持后台发布也支持离线写好直接上传， 大家看看有什么建议，有问题我再改改。","keep":true,"score":7,"tags":["开源","CF Pages"],"why":"自建博客项目发布并征集建议，可复用","at":1794942472835}
+{"key":"linuxdo:3194075","sourceId":"linuxdo","id":"3194075","title":"ultra没掉全，赚大了还有惊喜","keep":false,"score":1,"tags":["纯水"],"why":"无正文的空泛感叹，无任何信息量","at":1794942472835}
+{"key":"linuxdo:3194067","sourceId":"linuxdo","id":"3194067","title":"OpenAI 似乎新模型完蛋了！","keep":false,"score":1,"tags":["标题党","纯水"],"why":"无正文只有结论式标题，评论亦质疑其主观无据","at":1794942472835}
+{"key":"linuxdo:3194074","sourceId":"linuxdo","id":"3194074","title":"6.2的鹈鹕！！之前灰测应该见过了，正式和大家见面，另附上个人用赛博鹈鹕","keep":false,"score":1,"tags":["纯水"],"why":"无正文仅标题，属闲聊水贴","at":1794942472835}
+{"key":"linuxdo:3194070","sourceId":"linuxdo","id":"3194070","title":"6.2-Astra&Sol关于AA-人格基准测试的变化","keep":false,"score":2,"tags":["AI","基准测试"],"why":"正文为空，仅标题提到基准变化，无实测信息","at":1794942472835}
+{"key":"linuxdo:3194069","sourceId":"linuxdo","id":"3194069","title":"6.2 Sol Ultrafast的速度达到了天人之境 240+ t/s","keep":true,"score":4,"tags":["AI","速度测试"],"why":"标题给出240+t/s具体速度数据，但无正文佐证","at":1794942472835}
+{"key":"linuxdo:3194068","sourceId":"linuxdo","id":"3194068","title":"实际上是3点升级","keep":false,"score":1,"tags":["水贴"],"why":"纯水板块且无正文，无任何信息量","at":1794942472835}
+{"key":"linuxdo:3194063","sourceId":"linuxdo","id":"3194063","title":"测了几个，GPT6.2 sol 和Astra 给我的感觉是：又快又耐用又聪明","keep":true,"score":5,"tags":["AI","测评"],"why":"多模型对比体验且互动最好，但缺具体数据支撑","at":1794942472835}
+{"key":"linuxdo:3194060","sourceId":"linuxdo","id":"3194060","title":"关于鹈鹕测试的瓶颈","keep":false,"score":2,"tags":["AI","提问"],"why":"仅标题提问，无背景无正文，无法看出真实问题","at":1794942472835}
