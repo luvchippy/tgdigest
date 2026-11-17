@@ -5813,3 +5813,15 @@
 {"key":"nodeloc:118279","sourceId":"nodeloc","id":"118279","title":"在 iPhone 和 iPad 上本机运行 DSH","keep":true,"score":5,"tags":["移动端","工具"],"why":"提到iPhone本地运行DSH的原生方案，但无实测细节，仅一句概述","at":1794956944004}
 {"key":"linuxdo:3194204","sourceId":"linuxdo","id":"3194204","title":"gpt和codex记忆你们要开启吗","keep":false,"score":1,"tags":["水贴","提问"],"why":"无正文的泛泛提问，无背景无信息量","at":1794956944004}
 {"key":"linuxdo:3194206","sourceId":"linuxdo","id":"3194206","title":"小白的我第一次买到干净家宽IP了记录下","keep":false,"score":2,"tags":["水贴","家宽"],"why":"无正文，评论只在问价格，无任何可参考信息","at":1794956944004}
+{"key":"nodeseek:1061860","sourceId":"nodeseek","id":"1061860","title":"英伟达电话会：董事会主席称公司实力超群，不打算恢复黄仁勋的CEO职务，将从公司内部、外部寻找CEO候选人。","keep":true,"score":6,"tags":["行业","AI芯片"],"why":"含Hopper重签价与B300涨价60%的具体数据，评论多为吐槽董事会","at":1794957536395}
+{"key":"nodeseek:1061861","sourceId":"nodeseek","id":"1061861","title":"66r 收个AdsPower Browser老帐号，有5个免费环境的","keep":false,"score":2,"tags":["交易","求购"],"why":"求购老帐号，无信息量且涉账号交易","at":1794957536395}
+{"key":"nodeseek:1061866","sourceId":"nodeseek","id":"1061866","title":"600 收个1panel永久不限版本","keep":false,"score":2,"tags":["交易","求购"],"why":"求购授权帐号，纯交易无内容","at":1794957536395}
+{"key":"nodeseek:1061864","sourceId":"nodeseek","id":"1061864","title":"大家好，我也又进来坐牢了","keep":false,"score":2,"tags":["水贴"],"why":"单句抒情水贴，仅评论提到墙与V6","at":1794957536395}
+{"key":"nodeseek:1061865","sourceId":"nodeseek","id":"1061865","title":"Claude是涨价了吗","keep":false,"score":2,"tags":["水贴","提问"],"why":"无正文，纯泛泛提问无任何背景","at":1794957536395}
+{"key":"nodeseek:1061863","sourceId":"nodeseek","id":"1061863","title":"[收]妙妙屋永久订阅【带付费标】","keep":false,"score":2,"tags":["交易","求购"],"why":"求购订阅账号，纯交易无信息量","at":1794957536395}
+{"key":"nodeseek:1061862","sourceId":"nodeseek","id":"1061862","title":"50R出喵云-次元喵","keep":false,"score":2,"tags":["交易","转让"],"why":"转卖账号附带停机状态，属低价值交易帖","at":1794957536395}
+{"key":"nodeseek:1056453","sourceId":"nodeseek","id":"1056453","title":"[企业级超稳定GPT6，Fable，image，seedance] AI 编程生成图片视频 速开抽奖，$20订阅日套餐","keep":false,"score":0,"tags":["广告","抽奖"],"why":"抽奖拉新推广中转服务，典型垃圾广告","at":1794957536395}
+{"key":"1a2x:997","sourceId":"1a2x","id":"997","title":"卧槽，终于来了。38🍌","keep":false,"score":1,"tags":["水贴"],"why":"无正文单句感叹，未提供任何信息","at":1794957536395}
+{"key":"linuxdo:3194215","sourceId":"linuxdo","id":"3194215","title":"有没有什么codex切号工具推荐？","keep":true,"score":6,"tags":["AI","经验"],"why":"评论给出隔离profile加session链接的切号实做方案","at":1794957536395}
+{"key":"linuxdo:3194216","sourceId":"linuxdo","id":"3194216","title":"ultrafast 的 6.2 sol 将成为 OpenAI pro 订阅的核心竞争力","keep":false,"score":0,"tags":[],"why":"正文为空，仅标题观点，评论也质疑吹捧，无实质信息","at":1794957536395}
+{"key":"linuxdo:3194218","sourceId":"linuxdo","id":"3194218","title":"6.2astra 简直是拉完了","keep":false,"score":0,"tags":[],"why":"正文为空，单句吐槽无实测或信息量，属临界水贴","at":1794957536395}
