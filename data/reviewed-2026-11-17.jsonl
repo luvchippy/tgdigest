@@ -5712,3 +5712,23 @@
 {"key":"linuxdo:3194125","sourceId":"linuxdo","id":"3194125","title":"OpenAI承认6.2 Astra模型已经能明显加速 AI 研究本身，并把这当作安全风险来管控","keep":false,"score":0,"tags":[],"why":"仅标题无正文，评论无实质补充","at":1794946071162}
 {"key":"linuxdo:3194124","sourceId":"linuxdo","id":"3194124","title":"苹果线上服务大规模宕机","keep":false,"score":0,"tags":[],"why":"仅新闻标题无正文，无信息与讨论","at":1794946071162}
 {"key":"linuxdo:3194123","sourceId":"linuxdo","id":"3194123","title":"佬 ，白嫖 Google Ultra 1个月 需要用什么卡呢？","keep":false,"score":0,"tags":[],"why":"无正文无评论的白嫖类纯水提问","at":1794946071162}
+{"key":"nodeseek:1061823","sourceId":"nodeseek","id":"1061823","title":"怎么搭建节点？有没有大佬帮忙搭建一下","keep":false,"score":0,"tags":[],"why":"小白求代搭，评论无有效方案，属无信息量提问","at":1794946154083}
+{"key":"nodeseek:1061828","sourceId":"nodeseek","id":"1061828","title":"抽个奖吧, 一个月CommandGo订阅","keep":false,"score":0,"tags":["抽奖"],"why":"抽奖送订阅，属抽奖活动宣传","at":1794946154083}
+{"key":"nodeseek:1061826","sourceId":"nodeseek","id":"1061826","title":"【收】收台2.99 / 3.99 的Raksmart cn2 LA","keep":false,"score":2,"tags":["交易","VPS"],"why":"收购帖，只有议价和搭售，信息价值低","at":1794946154083}
+{"key":"nodeseek:1061824","sourceId":"nodeseek","id":"1061824","title":"muse好像加强了风控力度，注册不好整了","keep":true,"score":6,"tags":["AI","风控","注册"],"why":"评论补充地区限制与卡验证，有避坑价值","at":1794946154083}
+{"key":"nodeseek:1061829","sourceId":"nodeseek","id":"1061829","title":"ty云US 80M的口子跑了个NQ直接限速到5M了","keep":true,"score":5,"tags":["VPS","限速","Ty云"],"why":"具体线路限速实测，但缺正文细节","at":1794946154083}
+{"key":"nodeseek:1061822","sourceId":"nodeseek","id":"1061822","title":"新手要想用claude，怎么订阅？需要准备什么？","keep":true,"score":6,"tags":["Claude","订阅","避坑"],"why":"评论给出封号风险与替代方案，有参考价值","at":1794946154083}
+{"key":"nodeseek:1061478","sourceId":"nodeseek","id":"1061478","title":"[NQ] Tyyunidc Ty云科技 香港一区(性能优化CN2) 香港一 2-4 20M 2c4g 80g Unlimited@20Mbps 高峰动态限至最低5Mbps 175r/y","keep":true,"score":7,"tags":["VPS","测评","香港"],"why":"硬件跑分详实，缺网络实测，评论点出短板","at":1794946154083}
+{"key":"nodeseek:1061790","sourceId":"nodeseek","id":"1061790","title":"180收Dstatus不限数量版本/150收Mxroute 10刀三年款","keep":false,"score":1,"tags":["交易"],"why":"纯收购帖，无正文无有效信息","at":1794946154083}
+{"key":"linuxdo:3194106","sourceId":"linuxdo","id":"3194106","title":"plus也收到gpt6.2了","keep":false,"score":1,"tags":["AI"],"why":"仅一句模型推送状态，无细节无讨论","at":1794946154083}
+{"key":"linuxdo:3194104","sourceId":"linuxdo","id":"3194104","title":"muse疑似加上了风控力度，现在注册很慢了","keep":false,"score":0,"tags":["重复"],"why":"与第4条同主题且信息更少，重复","at":1794946154083}
+{"key":"linuxdo:3194098","sourceId":"linuxdo","id":"3194098","title":"6.2 Sol ultrafast测试","keep":false,"score":0,"tags":["水贴"],"why":"无正文，仅标题提及测试，无实质信息","at":1794946154083}
+{"key":"linuxdo:3194097","sourceId":"linuxdo","id":"3194097","title":"Pro200 GPT-6.2-Sol [Ultrafast] 各位佬友开始体验了吗?","keep":false,"score":0,"tags":["水贴"],"why":"无正文，纯询问体验，属水贴","at":1794946154083}
+{"key":"linuxdo:3194096","sourceId":"linuxdo","id":"3194096","title":"Astra 6.2 高质感 鹈鹕 + 蝴蝶题 截图，基本确定就是之前灰测的模型了","keep":false,"score":0,"tags":["水贴"],"why":"无正文，仅标题称截图，无实质内容","at":1794946154083}
+{"key":"nodeseek:1061834","sourceId":"nodeseek","id":"1061834","title":"yt的ix是不是都下架了","keep":true,"score":4,"tags":["VPS","提问"],"why":"有具体现象：官网IX疑似下架，属有效提问","at":1794946154083}
+{"key":"nodeseek:1061832","sourceId":"nodeseek","id":"1061832","title":"GPT-6.2 Astra 和 sol 已实装","keep":true,"score":8,"tags":["OpenAI","模型上线","实测"],"why":"模型分批推送，评论有多人实测确认","at":1794946154083}
+{"key":"nodeseek:1061831","sourceId":"nodeseek","id":"1061831","title":"【NQ】OVH ks-le-6 GRA 29.99欧/m","keep":true,"score":9,"tags":["VPS","跑分","OVH"],"why":"完整硬件跑分与价格，一手实测情报","at":1794946154083}
+{"key":"nodeseek:1061830","sourceId":"nodeseek","id":"1061830","title":"NQ TY云US美国一 80M","keep":true,"score":8,"tags":["VPS","跑分","TY云"],"why":"KVM配置完整跑分，有实测参考价值","at":1794946154083}
+{"key":"nodeseek:1061827","sourceId":"nodeseek","id":"1061827","title":"1200收 adspower指纹浏览器*20个环境账户","keep":false,"score":0,"tags":["交易"],"why":"无正文的账号收购帖，无信息价值","at":1794946154083}
+{"key":"linuxdo:3194118","sourceId":"linuxdo","id":"3194118","title":"装好机之后，玩了20多分钟3A大作好累，直接删了刷短剧","keep":false,"score":0,"tags":["水贴"],"why":"单句日常抒情，无信息量","at":1794946154083}
+{"key":"linuxdo:3194117","sourceId":"linuxdo","id":"3194117","title":"gpt team已开放6.2astra了","keep":false,"score":0,"tags":["重复","水贴"],"why":"与5同主题且无正文，信息量不足","at":1794946154083}
