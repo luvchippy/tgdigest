@@ -5628,3 +5628,26 @@
 {"key":"linuxdo:3194068","sourceId":"linuxdo","id":"3194068","title":"实际上是3点升级","keep":false,"score":1,"tags":["水贴"],"why":"纯水板块且无正文，无任何信息量","at":1794942472835}
 {"key":"linuxdo:3194063","sourceId":"linuxdo","id":"3194063","title":"测了几个，GPT6.2 sol 和Astra 给我的感觉是：又快又耐用又聪明","keep":true,"score":5,"tags":["AI","测评"],"why":"多模型对比体验且互动最好，但缺具体数据支撑","at":1794942472835}
 {"key":"linuxdo:3194060","sourceId":"linuxdo","id":"3194060","title":"关于鹈鹕测试的瓶颈","keep":false,"score":2,"tags":["AI","提问"],"why":"仅标题提问，无背景无正文，无法看出真实问题","at":1794942472835}
+{"key":"nodeseek:1061814","sourceId":"nodeseek","id":"1061814","title":"分享一下利用 AA 来找甜点模型或者甜点effort","keep":true,"score":7,"tags":["AI","模型选型","经验"],"why":"给出AA性价比选型方法与实测观察，评论补充六档落地建议","at":1794944262680}
+{"key":"nodeseek:1061807","sourceId":"nodeseek","id":"1061807","title":"Claude大佬们帮帮忙","keep":true,"score":6,"tags":["Claude","订阅","求助"],"why":"订阅付款受阻的具体问题，评论给出Google Play+国内卡、港卡可行方案","at":1794944262680}
+{"key":"nodeseek:1061000","sourceId":"nodeseek","id":"1061000","title":"claude争议成功，我爱N26，N26无敌","keep":true,"score":8,"tags":["Claude","退款","避坑"],"why":"封号后退款实操路径完整，附凭证，评论有人求抄作业","at":1794944262680}
+{"key":"nodeseek:1061789","sourceId":"nodeseek","id":"1061789","title":"大半夜没忍住又买了个学费米","keep":false,"score":0,"tags":["水贴"],"why":"无正文无评论，纯单句情绪表达","at":1794944262680}
+{"key":"nodeseek:1061812","sourceId":"nodeseek","id":"1061812","title":"出netcup 德国 vps2000，续费17.61刀","keep":true,"score":3,"tags":["VPS","二手交易"],"why":"转让信息缺配置线路，仅报价17.61刀，评论追问未答","at":1794944262680}
+{"key":"nodeseek:1061799","sourceId":"nodeseek","id":"1061799","title":"OpenAI这波发布没啥稀奇的，意料之中","keep":true,"score":7,"tags":["AI","行业","讨论"],"why":"发布节点分析，评论补充fable降价与token效率的实际成本对比","at":1794944262680}
+{"key":"nodeseek:1061777","sourceId":"nodeseek","id":"1061777","title":"6.2Astra出了，下一个阻击A/上市的模型会是谁呢","keep":false,"score":1,"tags":["重复","水贴"],"why":"与同批OpenAI/Astra发布讨论高度重合，正文仅一句口号","at":1794944262680}
+{"key":"nodeseek:1061813","sourceId":"nodeseek","id":"1061813","title":"[TQ] SPECIAL 40G KVM PROMO V5 - TOKYO CN2 GIA","keep":true,"score":6,"tags":["VPS","测评","线路"],"why":"含CN2 GIA回程与单线程测速实测数据，但只有链接无观点","at":1794944262680}
+{"key":"nodeseek:1061767","sourceId":"nodeseek","id":"1061767","title":"收台CCS杜甫，有出的老板看过来","keep":true,"score":6,"tags":["VPS","求购"],"why":"正文仅RT，但评论给出LT在售链接与99/149刀年付行情","at":1794944262680}
+{"key":"nodeseek:1061809","sourceId":"nodeseek","id":"1061809","title":"电信用美西cn2 gia和沪美专线","keep":true,"score":5,"tags":["VPS","线路","提问"],"why":"带地域与实测延迟的具体提问，可惜无回复补充对比数据","at":1794944262680}
+{"key":"nodeseek:1061661","sourceId":"nodeseek","id":"1061661","title":"美国运通实体卡支付Claude，有支付帐号数限制吗？","keep":true,"score":7,"tags":["支付","风控","Claude"],"why":"支付风控与卡限经验，评论有银行实测","at":1794944262680}
+{"key":"nodeseek:1061785","sourceId":"nodeseek","id":"1061785","title":"（快讯）苹果出现服务器死机","keep":true,"score":6,"tags":["故障","苹果"],"why":"苹果多项服务异常快讯，附状态页","at":1794944262680}
+{"key":"nodeseek:1061768","sourceId":"nodeseek","id":"1061768","title":"Pro 100 在 Codex 收到了两个新模型，工作模式收到了一个。","keep":true,"score":6,"tags":["AI","模型","Codex"],"why":"Codex新模型灰度消息，评论补充6.2 Sol","at":1794944262680}
+{"key":"nodeseek:1061778","sourceId":"nodeseek","id":"1061778","title":"收一套google gemini 土区 ultra5x 或者ultra20x","keep":false,"score":2,"tags":["交易","Gemini"],"why":"账号求购交易帖，信息价值低且有风险","at":1794944262680}
+{"key":"nodeseek:1061649","sourceId":"nodeseek","id":"1061649","title":"230出嫁人SJC-Pre-SS2026-S","keep":false,"score":2,"tags":["VPS","转让","避坑"],"why":"二手转让但端口异常，评论指商家作妖不敢接","at":1794944262680}
+{"key":"nodeseek:1061637","sourceId":"nodeseek","id":"1061637","title":"ovh 美区黑五也没了","keep":true,"score":7,"tags":["OVH","黑五","库存"],"why":"黑五KS-LE-6库存讨论，评论反馈抢购情况","at":1794944262680}
+{"key":"nodeseek:1061641","sourceId":"nodeseek","id":"1061641","title":"ovh SYS-STOR-LE-1 2026 black friday 4 x 12tb（48t）","keep":false,"score":0,"tags":["OVH","黑五"],"why":"仅标题无正文无互动，信息为零","at":1794944262680}
+{"key":"nodeseek:1061609","sourceId":"nodeseek","id":"1061609","title":"人找车，v.ps gen2，超轻量","keep":false,"score":0,"tags":["拼车","VPS"],"why":"标题含糊无正文无互动，无法判断信息","at":1794944262680}
+{"key":"nodeseek:1061668","sourceId":"nodeseek","id":"1061668","title":"收 - 溢价333收KS-LE-6 2*1.92T nvme 法国","keep":false,"score":2,"tags":["交易","VPS"],"why":"单一求购帖，无正文无互动","at":1794944262680}
+{"key":"linuxdo:3194082","sourceId":"linuxdo","id":"3194082","title":"ai说我的小鸡在被机器人暴力破解","keep":true,"score":6,"tags":["安全","VPS","暴力破解"],"why":"评论科普公网被扫常态与密钥加固","at":1794944262680}
+{"key":"nodeseek:1061816","sourceId":"nodeseek","id":"1061816","title":"最新的Google AI Ultra 20x Bug价是怎么弄的？","keep":false,"score":0,"tags":[],"why":"正文仅“rt”无实质内容，属无信息量提问，且没有评论补充","at":1794944262680}
+{"key":"nodeseek:1061815","sourceId":"nodeseek","id":"1061815","title":"+150收 白丝云 4837 299","keep":false,"score":2,"tags":["交易"],"why":"个人收货帖，无价格依据或实测信息，对读者没有参考价值","at":1794944262680}
+{"key":"linuxdo:3194090","sourceId":"linuxdo","id":"3194090","title":"GPT6.2 MAX 鹈鹕，花了42分钟。。。不知道这翅膀是什么情况","keep":false,"score":3,"tags":["AI绘画"],"why":"没有正文和实测数据，评论只泛谈提示词与模型差异","at":1794944262680}
