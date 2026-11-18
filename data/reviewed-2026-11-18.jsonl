@@ -5399,3 +5399,7 @@
 {"key":"nodeseek:1064423","sourceId":"nodeseek","id":"1064423","title":"Windows里大家都用不用包管理器？","keep":true,"score":7,"tags":["Windows","软件"],"why":"包管理器经验讨论，评论补充scoop与winget实操细节","at":1795034264140}
 {"key":"nodeseek:1042204","sourceId":"nodeseek","id":"1042204","title":"aether家的几个有什么区别","keep":false,"score":1,"tags":["提问"],"why":"无正文无评论，提问过于空泛无法回答","at":1795034264140}
 {"key":"linuxdo:3200153","sourceId":"linuxdo","id":"3200153","title":"gpt 搞不懂该在文档中写什么东西","keep":false,"score":2,"tags":["AI","提问"],"why":"无正文，仅一句泛泛提问，互动数据低","at":1795034264140}
+{"key":"nodeseek:1064382","sourceId":"nodeseek","id":"1064382","title":"[已出]出绿云JP软银和SJC闪购鸡","keep":false,"score":1,"tags":["交易","已出"],"why":"无正文、无评论的二手出售帖，且已出，无信息量","at":1795034282152}
+{"key":"nodeseek:1064423","sourceId":"nodeseek","id":"1064423","title":"Windows里大家都用不用包管理器？","keep":true,"score":6,"tags":["Windows","讨论"],"why":"包管理器使用经验讨论，评论补充了 scoop 和 winget 的实际用法","at":1795034282152}
+{"key":"nodeseek:1042204","sourceId":"nodeseek","id":"1042204","title":"aether家的几个有什么区别","keep":false,"score":2,"tags":["提问"],"why":"无正文无评论，缺少背景的泛泛提问，无法判断","at":1795034282152}
+{"key":"linuxdo:3200153","sourceId":"linuxdo","id":"3200153","title":"gpt 搞不懂该在文档中写什么东西","keep":false,"score":2,"tags":["AI","提问"],"why":"无正文、没有评论内容，泛泛提问且没有有效讨论","at":1795034282152}
