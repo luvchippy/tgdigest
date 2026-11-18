@@ -4773,3 +4773,36 @@
 {"key":"nodeseek:1063982","sourceId":"nodeseek","id":"1063982","title":"怎么体感上明显感觉pro的gemini额度变少了","keep":false,"score":2,"tags":["提问","水贴"],"why":"无正文，评论偏离主题，讨论在闲鱼买号白嫖，无实质信息","at":1795016263889}
 {"key":"1a2x:1032","sourceId":"1a2x","id":"1032","title":"送一波免费节点，随便蹬，用完为止","keep":false,"score":0,"tags":["推广","免费节点"],"why":"以送节点为名引导关注，属于推广拉人，因此属于垃圾内容","at":1795016263889}
 {"key":"nodeloc:118413","sourceId":"nodeloc","id":"118413","title":"MySQL爆4个高危漏洞，请立即关闭公网访问","keep":true,"score":7,"tags":["安全","MySQL","漏洞预警"],"why":"列出具体受影响版本并提示关闭公网，属于有用的安全预警","at":1795016263889}
+{"key":"nodeseek:1064134","sourceId":"nodeseek","id":"1064134","title":"有mjj知道英国的3uk卡怎么激活和保号吗","keep":true,"score":6,"tags":["SIM卡","求助"],"why":"具体求助3UK卡激活与保号，有真实场景但无实测","at":1795016312398}
+{"key":"nodeseek:1064137","sourceId":"nodeseek","id":"1064137","title":"「收」土区 gmini 20x+apple id","keep":false,"score":0,"tags":["交易","账号"],"why":"账号收购交易帖，无信息量且涉账号买卖风险","at":1795016312398}
+{"key":"nodeseek:1064073","sourceId":"nodeseek","id":"1064073","title":"[NQ] SixtyNet 加州Wave家宽 2G口 5T流量 ＄21/月","keep":true,"score":9,"tags":["VPS","测评","家宽"],"why":"完整硬件跑分与价格，评论补充补货及购买验证","at":1795016312398}
+{"key":"nodeseek:1064138","sourceId":"nodeseek","id":"1064138","title":"MUSE 不听话，大家都怎么办？","keep":true,"score":4,"tags":["求助","工具"],"why":"具体工具使用求助但信息量有限，评论无有效方案","at":1795016312398}
+{"key":"nodeseek:1064077","sourceId":"nodeseek","id":"1064077","title":"目前有没有医学相关好用的AI","keep":true,"score":6,"tags":["AI","医学"],"why":"医学AI泛问，评论给出具体工具与风控体验","at":1795016312398}
+{"key":"nodeseek:1064140","sourceId":"nodeseek","id":"1064140","title":"【收】AlphaVPS 黑五款 30欧以内","keep":false,"score":2,"tags":["求购","VPS"],"why":"单纯求购黑五VPS，无实测或情报价值","at":1795016312398}
+{"key":"nodeseek:1064142","sourceId":"nodeseek","id":"1064142","title":"claude 订阅 kyc 来一个","keep":false,"score":0,"tags":["交易","账号"],"why":"求代过KYC订阅交易，涉账号服务且无信息价值","at":1795016312398}
+{"key":"nodeseek:1064128","sourceId":"nodeseek","id":"1064128","title":"raksmart 换ip费用","keep":true,"score":8,"tags":["VPS","避坑","价格"],"why":"附Raksmart换IP罚金细则，评论补充替代方案","at":1795016312398}
+{"key":"nodeseek:1064136","sourceId":"nodeseek","id":"1064136","title":"紧急提醒Mysql爆漏洞，请关闭你的端口","keep":true,"score":9,"tags":["安全","MySQL"],"why":"附Oracle官方安全公告与影响版本，属高危漏洞预警","at":1795016312398}
+{"key":"nodeseek:1064129","sourceId":"nodeseek","id":"1064129","title":"playstation 官网已崩溃","keep":true,"score":6,"tags":["PlayStation","故障"],"why":"附官网报错截图，评论补充下载与体验，属实时故障","at":1795016312398}
+{"key":"nodeseek:1064141","sourceId":"nodeseek","id":"1064141","title":"lightnode跑路了吗？官网进不去了","keep":true,"score":4,"tags":["VPS","故障"],"why":"仅一句官网进不去，无实测与评论佐证","at":1795016312398}
+{"key":"nodeseek:1064124","sourceId":"nodeseek","id":"1064124","title":"iperf3用完一定要记得关","keep":true,"score":7,"tags":["运维","经验"],"why":"给出卸载命令，评论补充安装时禁止自动启动","at":1795016312398}
+{"key":"nodeseek:1064130","sourceId":"nodeseek","id":"1064130","title":"大家的Gemini ultra有没有缩水？","keep":false,"score":0,"tags":[],"why":"单句抱怨额度消耗快，评论无实质信息","at":1795016312398}
+{"key":"nodeseek:1064121","sourceId":"nodeseek","id":"1064121","title":"大佬们，这两个鸡有啥坑吗？太便宜了","keep":true,"score":7,"tags":["VPS","避坑"],"why":"评论指认Lisahost为新人坑，并说明dedirock非优化线路","at":1795016312398}
+{"key":"nodeseek:1064139","sourceId":"nodeseek","id":"1064139","title":"已成功将claude落地鸡交接给datawave sg（广播机房ip）","keep":true,"score":7,"tags":["VPS","实测"],"why":"实测datawave广播IP跑Claude正常，细节略少","at":1795016312398}
+{"key":"nodeseek:1064131","sourceId":"nodeseek","id":"1064131","title":"有没有跨网盘秒传工具","keep":true,"score":3,"tags":["网盘","求助"],"why":"具体求秒传工具，评论仅回不太可能，无有效方案","at":1795016312398}
+{"key":"nodeseek:1064107","sourceId":"nodeseek","id":"1064107","title":"手机能连电脑不能连是啥意思啊","keep":false,"score":0,"tags":[],"why":"只有一句故障描述且无正文无评论，无法讨论","at":1795016312398}
+{"key":"nodeseek:1064009","sourceId":"nodeseek","id":"1064009","title":"困扰了我好几年的问题，被两分钟ai解决了","keep":true,"score":7,"tags":["运维","安全"],"why":"正文仅转链，评论补充宝塔上传数据风险与旧案","at":1795016312398}
+{"key":"nodeseek:1064101","sourceId":"nodeseek","id":"1064101","title":"riven是不想卖了吗","keep":true,"score":5,"tags":["VPS","价格"],"why":"讨论亚太优化线路涨价，评论称美西跟涨","at":1795016312398}
+{"key":"nodeseek:1064075","sourceId":"nodeseek","id":"1064075","title":"额 刚刚用着用着就跳钓鱼网站，我电脑是不是中毒了我是不是要打开卡巴斯基","keep":true,"score":8,"tags":["安全","故障排查"],"why":"截图实证钓鱼页，评论以F12定位并怀疑扩展","at":1795016312398}
+{"key":"nodeseek:1063717","sourceId":"nodeseek","id":"1063717","title":"（29.9r收）Libra Player 全端兑换码","keep":false,"score":0,"tags":["交易","求购"],"why":"无正文无评论的兑换码求购，无信息价值","at":1795016312398}
+{"key":"nodeseek:1064040","sourceId":"nodeseek","id":"1064040","title":"+200/150 收 skyline SG l型或者s型的五折/六五折","keep":false,"score":0,"tags":["VPS","交易"],"why":"VPS收购水贴，正文与评论均无实质信息","at":1795016312398}
+{"key":"nodeseek:1064034","sourceId":"nodeseek","id":"1064034","title":"【NQ】 DMIT corona","keep":true,"score":8,"tags":["VPS","测评","DMIT"],"why":"含硬件跑分与IP质量实测，完整一手测评","at":1795016312398}
+{"key":"nodeseek:1064043","sourceId":"nodeseek","id":"1064043","title":"有人花69刀一个月买 2Mbps的 gen2吗？","keep":true,"score":5,"tags":["VPS","讨论"],"why":"高价低带宽吐槽，评论补充专线价格对比","at":1795016312398}
+{"key":"nodeseek:1064047","sourceId":"nodeseek","id":"1064047","title":"分享个 macOS 菜单栏小工具：agent battery，查看 Codex / Antigravity 剩余额度","keep":true,"score":8,"tags":["开源","macOS","工具"],"why":"开源macOS菜单栏工具，功能与使用说明完整","at":1795016312398}
+{"key":"nodeseek:1063976","sourceId":"nodeseek","id":"1063976","title":"瓦工荷兰来了，请各位彦祖赏我一个码子","keep":true,"score":5,"tags":["VPS","价格","瓦工"],"why":"购物车图显示荷兰$39年付需邀请码，评论确认有货","at":1795016312398}
+{"key":"nodeseek:1063759","sourceId":"nodeseek","id":"1063759","title":"50收个波士顿bu.edu 新注册的那种","keep":false,"score":0,"tags":["交易","邮箱"],"why":"教育邮箱收购贴，仅一句如题，无信息价值","at":1795016312398}
+{"key":"nodeseek:1063880","sourceId":"nodeseek","id":"1063880","title":"请教一下，大家讲的 VPS 交易走中介是什么意思，中介去哪找(｡･ω･｡)?","keep":true,"score":6,"tags":["VPS","交易","问答"],"why":"交易中介科普问答，评论给出索引与费率","at":1795016312398}
+{"key":"nodeseek:1064006","sourceId":"nodeseek","id":"1064006","title":"【收】wawo 59","keep":false,"score":0,"tags":["VPS","求购"],"why":"VPS求购贴，无评论无补充，信息量低","at":1795016312398}
+{"key":"nodeseek:1056705","sourceId":"nodeseek","id":"1056705","title":"咨询一下论坛的佬，你们的账号密码 以及截图 附件等，都是怎么管理的","keep":true,"score":7,"tags":["账号安全","工具","讨论"],"why":"密码与截图管理讨论，评论给出多款工具","at":1795016312398}
+{"key":"nodeseek:1063982","sourceId":"nodeseek","id":"1063982","title":"怎么体感上明显感觉pro的gemini额度变少了","keep":false,"score":1,"tags":["提问","水贴"],"why":"无正文，评论只在问怎么在闲鱼买账号，没有实质信息","at":1795016312398}
+{"key":"1a2x:1032","sourceId":"1a2x","id":"1032","title":"送一波免费节点，随便蹬，用完为止","keep":false,"score":0,"tags":["广告","节点"],"why":"诱导关注，分发订阅链接，属于拉人头推广","at":1795016312398}
+{"key":"nodeloc:118413","sourceId":"nodeloc","id":"118413","title":"MySQL爆4个高危漏洞，请立即关闭公网访问","keep":true,"score":7,"tags":["安全","MySQL"],"why":"带影响版本与应急建议的高危漏洞告警，有实操价值","at":1795016312398}
