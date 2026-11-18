@@ -4945,3 +4945,79 @@
 {"key":"nodeseek:1064120","sourceId":"nodeseek","id":"1064120","title":"出 lamhosting de zero 9929 8折 12.79月付","keep":true,"score":5,"tags":["交易","VPS"],"why":"二手转卖信息具体，含价格到期流量，评论已有议价互动","at":1795019865770}
 {"key":"1a2x:1037","sourceId":"1a2x","id":"1037","title":"[资讯] Xint 披露 5 个 nginx 漏洞，可打到主机 root","keep":true,"score":8,"tags":["安全","资讯","nginx"],"why":"披露5个nginx漏洞链式提权细节及修复版本，属行业安全情报","at":1795019865770}
 {"key":"1a2x:1036","sourceId":"1a2x","id":"1036","title":"发现一个不限制设备的免费高速节点","keep":false,"score":0,"tags":["推广","AFF"],"why":"带邀请链接注册送流量，属拉新返利推广","at":1795019865770}
+{"key":"nodeseek:1064207","sourceId":"nodeseek","id":"1064207","title":"咋这么多新账号要加 gemini 的家庭组，还只要网页","keep":true,"score":5,"tags":["Gemini","讨论"],"why":"评论区补充了网页端和反重力端额度分开、消耗不慢的实际体验","at":1795019976322}
+{"key":"nodeseek:1064218","sourceId":"nodeseek","id":"1064218","title":"出+86接码渠道，可接whatapp,电报要慢慢刷","keep":false,"score":0,"tags":["广告","接码"],"why":"明盘卖接码渠道，属交易推广，评论也质疑注册后易被风控","at":1795019976322}
+{"key":"nodeseek:1064228","sourceId":"nodeseek","id":"1064228","title":"挂一只烦人的苍蝇","keep":false,"score":0,"tags":["挂人","纠纷"],"why":"无正文的挂人帖，无实质信息，易引人身攻击","at":1795019976322}
+{"key":"nodeseek:1064203","sourceId":"nodeseek","id":"1064203","title":"各位大雕，黑五有没有推荐上车的鸡","keep":true,"score":6,"tags":["VPS","黑五"],"why":"评论给出 CN2 和 CMIN2 具体机型及 25 日放货时间","at":1795019976322}
+{"key":"nodeseek:1064243","sourceId":"nodeseek","id":"1064243","title":"同一个环境可以最多可以注册几个Gmail呢？","keep":true,"score":7,"tags":["Gmail","实测"],"why":"评论给出实测 50 个号、一年内大概率全死的经验数据","at":1795019976322}
+{"key":"nodeseek:1064238","sourceId":"nodeseek","id":"1064238","title":"好消息：用Nginx的今晚别睡了","keep":false,"score":0,"tags":["Nginx","漏洞"],"why":"与第 8 条同源重复，该条未给修复版本，保留第 8 条","at":1795019976322}
+{"key":"nodeseek:1064244","sourceId":"nodeseek","id":"1064244","title":"现在gemini是封杀一切反代是吗","keep":true,"score":7,"tags":["Gemini","封号"],"why":"一手反代被封 403 完整报错与项目链接，可供避坑参考","at":1795019976322}
+{"key":"nodeseek:1064241","sourceId":"nodeseek","id":"1064241","title":"Nginx HTTP/2 提权漏洞（补丁已发布）","keep":true,"score":9,"tags":["Nginx","漏洞","安全"],"why":"漏洞影响面明确且给出已修复版本号，运维可立即处置","at":1795019976322}
+{"key":"nodeseek:1064178","sourceId":"nodeseek","id":"1064178","title":"土区网页的学生优惠pro怎么付款啊，必须土耳其的卡吗","keep":true,"score":5,"tags":["订阅","土区"],"why":"评论披露土区学生订阅疑似清退，正反双方对峙但无定论","at":1795019976322}
+{"key":"nodeseek:1064242","sourceId":"nodeseek","id":"1064242","title":"出最后一台 ovh 特价独服 SYS-STOR-LE-2","keep":false,"score":0,"tags":["交易","广告"],"why":"溢价 1000+ 转售独服的交易帖，属推广性质，无信息增量","at":1795019976322}
+{"key":"nodeseek:1064225","sourceId":"nodeseek","id":"1064225","title":"今日签到获得鸡腿3个，当前排名第291 认真的吗！","keep":false,"score":0,"tags":["签到","水贴"],"why":"签到灌水，无任何信息量","at":1795019976322}
+{"key":"nodeseek:1030435","sourceId":"nodeseek","id":"1030435","title":"已经收到了 【人找车】求一个线路机拼车","keep":false,"score":0,"tags":["拼车","交易"],"why":"已完成的拼车求购，无通用信息","at":1795019976322}
+{"key":"nodeseek:1064081","sourceId":"nodeseek","id":"1064081","title":"送鸡腿，帮朋友问下gta6有没有高跟鞋👠内容","keep":false,"score":0,"tags":["闲聊","游戏"],"why":"八卦式闲聊，无有效信息","at":1795019976322}
+{"key":"nodeseek:1064233","sourceId":"nodeseek","id":"1064233","title":"Ultra Mobile PayGo $3/月 这个卡这么贵吗？","keep":true,"score":6,"tags":["eSIM","美国卡"],"why":"评论提示大规模封号风险与替代卡","at":1795019976322}
+{"key":"nodeseek:1064159","sourceId":"nodeseek","id":"1064159","title":"哪里有便宜甚至免费的国内AI接口呢","keep":false,"score":0,"tags":["提问","水贴"],"why":"正文为空，泛泛求资源","at":1795019976322}
+{"key":"nodeseek:1064209","sourceId":"nodeseek","id":"1064209","title":"deadirock的25刀一年8G运存机器","keep":true,"score":6,"tags":["VPS","套餐情报"],"why":"截图提供具体配置价格库存，无实测","at":1795019976322}
+{"key":"nodeseek:1064123","sourceId":"nodeseek","id":"1064123","title":"求帮过gmail扫码验证 不知道多少费用合适","keep":false,"score":0,"tags":["账号","违规"],"why":"求代过账号验证，涉违规灰产","at":1795019976322}
+{"key":"nodeseek:1060107","sourceId":"nodeseek","id":"1060107","title":"「收」Promo- Delta -Dual-route 利群 双出口 1800G 400Mbps 带宽","keep":false,"score":0,"tags":["交易","收购"],"why":"收购广告且正文仅RT，无信息","at":1795019976322}
+{"key":"nodeseek:1064200","sourceId":"nodeseek","id":"1064200","title":"乞讨篇：特别喜欢电报的老频道，有大哥不用的老频道吗？","keep":false,"score":0,"tags":["水贴","求资源"],"why":"乞讨求频道，纯水无信息","at":1795019976322}
+{"key":"nodeseek:1064184","sourceId":"nodeseek","id":"1064184","title":"有没有发现现在随便哪个万人骑vps都能解锁奈飞非自制剧了？","keep":true,"score":6,"tags":["Netflix","VPS"],"why":"多节点解锁观察，评论讨论需求变化","at":1795019976322}
+{"key":"nodeseek:1064182","sourceId":"nodeseek","id":"1064182","title":"OVH的型号看的眼花缭乱，推荐个？","keep":false,"score":2,"tags":["提问","VPS"],"why":"只有一句求推荐，无正文和评论，信息量太低","at":1795019976322}
+{"key":"nodeseek:1064193","sourceId":"nodeseek","id":"1064193","title":"为什么我总是感觉自己玩哪样烂哪样，吹哪样死哪样？","keep":true,"score":6,"tags":["线路异动","避坑"],"why":"汇总多家线路劣化情况，评论补充corona移动段跨网差","at":1795019976322}
+{"key":"nodeseek:1064154","sourceId":"nodeseek","id":"1064154","title":"🎬 BotVod 视频解析站· 从「解析能下就行」到「下完还能剪」—又出新功能了","keep":false,"score":0,"tags":["推广","广告"],"why":"自建解析站软文推广，评论有实锤称504不稳定","at":1795019976322}
+{"key":"nodeseek:1064202","sourceId":"nodeseek","id":"1064202","title":"如何做到年化10%收益","keep":true,"score":5,"tags":["理财","讨论"],"why":"列出具体标的与仓位思路，评论质疑10%难稳定","at":1795019976322}
+{"key":"nodeseek:1063817","sourceId":"nodeseek","id":"1063817","title":"已出 raksmart的cn2+4837 已组内网","keep":true,"score":6,"tags":["VPS","交易","实测"],"why":"附订单与三网169ms实测图，价格配置清楚","at":1795019976322}
+{"key":"nodeseek:1064219","sourceId":"nodeseek","id":"1064219","title":"Gemini 4 Carbon经常拒绝我的涩涩怎么办","keep":false,"score":2,"tags":["闲聊","NSFW"],"why":"讨论模型绕审查的话术，无有效技术信息","at":1795019976322}
+{"key":"nodeseek:1064252","sourceId":"nodeseek","id":"1064252","title":"Grok bot","keep":false,"score":2,"tags":["提问","AI"],"why":"仅问是否降智，无对比数据，评论也无结论","at":1795019976322}
+{"key":"nodeseek:1064264","sourceId":"nodeseek","id":"1064264","title":"【人找车】求电信/联通优化线路机拼车，美西/亚太均可，自用做前置","keep":true,"score":4,"tags":["拼车","需求"],"why":"需求写得具体，线路预算流量明确，或可匹配车主","at":1795019976322}
+{"key":"nodeseek:1064260","sourceId":"nodeseek","id":"1064260","title":"豆包居然可以帮忙清理C盘，瞬间C盘的可用空间多了很多","keep":false,"score":1,"tags":["水贴","AI"],"why":"单句无细节，评论一边倒吐槽敢让AI碰C盘","at":1795019976322}
+{"key":"nodeseek:1064263","sourceId":"nodeseek","id":"1064263","title":"[出] 干杯云 ATT 5号线 极品线 月付138","keep":true,"score":3,"tags":["交易","VPS"],"why":"转让信息含到期日与续费8折，但无实测数据","at":1795019976322}
+{"key":"nodeseek:1064261","sourceId":"nodeseek","id":"1064261","title":"deepseek v4.1 flash接哪个harness比较好","keep":true,"score":4,"tags":["AI工具","提问"],"why":"技术选型提问但信息单薄，仅一条评论","at":1795019976322}
+{"key":"nodeseek:1064262","sourceId":"nodeseek","id":"1064262","title":"有的商家不能用ns邮箱注册怎么办","keep":true,"score":3,"tags":["邮箱","求助"],"why":"邮箱注册求助，评论仅泛泛建议无实质","at":1795019976322}
+{"key":"nodeseek:1064247","sourceId":"nodeseek","id":"1064247","title":"Windows 11, version 26H2 有必要升级吗？","keep":true,"score":4,"tags":["Windows","讨论"],"why":"升级咨询帖，评论只有主观好评无细节","at":1795019976322}
+{"key":"nodeseek:1064250","sourceId":"nodeseek","id":"1064250","title":"rak连接问题","keep":true,"score":7,"tags":["网络","故障"],"why":"真实线路超时讨论，评论补充墙与恢复情况","at":1795019976322}
+{"key":"nodeseek:1029773","sourceId":"nodeseek","id":"1029773","title":"成功拿下 美国redpocket，然后发现好像暂时用不上","keep":true,"score":5,"tags":["手机卡","经验"],"why":"redpocket使用体验，评论补充二验证用途","at":1795019976322}
+{"key":"nodeseek:1027692","sourceId":"nodeseek","id":"1027692","title":"OVHCloud 黑五情报","keep":true,"score":8,"tags":["OVH","黑五","情报"],"why":"整理OVH黑五上架型号与历史时间，情报价值高","at":1795019976322}
+{"key":"nodeseek:1064220","sourceId":"nodeseek","id":"1064220","title":"家人云堪比大A","keep":false,"score":0,"tags":["吐槽"],"why":"纯情绪嘲讽商家，无具体事实或实锤","at":1795019976322}
+{"key":"nodeseek:1064196","sourceId":"nodeseek","id":"1064196","title":"出租OVH |SYS-1| |法国 RBX| |E-2236| |64G| |2*512g SSD| 10G↑ 10G↓","keep":false,"score":0,"tags":["交易","广告"],"why":"服务器出租广告，无信息增量","at":1795019976322}
+{"key":"nodeseek:1062816","sourceId":"nodeseek","id":"1062816","title":"自建的小图床测试","keep":false,"score":0,"tags":["水贴"],"why":"无正文无评论，纯测试水贴","at":1795019976322}
+{"key":"nodeseek:1064166","sourceId":"nodeseek","id":"1064166","title":"溢价收 ovh 网络上下10对等 1T左右固态","keep":false,"score":0,"tags":["交易"],"why":"求购交易帖，无有效信息","at":1795019976322}
+{"key":"nodeseek:1064167","sourceId":"nodeseek","id":"1064167","title":"ovh的黑五忍住了，马上27号的黑五colocrossing能入吗","keep":true,"score":6,"tags":["VPS","优惠讨论"],"why":"针对黑五选型提问，评论给出CCS涨价一半、99刀杜甫已成过去式等历史价位信息","at":1795019976322}
+{"key":"nodeloc:118417","sourceId":"nodeloc","id":"118417","title":"【快讯】NGINX2Root 曝光：从未认证远程代码执行到宿主机 Root 权限","keep":true,"score":6,"tags":["安全","漏洞"],"why":"NGINX2Root提权漏洞的快讯，属安全异动消息，但正文被截断且无讨论","at":1795019976322}
+{"key":"nodeseek:1064283","sourceId":"nodeseek","id":"1064283","title":"nginx和caddy哪个更安全点","keep":true,"score":5,"tags":["安全","讨论"],"why":"nginx与caddy的安全选型讨论，评论只表明自己用caddy，无实质对比数据","at":1795019976322}
+{"key":"nodeseek:1064271","sourceId":"nodeseek","id":"1064271","title":"突然对英伟达感到陌生了 我好像只知道黄仁勋","keep":false,"score":0,"tags":["水贴"],"why":"无正文，纯单句感慨，评论也全是闲聊，无信息量","at":1795019976322}
+{"key":"nodeseek:1064282","sourceId":"nodeseek","id":"1064282","title":"拿下了一个新玩具 9950X杜甫","keep":true,"score":8,"tags":["杜甫","情报"],"why":"9950X独服£75/月的具体配置价格情报，一手抢购，评论区追问热度高","at":1795019976322}
+{"key":"nodeseek:1064293","sourceId":"nodeseek","id":"1064293","title":"NQ KS-LE-3","keep":true,"score":8,"tags":["VPS","跑分"],"why":"KS-LE-3的完整硬件体检与跑分实测，一手数据可参考","at":1795019976322}
+{"key":"nodeseek:1064285","sourceId":"nodeseek","id":"1064285","title":"[NQ]实名后首测 次元喵年付12r 超大nat小鸡","keep":true,"score":7,"tags":["VPS","测评"],"why":"年付12元NAT小鸡的实名后首测，含跑分与配置实测，评论认可价格","at":1795019976322}
+{"key":"nodeseek:1064288","sourceId":"nodeseek","id":"1064288","title":"rak的cn2的鸡大家用的怎么样 准备也抢一个 3.99把好像","keep":true,"score":4,"tags":["VPS","提问"],"why":"泛泛问rak cn2是否值得买，评论仅提避雷多但无实锤","at":1795019976322}
+{"key":"nodeseek:1064269","sourceId":"nodeseek","id":"1064269","title":"土区Ultra真是超值了","keep":true,"score":7,"tags":["订阅","经验"],"why":"土区Ultra家庭组具体权益与自用规模分享，评论补充涨价预期判断","at":1795019976322}
+{"key":"nodeseek:1064278","sourceId":"nodeseek","id":"1064278","title":"RakSmart这家可以通过工单push机器吗","keep":true,"score":7,"tags":["VPS","技术问答"],"why":"push工单提问，评论给出不能push及内网需下单勾选的确切答复","at":1795019976322}
+{"key":"nodeseek:1064287","sourceId":"nodeseek","id":"1064287","title":"ppflight 这个商家 lax 线路怎么样？看补货通知这几天猛弹，想玩玩","keep":true,"score":6,"tags":["VPS","商家讨论"],"why":"评论给出价格对比与新品风险，有参考价值","at":1795019976322}
+{"key":"nodeseek:1064284","sourceId":"nodeseek","id":"1064284","title":"今晚谷歌大概率发布新模型Neon","keep":true,"score":9,"tags":["AI","新模型","跑分"],"why":"附Neon基准对比图，多项跑分，属一手爆料","at":1795019976322}
+{"key":"nodeseek:1064274","sourceId":"nodeseek","id":"1064274","title":"今晚Nginx漏洞出金，建议各位尽快更新1.30.7，CVE影响如下","keep":true,"score":9,"tags":["安全","Nginx"],"why":"汇总Nginx五个高危CVE及影响，属及时安全情报","at":1795019976322}
+{"key":"nodeseek:1064289","sourceId":"nodeseek","id":"1064289","title":"[出]nobrand新站 沪港 cm 200m 300GB 续费26一个月","keep":false,"score":2,"tags":["交易","VPS"],"why":"纯二手转让，信息单薄，评论仅问价","at":1795019976322}
+{"key":"nodeseek:1064292","sourceId":"nodeseek","id":"1064292","title":"NGINX2Root 五漏洞配置检测 -CVE-2026-123007、CVE-2026-123634、CVE-2026-123633、CVE-2026-121810、CVE-2026-113425","keep":true,"score":6,"tags":["安全","Nginx","工具"],"why":"提供五漏洞检测脚本，但AI生成且未验证","at":1795019976322}
+{"key":"nodeseek:1064291","sourceId":"nodeseek","id":"1064291","title":"萝莉云：TQ美西BGP大宽带","keep":true,"score":8,"tags":["VPS","测评"],"why":"含多线路回程和单线程测速报告，属一手实测","at":1795019976322}
+{"key":"nodeseek:1064099","sourceId":"nodeseek","id":"1064099","title":"DMIT LAX.EB.AN4.CORONA","keep":false,"score":2,"tags":["VPS","闲聊"],"why":"纯炫耀持有机器，无实测，评论仅价格起哄","at":1795019976322}
+{"key":"nodeseek:1064249","sourceId":"nodeseek","id":"1064249","title":"[收] 溢价500收evoxt老马来 2.84刀月付或者30年付翻倍500g 原生750收750g的","keep":false,"score":1,"tags":["交易","求购"],"why":"纯求购交易帖，无评测或有效信息","at":1795019976322}
+{"key":"nodeseek:1064267","sourceId":"nodeseek","id":"1064267","title":"收台绿云JP小鸡","keep":false,"score":1,"tags":["交易","求购"],"why":"纯求购交易帖，无评测或有效信息","at":1795019976322}
+{"key":"nodeseek:1064221","sourceId":"nodeseek","id":"1064221","title":"以前的gpt动不动就重置","keep":false,"score":2,"tags":["AI","闲聊"],"why":"主观吐槽GPT重置策略，无实质信息与数据","at":1795019976322}
+{"key":"nodeseek:1064266","sourceId":"nodeseek","id":"1064266","title":"名爵，零跑，比亚迪，长安启源，吉利，售后如何？","keep":true,"score":3,"tags":["汽车","售后"],"why":"泛泛提问，无具体背景，评论缺失，信息量低","at":1795019976322}
+{"key":"nodeseek:1064265","sourceId":"nodeseek","id":"1064265","title":"[出]翻出来一个10月份精品muse满级号","keep":false,"score":0,"tags":["账号交易","广告"],"why":"出售账号交易帖，属广告推广","at":1795019976322}
+{"key":"nodeseek:1028363","sourceId":"nodeseek","id":"1028363","title":"玻利维亚区Google Play商店是不是锁信用卡发行地区了？","keep":true,"score":7,"tags":["Google Play","低价区"],"why":"带背景技术提问，评论确认低价区需当地卡","at":1795019976322}
+{"key":"nodeseek:1064239","sourceId":"nodeseek","id":"1064239","title":"佬们，目前能用上Claude的最低价格方案是什么","keep":true,"score":6,"tags":["Claude","方案"],"why":"求低价方案，评论给出中转/白嫖等建议","at":1795019976322}
+{"key":"nodeseek:1061948","sourceId":"nodeseek","id":"1061948","title":"各位佬们有什么美西鸡推荐不，就拿来做个节点","keep":true,"score":3,"tags":["VPS","推荐"],"why":"无正文，纯泛泛求推荐，信息量低","at":1795019976322}
+{"key":"nodeseek:1064173","sourceId":"nodeseek","id":"1064173","title":"测评｜✌️ oh baby 解锁绿绿的 依旧伪家宽 AI 基本全解，到美国本地双向 900 Mbps 以上，限时年付 $24 起 · VPSTaxi 美国洛杉矶 ISP IDC 测评报告","keep":true,"score":9,"tags":["VPS","测评"],"why":"一手实测含跑分解锁数据，评论补充风控没货","at":1795019976322}
+{"key":"nodeseek:1064116","sourceId":"nodeseek","id":"1064116","title":"求推荐 jp sg us 机器高性能 年付 400+ 移动快乐","keep":true,"score":7,"tags":["VPS","求推荐"],"why":"需求明确，评论推荐具体商家和蹲守方案","at":1795019976322}
+{"key":"nodeseek:1035947","sourceId":"nodeseek","id":"1035947","title":"23r/年：office365家庭拼车","keep":true,"score":5,"tags":["Office365","拼车"],"why":"拼车交易但评论讨论家庭组规则变化，有信息","at":1795019976322}
+{"key":"nodeseek:1064237","sourceId":"nodeseek","id":"1064237","title":"【已出】58出 Zouter Frankfurt BGP Global - Standard","keep":false,"score":0,"tags":["交易","已出"],"why":"已出交易帖，无信息量","at":1795019976322}
+{"key":"nodeseek:1064163","sourceId":"nodeseek","id":"1064163","title":"【留档测评】AlphaVPS SEA 日美组网小钢炮","keep":true,"score":7,"tags":["VPS","测评"],"why":"实测硬件数据，评论质疑性能但补充组网用途","at":1795019976322}
+{"key":"nodeseek:1064232","sourceId":"nodeseek","id":"1064232","title":"(NQ)Zouter HK-lite留档","keep":true,"score":8,"tags":["VPS","测评","IP质量"],"why":"完整IP体检报告，原生IP与风险评分均为一手实测数据","at":1795019976322}
+{"key":"nodeseek:1037159","sourceId":"nodeseek","id":"1037159","title":"现在这个节目眼，只有netlab最亲民了哎","keep":true,"score":6,"tags":["VPS","讨论"],"why":"含套餐价格对比，评论中有用户实测反馈与质疑，值得参考","at":1795019976322}
+{"key":"nodeseek:1064194","sourceId":"nodeseek","id":"1064194","title":"大家知道怎么在隔壁发交易贴么","keep":false,"score":1,"tags":["水贴"],"why":"单句提问无背景，无任何信息量","at":1795019976322}
+{"key":"nodeseek:1064120","sourceId":"nodeseek","id":"1064120","title":"出 lamhosting de zero 9929 8折 12.79月付","keep":true,"score":5,"tags":["交易","VPS"],"why":"二手转让信息完整，含价格流量到期，评论有议价","at":1795019976322}
+{"key":"1a2x:1037","sourceId":"1a2x","id":"1037","title":"[资讯] Xint 披露 5 个 nginx 漏洞，可打到主机 root","keep":true,"score":8,"tags":["安全","资讯"],"why":"披露nginx漏洞链与CVE编号及修复版本，属行业安全消息","at":1795019976322}
+{"key":"1a2x:1036","sourceId":"1a2x","id":"1036","title":"发现一个不限制设备的免费高速节点","keep":false,"score":0,"tags":["广告","AFF"],"why":"带邀请返利链接的免费节点推广，典型拉新广告","at":1795019976322}
