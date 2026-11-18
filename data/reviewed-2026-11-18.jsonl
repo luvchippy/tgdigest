@@ -5351,3 +5351,24 @@
 {"key":"linuxdo:3200128","sourceId":"linuxdo","id":"3200128","title":"大家对于Gemini怎么用有什么看法？","keep":false,"score":0,"tags":["水贴"],"why":"纯水泛问，无具体背景与信息量","at":1795030663314}
 {"key":"linuxdo:3200127","sourceId":"linuxdo","id":"3200127","title":"Gemini4neon 氖基米上线了","keep":false,"score":0,"tags":["AI","重复"],"why":"与第1条同主题重复，且无正文信息更低","at":1795030663314}
 {"key":"linuxdo:3200122","sourceId":"linuxdo","id":"3200122","title":"Astra你在干什么啊？那我额度当纸烧是吧","keep":false,"score":1,"tags":["人工智能","水贴"],"why":"没有正文，只是抱怨额度被烧，评论也只是无关闲聊，信息量近乎为零","at":1795030663314}
+{"key":"nodeseek:1064412","sourceId":"nodeseek","id":"1064412","title":"bero工单怎么写","keep":true,"score":6,"tags":["VPS","工单"],"why":"附跑分报告链接，性能下滑求换机，属带证据的技术提问","at":1795030715118}
+{"key":"nodeseek:1064411","sourceId":"nodeseek","id":"1064411","title":"opus5.5 api压根就没有甲","keep":false,"score":1,"tags":["擦边"],"why":"内容擦边低质，无实质技术信息","at":1795030715118}
+{"key":"nodeseek:1063574","sourceId":"nodeseek","id":"1063574","title":"收绿云软银线路小鸡 2222 翻倍 1111 1212 1313","keep":false,"score":1,"tags":["交易"],"why":"纯收机交易帖，正文仅rt，评论只有bd","at":1795030715118}
+{"key":"nodeseek:1064410","sourceId":"nodeseek","id":"1064410","title":"codex写web UI和GUI真的毫无审美，有什么skill可以改善吗","keep":true,"score":5,"tags":["AI","讨论"],"why":"真实痛点提问，能看出实际使用中遇到的问题","at":1795030715118}
+{"key":"nodeseek:478897","sourceId":"nodeseek","id":"478897","title":"也许是NS站最详细的Tello防砍单教程？！","keep":true,"score":8,"tags":["eSIM","教程"],"why":"完整实操教程，评论补充保号与一人多号封号风险","at":1795030715118}
+{"key":"nodeseek:1064409","sourceId":"nodeseek","id":"1064409","title":"想收一个netcup rs1000/rs2000 欧洲翻倍 建站","keep":false,"score":2,"tags":["交易"],"why":"泛泛收机问价，无实质信息","at":1795030715118}
+{"key":"nodeseek:1023267","sourceId":"nodeseek","id":"1023267","title":"求推荐好用的磁力搜索站","keep":true,"score":5,"tags":["资源"],"why":"评论补充多个可用站点，比正文更有信息量","at":1795030715118}
+{"key":"nodeseek:1064408","sourceId":"nodeseek","id":"1064408","title":"gemini 4 neon已在ai studio部署","keep":true,"score":5,"tags":["AI","情报"],"why":"配图代码实证ai studio已上线neon模型，属一手情报","at":1795030715118}
+{"key":"nodeseek:1064385","sourceId":"nodeseek","id":"1064385","title":"【TQ】VMISS US.LA.TRI.Basic（C$4.5/month）","keep":true,"score":7,"tags":["VPS","测速"],"why":"含回程与单线程测速报告，属一手线路数据","at":1795030715118}
+{"key":"linuxdo:3200119","sourceId":"linuxdo","id":"3200119","title":"Claude提示重登,收不到A畜邮件!(虚惊一场,原来是在垃圾桶)","keep":false,"score":1,"tags":["水贴"],"why":"无正文，纯个人邮件误判乌龙，无信息量","at":1795030715118}
+{"key":"linuxdo:3200109","sourceId":"linuxdo","id":"3200109","title":"Gemini 4 Neon 已上线 Vertex","keep":true,"score":5,"tags":["AI","行业消息"],"why":"新模型上线消息，评论讨论型号层级，热度尚可","at":1795030715118}
+{"key":"linuxdo:3200112","sourceId":"linuxdo","id":"3200112","title":"codex号被封了，正巧今天Claude也被kyc了，我是不是运气不好","keep":true,"score":4,"tags":["账号","封禁"],"why":"封号求助，评论补充两次警告才封的规则","at":1795030715118}
+{"key":"linuxdo:3200111","sourceId":"linuxdo","id":"3200111","title":"我用AI历时3个月开发了一款微信小游戏，佬友们来品鉴一下，顺便请教一下如何推广和盈利。","keep":false,"score":0,"tags":["推广","低质"],"why":"仅标题无正文，求推广盈利意图明显","at":1795030715118}
+{"key":"nodeseek:1064416","sourceId":"nodeseek","id":"1064416","title":"39.9出 四个Google voice （已经过了kyc）","keep":false,"score":0,"tags":["账号交易","隐私"],"why":"公开出售账号及手机号，存在违规风险","at":1795030715118}
+{"key":"nodeseek:1064227","sourceId":"nodeseek","id":"1064227","title":"[NQ]ovh ie 德国 ks-le-5 硬盘满配","keep":false,"score":1,"tags":["VPS","低质"],"why":"仅标题报配置，无价格和详情","at":1795030715118}
+{"key":"nodeseek:1064415","sourceId":"nodeseek","id":"1064415","title":"claude pro 付款跳 kyc","keep":true,"score":6,"tags":["Claude","KYC","支付"],"why":"具体支付风控场景提问，有参考价值","at":1795030715118}
+{"key":"nodeseek:1064414","sourceId":"nodeseek","id":"1064414","title":"[出]绿云EPYCJP-1 Softbank带内网","keep":true,"score":5,"tags":["VPS","转让"],"why":"明盘转让信息，含配置价格和到期日","at":1795030715118}
+{"key":"nodeseek:1064413","sourceId":"nodeseek","id":"1064413","title":"【出】hostodo美国Las Vegas内华达12刀一年","keep":true,"score":8,"tags":["VPS","跑分","转让"],"why":"附Geekbench和FIO实测的转让，信息完整","at":1795030715118}
+{"key":"linuxdo:3200128","sourceId":"linuxdo","id":"3200128","title":"大家对于Gemini怎么用有什么看法？","keep":false,"score":0,"tags":["水贴","提问"],"why":"纯水板块泛泛提问，无实质内容","at":1795030715118}
+{"key":"linuxdo:3200127","sourceId":"linuxdo","id":"3200127","title":"Gemini4neon 氖基米上线了","keep":false,"score":0,"tags":["重复","AI"],"why":"与第1条同事件重复，且无正文无评论","at":1795030715118}
+{"key":"linuxdo:3200122","sourceId":"linuxdo","id":"3200122","title":"Astra你在干什么啊？那我额度当纸烧是吧","keep":false,"score":1,"tags":["水贴"],"why":"无正文，仅一句吐槽，评论也无实质信息，属纯水贴","at":1795030715118}
