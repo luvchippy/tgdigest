@@ -602,3 +602,97 @@
 {"key":"linuxdo:3194900","sourceId":"linuxdo","id":"3194900","title":"让Gemini想了个标题：友商的新模型 6.2 Astra，彻底不给人类留活路了……","keep":false,"score":2,"tags":["纯水","标题党"],"why":"用AI取标题的玩笑帖，正文为空，没有信息量","at":1794967663363}
 {"key":"linuxdo:3194925","sourceId":"linuxdo","id":"3194925","title":"请问佬claude ultra 一定会弹 kyc 吗","keep":false,"score":3,"tags":["Claude","提问"],"why":"单句提问，既无背景描述，也无实质回复","at":1794967663363}
 {"key":"linuxdo:3194894","sourceId":"linuxdo","id":"3194894","title":"为啥我还没收到6.2更新啊","keep":false,"score":1,"tags":["纯水"],"why":"询问推送进度，与上帖主题重复且无信息量","at":1794967663363}
+{"key":"nodeseek:1062157","sourceId":"nodeseek","id":"1062157","title":"【求】日本家宽","keep":false,"score":2,"tags":["求车","水贴"],"why":"纯求拼车无实测信息，仅一句避坑评价，信息量过低","at":1794969463360}
+{"key":"nodeseek:1062160","sourceId":"nodeseek","id":"1062160","title":"【自测留档】OVH KS-LE-6 GRA €29.99/月","keep":true,"score":8,"tags":["VPS","测评","跑分"],"why":"OVH KS-LE-6 一手 YABS 跑分留档，硬件与磁盘数据完整可参考","at":1794969463360}
+{"key":"nodeseek:1062142","sourceId":"nodeseek","id":"1062142","title":"昨天 GFW 杀疯了","keep":true,"score":8,"tags":["线路","故障","避坑"],"why":"逐个列出被封 IP 与 UDP/HY2 存活情况，属实测异动记录","at":1794969463360}
+{"key":"nodeseek:1062148","sourceId":"nodeseek","id":"1062148","title":"如何评价新发布的Astra6.2和Sol6.2","keep":true,"score":6,"tags":["AI","模型","讨论"],"why":"新模型体验讨论，评论补充 sol max 算术纠错的实测点","at":1794969463360}
+{"key":"nodeseek:1062155","sourceId":"nodeseek","id":"1062155","title":"【出租】9折claude platform的api额度","keep":false,"score":0,"tags":["广告","API转售"],"why":"出租/转卖 Claude API 额度并带环境交付，属推广帖","at":1794969463360}
+{"key":"nodeseek:1062144","sourceId":"nodeseek","id":"1062144","title":"我宣布gpt6.2，拉完了","keep":false,"score":2,"tags":["吐槽","水贴"],"why":"正文仅一句情绪评价，无实测依据，评论亦无实质数据","at":1794969463360}
+{"key":"nodeseek:1062115","sourceId":"nodeseek","id":"1062115","title":"勇闯Claude订阅","keep":false,"score":2,"tags":["开坑","水贴"],"why":"仅一句挑战宣言，无渠道线路等实质信息，评论全是追问","at":1794969463360}
+{"key":"nodeseek:1062159","sourceId":"nodeseek","id":"1062159","title":"6.2sol秦始皇骑北极熊","keep":false,"score":2,"tags":["链接","水贴"],"why":"纯发外链加一句含糊评价，无复现条件与结论","at":1794969463360}
+{"key":"nodeseek:1062158","sourceId":"nodeseek","id":"1062158","title":"（人找车）iCloud200g","keep":false,"score":2,"tags":["求车","水贴"],"why":"一句话求 iCloud 拼车，无价格与方案信息","at":1794969463360}
+{"key":"nodeseek:1062156","sourceId":"nodeseek","id":"1062156","title":"刚刚，就在刚刚，反重力也学会重置了！","keep":false,"score":1,"tags":["水贴"],"why":"单句模糊消息，无来源无细节，无法判断信息真伪","at":1794969463360}
+{"key":"nodeseek:1062149","sourceId":"nodeseek","id":"1062149","title":"请问一下老海创的tg群或者管理的联系方式","keep":true,"score":6,"tags":["VPS","售后"],"why":"商家IP失效且工单失联，属售后避坑求助","at":1794969463360}
+{"key":"nodeseek:1062154","sourceId":"nodeseek","id":"1062154","title":"【收】halo HK或者SG","keep":false,"score":2,"tags":["VPS","求购"],"why":"纯求购无配置与价格，信息量过低","at":1794969463360}
+{"key":"nodeseek:1062147","sourceId":"nodeseek","id":"1062147","title":"【出】 raksmart cn2 2c2g 3.99刀/月 送中","keep":true,"score":6,"tags":["VPS","交易"],"why":"含配置、送中状态和转让价，交易信息明确","at":1794969463360}
+{"key":"nodeseek:1062114","sourceId":"nodeseek","id":"1062114","title":"codex给了完全访问权限还一直让你允许操作咋办","keep":false,"score":2,"tags":["AI","提问"],"why":"正文仅重复问题，评论多为调侃无有效方案","at":1794969463360}
+{"key":"nodeseek:1062153","sourceId":"nodeseek","id":"1062153","title":"弄了个腾讯99元/年，南韩的机器，这IP真是垃圾啊。","keep":true,"score":7,"tags":["VPS","避坑"],"why":"一手踩坑：低价南韩IP触发验证并致X冻结","at":1794969463360}
+{"key":"nodeseek:1062048","sourceId":"nodeseek","id":"1062048","title":"总价20出Ciallonet 69折香港 EPYC - Lite 13.73月付","keep":true,"score":5,"tags":["VPS","交易"],"why":"含配置与剩余价值，评论纠偏折扣和溢价","at":1794969463360}
+{"key":"nodeseek:1062145","sourceId":"nodeseek","id":"1062145","title":"谷歌最近这0元购简直了","keep":false,"score":0,"tags":["谷歌","水贴"],"why":"无正文标题党，评论仅碎片讨论","at":1794969463360}
+{"key":"nodeseek:1062119","sourceId":"nodeseek","id":"1062119","title":"收个甲骨文四区","keep":false,"score":1,"tags":["甲骨文","求购"],"why":"求购信息极简，评论也无有效补充","at":1794969463360}
+{"key":"nodeseek:919338","sourceId":"nodeseek","id":"919338","title":"关于iPhone 18 PM","keep":true,"score":4,"tags":["iPhone","讨论"],"why":"港版18PM泛问，评论补充eSIM与价格","at":1794969463360}
+{"key":"nodeseek:1062131","sourceId":"nodeseek","id":"1062131","title":"你们的反重力真的没降智力？","keep":false,"score":0,"tags":["AI","水贴"],"why":"正文缺具体现象和数据，无法有效讨论","at":1794969463360}
+{"key":"nodeseek:1062030","sourceId":"nodeseek","id":"1062030","title":"现在哪里还能买到10刀🐔？","keep":true,"score":6,"tags":["VPS","求推荐"],"why":"有明确需求，评论补充了正价上涨、只能收二手及替代商家","at":1794969463360}
+{"key":"nodeseek:1004360","sourceId":"nodeseek","id":"1004360","title":"有佬来个币安邀请码吗","keep":false,"score":0,"tags":["邀请码","垃圾"],"why":"索要交易所邀请码，评论区互刷AFF链接","at":1794969463360}
+{"key":"nodeseek:1062127","sourceId":"nodeseek","id":"1062127","title":"zcode是不是崩了","keep":true,"score":6,"tags":["故障","服务异动"],"why":"报告服务记录丢失与额度消失，属故障异动但无佐证","at":1794969463360}
+{"key":"nodeseek:1062069","sourceId":"nodeseek","id":"1062069","title":"海外sim卡求推荐","keep":true,"score":7,"tags":["eSIM","经验分享"],"why":"评论给出voxi保号实测与教程，信息量高于正文","at":1794969463360}
+{"key":"nodeseek:1062126","sourceId":"nodeseek","id":"1062126","title":"【90出】wawo HK-Simple-0.5G-LS-2 39年付","keep":true,"score":5,"tags":["交易","VPS"],"why":"带配置与到期信息的二手转让，有一定价格参考","at":1794969463360}
+{"key":"nodeseek:1062125","sourceId":"nodeseek","id":"1062125","title":"这是 Dan Shipper 对 GPT 6.2 的评价，相当令人沮丧","keep":false,"score":0,"tags":["标题党","空正文"],"why":"无正文，仅标题转述观点，无信息量","at":1794969463360}
+{"key":"nodeseek:1061993","sourceId":"nodeseek","id":"1061993","title":"双11活动秀场之Raksmart ～官网","keep":true,"score":8,"tags":["避坑","踩坑复盘"],"why":"详述合并付款吞券、工单不解决，评论多人实锤官网问题","at":1794969463360}
+{"key":"nodeseek:1062071","sourceId":"nodeseek","id":"1062071","title":"慢讯 gemini 5x重置了","keep":false,"score":3,"tags":["简讯","水贴"],"why":"一句慢讯无细节，正文与标题重复","at":1794969463360}
+{"key":"nodeseek:1062085","sourceId":"nodeseek","id":"1062085","title":"大家刷的gemini ultra有掉的吗","keep":true,"score":6,"tags":["Gemini","讨论"],"why":"讨论订阅存活情况，评论补充已被取消订阅的案例","at":1794969463360}
+{"key":"1a2x:1005","sourceId":"1a2x","id":"1005","title":"我在 DNSHE 注册了一个免费域名，还差你一次助力就能升级为永久有效(免续期)了！助力码：EAK8LQZV8L","keep":false,"score":0,"tags":["助力","拉人头"],"why":"拉助力升永久域名，属拉人头推广","at":1794969463360}
+{"key":"1a2x:1004","sourceId":"1a2x","id":"1004","title":"送muse号，TG机器人注册的。","keep":true,"score":4,"tags":["账号","经验"],"why":"免费送号附带节点登录经验，但信息量有限","at":1794969463360}
+{"key":"nodeloc:118290","sourceId":"nodeloc","id":"118290","title":"【新人】没什么送的，送一点claude Pro七天邀请链接","keep":false,"score":0,"tags":["邀请链接"],"why":"纯发邀请返利链接，命中推广垃圾","at":1794969463360}
+{"key":"linuxdo:3195031","sourceId":"linuxdo","id":"3195031","title":"各位在大A上亏多少了","keep":false,"score":2,"tags":["闲聊"],"why":"无正文泛泛提问，评论仅情绪吐槽","at":1794969463360}
+{"key":"linuxdo:3195023","sourceId":"linuxdo","id":"3195023","title":"吐槽Windows","keep":false,"score":4,"tags":["闲聊"],"why":"无正文，评论零散经验不成体系","at":1794969463360}
+{"key":"linuxdo:3195022","sourceId":"linuxdo","id":"3195022","title":"GPT 6.2令我震惊瘫坐 国模现在真的很难了","keep":false,"score":1,"tags":["标题党"],"why":"标题党无正文，评论实锤点开卡顿是坑","at":1794969463360}
+{"key":"linuxdo:3195042","sourceId":"linuxdo","id":"3195042","title":"想知道各位，为了玩 GTA6 都找了什么样的理由请假？","keep":false,"score":2,"tags":["闲聊"],"why":"无正文闲聊，仅一条回复无信息量","at":1794969463360}
+{"key":"linuxdo:3195010","sourceId":"linuxdo","id":"3195010","title":"现在很崩溃，用血的教训告诉大家不要相信卡商，不要冲动消费","keep":true,"score":7,"tags":["避坑","卡商"],"why":"血泪踩坑复盘，评论实锤卡网中转站不可信","at":1794969463360}
+{"key":"linuxdo:3194999","sourceId":"linuxdo","id":"3194999","title":"Macbook M4 air想扩容求推荐","keep":true,"score":6,"tags":["Mac","硬件"],"why":"求扩容建议，评论给出外接与维修店方案","at":1794969463360}
+{"key":"linuxdo:3195034","sourceId":"linuxdo","id":"3195034","title":"共享单车骑行 900km，终于入手了辆山地车","keep":false,"score":2,"tags":["闲聊"],"why":"无正文纯抒情，无任何有效信息","at":1794969463360}
+{"key":"linuxdo:3195002","sourceId":"linuxdo","id":"3195002","title":"虚拟卡平台有吗，想开个虚拟卡","keep":false,"score":2,"tags":["提问"],"why":"无正文泛泛求虚拟卡推荐，零回复","at":1794969463360}
+{"key":"linuxdo:3195013","sourceId":"linuxdo","id":"3195013","title":"自10月下旬开始的反重力反代封号潮以来的封号后，有无社友的反重力已经解封了？","keep":false,"score":0,"tags":["水贴"],"why":"无正文，仅在问解封情况，回复为零，无任何信息量","at":1794969463360}
+{"key":"nodeseek:1062189","sourceId":"nodeseek","id":"1062189","title":"codex点数是什么？6W点数大概有多少token？送鸡腿","keep":true,"score":7,"tags":["AI","Codex","额度"],"why":"评论给出换算与到期时间，补充了实际额度信息","at":1794969463360}
+{"key":"nodeseek:1062195","sourceId":"nodeseek","id":"1062195","title":"gpt pro送了100刀的api的额度, 怎么用","keep":false,"score":3,"tags":["AI","提问"],"why":"泛泛求客户端推荐，无实测细节也无回复","at":1794969463360}
+{"key":"nodeseek:1062193","sourceId":"nodeseek","id":"1062193","title":"[1118]稳定的GPT代充","keep":false,"score":0,"tags":["广告","代充"],"why":"代充CDK叫卖拉私聊，属交易推广","at":1794969463360}
+{"key":"nodeseek:1062169","sourceId":"nodeseek","id":"1062169","title":"6.2a和6.2s真的拉了吗？","keep":true,"score":7,"tags":["AI","模型讨论"],"why":"评论多方实测体感，含降价与不稳定的具体反馈","at":1794969463360}
+{"key":"nodeseek:1062176","sourceId":"nodeseek","id":"1062176","title":"你喜欢大屏手机还是小屏手机？亦或是折叠屏？","keep":false,"score":0,"tags":["水贴"],"why":"正文仅一个反问，评论无信息，闲聊水贴","at":1794969463360}
+{"key":"nodeseek:1062190","sourceId":"nodeseek","id":"1062190","title":"【出】 Gemini Ultra 20X 1年订阅 链接 协助订阅","keep":false,"score":0,"tags":["广告","薅羊毛"],"why":"售卖订阅链接，评论指出链接已公开，实为割韭菜","at":1794969463360}
+{"key":"nodeseek:1062173","sourceId":"nodeseek","id":"1062173","title":"请教大佬贴-tg怎么注册，可以用86手机么","keep":true,"score":5,"tags":["TG","经验"],"why":"基础注册提问，评论补充国内号可用及购号价格","at":1794969463360}
+{"key":"nodeseek:1062192","sourceId":"nodeseek","id":"1062192","title":"spaceship怎么一直在重定向中","keep":true,"score":4,"tags":["支付","故障"],"why":"真实付款卡单疑问，评论确认常见不影响订单","at":1794969463360}
+{"key":"nodeseek:1062196","sourceId":"nodeseek","id":"1062196","title":"【出】搬瓦工 CN2 GIA ECOMMERCE 20G｜DC9｜官网已下架｜邮箱过户","keep":true,"score":6,"tags":["VPS","交易"],"why":"含完整配置与续费价，属稀缺下架套餐的转让情报","at":1794969463360}
+{"key":"nodeseek:1062102","sourceId":"nodeseek","id":"1062102","title":"山西移动IPV6走GCP TW","keep":true,"score":8,"tags":["线路","VPS"],"why":"GCP台湾移动实测80ms/400M，评论补充Hinet与Datawave绕路对比","at":1794969463360}
+{"key":"nodeseek:1062198","sourceId":"nodeseek","id":"1062198","title":"求问贴-各位大佬知道现在还有什么平民化的is的p么","keep":true,"score":4,"tags":["住宅IP","提问"],"why":"交代了住宅IP不稳定背景，属真实求推荐，信息量偏泛","at":1794969463360}
+{"key":"nodeseek:1062185","sourceId":"nodeseek","id":"1062185","title":"@admin 仿造官方账号+辱骂他人","keep":false,"score":0,"tags":["纠纷","举报"],"why":"用户纠纷引战帖，评论多为围观附和，无实质信息","at":1794969463360}
+{"key":"nodeseek:1056866","sourceId":"nodeseek","id":"1056866","title":"【出】HKT PCCW家宽 每天可手动换5IP [email&#160;protected]","keep":true,"score":5,"tags":["交易","家宽"],"why":"附硬件报告与续费价，但本质为出售帖，评论无营养","at":1794969463360}
+{"key":"nodeseek:1062197","sourceId":"nodeseek","id":"1062197","title":"收个akko sjc 只要是原生IP就行","keep":false,"score":0,"tags":["求购"],"why":"一句话求购，无配置无背景，纯水贴","at":1794969463360}
+{"key":"nodeseek:1062174","sourceId":"nodeseek","id":"1062174","title":"还有几天，也不知道ovh56t的机器能不能蹲到，大佬们最多接受多少溢价","keep":true,"score":4,"tags":["OVH","讨论"],"why":"讨论56T溢价接受度和蹲机策略，轻度闲聊","at":1794969463360}
+{"key":"nodeseek:1062166","sourceId":"nodeseek","id":"1062166","title":"【在售】OVH KS-LE-3 法国 E-2274G / 32G内存 / 900G固态+24T机械 混合硬盘 (硬盘中奖) / 带核显 / 独立服务器","keep":true,"score":7,"tags":["OVH","服务器","交易"],"why":"配置价格完整并附GB5跑分，评论补充与STOR、LE-6对比","at":1794969463360}
+{"key":"nodeseek:1062100","sourceId":"nodeseek","id":"1062100","title":"剩余收ccs，LA，1c1g30g，40T","keep":false,"score":0,"tags":["求购"],"why":"仅“rt”两字求购，无任何有效信息","at":1794969463360}
+{"key":"nodeseek:1062124","sourceId":"nodeseek","id":"1062124","title":"ultra 羊毛反重力失效 网页可以","keep":false,"score":0,"tags":["羊毛"],"why":"正文仅“rt”，失效情报无细节，无法核实","at":1794969463360}
+{"key":"nodeseek:1062132","sourceId":"nodeseek","id":"1062132","title":"？？哈吉米，你认真的吗","keep":true,"score":4,"tags":["AI","闲聊"],"why":"记录加合规话术绕过敏感拦截的趣事，评论仅追问术语","at":1794969463360}
+{"key":"nodeseek:1062059","sourceId":"nodeseek","id":"1062059","title":"发现GPT sol 6.2一个问题","keep":true,"score":7,"tags":["ChatGPT","Bug"],"why":"实测GPT6.2音频报错并截图，属具体踩坑反馈","at":1794969463360}
+{"key":"nodeseek:1032949","sourceId":"nodeseek","id":"1032949","title":"【出】66出懒猫日本BIGLOBE动态家宽3折大杯 10.5r月付，需要vip1","keep":true,"score":4,"tags":["交易","VPS"],"why":"二手家宽转让，价格明确但评论指分流后价值有限","at":1794969463360}
+{"key":"nodeseek:1062165","sourceId":"nodeseek","id":"1062165","title":"【收】AaITR 家宽 AT&T Verizon 都可 溢价50慢收","keep":true,"score":3,"tags":["交易","求购"],"why":"家宽求购帖，仅价格意向，评论无实质补充","at":1794969463360}
+{"key":"nodeseek:1062146","sourceId":"nodeseek","id":"1062146","title":"Vmiss US.LA.TRI.Basic交换更高版本机型","keep":true,"score":3,"tags":["交易","VPS"],"why":"换机需求帖，评论补充换机交易行情","at":1794969463360}
+{"key":"nodeseek:1062117","sourceId":"nodeseek","id":"1062117","title":"[已出]RN 2023黑五闪购-第1波","keep":true,"score":6,"tags":["交易","VPS"],"why":"已出VPS转让，配置与续费价格有参考价值","at":1794969463360}
+{"key":"nodeseek:1062034","sourceId":"nodeseek","id":"1062034","title":"Raksmart 审核半天了","keep":true,"score":7,"tags":["Raksmart","售后"],"why":"多人反馈审核慢客服失联，具避坑价值","at":1794969463360}
+{"key":"nodeseek:1062067","sourceId":"nodeseek","id":"1062067","title":"gpt6.2已发布 ！【车找人】出GPT team长期席位 70r/月","keep":false,"score":0,"tags":["广告","拼车"],"why":"拼车招人广告，含收费与联系方式","at":1794969463360}
+{"key":"nodeseek:1062083","sourceId":"nodeseek","id":"1062083","title":"172号卡多久会发货","keep":true,"score":5,"tags":["号卡","物流"],"why":"号卡发货咨询，评论给出联通约13天经验","at":1794969463360}
+{"key":"nodeseek:1062040","sourceId":"nodeseek","id":"1062040","title":"chatgpt网页版和桌面客户端推理强度的ultra档位消失了，后台设置六个强度均已勾选，请问这个情况是不是代表着降智了。","keep":true,"score":6,"tags":["ChatGPT","求助"],"why":"ultra档消失求助，评论解释仅本地项目可用","at":1794969463360}
+{"key":"nodeseek:1062072","sourceId":"nodeseek","id":"1062072","title":"【NQ+TQ】shandun-de","keep":true,"score":8,"tags":["VPS","跑分"],"why":"完整硬件跑分报告，含CPU与系统实测数据","at":1794969463360}
+{"key":"nodeseek:1062066","sourceId":"nodeseek","id":"1062066","title":"【收】溢价2200 收OVH-9.9欧大满贯，要美洲机房","keep":true,"score":6,"tags":["交易","行情"],"why":"收机帖含溢价，评论补充黑五涨价行情","at":1794969463360}
+{"key":"nodeseek:1062073","sourceId":"nodeseek","id":"1062073","title":"[收] FlawlessNode LAX Pro 特殊款 1 v2 （9927的）","keep":false,"score":2,"tags":["交易","低价值"],"why":"普通收机帖，评论无实质信息","at":1794969463360}
+{"key":"nodeseek:1062082","sourceId":"nodeseek","id":"1062082","title":"[收] 性能强，本地互联好的 LA 机器","keep":false,"score":2,"tags":["交易","低价值"],"why":"泛泛收机需求，无互动无补充","at":1794969463360}
+{"key":"nodeseek:1061154","sourceId":"nodeseek","id":"1061154","title":"深刻教训：别倒卖OpenAI官方key给第三方，否则极大概率会被封号。","keep":true,"score":7,"tags":["OpenAI","避坑"],"why":"一手封号教训，评论确认倒卖风险","at":1794969463360}
+{"key":"nodeseek:1061970","sourceId":"nodeseek","id":"1061970","title":"gemini 官方回应已经修复","keep":true,"score":6,"tags":["Gemini","风控"],"why":"官方TOS警告，评论补充X来源与退订经历","at":1794969463360}
+{"key":"nodeseek:1062062","sourceId":"nodeseek","id":"1062062","title":"legend只把SG业务给了家人还是全部业务都给了？","keep":true,"score":6,"tags":["Legend","迁移"],"why":"评论确认仅SG划转，JP未受影响","at":1794969463360}
+{"key":"linuxdo:3194977","sourceId":"linuxdo","id":"3194977","title":"手里的0刀卡在我的场景用不了，送给你们用","keep":false,"score":2,"tags":["羊毛","赠予"],"why":"无正文送卡，评论多为询问且信息零散","at":1794969463360}
+{"key":"linuxdo:3195050","sourceId":"linuxdo","id":"3195050","title":"佬们，作死问了 claude 出口 IP","keep":false,"score":2,"tags":["闲聊","纯水"],"why":"纯水闲聊，无实质信息","at":1794969463360}
+{"key":"linuxdo:3195139","sourceId":"linuxdo","id":"3195139","title":"gpt 429 Too Many Requests 是咋回事呀","keep":false,"score":3,"tags":["GPT","报错"],"why":"泛泛报错提问，评论仅一句风控无细节","at":1794969463360}
+{"key":"linuxdo:3195117","sourceId":"linuxdo","id":"3195117","title":"薅到4个 Gemini 20x一个月 我自己反重力用不了 送一家庭共享 你们来试试 发邮箱","keep":false,"score":1,"tags":["账号共享","水贴"],"why":"纯送共享，评论只留邮箱无信息","at":1794969463360}
+{"key":"linuxdo:3195058","sourceId":"linuxdo","id":"3195058","title":"Logan再次发帖，Gemini！还有更多模型？","keep":true,"score":5,"tags":["AI","模型动态"],"why":"模型爆料讨论，评论有新品猜测，缺实测","at":1794969463360}
+{"key":"linuxdo:3195143","sourceId":"linuxdo","id":"3195143","title":"简单测试了下 6.2astra 水平","keep":false,"score":0,"tags":["AI","水贴"],"why":"标题称测试但无正文，无有效信息","at":1794969463360}
+{"key":"linuxdo:3195142","sourceId":"linuxdo","id":"3195142","title":"佬们. vscode现在有类似idea体感的git插件吗","keep":true,"score":3,"tags":["软件开发","VSCode"],"why":"技术选型提问，标题自洽但缺具体需求","at":1794969463360}
+{"key":"linuxdo:3195060","sourceId":"linuxdo","id":"3195060","title":"我感觉gpt6.2的前端都干不过sonnet","keep":true,"score":5,"tags":["AI","模型对比"],"why":"主观模型对比，互动较高但无实测","at":1794969463360}
+{"key":"linuxdo:3195114","sourceId":"linuxdo","id":"3195114","title":"感觉6.2 Sol 甲比6.1 重，逆向整天罢工","keep":true,"score":4,"tags":["AI","故障"],"why":"具体反馈6.2 Sol变重、逆向罢工，缺细节","at":1794969463360}
+{"key":"linuxdo:3195141","sourceId":"linuxdo","id":"3195141","title":"目前写文案最强的模型是gemini 系列吗？","keep":true,"score":3,"tags":["AI","模型选择"],"why":"泛泛询问文案模型，无背景与回复","at":1794969463360}
+{"key":"linuxdo:3195125","sourceId":"linuxdo","id":"3195125","title":"佬们，最近总是有人拿我中转站的key去逆向，怎么禁止","keep":true,"score":5,"tags":["AI","中转站"],"why":"中转站key被滥用，具实际运维问题","at":1794969463360}
+{"key":"linuxdo:3194997","sourceId":"linuxdo","id":"3194997","title":"咱们 LINUX DO 魔了嘛？","keep":false,"score":0,"tags":["水贴","论坛"],"why":"空泛感叹，无正文和实质信息","at":1794969463360}
+{"key":"linuxdo:3195140","sourceId":"linuxdo","id":"3195140","title":"Gemini 现在也 overload吗","keep":false,"score":0,"tags":["AI","水贴"],"why":"单句状态疑问，无证据无讨论","at":1794969463360}
+{"key":"linuxdo:3195126","sourceId":"linuxdo","id":"3195126","title":"GPT 6.2 sol 拉完了","keep":false,"score":0,"tags":["AI","重复"],"why":"与第5条同质，信息量更低，去重","at":1794969463360}
+{"key":"linuxdo:3195133","sourceId":"linuxdo","id":"3195133","title":"广州个体工商户怎么办理，有没有佬友懂的？","keep":true,"score":5,"tags":["独立开发者","工商注册"],"why":"具体办事流程提问，但无正文细节，回复仅一条，信息量一般","at":1794969463360}
+{"key":"linuxdo:3195066","sourceId":"linuxdo","id":"3195066","title":"哈基米昨晚被薅羊毛之后，还重置了？","keep":true,"score":6,"tags":["AI服务","羊毛情报"],"why":"反映Gemini额度被滥用后重置的服务异动，浏览与回复有一定共鸣","at":1794969463360}
+{"key":"linuxdo:3195132","sourceId":"linuxdo","id":"3195132","title":"三角洲行动的物品价格数据获取","keep":true,"score":5,"tags":["游戏","数据抓取"],"why":"游戏物价数据获取的技术提问，方向明确但缺正文与有效回复","at":1794969463360}
+{"key":"linuxdo:3195128","sourceId":"linuxdo","id":"3195128","title":"订阅gemini pro的渠道","keep":true,"score":4,"tags":["Gemini","订阅"],"why":"仅泛泛询问订阅渠道，无正文与有效回复，易引向代充，信息量低","at":1794969463360}
