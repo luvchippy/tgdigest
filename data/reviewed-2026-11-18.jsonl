@@ -1974,3 +1974,25 @@
 {"key":"linuxdo:3196326","sourceId":"linuxdo","id":"3196326","title":"6.2灰测改善了防御性，正式又加回来了吗，有没有参与灰测的佬说下区别","keep":true,"score":5,"tags":["模型讨论"],"why":"问灰测与正式版防御性差异，带具体背景但无正文与实质评论","at":1794982163804}
 {"key":"linuxdo:3196422","sourceId":"linuxdo","id":"3196422","title":"说实话，大概用了一下gpt6.2a，我个人认为还是要比之前好一些","keep":false,"score":2,"tags":["水贴"],"why":"单句主观感受，无实测细节与数据支撑","at":1794982163804}
 {"key":"linuxdo:3196420","sourceId":"linuxdo","id":"3196420","title":"如何使用新模型？","keep":false,"score":2,"tags":["泛问"],"why":"泛泛提问如何使用新模型，无背景无细节","at":1794982163804}
+{"key":"linuxdo:3196486","sourceId":"linuxdo","id":"3196486","title":"【求推荐】有没有异地可看电影的软件","keep":false,"score":2,"tags":["提问"],"why":"无正文无评论，泛泛求推荐，无有效信息","at":1794983048560}
+{"key":"linuxdo:3196485","sourceId":"linuxdo","id":"3196485","title":"拆解阿里开源的代码审查项目open-code-review，感兴趣的佬友可以参考","keep":true,"score":5,"tags":["开源","代码审查"],"why":"分享阿里开源项目，但无正文只剩标题，信息有限","at":1794983048560}
+{"key":"linuxdo:3196471","sourceId":"linuxdo","id":"3196471","title":"鄙人的公司是一个巨大的草台班子","keep":true,"score":4,"tags":["闲聊","职场"],"why":"纯情绪闲聊，评论有长段共鸣但无实质数据","at":1794983048560}
+{"key":"linuxdo:3196483","sourceId":"linuxdo","id":"3196483","title":"【开源】Vibecoding工作流脚手架","keep":true,"score":6,"tags":["开源","VibeCoding"],"why":"开源工作流脚手架发布，有可用价值但缺正文说明","at":1794983048560}
+{"key":"linuxdo:3196448","sourceId":"linuxdo","id":"3196448","title":"Tibo 回应网络大博主对 6.2 Sol/Astra 的批评","keep":true,"score":7,"tags":["AI","行业消息"],"why":"模型回应争议，评论补充灰测版与正式版差异实感","at":1794983048560}
+{"key":"linuxdo:3196481","sourceId":"linuxdo","id":"3196481","title":"magpie 接入 workbuddy 失败：the plugin host quit: exit status 1","keep":true,"score":5,"tags":["技术提问","插件"],"why":"带具体报错，属真实踩坑提问，但无正文细节","at":1794983048560}
+{"key":"linuxdo:3196457","sourceId":"linuxdo","id":"3196457","title":"感觉我这也是独一份了，昨天新开的小号，跟着佬们搞了12个月的5x ultra，今天被封复活之后，保留了一个月的会员","keep":true,"score":4,"tags":["账号","羊毛"],"why":"小号开会员被封复活的个例经历，信息量有限","at":1794983048560}
+{"key":"1a2x:1020","sourceId":"1a2x","id":"1020","title":"中午好各位","keep":false,"score":0,"tags":["水贴"],"why":"单句问候签到，无任何信息量","at":1794983048560}
+{"key":"1a2x:1019","sourceId":"1a2x","id":"1019","title":"每日中转站","keep":false,"score":0,"tags":["AFF","广告"],"why":"中转站推广带邀请返利链接，属推广拉新","at":1794983048560}
+{"key":"nodeloc:118330","sourceId":"nodeloc","id":"118330","title":"出奥地利esim","keep":false,"score":2,"tags":["交易"],"why":"一句话出售帖附联系方式，信息价值极低","at":1794983048560}
+{"key":"linuxdo:3196529","sourceId":"linuxdo","id":"3196529","title":"新开GPT账号plus手机号验证不过","keep":true,"score":6,"tags":["ChatGPT","账号验证"],"why":"评论指出可能IP被标记，给出换节点排查思路","at":1794983048560}
+{"key":"linuxdo:3196561","sourceId":"linuxdo","id":"3196561","title":"小米竟然开始白送【AI 语音生成模型】全免费！！！！","keep":false,"score":0,"tags":[],"why":"标题党且无正文，疑似推广","at":1794983048560}
+{"key":"linuxdo:3196497","sourceId":"linuxdo","id":"3196497","title":"antigravity竟然也开始搞重置了哈哈哈","keep":true,"score":6,"tags":["AI","额度"],"why":"讨论Antigravity重置与额度消耗，含实测反馈","at":1794983048560}
+{"key":"linuxdo:3196559","sourceId":"linuxdo","id":"3196559","title":"deepseek官方api有安全围栏么","keep":false,"score":0,"tags":[],"why":"无正文的泛泛提问，无有效讨论","at":1794983048560}
+{"key":"linuxdo:3196508","sourceId":"linuxdo","id":"3196508","title":"这种一百块一年的ultra20X是怎么搞的？百思不得其解","keep":true,"score":6,"tags":["AI","避坑"],"why":"评论揭示0元Ultra bug并提醒风险，有避坑价值","at":1794983048560}
+{"key":"linuxdo:3196533","sourceId":"linuxdo","id":"3196533","title":"Powershell v5.1 将在下一代 Windows 废弃，Powershell v7 接替","keep":true,"score":7,"tags":["Windows","PowerShell"],"why":"行业更新消息，评论补充兼容性与预装讨论","at":1794983048560}
+{"key":"linuxdo:3196555","sourceId":"linuxdo","id":"3196555","title":"100刀的Visa预付卡如何变现","keep":false,"score":0,"tags":[],"why":"无正文且涉及预付卡变现，信息量为零","at":1794983048560}
+{"key":"linuxdo:3196510","sourceId":"linuxdo","id":"3196510","title":"谷歌 ultra 20 额度突然断崖下降","keep":true,"score":5,"tags":["Gemini","额度"],"why":"仅报额度下降无细节，价值有限","at":1794983048560}
+{"key":"linuxdo:3196517","sourceId":"linuxdo","id":"3196517","title":"claude code中转站也太贵了把，有没有便宜的方式","keep":true,"score":4,"tags":["Claude","成本"],"why":"询问中转站替代方案，有讨论但缺正文","at":1794983048560}
+{"key":"linuxdo:3196545","sourceId":"linuxdo","id":"3196545","title":"反重力antigravity登陆问题","keep":false,"score":0,"tags":[],"why":"无正文的模糊登录提问，无有效信息","at":1794983048560}
+{"key":"linuxdo:3196498","sourceId":"linuxdo","id":"3196498","title":"实习摸鱼看L站","keep":false,"score":0,"tags":["水贴"],"why":"无正文的摸鱼签到帖，纯水无信息量","at":1794983048560}
+{"key":"linuxdo:3196546","sourceId":"linuxdo","id":"3196546","title":"求大佬解决 一台主机双网卡 ping 其他两台主机 经常出现网络超时 怎么解决","keep":true,"score":5,"tags":["网络","求助"],"why":"双网卡ping超时是具体技术问题，但无正文细节、数据过低","at":1794983048560}
