@@ -1358,3 +1358,15 @@
 {"key":"linuxdo:3195806","sourceId":"linuxdo","id":"3195806","title":"目前主流家用机的本地模型是不是还是Strata最好","keep":false,"score":2,"tags":["本地模型"],"why":"单句泛泛提问且无正文背景，互动极少，信息量不足","at":1794974511103}
 {"key":"linuxdo:3195785","sourceId":"linuxdo","id":"3195785","title":"agy扫码验证咋还要验证SMS的电话号码呀","keep":true,"score":5,"tags":["人工智能","账号验证"],"why":"具体遇到SMS验证卡点，属真实技术问题，但缺细节与有效评论","at":1794974511103}
 {"key":"linuxdo:3195691","sourceId":"linuxdo","id":"3195691","title":"现在大家下班也都在vibe项目么","keep":false,"score":2,"tags":["闲聊"],"why":"单句闲聊式提问，无正文无信息量，浏览多但无实质补充","at":1794974511103}
+{"key":"1a2x:1013","sourceId":"1a2x","id":"1013","title":"需要领muse词元的留言，还有几个名额，每个名额免费送10亿词元","keep":false,"score":0,"tags":["福利","拉人头"],"why":"免费送词元并让留言领取，属于拉人头福利帖，无信息量","at":1794974871063}
+{"key":"nodeloc:118306","sourceId":"nodeloc","id":"118306","title":"新域名上线， abc.sd 开始提供分发","keep":false,"score":0,"tags":["推广"],"why":"新域名分发服务的开业宣传，评论仅道贺，没有实质信息","at":1794974871063}
+{"key":"linuxdo:3195839","sourceId":"linuxdo","id":"3195839","title":"有没有适合让 Muse 签到的网站","keep":true,"score":6,"tags":["Muse","签到","经验"],"why":"评论给出公益站、微软Rewards，并提示转区封号的风险","at":1794974871063}
+{"key":"linuxdo:3195857","sourceId":"linuxdo","id":"3195857","title":"oaipro 为啥不能大额充值了?","keep":true,"score":3,"tags":["oaipro","提问"],"why":"没有正文，提问笼统，评论只是呼叫管理员，没给出解答","at":1794974871063}
+{"key":"linuxdo:3195844","sourceId":"linuxdo","id":"3195844","title":"一个来中国参会的日本人 Claude 被封号了。。。","keep":true,"score":7,"tags":["Claude","封号","讨论"],"why":"浏览和回复都多，评论围绕IP、漫游卡、ToS给出封号成因","at":1794974871063}
+{"key":"linuxdo:3195850","sourceId":"linuxdo","id":"3195850","title":"未来高中/职高进入义务教育后，没有上高中的人会怎样？","keep":true,"score":4,"tags":["教育","闲聊"],"why":"关于分流政策的社会话题讨论，观点泛泛，没有实证","at":1794974871063}
+{"key":"linuxdo:3195870","sourceId":"linuxdo","id":"3195870","title":"openai 用 herosms 接码一直报错","keep":false,"score":2,"tags":["接码","求助"],"why":"无正文、无报错细节、无回复，无法判断问题","at":1794974871063}
+{"key":"linuxdo:3195747","sourceId":"linuxdo","id":"3195747","title":"请问有什么婴儿用的自部署或者现成应用？","keep":true,"score":6,"tags":["NAS","求资源","育儿"],"why":"评论推荐宝宝相册类NAS，并提醒鉴权与隐私保护","at":1794974871063}
+{"key":"linuxdo:3195867","sourceId":"linuxdo","id":"3195867","title":"购房选点难题，大家快来帮忙决策吧?","keep":false,"score":2,"tags":["购房","求助"],"why":"无正文、浏览极少，无任何有效背景信息","at":1794974871063}
+{"key":"linuxdo:3195853","sourceId":"linuxdo","id":"3195853","title":"谷歌又要发新模型了吗","keep":false,"score":2,"tags":["AI","闲聊"],"why":"无正文的猜测帖，没有出处和讨论，属于水贴","at":1794974871063}
+{"key":"linuxdo:3195866","sourceId":"linuxdo","id":"3195866","title":"白嫖0刀ultra20x之后，感觉祛魅了…","keep":false,"score":0,"tags":["水贴"],"why":"无正文纯抒情，零赞零有效评论，无信息量","at":1794974871063}
+{"key":"linuxdo:3195858","sourceId":"linuxdo","id":"3195858","title":"60块搞了个10年小姨子域名","keep":false,"score":0,"tags":["水贴"],"why":"仅标题报价格，正文空缺、无评论佐证，无可用信息","at":1794974871063}
