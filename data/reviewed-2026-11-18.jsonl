@@ -5395,3 +5395,7 @@
 {"key":"linuxdo:3200143","sourceId":"linuxdo","id":"3200143","title":"gemini学生优惠问题求教","keep":false,"score":1,"tags":["水贴","AI"],"why":"无正文的求教帖，评论区也未给出有效信息","at":1795032504394}
 {"key":"linuxdo:3200144","sourceId":"linuxdo","id":"3200144","title":"你们知道我大半夜看到claude说这句话的时候一身冷汗吗……","keep":false,"score":0,"tags":["标题党","水贴"],"why":"标题夸张但正文空白，无任何可读内容","at":1795032504394}
 {"key":"linuxdo:3200146","sourceId":"linuxdo","id":"3200146","title":"Claude 目标老跑偏 求解法","keep":false,"score":1,"tags":["水贴","提问"],"why":"无正文无背景，属泛泛提问，无信息增量","at":1795032504394}
+{"key":"nodeseek:1064382","sourceId":"nodeseek","id":"1064382","title":"[已出]出绿云JP软银和SJC闪购鸡","keep":false,"score":0,"tags":["交易","已出"],"why":"二手交易帖已出且无正文，无任何信息量","at":1795034264140}
+{"key":"nodeseek:1064423","sourceId":"nodeseek","id":"1064423","title":"Windows里大家都用不用包管理器？","keep":true,"score":7,"tags":["Windows","软件"],"why":"包管理器经验讨论，评论补充scoop与winget实操细节","at":1795034264140}
+{"key":"nodeseek:1042204","sourceId":"nodeseek","id":"1042204","title":"aether家的几个有什么区别","keep":false,"score":1,"tags":["提问"],"why":"无正文无评论，提问过于空泛无法回答","at":1795034264140}
+{"key":"linuxdo:3200153","sourceId":"linuxdo","id":"3200153","title":"gpt 搞不懂该在文档中写什么东西","keep":false,"score":2,"tags":["AI","提问"],"why":"无正文，仅一句泛泛提问，互动数据低","at":1795034264140}
