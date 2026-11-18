@@ -5503,3 +5503,12 @@
 {"key":"nodeseek:1064459","sourceId":"nodeseek","id":"1064459","title":"继续抽，两个十亿 outlook注册，muse手搓号，我爱做慈善","keep":false,"score":0,"tags":["抽奖","拉人头"],"why":"抽奖帖要求点赞并附开奖链接，属活动拉新推广","at":1795043272643}
 {"key":"nodeseek:1064458","sourceId":"nodeseek","id":"1064458","title":"Gemini 4 neon已完全击败opus 5.5和GPT-6.2 sol","keep":false,"score":2,"tags":["水贴","吹捧"],"why":"只有一句吹捧无实测，评论只是追问，没有实质补充","at":1795043272643}
 {"key":"nodeseek:1064430","sourceId":"nodeseek","id":"1064430","title":"请求奶昔论坛邀请码","keep":false,"score":0,"tags":["求码","拉人头"],"why":"发帖索要邀请码，属纯拉人头类型","at":1795043272643}
+{"key":"nodeseek:1064457","sourceId":"nodeseek","id":"1064457","title":"我想从中国→vps中转→德国落地ip，我用的宽带是联通，所以想用9929，我住在西南片区，我中转vps选在哪里延迟最低，主要用途是用来加速游戏还有直播游戏(德区，欧洲区)","keep":true,"score":5,"tags":["中转","线路"],"why":"联通9929和西南片区等背景具体，但正文仅如题、无实测数据","at":1795043293883}
+{"key":"nodeseek:1064456","sourceId":"nodeseek","id":"1064456","title":"muse最近在抽啥疯","keep":true,"score":3,"tags":["吐槽"],"why":"内容仅泛泛抱怨muse的安全拦截，未给出复现信息","at":1795043293883}
+{"key":"nodeseek:1063249","sourceId":"nodeseek","id":"1063249","title":"看流媒体现在都是什么方案","keep":false,"score":2,"tags":["水贴"],"why":"正文空白、无任何方案背景，属于无信息量的泛问","at":1795043293883}
+{"key":"linuxdo:3200191","sourceId":"linuxdo","id":"3200191","title":"ios app有更新的时候刷不出来","keep":false,"score":2,"tags":["提问"],"why":"正文空白、浏览极少，问题无法判断，无讨论价值","at":1795043293883}
+{"key":"linuxdo:3200190","sourceId":"linuxdo","id":"3200190","title":"antigravity上Neon了","keep":true,"score":4,"tags":["行业消息","AI"],"why":"简短的新模型上线消息，但无正文与细节，只有微量互动","at":1795043293883}
+{"key":"nodeseek:1064460","sourceId":"nodeseek","id":"1064460","title":"APEC 会议说要搭建全方位互联互通网络","keep":false,"score":0,"tags":["政治","搬运"],"why":"通稿式政治新闻复制，评论也仅讽刺，无技术信息","at":1795043293883}
+{"key":"nodeseek:1064459","sourceId":"nodeseek","id":"1064459","title":"继续抽，两个十亿 outlook注册，muse手搓号，我爱做慈善","keep":false,"score":0,"tags":["抽奖","拉人头"],"why":"抽奖送号拉赞活动，评论全为占了，属纯拉人头","at":1795043293883}
+{"key":"nodeseek:1064458","sourceId":"nodeseek","id":"1064458","title":"Gemini 4 neon已完全击败opus 5.5和GPT-6.2 sol","keep":false,"score":2,"tags":["标题党","吹捧"],"why":"单句吹捧且模型版本存疑，与第5条同主题且无实据","at":1795043293883}
+{"key":"nodeseek:1064430","sourceId":"nodeseek","id":"1064430","title":"请求奶昔论坛邀请码","keep":false,"score":0,"tags":["求码","水贴"],"why":"公开求邀请码，无任何信息价值","at":1795043293883}
