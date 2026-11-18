@@ -1382,3 +1382,15 @@
 {"key":"linuxdo:3195853","sourceId":"linuxdo","id":"3195853","title":"谷歌又要发新模型了吗","keep":false,"score":2,"tags":["水贴","AI"],"why":"无正文无评论的猜测式提问，信息量近零","at":1794974892801}
 {"key":"linuxdo:3195866","sourceId":"linuxdo","id":"3195866","title":"白嫖0刀ultra20x之后，感觉祛魅了…","keep":false,"score":1,"tags":["纯水"],"why":"无正文且仅有1条回复、零赞，纯属情绪水贴，无信息量","at":1794974892801}
 {"key":"linuxdo:3195858","sourceId":"linuxdo","id":"3195858","title":"60块搞了个10年小姨子域名","keep":false,"score":2,"tags":["纯水"],"why":"仅标题提及价格，无正文与实测细节，互动为零，不值得推送","at":1794974892801}
+{"key":"nodeloc:118310","sourceId":"nodeloc","id":"118310","title":"DeepSeek 官方搜索要收费，中转又用不了，我做了个免费替代","keep":true,"score":6,"tags":["AI","工具"],"why":"自建免费搜索替代方案，但评论仅致谢无补充实测","at":1794975358634}
+{"key":"linuxdo:3195933","sourceId":"linuxdo","id":"3195933","title":"白漂一台电信云电脑Windows Server 环境 8GB + Xeon 4核","keep":false,"score":0,"tags":["水贴"],"why":"无正文，标题式白嫖分享无任何实质信息","at":1794975358634}
+{"key":"linuxdo:3195900","sourceId":"linuxdo","id":"3195900","title":"google ultra 试用似乎没了？","keep":true,"score":6,"tags":["Google","薅羊毛"],"why":"评论补充美区限制、买号封号风险等实测细节","at":1794975358634}
+{"key":"linuxdo:3195930","sourceId":"linuxdo","id":"3195930","title":"Google 白嫖ultra已经开杀了吗","keep":false,"score":0,"tags":["重复"],"why":"与第3条同主题且信息量更少，去重丢弃","at":1794975358634}
+{"key":"linuxdo:3195874","sourceId":"linuxdo","id":"3195874","title":"用了两个月的pro，被A/封了，怀疑是用了送的Fable重置卡的缘故","keep":true,"score":5,"tags":["AI","封号"],"why":"封号原因推测有参考性，但无正文和证据支撑","at":1794975358634}
+{"key":"linuxdo:3195925","sourceId":"linuxdo","id":"3195925","title":"6.2 astra频发(last upstream error: server_is_overloaded: Our servers are currently overloaded. Please try again later.)","keep":true,"score":6,"tags":["AI","故障"],"why":"上游过载报错的具体异动记录，可作可用性参考","at":1794975358634}
+{"key":"linuxdo:3195877","sourceId":"linuxdo","id":"3195877","title":"通过 L 站邮箱注册的 Google 账号被封，Google让我联系L站","keep":true,"score":5,"tags":["Google","封号"],"why":"L站邮箱注册谷歌号被封，属风险提示但缺细节","at":1794975358634}
+{"key":"linuxdo:3195878","sourceId":"linuxdo","id":"3195878","title":"Google ultra 30T，Opus只有4.6","keep":false,"score":2,"tags":["低信息"],"why":"无正文的泛泛提问，且与Google Ultra主题重复","at":1794975358634}
+{"key":"linuxdo:3195897","sourceId":"linuxdo","id":"3195897","title":"两台DGX SPARK上Qwen3.8-Flash-Next（英伟达版）的实测效果「参考」","keep":true,"score":7,"tags":["AI","实测"],"why":"双DGX Spark部署实测，硬件跑分类一手内容","at":1794975358634}
+{"key":"linuxdo:3195921","sourceId":"linuxdo","id":"3195921","title":"我和opus5.5的孽缘，盘点它让我恼火的时刻，以及我为什么成为了世一a黑","keep":true,"score":4,"tags":["AI","吐槽"],"why":"个人使用槽点盘点，无实测数据，偏情绪化讨论","at":1794975358634}
+{"key":"linuxdo:3195917","sourceId":"linuxdo","id":"3195917","title":"magpie gpt6.2没有ultra模式","keep":false,"score":0,"tags":["提问","AI"],"why":"无正文且零赞，仅一句无信息量提问，无讨论价值","at":1794975358634}
+{"key":"linuxdo:3195909","sourceId":"linuxdo","id":"3195909","title":"claude pro充值求助","keep":false,"score":0,"tags":["提问","Claude"],"why":"无正文无背景的充值求助，属空洞提问，评论也无补充","at":1794975358634}
