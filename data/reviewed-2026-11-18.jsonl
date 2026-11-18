@@ -5458,3 +5458,8 @@
 {"key":"linuxdo:3200168","sourceId":"linuxdo","id":"3200168","title":"ERNIE 5.5 Flash 就这水平？","keep":false,"score":0,"tags":["水贴","AI"],"why":"纯水标题党，正文为空，评论仅嘲讽无实据","at":1795037889427}
 {"key":"linuxdo:3200170","sourceId":"linuxdo","id":"3200170","title":"gemini4 neon 鹈鹕测试 astra老师 是你吗？","keep":false,"score":0,"tags":["水贴","AI"],"why":"正文为空，标题与评论玩梗，无信息量","at":1795037889427}
 {"key":"linuxdo:3200169","sourceId":"linuxdo","id":"3200169","title":"gpt6.2a就像个老牛一样","keep":false,"score":0,"tags":["水贴","AI"],"why":"无正文无评论，单句情绪化吐槽","at":1795037889427}
+{"key":"nodeseek:1064444","sourceId":"nodeseek","id":"1064444","title":"Gemini 4 Neon Extra 鹈鹕测试，完成度相当不错呀","keep":true,"score":6,"tags":["AI","模型测试"],"why":"含模型对比与额度消耗实测，有信息量","at":1795039663542}
+{"key":"nodeseek:1064447","sourceId":"nodeseek","id":"1064447","title":"咋大半夜还封端口","keep":true,"score":5,"tags":["网络","故障"],"why":"反映凌晨端口被封异常，但缺少细节","at":1795039663542}
+{"key":"nodeseek:1064446","sourceId":"nodeseek","id":"1064446","title":"溢价50收一个16t标配le-3，有没有开鸡失败的大佬","keep":true,"score":3,"tags":["求购","交易"],"why":"个人溢价求购帖，信息量低但非纯水","at":1795039663542}
+{"key":"nodeseek:1064445","sourceId":"nodeseek","id":"1064445","title":"用ai开发app 和网站是一种愚蠢的行为","keep":true,"score":4,"tags":["AI","讨论"],"why":"观点空泛，高赞评论用比喻反驳有讨论价值","at":1795039663542}
+{"key":"nodeseek:1064030","sourceId":"nodeseek","id":"1064030","title":"Raksmart的双isp好用吗，怎么买最便宜","keep":false,"score":0,"tags":["提问","VPS"],"why":"无正文的泛泛求推荐比价，属无信息量提问","at":1795039663542}
