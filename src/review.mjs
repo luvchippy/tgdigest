@@ -205,11 +205,14 @@ export async function reviewItems(items, { template, profile, log = () => {} }) 
 
   async function collectImages(batch, max = 3) {
     const urls = [];
-    for (const item of batch) {
+    // 注意：这里凑满 max 必须 break，不能 return ——
+    // 早先写成 return urls 会直接把原始 URL 数组抛出去，跳过下面的 base64 转换，
+    // 于是"刚好 3 张图"的批次会把裸 URL 发给模型，上游自己去 GET 图床超时 → 整批 400。
+    collect: for (const item of batch) {
       if (!Array.isArray(item.images) || !item.images.length) continue;
       if (String(item.text || '').length >= 300) continue;
       for (const u of item.images) {
-        if (urls.length >= max) return urls;
+        if (urls.length >= max) break collect;
         if (typeof u !== 'string' || !u.startsWith('http')) continue;
         // 矢量图接口不收，带上会让整批 400
         if (/\.svg(\?|$)/i.test(u)) continue;
@@ -260,7 +263,7 @@ export async function reviewItems(items, { template, profile, log = () => {} }) 
         log(`  ! 审核批次 ${offset / BATCH_SIZE + 1} 第 ${attempt} 次失败: ${err.message}`);
         // 图片相关的报错（图床挡了、格式不支持）不该拖垮整批：
         // 丢掉图用纯文本重来，宁可少看图也不能丢帖子。
-        if (images.length && /image|multimodal|file size/i.test(err.message)) {
+        if (images.length && /image|multimodal|file size|deadline exceeded|Get \\"/i.test(err.message)) {
           log('    → 图片加载失败，本批降级为纯文本重试');
           images = [];
           attempt -= 1;
