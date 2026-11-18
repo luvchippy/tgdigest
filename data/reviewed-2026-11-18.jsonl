@@ -2813,3 +2813,55 @@
 {"key":"linuxdo:3197541","sourceId":"linuxdo","id":"3197541","title":"我的 IPv4 公网 IP 一重启 modem 就变，对 Claude 好伤","keep":false,"score":2,"tags":["提问"],"why":"仅一句IP抱怨，无技术细节或讨论","at":1794991593043}
 {"key":"linuxdo:3197520","sourceId":"linuxdo","id":"3197520","title":"Ultra还是被清算了","keep":true,"score":4,"tags":["风险","账号"],"why":"高浏览多回复的清算动态，缺正文细节","at":1794991593043}
 {"key":"linuxdo:3197538","sourceId":"linuxdo","id":"3197538","title":"GEN 组一个复仇者联盟,大家觉得怎么样?","keep":false,"score":0,"tags":["水贴"],"why":"无正文，仅一句空泛提问，无任何信息量","at":1794991593043}
+{"key":"nodeseek:1063241","sourceId":"nodeseek","id":"1063241","title":"Google AI Pro 咨询","keep":true,"score":5,"tags":["AI订阅","咨询"],"why":"泛泛咨询，评论补充日区学生价与价格渠道","at":1794992863069}
+{"key":"nodeseek:1063214","sourceId":"nodeseek","id":"1063214","title":"rr","keep":false,"score":0,"tags":["水贴"],"why":"正文无意义字符，评论仅起哄","at":1794992863069}
+{"key":"nodeseek:1063217","sourceId":"nodeseek","id":"1063217","title":"江苏地区还有便宜的流量卡吗","keep":true,"score":5,"tags":["流量卡","咨询"],"why":"本地流量卡咨询，评论提示二手平台及限龄涨价","at":1794992863069}
+{"key":"nodeseek:1063248","sourceId":"nodeseek","id":"1063248","title":"ultra已坠机","keep":false,"score":0,"tags":["水贴"],"why":"单句状态无细节，也无评论补充","at":1794992863069}
+{"key":"nodeseek:1063202","sourceId":"nodeseek","id":"1063202","title":"GPT6.2Sol和Astra怎么样啊？","keep":true,"score":6,"tags":["AI模型","体验"],"why":"模型体验讨论，评论补充中断问题与额度实测","at":1794992863069}
+{"key":"nodeseek:1063196","sourceId":"nodeseek","id":"1063196","title":"shandun vs vmiss？","keep":true,"score":6,"tags":["VPS","对比"],"why":"商家对比提问，评论反馈稳定性和IPv6差异","at":1794992863069}
+{"key":"nodeseek:1063242","sourceId":"nodeseek","id":"1063242","title":"Google 刚刚好像清退了一波薅羊毛的","keep":true,"score":6,"tags":["Google","风控"],"why":"账号清退异动，评论多人反馈掉号与幸存","at":1794992863069}
+{"key":"nodeseek:1063247","sourceId":"nodeseek","id":"1063247","title":"有每弹claude portal 验证的账号吗？","keep":false,"score":2,"tags":["提问","Claude"],"why":"问题空泛且无评论，缺少可用信息","at":1794992863069}
+{"key":"nodeseek:1063236","sourceId":"nodeseek","id":"1063236","title":"Raksmart的ISP出新IP段了","keep":true,"score":7,"tags":["VPS","IP段"],"why":"新IP段情报，评论补充旧段、口碑与CN2新段","at":1794992863069}
+{"key":"nodeseek:1063230","sourceId":"nodeseek","id":"1063230","title":"腾讯云不开80/443能解析域名么（未备案）","keep":true,"score":6,"tags":["腾讯云","备案"],"why":"备案与解析提问，评论指出国内机需备案或被拦截","at":1794992863069}
+{"key":"nodeseek:1063224","sourceId":"nodeseek","id":"1063224","title":"公司想要做外贸，想要一个住宅ip的VPS，有什么推荐的吗","keep":true,"score":4,"tags":["VPS","家宽","求助"],"why":"泛泛求推荐，评论补充预算与真家宽门槛","at":1794992863069}
+{"key":"nodeseek:1063032","sourceId":"nodeseek","id":"1063032","title":"你们的google ultra 0元购还好吗？","keep":true,"score":5,"tags":["Google","羊毛","状态"],"why":"评论汇总0元购存活、退款与掉线状态","at":1794992863069}
+{"key":"nodeseek:1063197","sourceId":"nodeseek","id":"1063197","title":"【开源】Hostower：多 VPS 面板，监控、测回程线路、一键装应用，一行命令部署","keep":true,"score":8,"tags":["开源","VPS","运维"],"why":"开源多VPS面板，功能与安全设计完整","at":1794992863069}
+{"key":"nodeseek:1063225","sourceId":"nodeseek","id":"1063225","title":"大家和家里关系怎么样","keep":true,"score":3,"tags":["生活","情感"],"why":"个人家庭关系倾诉，评论共鸣但无实用信息","at":1794992863069}
+{"key":"nodeseek:1063245","sourceId":"nodeseek","id":"1063245","title":"出租一个妙妙屋x 许可证micro","keep":false,"score":0,"tags":["广告","出租"],"why":"出租账号/许可证的推广帖，无实质信息","at":1794992863069}
+{"key":"nodeseek:1063244","sourceId":"nodeseek","id":"1063244","title":"ultrafast 6倍消耗，速度提升是几倍呢？","keep":false,"score":0,"tags":["水贴"],"why":"正文仅RT，无实测无背景的泛泛提问","at":1794992863069}
+{"key":"nodeseek:1063175","sourceId":"nodeseek","id":"1063175","title":"为什么要买家宽的小鸡？而不是出口套个家宽代理ip，走链式代理？","keep":true,"score":7,"tags":["家宽","代理","讨论"],"why":"讨论家宽小鸡与链式代理，评论补充超售与万人骑风险","at":1794992863069}
+{"key":"nodeseek:1063180","sourceId":"nodeseek","id":"1063180","title":"【不收了】官网有货了 GoMami LAX.Pulse.Nano","keep":true,"score":6,"tags":["VPS","补货","情报"],"why":"补货情报，评论确认官网有货并附链接","at":1794992863069}
+{"key":"nodeseek:1063190","sourceId":"nodeseek","id":"1063190","title":"组内网能干啥？怎么都是拿raksmart去组这个，然后出的也好多","keep":true,"score":4,"tags":["VPS","内网","讨论"],"why":"泛问组内网用途，评论仅零散提到省流量","at":1794992863069}
+{"key":"nodeseek:1063178","sourceId":"nodeseek","id":"1063178","title":"20元/月的千兆联通宽带算便宜吗？","keep":true,"score":6,"tags":["宽带","价格","经验"],"why":"分享具体宽带资费与办理路径，评论有低价反馈","at":1794992863069}
+{"key":"nodeseek:1063220","sourceId":"nodeseek","id":"1063220","title":"RakSmart SV 4.99刀双十一机子NodeQuality测试留档","keep":true,"score":8,"tags":["VPS","测评"],"why":"NodeQuality实测跑分留档，一手数据","at":1794992863069}
+{"key":"nodeseek:1063111","sourceId":"nodeseek","id":"1063111","title":"apple siri的千问AI怎么样？用beta的佬来说说","keep":true,"score":4,"tags":["AI","讨论"],"why":"仅泛泛讨论隐私，评论无实测信息","at":1794992863069}
+{"key":"nodeseek:1063149","sourceId":"nodeseek","id":"1063149","title":"出DEDI小盘机","keep":true,"score":5,"tags":["交易","VPS"],"why":"二手小盘机配置价格明确，评论提醒改邮费","at":1794992863069}
+{"key":"nodeseek:1063184","sourceId":"nodeseek","id":"1063184","title":"我无法登陆cloudflare了,有和我一样的吗?","keep":true,"score":7,"tags":["Cloudflare","故障"],"why":"描述CF登录403等故障，评论提示节点丢包","at":1794992863069}
+{"key":"nodeseek:1062742","sourceId":"nodeseek","id":"1062742","title":"【快讯】legend sg 不会成为佳人了","keep":true,"score":7,"tags":["VPS","快讯"],"why":"商家legend状态变更，可退款转网快讯","at":1794992863069}
+{"key":"nodeseek:1063152","sourceId":"nodeseek","id":"1063152","title":"【TQ】vmiss207换23之后什么时候能修好啊","keep":true,"score":7,"tags":["VPS","线路"],"why":"含vmiss路由与测速报告，属线路故障咨询","at":1794992863069}
+{"key":"nodeseek:912704","sourceId":"nodeseek","id":"912704","title":"[半价订阅AI]用Gate Card 订阅 AI，享 50% 返现！","keep":false,"score":0,"tags":["广告","推广"],"why":"活动返现含邀请码，属广告推广","at":1794992863069}
+{"key":"nodeseek:1063120","sourceId":"nodeseek","id":"1063120","title":"mexc这是什么意思","keep":true,"score":8,"tags":["交易所","避坑"],"why":"评论实锤MEXC卡被制裁删卡，避坑提醒","at":1794992863069}
+{"key":"nodeseek:1063194","sourceId":"nodeseek","id":"1063194","title":"出aws 16v的速刷号 带100刀、有op4.6","keep":false,"score":0,"tags":["违规","交易"],"why":"出售速刷AWS账号，违规灰产交易","at":1794992863069}
+{"key":"nodeseek:1063192","sourceId":"nodeseek","id":"1063192","title":"【收】溢价100 收绿云1212 日本软银","keep":false,"score":2,"tags":["求购","交易"],"why":"求购信息单薄，无实质讨论价值","at":1794992863069}
+{"key":"nodeseek:1063145","sourceId":"nodeseek","id":"1063145","title":"有靠谱的muse破甲方法嘛？求各位大佬支支招","keep":false,"score":0,"tags":["AI","提问"],"why":"求破甲方法但无实测，评论无有效方案","at":1794992863069}
+{"key":"nodeseek:1063005","sourceId":"nodeseek","id":"1063005","title":"【出】折价出1088R 出 海创1c1g10g amd双栈🐔 +231$余额 +2个一折码随意开机","keep":true,"score":5,"tags":["交易","VPS"],"why":"转让海创余额与折扣码，截图佐证，评论讨论提现","at":1794992863069}
+{"key":"nodeseek:1063142","sourceId":"nodeseek","id":"1063142","title":"gemini家庭组提问","keep":true,"score":7,"tags":["Gemini","账号共享"],"why":"家庭组用量与封号风险提问，评论指出反代连坐和封禁","at":1794992863069}
+{"key":"nodeseek:1063147","sourceId":"nodeseek","id":"1063147","title":"NodeQuality KS-LE-6 GRA 2× 1920GB NVME","keep":true,"score":8,"tags":["VPS","测评","硬件"],"why":"附硬件与IP质量实测报告，NVMe和流媒体数据完整","at":1794992863069}
+{"key":"nodeseek:1063143","sourceId":"nodeseek","id":"1063143","title":"【收】dmit LAX.AS3.Pro.Pocket","keep":false,"score":2,"tags":["求购","VPS"],"why":"仅求购型号与价格，无背景无讨论","at":1794992863069}
+{"key":"nodeseek:1063013","sourceId":"nodeseek","id":"1063013","title":"【收】+60收台ShanDun DE 9929 2刀/月","keep":false,"score":0,"tags":["水贴","求购"],"why":"正文仅rt，评论仅顶帖，无信息量","at":1794992863069}
+{"key":"nodeseek:882027","sourceId":"nodeseek","id":"882027","title":"现在还有什么爬微信公众号内容的办法吗？","keep":true,"score":7,"tags":["爬虫","微信","技术"],"why":"微信公众号采集求助，评论给出开源项目与付费API","at":1794992863069}
+{"key":"nodeseek:1062978","sourceId":"nodeseek","id":"1062978","title":"【秒出】出一台Lightlayer sjc 4.9","keep":true,"score":4,"tags":["VPS","交易"],"why":"二手转让Lightlayer，配置到期明确，评论仅帮顶","at":1794992863069}
+{"key":"linuxdo:3197628","sourceId":"linuxdo","id":"3197628","title":"有没有佬知道gemini这是什么意思，怎么问什么问题都只回答我是文本AI回答不了","keep":false,"score":0,"tags":["水贴","AI"],"why":"纯水提问且无正文，评论缺失","at":1794992863069}
+{"key":"linuxdo:3197585","sourceId":"linuxdo","id":"3197585","title":"招行万事达普卡如何查看gcp验证码","keep":true,"score":4,"tags":["GCP","支付"],"why":"GCP验证码查看问题，评论指向招行动账通知","at":1794992863069}
+{"key":"linuxdo:3197627","sourceId":"linuxdo","id":"3197627","title":"累死了，deepseek干活还是快啊","keep":false,"score":1,"tags":["水贴"],"why":"无正文，仅单句感慨，无任何信息量","at":1794992863069}
+{"key":"linuxdo:3197552","sourceId":"linuxdo","id":"3197552","title":"gemini ultra已被拿下 太好用了 现在离不开了怎么办","keep":true,"score":6,"tags":["Gemini","订阅"],"why":"评论补充Colab算力额度与土区价格实况，有订阅情报价值","at":1794992863069}
+{"key":"linuxdo:3197624","sourceId":"linuxdo","id":"3197624","title":"既然新版 GPT 不说人话，那就别跟它说话：我是怎么用 CC 管着一堆 GPT 并行干活的","keep":false,"score":2,"tags":["标题党"],"why":"标题长但正文为空，无实际方案或结论","at":1794992863069}
+{"key":"linuxdo:3197623","sourceId":"linuxdo","id":"3197623","title":"qoder反代开始风控了吗？企业版可以吗","keep":false,"score":2,"tags":["水贴"],"why":"无正文的泛泛提问，看不出真实问题背景","at":1794992863069}
+{"key":"linuxdo:3197622","sourceId":"linuxdo","id":"3197622","title":"gemini的低价订阅应该要没了","keep":false,"score":0,"tags":["去重"],"why":"与第8条同为Gemini低价订阅终止消息，信息量更低","at":1794992863069}
+{"key":"linuxdo:3197554","sourceId":"linuxdo","id":"3197554","title":"土区的 x premium 的年续费还在，去拿下锁定一年低保蓝 V 低价","keep":true,"score":5,"tags":["订阅","羊毛"],"why":"土区X Premium年付低价情报，属可操作的价格信息","at":1794992863069}
+{"key":"linuxdo:3197566","sourceId":"linuxdo","id":"3197566","title":"6.2Astra max 鹈鹕","keep":false,"score":2,"tags":["水贴"],"why":"标题含义不明且无正文，无实质信息","at":1794992863069}
+{"key":"linuxdo:3197567","sourceId":"linuxdo","id":"3197567","title":"Google AI Ultra 试用期已结束","keep":true,"score":5,"tags":["Google","订阅"],"why":"提示Ultra试用期结束，对关注试用的人有实用提醒","at":1794992863069}
+{"key":"linuxdo:3197562","sourceId":"linuxdo","id":"3197562","title":"gpt6.2 sol 很好用啊，配上gpt官方的优化提示词，比6.1 sol快多了","keep":true,"score":6,"tags":["GPT","经验"],"why":"带官方提示词的实测对比心得，8赞显示有共鸣","at":1794992863069}
+{"key":"linuxdo:3197614","sourceId":"linuxdo","id":"3197614","title":"有一坨 O÷ 的网军说 APT 烂","keep":false,"score":1,"tags":["引战"],"why":"纯情绪化攻击他人观点的水贴，无有效信息","at":1794992863069}
+{"key":"linuxdo:3197613","sourceId":"linuxdo","id":"3197613","title":"O/是不是每次发布新模型就要风控一批人啊","keep":false,"score":2,"tags":["水贴","提问"],"why":"正文缺失，只有一句泛泛的提问，没有信息量","at":1794992863069}
+{"key":"linuxdo:3197581","sourceId":"linuxdo","id":"3197581","title":"【缓存命中对比】gpt-6.1-sol vs gpt-6.2-sol","keep":false,"score":1,"tags":["标题党","水贴"],"why":"标题写的是缓存命中对比，正文却没有，评论也没有补充","at":1794992863069}
