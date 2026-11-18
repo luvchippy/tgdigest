@@ -30,3 +30,35 @@
 {"key":"linuxdo:3194269","sourceId":"linuxdo","id":"3194269","title":"反重力这次重置把Claude的额度也重置了，但还没用自动掉到95%","keep":true,"score":6,"tags":["AI","额度异常"],"why":"记录重置后额度异常，评论确认掉到94%","at":1794960467039}
 {"key":"linuxdo:3194256","sourceId":"linuxdo","id":"3194256","title":"为什么那么多人信aa野榜","keep":false,"score":2,"tags":["模型","榜单"],"why":"无正文的纯水提问，评论只是各自站队，没有实测或结论","at":1794960467039}
 {"key":"linuxdo:3194266","sourceId":"linuxdo","id":"3194266","title":"fast 2倍消耗1.5倍速度，ultrafast 3倍消耗5-6倍速度，这咋想的？","keep":false,"score":2,"tags":["OpenAI","价格"],"why":"只有标题一句吐槽倍率，无正文无实测，属于临界水贴","at":1794960467039}
+{"key":"nodeseek:1060820","sourceId":"nodeseek","id":"1060820","title":"「已秒出」 po0 华东上海1188","keep":false,"score":2,"tags":["交易","水贴"],"why":"已秒出的二手交易贴，无实用行情信息，评论均为起哄","at":1794960514327}
+{"key":"nodeseek:1061870","sourceId":"nodeseek","id":"1061870","title":"单网联通用户直接美西直连机也可以用的！","keep":true,"score":5,"tags":["线路","联通"],"why":"观点偏颇，评论以晚高峰4837严重QoS反例纠正，有信息量","at":1794960514327}
+{"key":"nodeseek:1061874","sourceId":"nodeseek","id":"1061874","title":"这次GPT更新最有意义的是6.2 sol的ultrafast","keep":true,"score":3,"tags":["ChatGPT","闲聊"],"why":"仅一句新功能体验，评论给出疑似三倍消耗，信息有限","at":1794960514327}
+{"key":"nodeseek:1061873","sourceId":"nodeseek","id":"1061873","title":"xtom线路的全部整活了？包括+人云和riven","keep":true,"score":7,"tags":["线路异动","xtom"],"why":"线路限速异动，评论附Riven撤回条款原文与恢复情况","at":1794960514327}
+{"key":"nodeseek:1061868","sourceId":"nodeseek","id":"1061868","title":"这几天一个Apple账户被连续封掉2个claude，申请退款，导致apple账户被风控了","keep":true,"score":5,"tags":["踩坑","Apple"],"why":"多次退款致账号风控的踩坑记录，评论点明关键诱因","at":1794960514327}
+{"key":"1a2x:998","sourceId":"1a2x","id":"998","title":"早上好","keep":false,"score":0,"tags":["水贴"],"why":"纯早安签到贴，无任何信息量","at":1794960514327}
+{"key":"linuxdo:3194224","sourceId":"linuxdo","id":"3194224","title":"6.2的超级安全审查","keep":false,"score":2,"tags":["水贴"],"why":"无正文的标题党，评论仅情绪宣泄，无实质内容","at":1794960514327}
+{"key":"linuxdo:3194239","sourceId":"linuxdo","id":"3194239","title":"反重力好像重置额度了","keep":false,"score":0,"tags":["重复","水贴"],"why":"与第9条同主题重复，且无正文无评论，信息量更低","at":1794960514327}
+{"key":"linuxdo:3194237","sourceId":"linuxdo","id":"3194237","title":"反重力重置了！","keep":true,"score":3,"tags":["额度重置","谷歌"],"why":"无正文仅报额度重置，评论质疑算力重置与薅羊毛，信息偏薄","at":1794960514327}
+{"key":"linuxdo:3194233","sourceId":"linuxdo","id":"3194233","title":"能蹬 5 个小时，ultra 也就结束了；确实是 0 元体验卡","keep":true,"score":4,"tags":["羊毛","Google"],"why":"评论区指出分批封杀、部分账号存活，补充了实测情况","at":1794960514327}
+{"key":"linuxdo:3194235","sourceId":"linuxdo","id":"3194235","title":"反重力似乎重置了","keep":true,"score":5,"tags":["AI","额度异动"],"why":"额度重置异动，评论补充两账号之一已确认重置","at":1794960514327}
+{"key":"linuxdo:3194236","sourceId":"linuxdo","id":"3194236","title":"apple store 礼品卡付款claude渠道死了之后 claude pro成品号是不是该转战Paypal了","keep":true,"score":3,"tags":["AI","账号"],"why":"仅标题提及付款渠道失效，无正文无讨论，信息单薄","at":1794960514327}
+{"key":"linuxdo:3194232","sourceId":"linuxdo","id":"3194232","title":"谷歌的人说carbon在agy的首字快了1.5倍","keep":false,"score":2,"tags":["AI","传闻"],"why":"无正文、评论已删，二手传闻无来源无细节","at":1794960514327}
+{"key":"linuxdo:3194231","sourceId":"linuxdo","id":"3194231","title":"关于AI写作/编辑，哪家模型强？","keep":true,"score":3,"tags":["AI","提问"],"why":"泛泛选型提问，无使用场景细节，评论无补充","at":1794960514327}
+{"key":"linuxdo:3194225","sourceId":"linuxdo","id":"3194225","title":"GPT 网页版一直 500 错误 是不是离封号不远了？","keep":true,"score":4,"tags":["ChatGPT","故障"],"why":"反映真实500报错现象，但无日志无后续信息","at":1794960514327}
+{"key":"linuxdo:3194223","sourceId":"linuxdo","id":"3194223","title":"赋能每一次无效沟通，我就是最不懂你的 AI 模型 ChatGPT。","keep":false,"score":1,"tags":["水贴"],"why":"无正文的单句调侃，无任何信息量","at":1794960514327}
+{"key":"nodeseek:1061875","sourceId":"nodeseek","id":"1061875","title":"【出】命盘出 RackNerd 2.5 GB KVM VPS (Black Friday 2025)","keep":false,"score":1,"tags":["交易","VPS"],"why":"单纯出货转卖帖，无价格配置与正文信息","at":1794960514327}
+{"key":"nodeseek:1061887","sourceId":"nodeseek","id":"1061887","title":"服了 riven取消了限制","keep":false,"score":1,"tags":["水贴","吐槽"],"why":"纯情绪发泄吐槽，无可提取信息","at":1794960514327}
+{"key":"nodeseek:1061885","sourceId":"nodeseek","id":"1061885","title":"chatgpt plus怎么减少token消耗量","keep":true,"score":7,"tags":["ChatGPT","经验"],"why":"有真实用量踩坑背景，评论补充新模型与重置线索","at":1794960514327}
+{"key":"nodeseek:1061858","sourceId":"nodeseek","id":"1061858","title":"7 个近期免费获取muse 账号和 token 机器人，目前还有效","keep":false,"score":0,"tags":["AFF","拉人头"],"why":"全是带邀请码的机器人链接，典型拉新返利","at":1794960514327}
+{"key":"nodeseek:1061890","sourceId":"nodeseek","id":"1061890","title":"opencode glm5.3 涨额度了","keep":true,"score":6,"tags":["AI","额度"],"why":"GLM 5.3额度提升至$200的情报，信息单一但有效","at":1794960514327}
+{"key":"nodeseek:1061891","sourceId":"nodeseek","id":"1061891","title":"ak家不是锁地区的吗？","keep":true,"score":6,"tags":["VPS","IPv6"],"why":"反馈V6送中且V4较脏，带具体落地机异常","at":1794960514327}
+{"key":"nodeseek:1061884","sourceId":"nodeseek","id":"1061884","title":"瓦工的七天免费测试机收到了","keep":true,"score":8,"tags":["VPS","测评","实测"],"why":"含完整硬件体检与日本机实测，评论补充开通进度","at":1794960514327}
+{"key":"nodeseek:1061888","sourceId":"nodeseek","id":"1061888","title":"200收 RN Racknerd 黑五闪购 3C2.5G10T 续费13.99$/年","keep":false,"score":0,"tags":["交易"],"why":"纯求购交易帖，评论仅质疑小号，无实锤信息","at":1794960514327}
+{"key":"nodeseek:1061880","sourceId":"nodeseek","id":"1061880","title":"GPT-6.2 Sol & Astra终于端上来了","keep":false,"score":0,"tags":["AI","水贴"],"why":"正文空泛且含贬称，无实测或有效信息","at":1794960514327}
+{"key":"nodeseek:1061876","sourceId":"nodeseek","id":"1061876","title":"克里米亚大桥断了","keep":false,"score":0,"tags":["政治"],"why":"政治敏感且无正文，不宜推送","at":1794960514327}
+{"key":"nodeseek:1061889","sourceId":"nodeseek","id":"1061889","title":"黑五，还是值得期待的","keep":true,"score":3,"tags":["VPS","黑五"],"why":"仅泛泛预测黑五促销，无具体商家或价格信息","at":1794960514327}
+{"key":"nodeseek:1061881","sourceId":"nodeseek","id":"1061881","title":"白嫖的gemini ultra 刚刚重置了？","keep":false,"score":0,"tags":["AI","水贴"],"why":"仅“rt”式提问，无背景无实测","at":1794960514327}
+{"key":"linuxdo:3194263","sourceId":"linuxdo","id":"3194263","title":"天塌了，新模型发布居然没有重置额度","keep":true,"score":6,"tags":["AI","额度"],"why":"评论补充重置卡与模型发布关联的推测","at":1794960514327}
+{"key":"linuxdo:3194269","sourceId":"linuxdo","id":"3194269","title":"反重力这次重置把Claude的额度也重置了，但还没用自动掉到95%","keep":true,"score":5,"tags":["AI","额度异常"],"why":"记录Claude额度自动下降，评论补充94%现象","at":1794960514327}
+{"key":"linuxdo:3194256","sourceId":"linuxdo","id":"3194256","title":"为什么那么多人信aa野榜","keep":true,"score":4,"tags":["模型","讨论"],"why":"正文为空，仅属提问；评论含模型实测观感，勉强算有效讨论","at":1794960514327}
+{"key":"linuxdo:3194266","sourceId":"linuxdo","id":"3194266","title":"fast 2倍消耗1.5倍速度，ultrafast 3倍消耗5-6倍速度，这咋想的？","keep":true,"score":3,"tags":["OpenAI","价格"],"why":"正文为空，但标题给了具体倍率信息，属泛泛讨论提问","at":1794960514327}
