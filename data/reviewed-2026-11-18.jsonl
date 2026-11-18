@@ -5468,3 +5468,16 @@
 {"key":"nodeseek:1064446","sourceId":"nodeseek","id":"1064446","title":"溢价50收一个16t标配le-3，有没有开鸡失败的大佬","keep":false,"score":2,"tags":["交易","求购"],"why":"单一求购帖，无评测或避坑信息","at":1795039712116}
 {"key":"nodeseek:1064445","sourceId":"nodeseek","id":"1064445","title":"用ai开发app 和网站是一种愚蠢的行为","keep":true,"score":3,"tags":["AI","讨论"],"why":"泛泛观点讨论，评论仅讽刺无补充","at":1795039712116}
 {"key":"nodeseek:1064030","sourceId":"nodeseek","id":"1064030","title":"Raksmart的双isp好用吗，怎么买最便宜","keep":false,"score":0,"tags":["VPS","提问"],"why":"无正文的泛泛求推荐，信息量不足","at":1795039712116}
+{"key":"nodeseek:1064450","sourceId":"nodeseek","id":"1064450","title":"GPT 6.2Astra偷偷降额度","keep":true,"score":7,"tags":["AI","额度"],"why":"讨论降额有依据，评论补充token效率与额度机制","at":1795041469532}
+{"key":"nodeseek:1064449","sourceId":"nodeseek","id":"1064449","title":"溢价 2700 出gen2 friendship 299","keep":false,"score":0,"tags":["交易"],"why":"账号溢价倒卖帖，属交易推广信息","at":1795041469532}
+{"key":"linuxdo:3200181","sourceId":"linuxdo","id":"3200181","title":"hahasim卡登陆telegram","keep":false,"score":0,"tags":["水贴"],"why":"无正文单句标题，纯水贴","at":1795041469532}
+{"key":"linuxdo:3200179","sourceId":"linuxdo","id":"3200179","title":"claude好像已经不显示思考过程了","keep":true,"score":7,"tags":["AI","经验"],"why":"评论实测opus正常、COT早已不显示，有补充","at":1795041469532}
+{"key":"linuxdo:3200178","sourceId":"linuxdo","id":"3200178","title":"GPT/Claude的3D建模真的是靠文本输出绘制的吗？","keep":false,"score":3,"tags":["提问"],"why":"无正文空泛提问，无背景无有效回复","at":1795041469532}
+{"key":"nodeseek:1064453","sourceId":"nodeseek","id":"1064453","title":"NS崩了？","keep":true,"score":6,"tags":["故障","站点"],"why":"多用户回复确认524故障，属站点异动","at":1795041469532}
+{"key":"nodeseek:1064455","sourceId":"nodeseek","id":"1064455","title":"抽奖两个outlook手搓 muse10亿额度，快速开奖","keep":false,"score":0,"tags":["抽奖"],"why":"抽奖拉人帖，命中垃圾过滤","at":1795041469532}
+{"key":"nodeseek:1064454","sourceId":"nodeseek","id":"1064454","title":"Gemini学生认证","keep":true,"score":6,"tags":["AI","认证"],"why":"带部署背景的失败求助，可继续讨论","at":1795041469532}
+{"key":"nodeseek:1064452","sourceId":"nodeseek","id":"1064452","title":"vps我该怎么选择","keep":true,"score":6,"tags":["VPS","中转"],"why":"联通9929、游戏加速背景具体，属有效技术提问","at":1795041469532}
+{"key":"nodeseek:1064448","sourceId":"nodeseek","id":"1064448","title":"凌晨3点58，dmit eb关禁闭了","keep":false,"score":3,"tags":["故障"],"why":"仅标题无正文无评论，信息不足以判断","at":1795041469532}
+{"key":"linuxdo:3200186","sourceId":"linuxdo","id":"3200186","title":"Gemini4neon跑分出来了，这次应该是真的，对标gpt6.2sol","keep":false,"score":1,"tags":["水贴","人工智能"],"why":"无正文且无跑分数据，仅标题宣称跑分，无法验证，属于标题党","at":1795041469532}
+{"key":"linuxdo:3200182","sourceId":"linuxdo","id":"3200182","title":"氖基米体验如何？浅用了一会感觉还挺不错的","keep":false,"score":1,"tags":["水贴","人工智能"],"why":"无正文、无实测内容，与第1条同主题空帖，没有信息量","at":1795041469532}
+{"key":"linuxdo:3200183","sourceId":"linuxdo","id":"3200183","title":"佬友们，有懂我的吗？","keep":false,"score":0,"tags":["树洞","水贴"],"why":"只有标题，且没有正文和评论信息，纯情绪水贴","at":1795041469532}
