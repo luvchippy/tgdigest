@@ -62,3 +62,41 @@
 {"key":"linuxdo:3194269","sourceId":"linuxdo","id":"3194269","title":"反重力这次重置把Claude的额度也重置了，但还没用自动掉到95%","keep":true,"score":5,"tags":["AI","额度异常"],"why":"记录Claude额度自动下降，评论补充94%现象","at":1794960514327}
 {"key":"linuxdo:3194256","sourceId":"linuxdo","id":"3194256","title":"为什么那么多人信aa野榜","keep":true,"score":4,"tags":["模型","讨论"],"why":"正文为空，仅属提问；评论含模型实测观感，勉强算有效讨论","at":1794960514327}
 {"key":"linuxdo:3194266","sourceId":"linuxdo","id":"3194266","title":"fast 2倍消耗1.5倍速度，ultrafast 3倍消耗5-6倍速度，这咋想的？","keep":true,"score":3,"tags":["OpenAI","价格"],"why":"正文为空，但标题给了具体倍率信息，属泛泛讨论提问","at":1794960514327}
+{"key":"nodeseek:1061897","sourceId":"nodeseek","id":"1061897","title":"【收】lightlayer LA-VP04-L-A 年付49.9$","keep":false,"score":2,"tags":["求购","VPS"],"why":"求购信息单一，评论仅提示未过白","at":1794962263607}
+{"key":"nodeseek:1061893","sourceId":"nodeseek","id":"1061893","title":"Claude小号居然解封了。。。","keep":false,"score":0,"tags":["Claude","重复"],"why":"与第3条同主题，正文信息量较少","at":1794962263607}
+{"key":"nodeseek:1061898","sourceId":"nodeseek","id":"1061898","title":"claude被封禁的号可以通过注销来复活","keep":true,"score":6,"tags":["Claude","账号"],"why":"具体注销复活经验，但无评论佐证","at":1794962263607}
+{"key":"nodeseek:1061896","sourceId":"nodeseek","id":"1061896","title":"Astra 6.2 感觉一般","keep":true,"score":7,"tags":["AI","体验"],"why":"一手模型体验，评论补充竞品对比与普遍差评","at":1794962263607}
+{"key":"nodeseek:1056426","sourceId":"nodeseek","id":"1056426","title":"RN 实际使用体验","keep":true,"score":8,"tags":["VPS","测评"],"why":"含4K测速与ping截图，评论补充地区差异","at":1794962263607}
+{"key":"nodeseek:1061879","sourceId":"nodeseek","id":"1061879","title":"[问]腾讯云这些国内云厂代实名的多吗","keep":true,"score":4,"tags":["云服务","提问"],"why":"带背景的实名提问，评论仅一条回答","at":1794962263607}
+{"key":"nodeseek:1061871","sourceId":"nodeseek","id":"1061871","title":"OpenAI推出GPT-6.2 Astra 和 Sol","keep":false,"score":0,"tags":["AI","新闻"],"why":"通用新闻稿转载，评论无实质补充","at":1794962263607}
+{"key":"nodeseek:1061883","sourceId":"nodeseek","id":"1061883","title":"收一台Vmsilo沪日","keep":false,"score":0,"tags":["求购","水贴"],"why":"正文仅rt，纯求购水贴","at":1794962263607}
+{"key":"nodeseek:1061877","sourceId":"nodeseek","id":"1061877","title":"快讯！反重力重置！","keep":false,"score":0,"tags":["快讯","水贴"],"why":"正文仅一句重置，无具体对象和影响","at":1794962263607}
+{"key":"nodeseek:1061882","sourceId":"nodeseek","id":"1061882","title":"苹果多项服务中断 公司称内部系统更新引起","keep":false,"score":0,"tags":["新闻","转载"],"why":"通用新闻转载，无一手信息或讨论","at":1794962263607}
+{"key":"1a2x:999","sourceId":"1a2x","id":"999","title":"碰运气，求帮助","keep":false,"score":0,"tags":["水贴"],"why":"正文只有图片没有文字，也无回应，属于无信息的求助","at":1794962263607}
+{"key":"nodeloc:118280","sourceId":"nodeloc","id":"118280","title":"11 月 18 日 AI 大事：OpenAI 发布 GPT-6.2，英伟达营收翻倍，黄仁勋愿回归","keep":true,"score":4,"tags":["AI","行业消息"],"why":"AI要闻汇总，无原创观点，互动冷淡只够及格","at":1794962263607}
+{"key":"linuxdo:3194292","sourceId":"linuxdo","id":"3194292","title":"dsh 为什么运行的时候有很多红色失败的命令？","keep":true,"score":5,"tags":["技术提问","开发"],"why":"评论给出重启和tool注册失败的排查方向","at":1794962263607}
+{"key":"linuxdo:3194304","sourceId":"linuxdo","id":"3194304","title":"听说福田很多apec会场附近都可以连无墙Wi-Fi，有没有水友知道的","keep":false,"score":1,"tags":["敏感","纯水"],"why":"讨论绕开网络的WiFi，涉敏感话题，评论也只闲聊","at":1794962263607}
+{"key":"linuxdo:3194293","sourceId":"linuxdo","id":"3194293","title":"今天突然收到土区要求验证付款方式，我的账号要凉凉了吗","keep":true,"score":6,"tags":["支付","账号"],"why":"评论给出kliq虚拟卡等可操作的解决路径","at":1794962263607}
+{"key":"linuxdo:3194315","sourceId":"linuxdo","id":"3194315","title":"Gemini额度重置了？","keep":false,"score":1,"tags":["水贴"],"why":"单句发问无正文无回复，和额度重置主题重复","at":1794962263607}
+{"key":"linuxdo:3194314","sourceId":"linuxdo","id":"3194314","title":"agy重置了，用不完，真用不完了","keep":false,"score":0,"tags":["水贴"],"why":"纯抒情\"用不完\"，与额度重置帖同质无信息","at":1794962263607}
+{"key":"linuxdo:3194309","sourceId":"linuxdo","id":"3194309","title":"腾讯智囊团提醒我有利益冲突审核不过，可是我真没有啊，这是啥情况","keep":false,"score":2,"tags":["水贴"],"why":"只说不清楚情况，无正文细节也无回应","at":1794962263607}
+{"key":"linuxdo:3194308","sourceId":"linuxdo","id":"3194308","title":"感谢佬友分享，这下火力全开！","keep":false,"score":0,"tags":["水贴"],"why":"纯感谢灌水，无任何信息","at":1794962263607}
+{"key":"linuxdo:3194306","sourceId":"linuxdo","id":"3194306","title":"GPT6.2系列的消息截止日期测试","keep":false,"score":2,"tags":["AI","水贴"],"why":"无正文的测试帖，与AI要闻帖同主题重复","at":1794962263607}
+{"key":"linuxdo:3194302","sourceId":"linuxdo","id":"3194302","title":"早八上课摸鱼","keep":false,"score":0,"tags":["水贴"],"why":"标题即摸鱼灌水，无正文无有效评论","at":1794962263607}
+{"key":"linuxdo:3194287","sourceId":"linuxdo","id":"3194287","title":"muse用了一段时间还是不错的","keep":false,"score":1,"tags":["水贴"],"why":"无正文，仅一句主观好评，无实测细节","at":1794962263607}
+{"key":"linuxdo:3194276","sourceId":"linuxdo","id":"3194276","title":"又是美好的一天","keep":false,"score":0,"tags":["水贴"],"why":"纯抒情签到式水贴，无任何信息","at":1794962263607}
+{"key":"nodeseek:1061905","sourceId":"nodeseek","id":"1061905","title":"进来帮老弟瞅瞅把 怎么弄 大神们","keep":true,"score":5,"tags":["技术提问","VPS"],"why":"具体搭建疑问，评论给出一键脚本和教程指引","at":1794962263607}
+{"key":"nodeseek:1061899","sourceId":"nodeseek","id":"1061899","title":"6.2现在只下发到了Pro?","keep":true,"score":6,"tags":["情报","软件更新"],"why":"版本推送异动，评论纠正plus和team均已下发","at":1794962263607}
+{"key":"nodeseek:1061904","sourceId":"nodeseek","id":"1061904","title":"我对比测试了gemini和gpt","keep":true,"score":7,"tags":["实测","AI"],"why":"一手对比实测有结论，评论补充了替代模型观点","at":1794962263607}
+{"key":"nodeseek:1061902","sourceId":"nodeseek","id":"1061902","title":"【溢价出】vmiss tri basic，38段IP","keep":false,"score":2,"tags":["交易","避坑"],"why":"高溢价转手，评论区直指溢价过高、劝人别接盘","at":1794962263607}
+{"key":"nodeseek:1061901","sourceId":"nodeseek","id":"1061901","title":"收 KS-LE-6 和 SYS-STOR-LE-1 带价来","keep":true,"score":4,"tags":["交易"],"why":"求购信息单薄，但评论给出具体配置与报价","at":1794962263607}
+{"key":"1a2x:1001","sourceId":"1a2x","id":"1001","title":"领导回来了，摸不了鱼了！","keep":false,"score":0,"tags":["水贴"],"why":"单句闲聊吐槽，无信息量","at":1794962263607}
+{"key":"1a2x:1000","sourceId":"1a2x","id":"1000","title":"雷打不动的5🍌🍌","keep":false,"score":1,"tags":["水贴"],"why":"仅一张图配香蕉表情，属签到式水贴","at":1794962263607}
+{"key":"linuxdo:3194356","sourceId":"linuxdo","id":"3194356","title":"sub2api ultra fast显示什么","keep":false,"score":0,"tags":["水贴"],"why":"无正文且问题指向不明，无信息量","at":1794962263607}
+{"key":"linuxdo:3194355","sourceId":"linuxdo","id":"3194355","title":"挂了一天any，订阅跑了5G，大佬们这啥情况？","keep":true,"score":5,"tags":["订阅","流量","求助"],"why":"有具体流量异常背景，但缺正文和有效回复","at":1794962263607}
+{"key":"linuxdo:3194354","sourceId":"linuxdo","id":"3194354","title":"微软发布全新企业级编程模型MAI Code 2系列，以极低成本实现前沿性能","keep":true,"score":5,"tags":["AI","模型","行业消息"],"why":"行业模型发布消息，标题有信息但正文缺失","at":1794962263607}
+{"key":"linuxdo:3194353","sourceId":"linuxdo","id":"3194353","title":"？！gpt sol6.2怎么回事","keep":false,"score":0,"tags":["重复","水贴"],"why":"与第8条同主题且更空泛，按重复去重","at":1794962263607}
+{"key":"linuxdo:3194341","sourceId":"linuxdo","id":"3194341","title":"有没有哪位佬友测试过多agent集成协作项目？","keep":true,"score":3,"tags":["AI","多agent","提问"],"why":"泛泛征集多agent经验，无自身背景","at":1794962263607}
+{"key":"linuxdo:3194339","sourceId":"linuxdo","id":"3194339","title":"反重力重置了","keep":false,"score":0,"tags":["水贴"],"why":"单句无上下文，属临界水贴","at":1794962263607}
+{"key":"linuxdo:3194330","sourceId":"linuxdo","id":"3194330","title":"佬们vibecoding 都是怎么做的啊","keep":true,"score":3,"tags":["AI","vibecoding","讨论"],"why":"泛泛询问vibecoding流程，信息量有限","at":1794962263607}
+{"key":"linuxdo:3194329","sourceId":"linuxdo","id":"3194329","title":"6.2sol的速度如何？有提升吗？","keep":true,"score":3,"tags":["AI","模型","提问"],"why":"保留6.2sol速度提问，浏览较高但无实质评论","at":1794962263607}
