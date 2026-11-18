@@ -5423,3 +5423,23 @@
 {"key":"nodeseek:1064438","sourceId":"nodeseek","id":"1064438","title":"哈基米模型 以下克上了","keep":false,"score":0,"tags":["重复"],"why":"与第2条正文高度重合，信息量更少，去重","at":1795036065264}
 {"key":"nodeseek:1064436","sourceId":"nodeseek","id":"1064436","title":"chat6.2好用吗？","keep":true,"score":4,"tags":["AI","提问"],"why":"模型对比泛问，缺自身场景与实测背景","at":1795036065264}
 {"key":"linuxdo:3200167","sourceId":"linuxdo","id":"3200167","title":"好消息Gemini App也有Neon了，坏消息又出BUG了","keep":false,"score":2,"tags":["水贴"],"why":"正文为空，仅标题提及BUG无任何细节","at":1795036065264}
+{"key":"nodeseek:1064427","sourceId":"nodeseek","id":"1064427","title":"请求ios26 CTExcel uk esim 激活方法","keep":true,"score":7,"tags":["eSIM","求助","经验"],"why":"正文很空，但评论给出了定位、DNS拦截的域名等实操方案","at":1795036092147}
+{"key":"nodeseek:1064429","sourceId":"nodeseek","id":"1064429","title":"Gemini4-Neon已在反重力和AI studio上线","keep":false,"score":0,"tags":["重复","AI"],"why":"与第8条同题重复，信息量更低，评论只问了价格","at":1795036092147}
+{"key":"nodeseek:1064428","sourceId":"nodeseek","id":"1064428","title":"400出 25日26日到期的临期team","keep":false,"score":2,"tags":["交易","临期"],"why":"纯出售临期team，无实测或讨论价值","at":1795036092147}
+{"key":"nodeseek:1064426","sourceId":"nodeseek","id":"1064426","title":"图有在动吗？","keep":false,"score":1,"tags":["水贴"],"why":"无正文，只是问图会不会动，属于闲聊","at":1795036092147}
+{"key":"nodeseek:1064425","sourceId":"nodeseek","id":"1064425","title":"[NQ & TQ] AVAHost VPS Nano - 1C 0.5G 20GB 100Mbps 留档","keep":true,"score":8,"tags":["VPS","测评","跑分"],"why":"完整硬件体检与CPU实测留档，一手数据","at":1795036092147}
+{"key":"nodeseek:1064424","sourceId":"nodeseek","id":"1064424","title":"【出】SmartHost美国Las Vegas内华达3700X锐龙AMD","keep":false,"score":4,"tags":["交易","VPS"],"why":"二手转卖帖，仅附跑分，临期清仓信息价值有限","at":1795036092147}
+{"key":"nodeloc:118419","sourceId":"nodeloc","id":"118419","title":"【Agent实践】日常放权给 CLI Agent (Cursor / OpenCode) 跑命令的本地拦截与防投毒心得","keep":true,"score":5,"tags":["AI","Agent","经验"],"why":"主题是Agent本地拦截的实操经验，但正文残缺；评论中只有bot回复","at":1795036092147}
+{"key":"linuxdo:3200156","sourceId":"linuxdo","id":"3200156","title":"Gemini4-Neon已在反重力上线","keep":true,"score":6,"tags":["AI","Gemini","情报"],"why":"产品上线情报，评论截图确认Pro可用并给出CLI入口","at":1795036092147}
+{"key":"nodeseek:1056519","sourceId":"nodeseek","id":"1056519","title":"日本东京龟壳抽奖奖品已发放","keep":false,"score":0,"tags":["水贴","抽奖"],"why":"抽奖结果帖，评论全为“羡慕”，无信息量","at":1795036092147}
+{"key":"nodeseek:1064433","sourceId":"nodeseek","id":"1064433","title":"NQ.RakSmart双ISP圣何塞","keep":true,"score":8,"tags":["VPS","测评","跑分"],"why":"双ISP线路机完整硬件体检报告，属一手实测","at":1795036092147}
+{"key":"nodeseek:1064432","sourceId":"nodeseek","id":"1064432","title":"［收］DMIT.LAX.AS3.Pro.TINY月付款","keep":false,"score":1,"tags":["求购","水贴"],"why":"纯求购带价来，无任何信息量","at":1795036092147}
+{"key":"nodeseek:1064431","sourceId":"nodeseek","id":"1064431","title":"Gemini 4 Neon 上线了","keep":true,"score":7,"tags":["AI模型","行业消息"],"why":"含模型排名与价格情报，属行业消息","at":1795036092147}
+{"key":"nodeseek:1005856","sourceId":"nodeseek","id":"1005856","title":"求推荐正规电影的磁力种子站","keep":false,"score":1,"tags":["求资源","水贴"],"why":"无正文求盗版站，无信息量","at":1795036092147}
+{"key":"nodeseek:1064407","sourceId":"nodeseek","id":"1064407","title":"不懂就问：为啥德国xtom要涨价","keep":true,"score":5,"tags":["VPS","讨论"],"why":"带线路与peer背景的涨价讨论，略泛","at":1795036092147}
+{"key":"linuxdo:3200162","sourceId":"linuxdo","id":"3200162","title":"习惯了 Claude，变了彼此形状了，回不去了","keep":false,"score":1,"tags":["水贴","抒情"],"why":"无正文单句抒情，纯水","at":1795036092147}
+{"key":"nodeseek:1064437","sourceId":"nodeseek","id":"1064437","title":"今年黑五会有什么好鸡？","keep":true,"score":5,"tags":["VPS","讨论"],"why":"泛问黑五，评论称今年无特价机有补充","at":1795036092147}
+{"key":"nodeseek:1064439","sourceId":"nodeseek","id":"1064439","title":"【出】RackNerd洛杉矶DC03锐龙7950X3D年付9刀","keep":true,"score":6,"tags":["VPS","交易","跑分"],"why":"附Geekbench实测与配置价，交易信息完整","at":1795036092147}
+{"key":"nodeseek:1064438","sourceId":"nodeseek","id":"1064438","title":"哈基米模型 以下克上了","keep":false,"score":0,"tags":["重复"],"why":"与第2条同主题同结论，信息量更小","at":1795036092147}
+{"key":"nodeseek:1064436","sourceId":"nodeseek","id":"1064436","title":"chat6.2好用吗？","keep":true,"score":5,"tags":["AI模型","提问"],"why":"带前后端维度对比的具体提问","at":1795036092147}
+{"key":"linuxdo:3200167","sourceId":"linuxdo","id":"3200167","title":"好消息Gemini App也有Neon了，坏消息又出BUG了","keep":false,"score":2,"tags":["水贴","标题党"],"why":"纯水板块且正文空，无实质内容","at":1795036092147}
