@@ -524,3 +524,33 @@
 {"key":"linuxdo:3194687","sourceId":"linuxdo","id":"3194687","title":"Claude 三年老号一验后被封","keep":true,"score":3,"tags":["人工智能","账号封禁"],"why":"只有单句封号结论，无正文、细节和评论佐证，信息量偏低","at":1794965951231}
 {"key":"linuxdo:3194556","sourceId":"linuxdo","id":"3194556","title":"有没有佬和我一样的，codex的上下文容量变258k了","keep":true,"score":5,"tags":["人工智能","Codex"],"why":"提出上下文容量变化异动，但无实测细节，评论也没有补充","at":1794965951231}
 {"key":"linuxdo:3194667","sourceId":"linuxdo","id":"3194667","title":"现在还有什么途径美股开户吗？","keep":true,"score":4,"tags":["金融","提问"],"why":"泛泛的渠道提问，无背景与自身情况，评论也无实质方案","at":1794965951231}
+{"key":"nodeloc:118287","sourceId":"nodeloc","id":"118287","title":"又是丝袜又是足控的，喜欢这些的人有什么坏心思呢","keep":false,"score":1,"tags":["NSFW","水贴"],"why":"足控软色情闲聊，无技术或实用信息","at":1794967073723}
+{"key":"linuxdo:3194783","sourceId":"linuxdo","id":"3194783","title":"(练字)什么时候才有一手漂亮的字","keep":false,"score":0,"tags":["水贴"],"why":"无正文，纯抒情灌水","at":1794967073723}
+{"key":"linuxdo:3194782","sourceId":"linuxdo","id":"3194782","title":"opencode已经掀桌了，10刀给200刀 glm5.3用量","keep":false,"score":2,"tags":["水贴","优惠"],"why":"仅标题报价格，正文为空无实测证据","at":1794967073723}
+{"key":"linuxdo:3194695","sourceId":"linuxdo","id":"3194695","title":"大家的ultra都活下来了吗","keep":true,"score":6,"tags":["AI订阅","实测"],"why":"评论反映ultra存活、退款与限速实测","at":1794967073723}
+{"key":"linuxdo:3194781","sourceId":"linuxdo","id":"3194781","title":"“全球第一修图 AI 模型”：微软 MAI Image 2.7 登场，用 1/5 价格击败 GPT Image 2.6 登顶","keep":false,"score":2,"tags":["新闻转载"],"why":"纯标题转新闻，无正文无观点","at":1794967073723}
+{"key":"linuxdo:3194780","sourceId":"linuxdo","id":"3194780","title":"【富可敌国】 AllRouter：GPT / Claude / Gemini API 中转，主打不降智 API 渠道，注册留 UID 送 5 美元额度，claude max 0.25 倍，GPT 号池0.053倍起","keep":false,"score":0,"tags":["推广","中转站"],"why":"注册送额度的中转站拉新广告","at":1794967073723}
+{"key":"linuxdo:3194745","sourceId":"linuxdo","id":"3194745","title":"我准备在老妈过生日时送她一个金吊坠，但是日子临近了，我却有点胆怯","keep":false,"score":2,"tags":["纯水"],"why":"情感闲聊无正文，无实质信息","at":1794967073723}
+{"key":"linuxdo:3194696","sourceId":"linuxdo","id":"3194696","title":"【CodeRelay中转站】稳定为本，诚意定价 。已更新 gpt-6.2-astra gpt-6.2-sol 新人送6刀额度！","keep":false,"score":0,"tags":["推广","中转站"],"why":"中转站推广，送额度拉新","at":1794967073723}
+{"key":"linuxdo:3194779","sourceId":"linuxdo","id":"3194779","title":"给 DeepSeek 开源的 chat-demo 加点料【开源自荐】","keep":true,"score":7,"tags":["开源","AI"],"why":"开源自荐项目发布，属一手信息","at":1794967073723}
+{"key":"linuxdo:3194778","sourceId":"linuxdo","id":"3194778","title":"想租一台国外mac mini远程电脑","keep":true,"score":4,"tags":["提问","租赁"],"why":"具体租赁需求提问，信息量偏薄","at":1794967073723}
+{"key":"linuxdo:3194710","sourceId":"linuxdo","id":"3194710","title":"成功再次飞升！机器人咋不行了呢？","keep":false,"score":1,"tags":["树洞","水贴"],"why":"无正文，只有炫耀式感叹，缺少有效信息","at":1794967073723}
+{"key":"linuxdo:3194726","sourceId":"linuxdo","id":"3194726","title":"开爆前5h花400开两个0刀bug gemini","keep":true,"score":6,"tags":["Gemini","薅羊毛"],"why":"0刀bug开通情报，回复较多，可能存在实测细节","at":1794967073723}
+{"key":"linuxdo:3194744","sourceId":"linuxdo","id":"3194744","title":"用Magpie，如何接入Gemini呢？那个插件啊？","keep":false,"score":2,"tags":["提问","模糊"],"why":"问题指向不清，无正文，缺少可回答的有效信息","at":1794967073723}
+{"key":"linuxdo:3194775","sourceId":"linuxdo","id":"3194775","title":"以防你不知道，dsh刚刚更新了 0.2.2-rc.4 省流：bugfix","keep":true,"score":5,"tags":["DeepSeek","版本更新"],"why":"版本更新情报，但仅一句bugfix，信息量有限","at":1794967073723}
+{"key":"linuxdo:3194713","sourceId":"linuxdo","id":"3194713","title":"Java 漏洞 CVE-2026-114938","keep":true,"score":5,"tags":["安全","CVE"],"why":"仅为CVE编号无细节，浏览尚可但信息偏薄","at":1794967073723}
+{"key":"linuxdo:3194704","sourceId":"linuxdo","id":"3194704","title":"刚刚出炉的codex龙娘电路板","keep":false,"score":1,"tags":["纯水","秀图"],"why":"树洞发图水贴，没有可用的信息价值","at":1794967073723}
+{"key":"linuxdo:3194763","sourceId":"linuxdo","id":"3194763","title":"token自由后都会做什么？","keep":false,"score":2,"tags":["纯水","闲聊"],"why":"泛泛闲聊提问，无正文无实质讨论","at":1794967073723}
+{"key":"linuxdo:3194699","sourceId":"linuxdo","id":"3194699","title":"父母马上60岁了，推荐买什么医疗险？","keep":true,"score":5,"tags":["保险","咨询"],"why":"真实需求类咨询，但无正文与评论补充，信息一般","at":1794967073723}
+{"key":"linuxdo:3194762","sourceId":"linuxdo","id":"3194762","title":"怎么让小草神穿上比基尼呀","keep":false,"score":0,"tags":["NSFW","水贴"],"why":"擦边灌水内容，无信息价值且不宜推送","at":1794967073723}
+{"key":"linuxdo:3194761","sourceId":"linuxdo","id":"3194761","title":"【菜🐔交易员】【实盘】挑战100->200，欢迎沟通交流","keep":false,"score":2,"tags":["金融","引流"],"why":"实盘挑战带拉人交流性质，无正文，疑似引流","at":1794967073723}
+{"key":"linuxdo:3194866","sourceId":"linuxdo","id":"3194866","title":"有一条新加披家宽，有什么好的利用办法","keep":true,"score":5,"tags":["家宽","线路"],"why":"正文空但评论给出lightsail sg中转的可行方案","at":1794967073723}
+{"key":"linuxdo:3194836","sourceId":"linuxdo","id":"3194836","title":"关于美区paypal注册使用的","keep":true,"score":6,"tags":["PayPal","经验"],"why":"评论有多条真实封号与注册受阻经验，信息量高于正文","at":1794967073723}
+{"key":"linuxdo:3194820","sourceId":"linuxdo","id":"3194820","title":"哈基米偷偷降额度了？","keep":false,"score":2,"tags":["水贴"],"why":"正文空，唯一回复只是让去问同事，无实质信息","at":1794967073723}
+{"key":"linuxdo:3194862","sourceId":"linuxdo","id":"3194862","title":"GPT6.1与6.2模型简单横评","keep":true,"score":5,"tags":["模型","横评"],"why":"标题为模型对比实测，但无正文细节，评论仅泛问速度","at":1794967073723}
+{"key":"linuxdo:3194797","sourceId":"linuxdo","id":"3194797","title":"有一天没有获得一个LDC，是有bug吗。（登陆了，当天刷了不少帖子）","keep":false,"score":3,"tags":["提问"],"why":"站点积分小问题，6条回复无内容，价值有限","at":1794967073723}
+{"key":"linuxdo:3194698","sourceId":"linuxdo","id":"3194698","title":"这给我干哪来了，这还是国内吗？","keep":false,"score":1,"tags":["水贴"],"why":"纯水单句感叹，无任何有效信息","at":1794967073723}
+{"key":"linuxdo:3194872","sourceId":"linuxdo","id":"3194872","title":"目前国内比较合适的agent plan是哪个？","keep":false,"score":2,"tags":["提问"],"why":"泛泛提问且正文空、回复仅一条，无参考价值","at":1794967073723}
+{"key":"linuxdo:3194812","sourceId":"linuxdo","id":"3194812","title":"感觉62a复刻6a时刻了","keep":true,"score":5,"tags":["模型","讨论"],"why":"浏览点赞高有共鸣，但标题模糊、无正文与评论支撑","at":1794967073723}
+{"key":"linuxdo:3194847","sourceId":"linuxdo","id":"3194847","title":"Gemini 学生优惠认证通过，但订阅四年优惠时付款失败（OR-PFGVEM-24），有大佬遇到过吗？","keep":true,"score":6,"tags":["Gemini","支付故障"],"why":"带具体报错码的订阅付款失败，可供同类用户排查","at":1794967073723}
+{"key":"linuxdo:3194807","sourceId":"linuxdo","id":"3194807","title":"Devin模型只剩国内模型，为什么","keep":true,"score":6,"tags":["Devin","异动"],"why":"反映模型列表异动，属服务变化情报，值得关注","at":1794967073723}
