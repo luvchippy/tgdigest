@@ -1,6 +1,6 @@
 # forum-daily-digest
 
-四个论坛（NodeSeek / NodeLoc / LinuxDo / NHT）的公开新帖，自动抓取 → AI 筛选 → 只把高质量的推送到的 Telegram。
+四个论坛（NodeSeek / NodeLoc / LinuxDo / 1A2X）的公开新帖，自动抓取 → AI 筛选 → 只把高质量的推送到的 Telegram。
 
 **全部跑在 GitHub 的服务器上**，你的电脑只需要用来上传一次代码，之后可以关掉。
 
@@ -65,7 +65,7 @@ forum-collect（长驻抓取）          forum-review（增量审核）
 | **NodeSeek** | `curl_cffi` 模拟 Chrome 指纹 | 列表翻页 + 详情页取正文。官方 RSS 一次只给最近 20 条（约 10 分钟），只能当兜底 |
 | **NodeLoc** | `GET /latest.json` | Discourse 自带的机器可读接口，一次 30 条 |
 | **LinuxDo** | `GET /latest.json` | 同上，同一个论坛程序 |
-| **NHT (n.ht)** | `GET /api/topics?page=1` | 返回 `{code:200, data:[...]}`，正文直接含在里面 |
+| **1A2X** | `GET /rss.xml` | Flarum 论坛，JSON API 关闭（404），RSS 的 `description` 带正文摘要 |
 
 ---
 
