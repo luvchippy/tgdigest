@@ -31,16 +31,6 @@
       "detailLimit": 8
     },
     {
-      "id": "nht",
-      "name": "NHT",
-      "adapter": "nht",
-      "enabled": true,
-      "baseUrl": "https://n.ht",
-      "pages": 2,
-      "windowHours": 24,
-      "fetchDetail": true
-    },
-    {
       "id": "1a2x",
       "name": "1A2X",
       "adapter": "rss",
