@@ -23,3 +23,28 @@
 {"key":"linuxdo:3200251","sourceId":"linuxdo","id":"3200251","title":"有没有信息搜集的网站","keep":false,"score":1,"tags":["求推荐"],"why":"没有背景的泛泛提问，无正文、无回复，属于水贴","at":1795046864160}
 {"key":"linuxdo:3200244","sourceId":"linuxdo","id":"3200244","title":"生活太难了，我好迷茫啊","keep":false,"score":1,"tags":["树洞"],"why":"纯情绪倾诉，无有效信息，评论也只是安慰","at":1795046864160}
 {"key":"linuxdo:3200241","sourceId":"linuxdo","id":"3200241","title":"Muse 都有什么用法","keep":false,"score":2,"tags":["提问"],"why":"只有标题一句话，没有背景说明，评论无有效内容","at":1795046864160}
+{"key":"nodeseek:1064146","sourceId":"nodeseek","id":"1064146","title":"130出台KS-1-B","keep":false,"score":2,"tags":["交易","转让"],"why":"纯转让帖，正文只有配置和外链，没有实测或讨论内容","at":1795046902450}
+{"key":"nodeseek:1064152","sourceId":"nodeseek","id":"1064152","title":"【NQ】OVH KS-LE-6 GRA","keep":true,"score":7,"tags":["VPS","测评"],"why":"OVH KS-LE-6 的一手硬件跑分数据，但是评论只有无营养的羡慕","at":1795046902450}
+{"key":"nodeseek:1022943","sourceId":"nodeseek","id":"1022943","title":"【NQ+TQ】DMIT.LAX.AS3.TINY，PPFlight LIFT S（创始人套餐）","keep":true,"score":7,"tags":["VPS","测评"],"why":"DMIT 的一手实测，评论指出 PPF 线路丢包，楼主也作了回应","at":1795046902450}
+{"key":"nodeseek:1064144","sourceId":"nodeseek","id":"1064144","title":"[已出]总40 出 RakSmart 的4.99$ CN2（账单）+1.81$ ISP（已付） 已开内网","keep":false,"score":2,"tags":["交易","已出"],"why":"已出的转让帖，信息量只出现在评论提到缺货，主体没有价值","at":1795046902450}
+{"key":"nodeseek:1064162","sourceId":"nodeseek","id":"1064162","title":"R 星注册账号也 400 了 ，点多了还 429","keep":false,"score":1,"tags":["水贴"],"why":"只有两句无信息的注册吐槽，没有配置背景和细节","at":1795046902450}
+{"key":"nodeseek:1064135","sourceId":"nodeseek","id":"1064135","title":"有能代claude 订阅kyc验证的吗？AppStore订阅的","keep":false,"score":1,"tags":["违规风险"],"why":"求人代过 KYC 实名验证，涉及灰色服务","at":1795046902450}
+{"key":"nodeseek:1064147","sourceId":"nodeseek","id":"1064147","title":"【收】Tamago HKT.NAT.2500M.VPS.7 月付2U","keep":false,"score":1,"tags":["求购","水贴"],"why":"只有带价私的求购，评论里连流量多少都说不知道","at":1795046902450}
+{"key":"nodeseek:1064157","sourceId":"nodeseek","id":"1064157","title":"加价收aethercloud 折扣款，有的带价格来","keep":false,"score":1,"tags":["求购","水贴"],"why":"正文只有 Rt 的求购，没有配置和价格信息","at":1795046902450}
+{"key":"nodeseek:960329","sourceId":"nodeseek","id":"960329","title":"[NQ] netcup VPS 2000 ARM G11 iv SE VIE FEB25 硬盘翻倍款","keep":true,"score":8,"tags":["VPS","测评","ARM"],"why":"netcup ARM 的完整跑分测试，楼主在评论补充了收购价和手续费细节","at":1795046902450}
+{"key":"nodeseek:1061090","sourceId":"nodeseek","id":"1061090","title":"有用grok bot的吗 有没有便宜的cursor账号","keep":true,"score":3,"tags":["闲聊","提问"],"why":"泛泛地询问 cursor 账号，评论没有实质信息，只有附和","at":1795046902450}
+{"key":"nodeloc:118421","sourceId":"nodeloc","id":"118421","title":"google ai pro student offer","keep":false,"score":0,"tags":["AI","无正文"],"why":"仅标题无正文无评论，信息量为零","at":1795046902450}
+{"key":"linuxdo:3200234","sourceId":"linuxdo","id":"3200234","title":"评论区随机抽两个手搓 outlook muse十亿账户，8点前截止","keep":false,"score":0,"tags":["抽奖","纯水"],"why":"抽奖拉人帖，评论全是参与感谢无信息","at":1795046902450}
+{"key":"linuxdo:3200237","sourceId":"linuxdo","id":"3200237","title":"Gemini 4 系列模型的模型定位","keep":false,"score":1,"tags":["Gemini","无正文"],"why":"无正文，唯一点评也无实据支撑","at":1795046902450}
+{"key":"linuxdo:3200232","sourceId":"linuxdo","id":"3200232","title":"google又又又发新模型了","keep":false,"score":1,"tags":["Gemini","无正文"],"why":"纯标题无正文，无任何可读内容","at":1795046902450}
+{"key":"nodeseek:1064485","sourceId":"nodeseek","id":"1064485","title":"上游和线路","keep":true,"score":3,"tags":["线路","提问"],"why":"泛泛线路提问，未给出具体上游背景","at":1795046902450}
+{"key":"nodeseek:1064482","sourceId":"nodeseek","id":"1064482","title":"neon对比carbon 哪个更好","keep":true,"score":5,"tags":["VPS","对比"],"why":"正文仅rt，评论给出neon更快更稳的实测对比","at":1795046902450}
+{"key":"nodeseek:1064479","sourceId":"nodeseek","id":"1064479","title":"收心碎 v6vps 0.48刀","keep":false,"score":1,"tags":["交易","求购"],"why":"求购帖一句话，无价格库存等有效情报","at":1795046902450}
+{"key":"nodeseek:1064476","sourceId":"nodeseek","id":"1064476","title":"一觉醒来就有洞修，真是运维的黄金年代","keep":true,"score":6,"tags":["运维","安全漏洞"],"why":"nginx漏洞情报，评论补充已连夜修复","at":1795046902450}
+{"key":"nodeseek:1064481","sourceId":"nodeseek","id":"1064481","title":"从来没见过v6电信走CN2，是电信没有部署吗？","keep":true,"score":7,"tags":["IPv6","线路","电信"],"why":"评论详述CN2v6未投放及运营商差异，超正文","at":1795046902450}
+{"key":"nodeseek:1064477","sourceId":"nodeseek","id":"1064477","title":"aws JP 真的很稳，比什么IIJ.softbank 之流也强很多吧。虽然晚高峰也丢包，但是测下来丢包率不超过8%","keep":true,"score":7,"tags":["AWS","测评","丢包"],"why":"一手丢包率实测，评论补充时段与IIJ对比","at":1795046902450}
+{"key":"linuxdo:3200245","sourceId":"linuxdo","id":"3200245","title":"土区gemini20X被封","keep":true,"score":6,"tags":["AI","账号","情报"],"why":"土区订阅封号异动，评论补充疑为小号风控非清退","at":1795046902450}
+{"key":"linuxdo:3200252","sourceId":"linuxdo","id":"3200252","title":"GPT安卓版能切换账号了","keep":false,"score":2,"tags":["纯水"],"why":"仅一句功能动态，无正文无评论无实测","at":1795046902450}
+{"key":"linuxdo:3200251","sourceId":"linuxdo","id":"3200251","title":"有没有信息搜集的网站","keep":false,"score":2,"tags":["提问","纯水"],"why":"泛泛求网站，无正文无有效回复，信息量低","at":1795046902450}
+{"key":"linuxdo:3200244","sourceId":"linuxdo","id":"3200244","title":"生活太难了，我好迷茫啊","keep":false,"score":1,"tags":["树洞","纯水"],"why":"单句情绪抒发，无信息量，评论仅泛泛劝慰","at":1795046902450}
+{"key":"linuxdo:3200241","sourceId":"linuxdo","id":"3200241","title":"Muse 都有什么用法","keep":false,"score":2,"tags":["提问","纯水"],"why":"空泛问用法，无正文无实质评论补充","at":1795046902450}
