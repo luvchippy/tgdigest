@@ -231,3 +231,68 @@
 {"key":"linuxdo:3200422","sourceId":"linuxdo","id":"3200422","title":"codex在写规划文档时经常陷入局部最优解，佬们如何解决？","keep":true,"score":5,"tags":["AI编程","讨论"],"why":"codex规划陷入局部最优是真实技术问题，有3条回复可讨论","at":1795050465502}
 {"key":"linuxdo:3200415","sourceId":"linuxdo","id":"3200415","title":"谷歌推出 Gemini 4 Neon 模型，编程 AI 智能体指数超 Claude Opus 5.5 排第一","keep":true,"score":7,"tags":["行业消息","Gemini"],"why":"模型排名行业消息，浏览与赞数高，评论暂缺","at":1795050465502}
 {"key":"linuxdo:3200432","sourceId":"linuxdo","id":"3200432","title":"反重力 IDE有查看速度、额度的插件吗","keep":true,"score":5,"tags":["工具","提问"],"why":"反重力IDE查额度插件的具体需求，属有效技术提问","at":1795050465502}
+{"key":"nodeseek:1064541","sourceId":"nodeseek","id":"1064541","title":"有用过vultr之类的计时vps的吗？体验如何？","keep":false,"score":2,"tags":["提问","水贴"],"why":"正文仅“rt”无背景，属无信息量提问","at":1795050540121}
+{"key":"nodeseek:1064530","sourceId":"nodeseek","id":"1064530","title":"纳尼Sol6.2第二天就被咕咕嘎嘎 酱味大鸡了","keep":true,"score":6,"tags":["模型","讨论"],"why":"附基准对比图，评论补充额度与防御问题","at":1795050540121}
+{"key":"nodeseek:1064547","sourceId":"nodeseek","id":"1064547","title":"+100收 DMIT LAX.AS3.EB.Pocket","keep":false,"score":2,"tags":["交易","求购"],"why":"纯加价求购，无信息量","at":1795050540121}
+{"key":"nodeseek:1064543","sourceId":"nodeseek","id":"1064543","title":"有出gemini 5刀日本的嘛，没安卓手机","keep":false,"score":2,"tags":["求助","交易"],"why":"求代注册，无有效信息，评论也在追问","at":1795050540121}
+{"key":"nodeseek:1064546","sourceId":"nodeseek","id":"1064546","title":"让GPT帮我改高位端口，结果GPT第一步把22端口给封禁了","keep":true,"score":7,"tags":["踩坑","运维"],"why":"改SSH端口导致断连的一手踩坑，附配置截图","at":1795050540121}
+{"key":"nodeseek:1064538","sourceId":"nodeseek","id":"1064538","title":"好奇通过 ACP 用 Antigravity 会被封么？","keep":true,"score":6,"tags":["技术提问","合规"],"why":"带ACP与第三方客户端背景，属真实技术疑问","at":1795050540121}
+{"key":"nodeseek:1064540","sourceId":"nodeseek","id":"1064540","title":"【人找车】PS5 端GTA6有一起拼车玩的吗","keep":false,"score":2,"tags":["组队","水贴"],"why":"拼车找人且游戏在线版未上线，无信息量","at":1795050540121}
+{"key":"nodeseek:1064535","sourceId":"nodeseek","id":"1064535","title":"真羡慕你们一直能用谷歌最新的模型","keep":false,"score":2,"tags":["水贴","抒情"],"why":"单句感慨，评论仅调侃无实质内容","at":1795050540121}
+{"key":"nodeseek:1064544","sourceId":"nodeseek","id":"1064544","title":"dedirock 5.8u/yer 1c2g 69.12段","keep":true,"score":8,"tags":["VPS","跑分"],"why":"低价机完整硬件跑分实测，属一手数据","at":1795050540121}
+{"key":"nodeseek:1064526","sourceId":"nodeseek","id":"1064526","title":"关于溢价收鸡的一些看法","keep":true,"score":6,"tags":["讨论","交易"],"why":"溢价收机话题，评论补充删机与清退风险","at":1795050540121}
+{"key":"nodeseek:1064507","sourceId":"nodeseek","id":"1064507","title":"【收】溢价100收 LAX.AS3.EB.Pocket","keep":false,"score":1,"tags":["交易","求购"],"why":"纯求购帖，无信息量，评论全是帮顶","at":1795050540121}
+{"key":"nodeseek:1064527","sourceId":"nodeseek","id":"1064527","title":"探针哪个比较好用？","keep":true,"score":4,"tags":["探针","讨论"],"why":"泛泛提问，评论集中推荐极简探针，有参考价值","at":1795050540121}
+{"key":"nodeseek:1064539","sourceId":"nodeseek","id":"1064539","title":"「收」 ovh ks-le-6 ie 区 2*1.92 or 混合盘","keep":false,"score":1,"tags":["交易","求购"],"why":"一句求购报价，无配置无参考，零回复","at":1795050540121}
+{"key":"nodeseek:1064491","sourceId":"nodeseek","id":"1064491","title":"namecrane 出的 lifetime 存储，1tb300刀","keep":true,"score":5,"tags":["存储","价格"],"why":"讨论终身存储定价，评论给出先买75升级的建议","at":1795050540121}
+{"key":"nodeseek:1064515","sourceId":"nodeseek","id":"1064515","title":"【出】OVH KS-LE-3 法国 E-2274G / 32G内存 / 900G固态+24T机械","keep":true,"score":5,"tags":["交易","OVH"],"why":"出售帖但配置与续费、参考价完整，有价格参考性","at":1795050540121}
+{"key":"nodeseek:1064516","sourceId":"nodeseek","id":"1064516","title":"美西真家宽，干杯云、aaitr、attvps，选哪个更稳定？","keep":true,"score":4,"tags":["家宽","提问"],"why":"商家对比提问有一定背景，但无回复无实测","at":1795050540121}
+{"key":"nodeseek:1064514","sourceId":"nodeseek","id":"1064514","title":"Nginx 漏洞 留档","keep":true,"score":8,"tags":["安全","漏洞"],"why":"高危漏洞与升级版本明确，属可执行的行业异动","at":1795050540121}
+{"key":"nodeseek:1064500","sourceId":"nodeseek","id":"1064500","title":"Gemini王朝了，Gemini 4 neon薄纱opus 5.5","keep":true,"score":5,"tags":["AI","模型"],"why":"正文空泛，评论补充价格与拉满用量体验，有一定信息","at":1795050540121}
+{"key":"nodeseek:1064497","sourceId":"nodeseek","id":"1064497","title":"【TQ】dmit la pro wee测试留档（调优前）","keep":true,"score":6,"tags":["测评","DMIT"],"why":"一手回程与测速数据留档，但无结论解读","at":1795050540121}
+{"key":"nodeloc:118424","sourceId":"nodeloc","id":"118424","title":"避坑UlziX（https://idc-new.ulzix.com/）","keep":true,"score":7,"tags":["避坑","LXC"],"why":"具体超售合并行为的避坑经验，细节可核","at":1795050540121}
+{"key":"linuxdo:3200389","sourceId":"linuxdo","id":"3200389","title":"以下犯上，免费号上Gemini 4了！","keep":true,"score":6,"tags":["Gemini","情报"],"why":"评论实测出哪些渠道有/没有Gemini 4，有渠道情报","at":1795050540121}
+{"key":"linuxdo:3200392","sourceId":"linuxdo","id":"3200392","title":"语音模型请教","keep":true,"score":4,"tags":["语音模型","讨论"],"why":"正文空，但评论给出TTS停顿处理方案，略有参考","at":1795050540121}
+{"key":"linuxdo:3200382","sourceId":"linuxdo","id":"3200382","title":"软著不让用ai，用ai有被发现的风险吗？发现会怎么样？","keep":true,"score":7,"tags":["AI","软著"],"why":"评论有多人实测：代码查不出，文档能被测出AI率","at":1795050540121}
+{"key":"linuxdo:3200358","sourceId":"linuxdo","id":"3200358","title":"2026年11月19日周四盘前必读","keep":false,"score":0,"tags":["财经","水贴"],"why":"无正文，属转贴式的通用盘前新闻，评论只是闲聊","at":1795050540121}
+{"key":"linuxdo:3200409","sourceId":"linuxdo","id":"3200409","title":"懂行的佬来聊聊，智己 LS6 纯电 Pro Max 和 岚图知音 2027 款 后驱 896 线乾崑版怎么选","keep":false,"score":1,"tags":["提问","水贴"],"why":"无正文，零评论零赞，泛泛选车提问无信息量","at":1795050540121}
+{"key":"linuxdo:3200408","sourceId":"linuxdo","id":"3200408","title":"Gemini 4 Neon榜单成绩！！","keep":false,"score":0,"tags":["Gemini","标题党"],"why":"只有标题，没有正文和评论，榜单数据无从核实","at":1795050540121}
+{"key":"linuxdo:3200406","sourceId":"linuxdo","id":"3200406","title":"Neon这个首字和速度还可以吧，感觉体感很像Opus 5.5，执行起来很顺心。","keep":false,"score":0,"tags":["水贴"],"why":"无正文，只有一句主观体感，无任何可验证信息","at":1795050540121}
+{"key":"linuxdo:3200363","sourceId":"linuxdo","id":"3200363","title":"OpenAI 自曝模型失控险情：最强 AI 曾突破网络封锁，紧急停训 11 天","keep":false,"score":0,"tags":["新闻","转贴"],"why":"标题加空正文，纯搬运新闻且无观点，也没有评论补充","at":1795050540121}
+{"key":"linuxdo:3200405","sourceId":"linuxdo","id":"3200405","title":"google ai 套餐好像模型都不打折？","keep":false,"score":1,"tags":["提问","水贴"],"why":"单句泛问，无正文，也没有有效回复","at":1795050540121}
+{"key":"linuxdo:3200385","sourceId":"linuxdo","id":"3200385","title":"claude 的kyc 相关请教，free号会封吗","keep":false,"score":1,"tags":["Claude","提问"],"why":"一句话提问，无正文，也没有实质回复","at":1795050540121}
+{"key":"linuxdo:3200399","sourceId":"linuxdo","id":"3200399","title":"AI时代热词，已经开始渗透我们的生活了","keep":false,"score":0,"tags":["水贴"],"why":"无正文，纯水感叹，无任何信息量","at":1795050540121}
+{"key":"linuxdo:3200398","sourceId":"linuxdo","id":"3200398","title":"Neon的建议。","keep":false,"score":0,"tags":["水贴"],"why":"无正文，标题模糊，无法判断问题内容","at":1795050540121}
+{"key":"linuxdo:3200397","sourceId":"linuxdo","id":"3200397","title":"google这是要黑五冲业绩嘛，疯狂发模型","keep":false,"score":0,"tags":["水贴"],"why":"无正文，仅一句感叹，无信息量","at":1795050540121}
+{"key":"linuxdo:3200394","sourceId":"linuxdo","id":"3200394","title":"我写了一个专门使用各类智能体通过规范的skills，感觉效果不错，佬们可以看一看","keep":false,"score":0,"tags":["推广","水贴"],"why":"推广板块自荐作品，无正文无实测，属拉人推广","at":1795050540121}
+{"key":"linuxdo:3200390","sourceId":"linuxdo","id":"3200390","title":"Xint公司来者何人？","keep":false,"score":0,"tags":["水贴"],"why":"无正文，只有一句没头没尾的提问","at":1795050540121}
+{"key":"nodeseek:1064565","sourceId":"nodeseek","id":"1064565","title":"［测试留档］神秘商家 加拿大 0 CAD/年 免费小鸡","keep":true,"score":8,"tags":["VPS","测评","免费鸡"],"why":"免费小鸡完整YABS跑分与配置，一手留档实测","at":1795050540121}
+{"key":"nodeseek:1064551","sourceId":"nodeseek","id":"1064551","title":"cloudcone和racknerd还有dedirock这些低价机选哪个靠谱？","keep":true,"score":6,"tags":["VPS","讨论"],"why":"评论给出实情：RN客服靠谱、CC丢过数据","at":1795050540121}
+{"key":"nodeseek:1064562","sourceId":"nodeseek","id":"1064562","title":"日本的 VPS 真的难找","keep":true,"score":5,"tags":["VPS","讨论"],"why":"吐槽日本机难买，评论提到阿里CDT与RFC替代","at":1795050540121}
+{"key":"nodeseek:1064563","sourceId":"nodeseek","id":"1064563","title":"【剩余价值出】oulucloud1c1g30g六折循环$29.94USD/年付优化线路30M不限流量","keep":true,"score":5,"tags":["VPS","交易","测评"],"why":"二手转让附硬件体检与回程线路，评论指出带宽偏小","at":1795050540121}
+{"key":"nodeseek:1064573","sourceId":"nodeseek","id":"1064573","title":"Gemini的鹈鹕测试，强！","keep":true,"score":4,"tags":["AI","Gemini"],"why":"含完整提示词与成品链接，仅展示缺评测结论","at":1795050540121}
+{"key":"nodeseek:1064572","sourceId":"nodeseek","id":"1064572","title":"【收】+350 收 PPFlight LIFT S 33刀/年 创始人","keep":false,"score":0,"tags":["交易","求购"],"why":"纯收购求购帖，无任何信息价值","at":1795050540121}
+{"key":"nodeseek:1064558","sourceId":"nodeseek","id":"1064558","title":"【留档自测】历经63天，成功使用IP哨兵拉回RN DC03 192.119.xxx.xxx段送中鸡","keep":true,"score":8,"tags":["VPS","实测"],"why":"63天送中复活实测且带检测图，评论给出更优拉回方案","at":1795050540121}
+{"key":"nodeseek:1064571","sourceId":"nodeseek","id":"1064571","title":"就单单GPT5.6pro画鹈鹕降智，奇了怪了~","keep":true,"score":4,"tags":["闲聊","AI"],"why":"个人观察疑似降智，无对比数据难成结论","at":1795050540121}
+{"key":"nodeseek:1064557","sourceId":"nodeseek","id":"1064557","title":"Riven的老板这是在赌气","keep":true,"score":5,"tags":["讨论","商家"],"why":"涨价话题讨论，评论点出小厂无契约精神","at":1795050540121}
+{"key":"nodeseek:1064531","sourceId":"nodeseek","id":"1064531","title":"你们零元购的Gemini Ultra还在吗？","keep":true,"score":3,"tags":["薅羊毛","闲聊"],"why":"仅报存活状态，评论多为“没了”无实质补充","at":1795050540121}
+{"key":"nodeseek:1064553","sourceId":"nodeseek","id":"1064553","title":"4Neo 开搞开搞","keep":false,"score":1,"tags":["水贴"],"why":"标题空泛正文两句，仅“开搞”无实质内容","at":1795050540121}
+{"key":"nodeseek:1064570","sourceId":"nodeseek","id":"1064570","title":"[測評留檔]SixtyNet 美国 Wave 家宽 AS9929 实测2G 口","keep":true,"score":9,"tags":["VPS","测评"],"why":"完整跑分与三网数据，端口与实测差异记录详实","at":1795050540121}
+{"key":"nodeseek:1064532","sourceId":"nodeseek","id":"1064532","title":"CC(cloudcone)流量使用统计恢复拉？","keep":true,"score":6,"tags":["VPS","情报"],"why":"流量统计恢复异动，评论确认修复且解释原因","at":1795050540121}
+{"key":"nodeseek:1064569","sourceId":"nodeseek","id":"1064569","title":"现在人多，正常汇率，再收50U，可以你先U，或者6级的我可以先10U分批先款","keep":false,"score":0,"tags":["交易"],"why":"换汇收U拉资金，属私下交易风险帖","at":1795050540121}
+{"key":"nodeseek:1064525","sourceId":"nodeseek","id":"1064525","title":"Gemini4 Neon上线，反重力可用","keep":true,"score":8,"tags":["AI","发布"],"why":"新模型上线含跑分与定价，评论补充模型定位对比","at":1795050540121}
+{"key":"nodeseek:1064534","sourceId":"nodeseek","id":"1064534","title":"如果不是灵车，ppflight是否有望成为下一个搬瓦工或dmit？","keep":false,"score":1,"tags":["VPS","水贴"],"why":"正文为空，只有一句猜想，也没有评论","at":1795050540121}
+{"key":"nodeseek:1064498","sourceId":"nodeseek","id":"1064498","title":"google又发新模型了","keep":false,"score":2,"tags":["AI","资讯"],"why":"只有一句话转载，评论都没有实质内容","at":1795050540121}
+{"key":"nodeseek:1064537","sourceId":"nodeseek","id":"1064537","title":"[出] zouter hk lite","keep":true,"score":4,"tags":["交易","VPS"],"why":"单条转让给出价格和到期日，信息有限","at":1795050540121}
+{"key":"nodeseek:1064517","sourceId":"nodeseek","id":"1064517","title":"想问问佬们ipqs评分会影响哪些网站","keep":true,"score":7,"tags":["VPS","IP质量"],"why":"提问有具体场景，评论给出IPQS实测结论","at":1795050540121}
+{"key":"nodeseek:1064533","sourceId":"nodeseek","id":"1064533","title":"VMISS TRI DC2维护了","keep":true,"score":7,"tags":["VPS","机房"],"why":"机房维护异动，评论补充删机经历","at":1795050540121}
+{"key":"nodeseek:387328","sourceId":"nodeseek","id":"387328","title":"nodeimage.com 正式版发布！附带论坛内自动上传图片脚本","keep":true,"score":9,"tags":["图床","开源"],"why":"一手项目发布，更新项与配套脚本详实","at":1795050540121}
+{"key":"nodeseek:1064512","sourceId":"nodeseek","id":"1064512","title":"+250收Digitalfyre lax 8c8g 10刀/月","keep":true,"score":3,"tags":["交易","求购"],"why":"只有求购型号和价格，无讨论","at":1795050540121}
+{"key":"nodeloc:118426","sourceId":"nodeloc","id":"118426","title":"推荐个美国的visa卡，能稳定开通claude订阅的","keep":true,"score":6,"tags":["支付","订阅"],"why":"评论补充招行V卡与ITIN实操经验","at":1795050540121}
+{"key":"linuxdo:3200442","sourceId":"linuxdo","id":"3200442","title":"今天请假人数多，原因居然是.....","keep":false,"score":1,"tags":["水贴"],"why":"纯水版且无正文，标题只留悬念","at":1795050540121}
+{"key":"linuxdo:3200361","sourceId":"linuxdo","id":"3200361","title":"【CodeRelay】已上线 GPT 6.2 系列模型 | GPT 高缓稳定不降智0.06倍率 | 纯血 Claude 1.5倍率 | 企业 Coding 首选 | 评论抽额度","keep":false,"score":0,"tags":["推广"],"why":"中转站推广带评论抽额度，属于广告","at":1795050540121}
+{"key":"linuxdo:3200443","sourceId":"linuxdo","id":"3200443","title":"图文创作视频剪辑，先通过claude指挥GPT,各位佬是什么建议？","keep":false,"score":0,"tags":["水贴","提问"],"why":"无正文，只有泛泛求建议，无实质信息","at":1795050540121}
+{"key":"linuxdo:3200439","sourceId":"linuxdo","id":"3200439","title":"Neon的文笔与前端","keep":false,"score":0,"tags":["水贴"],"why":"纯水板块，无正文，无信息量","at":1795050540121}
+{"key":"linuxdo:3200422","sourceId":"linuxdo","id":"3200422","title":"codex在写规划文档时经常陷入局部最优解，佬们如何解决？","keep":true,"score":6,"tags":["AI","技术提问"],"why":"标题可见具体技术困境，有3条回复讨论","at":1795050540121}
+{"key":"linuxdo:3200415","sourceId":"linuxdo","id":"3200415","title":"谷歌推出 Gemini 4 Neon 模型，编程 AI 智能体指数超 Claude Opus 5.5 排第一","keep":true,"score":8,"tags":["AI","行业消息"],"why":"新模型发布行业消息，浏览点赞回复均高","at":1795050540121}
+{"key":"linuxdo:3200432","sourceId":"linuxdo","id":"3200432","title":"反重力 IDE有查看速度、额度的插件吗","keep":true,"score":3,"tags":["AI","提问"],"why":"具体工具功能提问，无正文信息较少","at":1795050540121}
